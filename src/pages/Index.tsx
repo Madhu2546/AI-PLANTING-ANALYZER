@@ -1,13 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import CropRecommendationForm from "@/components/CropRecommendationForm";
+import HowItWorks from "@/components/HowItWorks";
+import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>AgriAI - Smart Crop Recommendation System Using Machine Learning</title>
+        <meta name="description" content="Get personalized crop recommendations based on soil nutrients, climate conditions, and environmental factors. Our ML-powered system analyzes 22 crop types with 99% accuracy." />
+        <meta name="keywords" content="crop recommendation, machine learning, agriculture, smart farming, NPK, soil analysis, precision agriculture" />
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <Hero />
+        <CropRecommendationForm />
+        <HowItWorks />
+        <Features />
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 

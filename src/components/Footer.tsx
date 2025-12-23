@@ -1,0 +1,83 @@
+import { Leaf, Github, Mail, ExternalLink } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-foreground text-background py-12 px-4">
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {/* Brand */}
+          <div>
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
+                <Leaf className="w-6 h-6 text-primary-foreground" />
+              </div>
+              <span className="font-serif text-2xl font-bold">AgriAI</span>
+            </div>
+            <p className="text-background/70 text-sm">
+              Precision Crop Recommendation System using Machine Learning. 
+              Helping farmers make data-driven decisions for sustainable agriculture.
+            </p>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-background/70 text-sm">
+              <li>
+                <a href="#recommendation-form" className="hover:text-primary transition-colors">
+                  Get Recommendation
+                </a>
+              </li>
+              <li>
+                <a href="#how-it-works" className="hover:text-primary transition-colors">
+                  How It Works
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors inline-flex items-center gap-1"
+                >
+                  Dataset Source
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold mb-4">Project By</h4>
+            <ul className="space-y-2 text-background/70 text-sm">
+              <li>R. Sowmya (22891A6750)</li>
+              <li>R. Naveen Kumar (22891A6749)</li>
+              <li>K. Mahesh (22891A6728)</li>
+              <li>K. Harshith (22891A6729)</li>
+            </ul>
+            <p className="mt-4 text-xs text-background/50">
+              Vignan Institute of Technology and Science
+            </p>
+          </div>
+        </div>
+
+        <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-sm text-background/50">
+            © 2024 AgriAI - Crop Recommendation System. All rights reserved.
+          </p>
+          <div className="flex items-center gap-4">
+            <a href="mailto:contact@agriai.com" className="text-background/70 hover:text-primary transition-colors">
+              <Mail className="w-5 h-5" />
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-background/70 hover:text-primary transition-colors">
+              <Github className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
