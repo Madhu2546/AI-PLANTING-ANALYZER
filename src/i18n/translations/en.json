@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "howItWorks": "How It Works",
+    "getStarted": "Get Started",
+    "tryNow": "Try Now",
+    "cropMap": "Crop Map"
+  },
+  "hero": {
+    "badge": "Smart Farming Solutions",
+    "title": "AgriAI",
+    "subtitle": "Precision Crop Recommendation Using Machine Learning",
+    "description": "Analyze soil nutrients, climate conditions, and environmental factors to get personalized crop recommendations for maximum yield and sustainability.",
+    "getRecommendation": "Get Recommendation",
+    "learnHow": "Learn How It Works",
+    "stats": {
+      "cropTypes": "Crop Types",
+      "inputParameters": "Input Parameters",
+      "accuracy": "Accuracy",
+      "dataPoints": "Data Points"
+    }
+  },
+  "form": {
+    "badge": "ML-Powered Analysis",
+    "title": "Get Your Crop Recommendation",
+    "description": "Enter your soil and climate parameters to receive personalized crop suggestions based on machine learning analysis of 2200+ agricultural data points.",
+    "nitrogen": "Nitrogen (N)",
+    "phosphorus": "Phosphorus (P)",
+    "potassium": "Potassium (K)",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "ph": "Soil pH",
+    "rainfall": "Rainfall",
+    "analyze": "Analyze & Recommend",
+    "analyzing": "Analyzing...",
+    "reset": "Reset",
+    "fillError": "Please fill in all fields with valid numbers",
+    "success": "Analysis complete! Here are your crop recommendations.",
+    "autoFill": "Auto-fill from Location",
+    "fetching": "Getting weather data...",
+    "weatherSuccess": "Weather data auto-filled from your location!",
+    "weatherError": "Could not fetch weather data. Please enter manually.",
+    "locationError": "Location access denied. Please enter data manually."
+  },
+  "results": {
+    "title": "Recommended Crops for Your Land",
+    "bestMatch": "Best Match",
+    "excellentMatch": "Excellent Match",
+    "goodMatch": "Good Match",
+    "moderateMatch": "Moderate Match",
+    "lowMatch": "Low Match",
+    "matchScore": "Match Score",
+    "otherCrops": "Other Suitable Crops",
+    "viewDetails": "View Details"
+  },
+  "cropDetails": {
+    "title": "Crop Details",
+    "growingConditions": "Growing Conditions",
+    "season": "Season",
+    "expectedYield": "Expected Yield",
+    "waterRequirement": "Water Requirement",
+    "soilType": "Soil Type",
+    "growingPeriod": "Growing Period",
+    "optimalTemp": "Optimal Temperature",
+    "optimalHumidity": "Optimal Humidity",
+    "optimalPh": "Optimal pH",
+    "npk": "NPK Requirements",
+    "close": "Close"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Our system uses advanced machine learning algorithms to analyze your agricultural data and provide accurate crop recommendations.",
+    "step1": {
+      "title": "Data Collection",
+      "description": "We collect soil and climate parameters including N, P, K levels, pH, temperature, humidity, and rainfall data."
+    },
+    "step2": {
+      "title": "ML Processing",
+      "description": "Our machine learning models (Decision Tree, SVM, Logistic Regression, Naive Bayes) analyze the input data."
+    },
+    "step3": {
+      "title": "Pattern Matching",
+      "description": "The system compares your data against 2200+ historical agricultural records to identify optimal crops."
+    },
+    "step4": {
+      "title": "Smart Recommendation",
+      "description": "You receive a ranked list of suitable crops with match scores to make informed farming decisions."
+    },
+    "algorithmsTitle": "Machine Learning Algorithms Used",
+    "decisionTree": "Decision Tree",
+    "svm": "Support Vector Machine",
+    "logisticRegression": "Logistic Regression",
+    "naiveBayes": "Naive Bayes"
+  },
+  "features": {
+    "title": "Why Choose AgriAI?",
+    "description": "Empowering farmers with precision agriculture technology for sustainable and profitable farming.",
+    "cropTypes": {
+      "title": "22 Crop Types",
+      "description": "Support for a wide variety of crops including grains, pulses, fruits, and commercial crops."
+    },
+    "accuracy": {
+      "title": "High Accuracy",
+      "description": "Up to 99% prediction accuracy using ensemble machine learning techniques."
+    },
+    "dataDriven": {
+      "title": "Data-Driven Decisions",
+      "description": "Reduce trial-and-error farming with scientifically backed recommendations."
+    },
+    "instant": {
+      "title": "Instant Results",
+      "description": "Get crop recommendations in seconds with our optimized ML models."
+    },
+    "regional": {
+      "title": "Region Specific",
+      "description": "Trained on diverse agricultural data covering multiple climate zones."
+    },
+    "friendly": {
+      "title": "Farmer Friendly",
+      "description": "Simple interface designed for easy use by farmers of all technical backgrounds."
+    }
+  },
+  "map": {
+    "title": "Crop Suitability Map of India",
+    "description": "Explore crop recommendations by region based on local soil and climate conditions.",
+    "selectRegion": "Click on a state to view recommended crops",
+    "recommendedCrops": "Recommended Crops",
+    "climate": "Climate",
+    "majorSoils": "Major Soil Types",
+    "enterToken": "Enter your Mapbox public token to view the interactive map",
+    "tokenPlaceholder": "pk.eyJ1...",
+    "loadMap": "Load Map"
+  },
+  "footer": {
+    "description": "Precision Crop Recommendation System using Machine Learning. Helping farmers make data-driven decisions for sustainable agriculture.",
+    "quickLinks": "Quick Links",
+    "getRecommendation": "Get Recommendation",
+    "howItWorks": "How It Works",
+    "datasetSource": "Dataset Source",
+    "projectBy": "Project By",
+    "college": "Vignan Institute of Technology and Science",
+    "copyright": "© 2024 AgriAI - Crop Recommendation System. All rights reserved."
+  },
+  "languages": {
+    "en": "English",
+    "hi": "हिन्दी",
+    "ta": "தமிழ்",
+    "te": "తెలుగు",
+    "bn": "বাংলা",
+    "mr": "मराठी",
+    "gu": "ગુજરાતી",
+    "kn": "ಕನ್ನಡ",
+    "ml": "മലയാളം",
+    "pa": "ਪੰਜਾਬੀ"
+  }
+}

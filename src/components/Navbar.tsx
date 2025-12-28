@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Leaf, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -42,25 +45,32 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             <button
               onClick={() => scrollTo("how-it-works")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              How It Works
+              {t("nav.howItWorks")}
             </button>
             <button
               onClick={() => scrollTo("recommendation-form")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Get Started
+              {t("nav.getStarted")}
             </button>
+            <button
+              onClick={() => scrollTo("crop-map")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              {t("nav.cropMap")}
+            </button>
+            <LanguageSwitcher />
             <Button
               variant="default"
               size="sm"
               onClick={() => scrollTo("recommendation-form")}
             >
-              Try Now
+              {t("nav.tryNow")}
             </Button>
           </div>
 
