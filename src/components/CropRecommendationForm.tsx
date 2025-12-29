@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Leaf, Droplets, Thermometer, Cloud, FlaskConical, Sparkles, RotateCcw } from "lucide-react";
+import { Leaf, Droplets, Thermometer, Cloud, FlaskConical, Sparkles, RotateCcw, MapPin, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
+import { useTranslation } from "react-i18next";
 import CropResult from "./CropResult";
 
 interface FormData {
@@ -44,6 +45,7 @@ const cropData = [
 ];
 
 const CropRecommendationForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<FormData>({
     nitrogen: "",
     phosphorus: "",
@@ -55,9 +57,61 @@ const CropRecommendationForm = () => {
   });
   const [results, setResults] = useState<typeof cropData | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isFetchingWeather, setIsFetchingWeather] = useState(false);
 
   const handleInputChange = (field: keyof FormData, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
+  };
+
+  const fetchWeatherData = async () => {
+    setIsFetchingWeather(true);
+    
+    try {
+      // Get user's location
+      const position = await new Promise<GeolocationPosition>((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject, {
+          enableHighAccuracy: true,
+          timeout: 10000,
+        });
+      });
+
+      const { latitude, longitude } = position.coords;
+
+      // Fetch weather data from OpenWeatherMap (using a proxy or direct call)
+      // For demo, we'll use mock data based on Indian regions
+      const mockWeatherData = getMockWeatherForLocation(latitude, longitude);
+      
+      setFormData(prev => ({
+        ...prev,
+        temperature: mockWeatherData.temperature.toString(),
+        humidity: mockWeatherData.humidity.toString(),
+        rainfall: mockWeatherData.rainfall.toString(),
+      }));
+
+      toast.success(t('form.weatherSuccess'));
+    } catch (error) {
+      if (error instanceof GeolocationPositionError) {
+        toast.error(t('form.locationError'));
+      } else {
+        toast.error(t('form.weatherError'));
+      }
+    } finally {
+      setIsFetchingWeather(false);
+    }
+  };
+
+  const getMockWeatherForLocation = (lat: number, lng: number) => {
+    // Mock weather data based on Indian geographical regions
+    // Northern India (cooler, moderate rainfall)
+    if (lat > 28) {
+      return { temperature: 25, humidity: 55, rainfall: 80 };
+    }
+    // Central India (hot, moderate rainfall)
+    if (lat > 20) {
+      return { temperature: 32, humidity: 65, rainfall: 100 };
+    }
+    // Southern India (tropical, high rainfall)
+    return { temperature: 30, humidity: 80, rainfall: 150 };
   };
 
   const calculateMatch = (crop: typeof cropData[0], data: FormData) => {
@@ -89,7 +143,7 @@ const CropRecommendationForm = () => {
     // Validate all fields
     const values = Object.values(formData);
     if (values.some(v => !v || isNaN(parseFloat(v)))) {
-      toast.error("Please fill in all fields with valid numbers");
+      toast.error(t('form.fillError'));
       return;
     }
 
@@ -109,7 +163,7 @@ const CropRecommendationForm = () => {
     setResults(scoredCrops as any);
     setIsAnalyzing(false);
     
-    toast.success("Analysis complete! Here are your crop recommendations.");
+    toast.success(t('form.success'));
   };
 
   const resetForm = () => {
@@ -126,13 +180,13 @@ const CropRecommendationForm = () => {
   };
 
   const inputFields = [
-    { key: "nitrogen" as const, label: "Nitrogen (N)", unit: "kg/ha", icon: FlaskConical, placeholder: "0-140", color: "text-leaf" },
-    { key: "phosphorus" as const, label: "Phosphorus (P)", unit: "kg/ha", icon: FlaskConical, placeholder: "5-145", color: "text-soil" },
-    { key: "potassium" as const, label: "Potassium (K)", unit: "kg/ha", icon: FlaskConical, placeholder: "5-205", color: "text-soil-light" },
-    { key: "temperature" as const, label: "Temperature", unit: "°C", icon: Thermometer, placeholder: "8-45", color: "text-sun" },
-    { key: "humidity" as const, label: "Humidity", unit: "%", icon: Droplets, placeholder: "14-100", color: "text-water" },
-    { key: "ph" as const, label: "Soil pH", unit: "pH", icon: FlaskConical, placeholder: "3.5-10", color: "text-primary" },
-    { key: "rainfall" as const, label: "Rainfall", unit: "mm", icon: Cloud, placeholder: "20-300", color: "text-water-light" },
+    { key: "nitrogen" as const, labelKey: "form.nitrogen", unit: "kg/ha", icon: FlaskConical, placeholder: "0-140", color: "text-leaf" },
+    { key: "phosphorus" as const, labelKey: "form.phosphorus", unit: "kg/ha", icon: FlaskConical, placeholder: "5-145", color: "text-soil" },
+    { key: "potassium" as const, labelKey: "form.potassium", unit: "kg/ha", icon: FlaskConical, placeholder: "5-205", color: "text-soil-light" },
+    { key: "temperature" as const, labelKey: "form.temperature", unit: "°C", icon: Thermometer, placeholder: "8-45", color: "text-sun" },
+    { key: "humidity" as const, labelKey: "form.humidity", unit: "%", icon: Droplets, placeholder: "14-100", color: "text-water" },
+    { key: "ph" as const, labelKey: "form.ph", unit: "pH", icon: FlaskConical, placeholder: "3.5-10", color: "text-primary" },
+    { key: "rainfall" as const, labelKey: "form.rainfall", unit: "mm", icon: Cloud, placeholder: "20-300", color: "text-water-light" },
   ];
 
   return (
@@ -146,14 +200,13 @@ const CropRecommendationForm = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-4">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary">ML-Powered Analysis</span>
+            <span className="text-sm font-medium text-primary">{t('form.badge')}</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Get Your Crop Recommendation
+            {t('form.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Enter your soil and climate parameters to receive personalized crop suggestions 
-            based on machine learning analysis of 2200+ agricultural data points.
+            {t('form.description')}
           </p>
         </motion.div>
 
@@ -165,6 +218,29 @@ const CropRecommendationForm = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
         >
+          {/* Auto-fill Button */}
+          <div className="flex justify-center mb-6">
+            <Button
+              type="button"
+              variant="outline"
+              onClick={fetchWeatherData}
+              disabled={isFetchingWeather}
+              className="gap-2"
+            >
+              {isFetchingWeather ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  {t('form.fetching')}
+                </>
+              ) : (
+                <>
+                  <MapPin className="w-4 h-4" />
+                  {t('form.autoFill')}
+                </>
+              )}
+            </Button>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-8">
             {inputFields.map((field, index) => (
               <motion.div
@@ -177,7 +253,7 @@ const CropRecommendationForm = () => {
               >
                 <Label htmlFor={field.key} className="flex items-center gap-2 text-foreground">
                   <field.icon className={`w-4 h-4 ${field.color}`} />
-                  {field.label}
+                  {t(field.labelKey)}
                 </Label>
                 <div className="relative">
                   <Input
@@ -212,12 +288,12 @@ const CropRecommendationForm = () => {
                     animate={{ rotate: 360 }}
                     transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
                   />
-                  Analyzing...
+                  {t('form.analyzing')}
                 </>
               ) : (
                 <>
                   <Leaf className="w-5 h-5" />
-                  Analyze & Recommend
+                  {t('form.analyze')}
                 </>
               )}
             </Button>
@@ -229,7 +305,7 @@ const CropRecommendationForm = () => {
               className="min-w-[150px]"
             >
               <RotateCcw className="w-4 h-4" />
-              Reset
+              {t('form.reset')}
             </Button>
           </div>
         </motion.form>

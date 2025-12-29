@@ -1,6 +1,9 @@
 import { Leaf, Github, Mail, ExternalLink } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-foreground text-background py-12 px-4">
       <div className="container mx-auto max-w-6xl">
@@ -14,23 +17,22 @@ const Footer = () => {
               <span className="font-serif text-2xl font-bold">AgriAI</span>
             </div>
             <p className="text-background/70 text-sm">
-              Precision Crop Recommendation System using Machine Learning. 
-              Helping farmers make data-driven decisions for sustainable agriculture.
+              {t('footer.description')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="font-semibold mb-4">{t('footer.quickLinks')}</h4>
             <ul className="space-y-2 text-background/70 text-sm">
               <li>
                 <a href="#recommendation-form" className="hover:text-primary transition-colors">
-                  Get Recommendation
+                  {t('footer.getRecommendation')}
                 </a>
               </li>
               <li>
                 <a href="#how-it-works" className="hover:text-primary transition-colors">
-                  How It Works
+                  {t('footer.howItWorks')}
                 </a>
               </li>
               <li>
@@ -40,7 +42,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors inline-flex items-center gap-1"
                 >
-                  Dataset Source
+                  {t('footer.datasetSource')}
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
@@ -49,7 +51,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4">Project By</h4>
+            <h4 className="font-semibold mb-4">{t('footer.projectBy')}</h4>
             <ul className="space-y-2 text-background/70 text-sm">
               <li>R. Sowmya (22891A6750)</li>
               <li>R. Naveen Kumar (22891A6749)</li>
@@ -57,14 +59,14 @@ const Footer = () => {
               <li>K. Harshith (22891A6729)</li>
             </ul>
             <p className="mt-4 text-xs text-background/50">
-              Vignan Institute of Technology and Science
+              {t('footer.college')}
             </p>
           </div>
         </div>
 
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-background/50">
-            © 2024 AgriAI - Crop Recommendation System. All rights reserved.
+            {t('footer.copyright')}
           </p>
           <div className="flex items-center gap-4">
             <a href="mailto:contact@agriai.com" className="text-background/70 hover:text-primary transition-colors">

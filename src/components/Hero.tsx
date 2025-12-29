@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
 import { Leaf, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/hero-farm.jpg";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   const scrollToForm = () => {
     document.getElementById("recommendation-form")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -57,20 +60,19 @@ const Hero = () => {
             transition={{ delay: 0.3 }}
           >
             <Leaf className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Smart Farming Solutions</span>
+            <span className="text-sm font-medium text-primary">{t('hero.badge')}</span>
           </motion.div>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-foreground">
-            <span className="text-gradient">AgriAI</span>
+            <span className="text-gradient">{t('hero.title')}</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground/80 mb-4 font-light max-w-3xl mx-auto">
-            Precision Crop Recommendation Using Machine Learning
+            {t('hero.subtitle')}
           </p>
           
           <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Analyze soil nutrients, climate conditions, and environmental factors to get 
-            personalized crop recommendations for maximum yield and sustainability.
+            {t('hero.description')}
           </p>
 
           <motion.div
@@ -80,11 +82,11 @@ const Hero = () => {
             transition={{ delay: 0.5 }}
           >
             <Button variant="hero" size="xl" onClick={scrollToForm}>
-              Get Recommendation
+              {t('hero.getRecommendation')}
               <ArrowDown className="ml-2 animate-bounce" />
             </Button>
             <Button variant="outline" size="lg" onClick={() => document.getElementById("how-it-works")?.scrollIntoView({ behavior: "smooth" })}>
-              Learn How It Works
+              {t('hero.learnHow')}
             </Button>
           </motion.div>
         </motion.div>
@@ -97,10 +99,10 @@ const Hero = () => {
           transition={{ delay: 0.8 }}
         >
           {[
-            { value: "22", label: "Crop Types" },
-            { value: "7", label: "Input Parameters" },
-            { value: "99%", label: "Accuracy" },
-            { value: "2200+", label: "Data Points" },
+            { value: "22", label: t('hero.stats.cropTypes') },
+            { value: "7", label: t('hero.stats.inputParameters') },
+            { value: "99%", label: t('hero.stats.accuracy') },
+            { value: "2200+", label: t('hero.stats.dataPoints') },
           ].map((stat, index) => (
             <div key={index} className="bg-card/80 backdrop-blur-sm rounded-xl p-4 shadow-card border border-border/50">
               <div className="text-3xl md:text-4xl font-bold text-primary">{stat.value}</div>
