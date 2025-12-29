@@ -14,7 +14,7 @@ export interface CropDetails {
   description: string;
 }
 
-export const cropDetailsData: Record<string, CropDetails> = {
+export const cropDetails: Record<string, CropDetails> = {
   "Rice": {
     name: "Rice",
     icon: "🌾",
