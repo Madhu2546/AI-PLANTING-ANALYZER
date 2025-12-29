@@ -1,34 +1,44 @@
 import { motion } from "framer-motion";
 import { Database, Cpu, BarChart3, Lightbulb, ArrowRight } from "lucide-react";
-
-const steps = [
-  {
-    icon: Database,
-    title: "Data Collection",
-    description: "We collect soil and climate parameters including N, P, K levels, pH, temperature, humidity, and rainfall data.",
-    color: "bg-water/10 text-water border-water/30",
-  },
-  {
-    icon: Cpu,
-    title: "ML Processing",
-    description: "Our machine learning models (Decision Tree, SVM, Logistic Regression, Naive Bayes) analyze the input data.",
-    color: "bg-leaf/10 text-leaf border-leaf/30",
-  },
-  {
-    icon: BarChart3,
-    title: "Pattern Matching",
-    description: "The system compares your data against 2200+ historical agricultural records to identify optimal crops.",
-    color: "bg-sun/10 text-sun border-sun/30",
-  },
-  {
-    icon: Lightbulb,
-    title: "Smart Recommendation",
-    description: "You receive a ranked list of suitable crops with match scores to make informed farming decisions.",
-    color: "bg-primary/10 text-primary border-primary/30",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      icon: Database,
+      titleKey: "howItWorks.step1.title",
+      descriptionKey: "howItWorks.step1.description",
+      color: "bg-water/10 text-water border-water/30",
+    },
+    {
+      icon: Cpu,
+      titleKey: "howItWorks.step2.title",
+      descriptionKey: "howItWorks.step2.description",
+      color: "bg-leaf/10 text-leaf border-leaf/30",
+    },
+    {
+      icon: BarChart3,
+      titleKey: "howItWorks.step3.title",
+      descriptionKey: "howItWorks.step3.description",
+      color: "bg-sun/10 text-sun border-sun/30",
+    },
+    {
+      icon: Lightbulb,
+      titleKey: "howItWorks.step4.title",
+      descriptionKey: "howItWorks.step4.description",
+      color: "bg-primary/10 text-primary border-primary/30",
+    },
+  ];
+
+  const algorithms = [
+    { name: t('howItWorks.decisionTree'), accuracy: "90%" },
+    { name: t('howItWorks.svm'), accuracy: "97%" },
+    { name: t('howItWorks.logisticRegression'), accuracy: "95%" },
+    { name: t('howItWorks.naiveBayes'), accuracy: "99%" },
+  ];
+
   return (
     <section id="how-it-works" className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
@@ -39,11 +49,10 @@ const HowItWorks = () => {
           viewport={{ once: true }}
         >
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-            How It Works
+            {t('howItWorks.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our system uses advanced machine learning algorithms to analyze your 
-            agricultural data and provide accurate crop recommendations.
+            {t('howItWorks.description')}
           </p>
         </motion.div>
 
@@ -54,7 +63,7 @@ const HowItWorks = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
             {steps.map((step, index) => (
               <motion.div
-                key={step.title}
+                key={step.titleKey}
                 className="relative"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -71,10 +80,10 @@ const HowItWorks = () => {
                   </div>
 
                   <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    {step.title}
+                    {t(step.titleKey)}
                   </h3>
                   <p className="text-muted-foreground text-sm">
-                    {step.description}
+                    {t(step.descriptionKey)}
                   </p>
                 </div>
 
@@ -97,15 +106,10 @@ const HowItWorks = () => {
           viewport={{ once: true }}
         >
           <h3 className="font-serif text-2xl font-bold text-foreground mb-6 text-center">
-            Machine Learning Algorithms Used
+            {t('howItWorks.algorithmsTitle')}
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              { name: "Decision Tree", accuracy: "90%" },
-              { name: "Support Vector Machine", accuracy: "97%" },
-              { name: "Logistic Regression", accuracy: "95%" },
-              { name: "Naive Bayes", accuracy: "99%" },
-            ].map((algo, index) => (
+            {algorithms.map((algo, index) => (
               <motion.div
                 key={algo.name}
                 className="bg-muted/50 rounded-xl p-4 text-center"

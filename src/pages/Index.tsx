@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import CropRecommendationForm from "@/components/CropRecommendationForm";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
+import IndiaMap from "@/components/IndiaMap";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
         <Navbar />
         <Hero />
         <CropRecommendationForm />
+        <IndiaMap />
         <HowItWorks />
         <Features />
         <Footer />
