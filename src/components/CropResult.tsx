@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import CropDetailModal from "./CropDetailModal";
 import { cropDetails } from "@/data/cropDetails";
+import { cropImages } from "@/data/cropImages";
 
 interface CropWithScore {
   name: string;
@@ -55,6 +56,7 @@ const CropResult = ({ crops }: CropResultProps) => {
           {topCrops.map((crop, index) => {
             const scoreInfo = getScoreLabel(crop.matchScore);
             const ScoreIcon = scoreInfo.icon;
+            const cropImage = cropImages[crop.name];
             
             return (
               <motion.div
@@ -73,7 +75,13 @@ const CropResult = ({ crops }: CropResultProps) => {
                 )}
                 
                 <div className="text-center">
-                  <div className="text-6xl mb-4">{crop.icon}</div>
+                  <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden shadow-lg border-4 border-primary/20">
+                    <img 
+                      src={cropImage} 
+                      alt={crop.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                   <h4 className="font-serif text-2xl font-bold text-foreground mb-2">
                     {crop.name}
                   </h4>
@@ -126,20 +134,29 @@ const CropResult = ({ crops }: CropResultProps) => {
             {t('results.otherCrops')}
           </h4>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-            {otherCrops.map((crop, index) => (
-              <motion.div
-                key={crop.name}
-                className={`flex flex-col items-center p-3 rounded-xl border transition-colors hover:border-primary/50 cursor-pointer ${getScoreColor(crop.matchScore)}`}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.6 + index * 0.03 }}
-                onClick={() => setSelectedCrop(crop.name)}
-              >
-                <span className="text-3xl mb-1">{crop.icon}</span>
-                <span className="text-sm font-medium text-foreground text-center">{crop.name}</span>
-                <span className="text-xs text-muted-foreground">{Math.round(crop.matchScore)}%</span>
-              </motion.div>
-            ))}
+            {otherCrops.map((crop, index) => {
+              const cropImage = cropImages[crop.name];
+              return (
+                <motion.div
+                  key={crop.name}
+                  className={`flex flex-col items-center p-3 rounded-xl border transition-colors hover:border-primary/50 cursor-pointer ${getScoreColor(crop.matchScore)}`}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.6 + index * 0.03 }}
+                  onClick={() => setSelectedCrop(crop.name)}
+                >
+                  <div className="w-12 h-12 rounded-full overflow-hidden shadow-md mb-2 border-2 border-primary/10">
+                    <img 
+                      src={cropImage} 
+                      alt={crop.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="text-sm font-medium text-foreground text-center">{crop.name}</span>
+                  <span className="text-xs text-muted-foreground">{Math.round(crop.matchScore)}%</span>
+                </motion.div>
+              );
+            })}
           </div>
         </motion.div>
       </motion.div>
