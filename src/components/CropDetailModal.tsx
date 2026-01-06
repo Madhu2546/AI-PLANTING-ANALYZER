@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { X, Thermometer, Droplets, Calendar, Leaf, FlaskConical, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CropDetails } from "@/data/cropDetails";
+import { cropImages } from "@/data/cropImages";
 
 interface CropDetailModalProps {
   crop: CropDetails;
@@ -41,7 +42,13 @@ const CropDetailModal = ({ crop, onClose }: CropDetailModalProps) => {
         <div className="p-6">
           <div className="flex items-start justify-between mb-6">
             <div className="flex items-center gap-4">
-              <span className="text-6xl">{crop.icon}</span>
+              <div className="w-20 h-20 rounded-full overflow-hidden shadow-lg border-4 border-primary/20 flex-shrink-0">
+                <img 
+                  src={cropImages[crop.name]} 
+                  alt={crop.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div>
                 <h2 className="font-serif text-3xl font-bold text-foreground">{crop.name}</h2>
                 <p className="text-muted-foreground">{t("cropDetails.expectedYield")}: {crop.expectedYield}</p>
