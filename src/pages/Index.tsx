@@ -2,6 +2,9 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import CropRecommendationForm from "@/components/CropRecommendationForm";
+import CropComparison from "@/components/CropComparison";
+import SeasonalCalendar from "@/components/SeasonalCalendar";
+import RegionalRecommendations from "@/components/RegionalRecommendations";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import IndiaMap from "@/components/IndiaMap";
@@ -20,6 +23,9 @@ const Index = () => {
         <Navbar />
         <Hero />
         <CropRecommendationForm />
+        <CropComparison />
+        <SeasonalCalendar />
+        <RegionalRecommendations />
         <IndiaMap />
         <HowItWorks />
         <Features />
