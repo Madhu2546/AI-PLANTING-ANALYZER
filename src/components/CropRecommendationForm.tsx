@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 import CropResult from "./CropResult";
+import { useWeather } from "@/hooks/useWeather";
 
 interface FormData {
   nitrogen: string;
@@ -46,6 +47,7 @@ const cropData = [
 
 const CropRecommendationForm = () => {
   const { t } = useTranslation();
+  const { fetchWeather, isLoading: isFetchingWeather } = useWeather();
   const [formData, setFormData] = useState<FormData>({
     nitrogen: "",
     phosphorus: "",
@@ -57,61 +59,29 @@ const CropRecommendationForm = () => {
   });
   const [results, setResults] = useState<typeof cropData | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [isFetchingWeather, setIsFetchingWeather] = useState(false);
 
   const handleInputChange = (field: keyof FormData, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
   const fetchWeatherData = async () => {
-    setIsFetchingWeather(true);
-    
     try {
-      // Get user's location
-      const position = await new Promise<GeolocationPosition>((resolve, reject) => {
-        navigator.geolocation.getCurrentPosition(resolve, reject, {
-          enableHighAccuracy: true,
-          timeout: 10000,
-        });
-      });
-
-      const { latitude, longitude } = position.coords;
-
-      // Fetch weather data from OpenWeatherMap (using a proxy or direct call)
-      // For demo, we'll use mock data based on Indian regions
-      const mockWeatherData = getMockWeatherForLocation(latitude, longitude);
+      const weatherData = await fetchWeather();
       
-      setFormData(prev => ({
-        ...prev,
-        temperature: mockWeatherData.temperature.toString(),
-        humidity: mockWeatherData.humidity.toString(),
-        rainfall: mockWeatherData.rainfall.toString(),
-      }));
-
-      toast.success(t('form.weatherSuccess'));
-    } catch (error) {
-      if (error instanceof GeolocationPositionError) {
-        toast.error(t('form.locationError'));
+      if (weatherData) {
+        setFormData(prev => ({
+          ...prev,
+          temperature: weatherData.temperature,
+          humidity: weatherData.humidity,
+          rainfall: weatherData.rainfall,
+        }));
+        toast.success(t('form.weatherSuccess'));
       } else {
-        toast.error(t('form.weatherError'));
+        toast.error(t('form.locationError'));
       }
-    } finally {
-      setIsFetchingWeather(false);
+    } catch (error) {
+      toast.error(t('form.weatherError'));
     }
-  };
-
-  const getMockWeatherForLocation = (lat: number, lng: number) => {
-    // Mock weather data based on Indian geographical regions
-    // Northern India (cooler, moderate rainfall)
-    if (lat > 28) {
-      return { temperature: 25, humidity: 55, rainfall: 80 };
-    }
-    // Central India (hot, moderate rainfall)
-    if (lat > 20) {
-      return { temperature: 32, humidity: 65, rainfall: 100 };
-    }
-    // Southern India (tropical, high rainfall)
-    return { temperature: 30, humidity: 80, rainfall: 150 };
   };
 
   const calculateMatch = (crop: typeof cropData[0], data: FormData) => {
