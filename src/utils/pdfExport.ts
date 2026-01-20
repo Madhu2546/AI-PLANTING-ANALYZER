@@ -1,0 +1,286 @@
+import jsPDF from 'jspdf';
+
+interface ProfitData {
+  cropName: string;
+  landArea: number;
+  expectedYield: number;
+  marketPrice: number;
+  totalRevenue: number;
+  totalCosts: number;
+  netProfit: number;
+  profitMargin: number;
+  costs: {
+    seeds: number;
+    fertilizer: number;
+    labor: number;
+    irrigation: number;
+    pesticide: number;
+    other: number;
+  };
+}
+
+interface CropRecommendation {
+  cropName: string;
+  probability: number;
+  conditions: {
+    nitrogen: number;
+    phosphorus: number;
+    potassium: number;
+    temperature: number;
+    humidity: number;
+    ph: number;
+    rainfall: number;
+  };
+}
+
+export const exportProfitReportToPDF = (data: ProfitData) => {
+  const doc = new jsPDF();
+  const pageWidth = doc.internal.pageSize.getWidth();
+  
+  // Header
+  doc.setFillColor(34, 139, 34);
+  doc.rect(0, 0, pageWidth, 40, 'F');
+  
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(24);
+  doc.setFont('helvetica', 'bold');
+  doc.text('AgriAI', 20, 25);
+  
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'normal');
+  doc.text('Crop Profit Analysis Report', pageWidth - 20, 25, { align: 'right' });
+  
+  // Date
+  doc.setTextColor(200, 200, 200);
+  doc.setFontSize(10);
+  doc.text(`Generated: ${new Date().toLocaleDateString('en-IN')}`, pageWidth - 20, 35, { align: 'right' });
+  
+  // Reset colors
+  doc.setTextColor(0, 0, 0);
+  
+  // Crop Info Section
+  let yPos = 55;
+  
+  doc.setFontSize(16);
+  doc.setFont('helvetica', 'bold');
+  doc.text(`${data.cropName} - Profit Analysis`, 20, yPos);
+  
+  yPos += 15;
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'normal');
+  doc.text(`Land Area: ${data.landArea} Hectares`, 20, yPos);
+  
+  // Revenue Box
+  yPos += 20;
+  doc.setFillColor(240, 255, 240);
+  doc.roundedRect(20, yPos - 5, pageWidth - 40, 35, 3, 3, 'F');
+  
+  doc.setFont('helvetica', 'bold');
+  doc.setTextColor(34, 139, 34);
+  doc.text('REVENUE', 30, yPos + 8);
+  
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(0, 0, 0);
+  doc.text(`Expected Yield: ${data.expectedYield} Quintal/ha`, 30, yPos + 18);
+  doc.text(`Market Price: ₹${data.marketPrice}/Quintal`, 110, yPos + 18);
+  
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(14);
+  doc.setTextColor(34, 139, 34);
+  doc.text(`Total Revenue: ₹${data.totalRevenue.toLocaleString('en-IN')}`, 30, yPos + 28);
+  
+  // Costs Box
+  yPos += 50;
+  doc.setFillColor(255, 240, 240);
+  doc.roundedRect(20, yPos - 5, pageWidth - 40, 65, 3, 3, 'F');
+  
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(12);
+  doc.setTextColor(220, 53, 69);
+  doc.text('INPUT COSTS (per Hectare)', 30, yPos + 8);
+  
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(0, 0, 0);
+  
+  const costItems = [
+    { label: 'Seeds', value: data.costs.seeds },
+    { label: 'Fertilizers', value: data.costs.fertilizer },
+    { label: 'Labor', value: data.costs.labor },
+    { label: 'Irrigation', value: data.costs.irrigation },
+    { label: 'Pesticides', value: data.costs.pesticide },
+    { label: 'Other', value: data.costs.other },
+  ];
+  
+  let xPos = 30;
+  let costYPos = yPos + 20;
+  costItems.forEach((item, index) => {
+    if (index === 3) {
+      xPos = 30;
+      costYPos += 12;
+    }
+    doc.text(`${item.label}: ₹${item.value.toLocaleString('en-IN')}`, xPos, costYPos);
+    xPos += 55;
+  });
+  
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(14);
+  doc.setTextColor(220, 53, 69);
+  doc.text(`Total Costs: ₹${data.totalCosts.toLocaleString('en-IN')}`, 30, costYPos + 15);
+  
+  // Net Profit Box
+  yPos = costYPos + 35;
+  const isProfitable = data.netProfit > 0;
+  doc.setFillColor(isProfitable ? 34 : 220, isProfitable ? 139 : 53, isProfitable ? 34 : 69);
+  doc.roundedRect(20, yPos - 5, pageWidth - 40, 40, 3, 3, 'F');
+  
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(14);
+  doc.setFont('helvetica', 'bold');
+  doc.text('NET PROFIT / LOSS', 30, yPos + 10);
+  
+  doc.setFontSize(20);
+  doc.text(`₹${Math.abs(data.netProfit).toLocaleString('en-IN')}`, 30, yPos + 28);
+  
+  doc.setFontSize(12);
+  doc.text(`Profit Margin: ${data.profitMargin.toFixed(1)}%`, pageWidth - 30, yPos + 20, { align: 'right' });
+  
+  // Tips Section
+  yPos += 55;
+  doc.setTextColor(0, 0, 0);
+  doc.setFontSize(14);
+  doc.setFont('helvetica', 'bold');
+  doc.text('Recommendations', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont('helvetica', 'normal');
+  
+  const tips = [
+    `• Break-even price: ₹${(data.totalCosts / (data.expectedYield * data.landArea)).toFixed(0)}/Quintal`,
+    '• Consider organic certification for 20-30% premium pricing',
+    '• Group purchasing of inputs can reduce costs by 10-15%',
+    '• Explore government subsidies for seeds and fertilizers',
+  ];
+  
+  tips.forEach(tip => {
+    doc.text(tip, 25, yPos);
+    yPos += 8;
+  });
+  
+  // Footer
+  doc.setFillColor(240, 240, 240);
+  doc.rect(0, 280, pageWidth, 20, 'F');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Generated by AgriAI - Smart Crop Recommendation System', pageWidth / 2, 290, { align: 'center' });
+  
+  // Save
+  doc.save(`${data.cropName}_Profit_Report_${new Date().toISOString().split('T')[0]}.pdf`);
+};
+
+export const exportCropRecommendationToPDF = (
+  recommendations: CropRecommendation[],
+  conditions: CropRecommendation['conditions']
+) => {
+  const doc = new jsPDF();
+  const pageWidth = doc.internal.pageSize.getWidth();
+  
+  // Header
+  doc.setFillColor(34, 139, 34);
+  doc.rect(0, 0, pageWidth, 40, 'F');
+  
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(24);
+  doc.setFont('helvetica', 'bold');
+  doc.text('AgriAI', 20, 25);
+  
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'normal');
+  doc.text('Crop Recommendation Report', pageWidth - 20, 25, { align: 'right' });
+  
+  doc.setTextColor(200, 200, 200);
+  doc.setFontSize(10);
+  doc.text(`Generated: ${new Date().toLocaleDateString('en-IN')}`, pageWidth - 20, 35, { align: 'right' });
+  
+  // Input Conditions
+  let yPos = 55;
+  doc.setTextColor(0, 0, 0);
+  doc.setFontSize(14);
+  doc.setFont('helvetica', 'bold');
+  doc.text('Input Conditions', 20, yPos);
+  
+  yPos += 10;
+  doc.setFillColor(245, 245, 245);
+  doc.roundedRect(20, yPos - 3, pageWidth - 40, 35, 3, 3, 'F');
+  
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(10);
+  
+  const conditionItems = [
+    { label: 'Nitrogen (N)', value: `${conditions.nitrogen} kg/ha` },
+    { label: 'Phosphorus (P)', value: `${conditions.phosphorus} kg/ha` },
+    { label: 'Potassium (K)', value: `${conditions.potassium} kg/ha` },
+    { label: 'Temperature', value: `${conditions.temperature}°C` },
+    { label: 'Humidity', value: `${conditions.humidity}%` },
+    { label: 'pH Level', value: `${conditions.ph}` },
+    { label: 'Rainfall', value: `${conditions.rainfall} mm` },
+  ];
+  
+  let xPos = 30;
+  let condYPos = yPos + 8;
+  conditionItems.forEach((item, index) => {
+    if (index === 4) {
+      xPos = 30;
+      condYPos += 12;
+    }
+    doc.text(`${item.label}: ${item.value}`, xPos, condYPos);
+    xPos += 45;
+  });
+  
+  // Recommendations
+  yPos += 50;
+  doc.setFontSize(14);
+  doc.setFont('helvetica', 'bold');
+  doc.text('Recommended Crops', 20, yPos);
+  
+  yPos += 15;
+  
+  recommendations.forEach((rec, index) => {
+    const isTop = index === 0;
+    
+    if (isTop) {
+      doc.setFillColor(34, 139, 34);
+    } else {
+      doc.setFillColor(240, 240, 240);
+    }
+    
+    doc.roundedRect(20, yPos - 5, pageWidth - 40, 25, 3, 3, 'F');
+    
+    doc.setTextColor(isTop ? 255 : 0, isTop ? 255 : 0, isTop ? 255 : 0);
+    doc.setFontSize(12);
+    doc.setFont('helvetica', 'bold');
+    doc.text(`${index + 1}. ${rec.cropName}`, 30, yPos + 8);
+    
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(10);
+    doc.text(`Suitability: ${rec.probability}%`, pageWidth - 60, yPos + 8);
+    
+    // Probability bar
+    doc.setFillColor(200, 200, 200);
+    doc.rect(pageWidth - 100, yPos + 12, 60, 4, 'F');
+    doc.setFillColor(isTop ? 255 : 34, isTop ? 215 : 139, isTop ? 0 : 34);
+    doc.rect(pageWidth - 100, yPos + 12, (rec.probability / 100) * 60, 4, 'F');
+    
+    yPos += 30;
+  });
+  
+  // Footer
+  doc.setFillColor(240, 240, 240);
+  doc.rect(0, 280, pageWidth, 20, 'F');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Generated by AgriAI - Smart Crop Recommendation System', pageWidth / 2, 290, { align: 'center' });
+  
+  // Save
+  doc.save(`Crop_Recommendations_${new Date().toISOString().split('T')[0]}.pdf`);
+};
