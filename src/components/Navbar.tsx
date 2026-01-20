@@ -53,16 +53,34 @@ const Navbar = () => {
               {t("nav.howItWorks")}
             </button>
             <button
-              onClick={() => scrollTo("recommendation-form")}
+              onClick={() => scrollTo("crop-comparison")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              {t("nav.getStarted")}
+              Compare Crops
             </button>
             <button
-              onClick={() => scrollTo("crop-map")}
+              onClick={() => scrollTo("seasonal-calendar")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              {t("nav.cropMap")}
+              Calendar
+            </button>
+            <button
+              onClick={() => scrollTo("regional-recommendations")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Regional
+            </button>
+            <button
+              onClick={() => scrollTo("crop-diseases")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Diseases
+            </button>
+            <button
+              onClick={() => scrollTo("profit-calculator")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Calculator
             </button>
             <LanguageSwitcher />
             <Button
@@ -94,7 +112,7 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <div className="flex flex-col p-4 gap-4">
+            <div className="flex flex-col p-4 gap-2">
               <button
                 onClick={() => scrollTo("how-it-works")}
                 className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
@@ -102,15 +120,39 @@ const Navbar = () => {
                 How It Works
               </button>
               <button
-                onClick={() => scrollTo("recommendation-form")}
+                onClick={() => scrollTo("crop-comparison")}
                 className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
               >
-                Get Started
+                Compare Crops
+              </button>
+              <button
+                onClick={() => scrollTo("seasonal-calendar")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Seasonal Calendar
+              </button>
+              <button
+                onClick={() => scrollTo("regional-recommendations")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Regional Crops
+              </button>
+              <button
+                onClick={() => scrollTo("crop-diseases")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Disease Guide
+              </button>
+              <button
+                onClick={() => scrollTo("profit-calculator")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Profit Calculator
               </button>
               <Button
                 variant="default"
                 onClick={() => scrollTo("recommendation-form")}
-                className="w-full"
+                className="w-full mt-2"
               >
                 Try Now
               </Button>

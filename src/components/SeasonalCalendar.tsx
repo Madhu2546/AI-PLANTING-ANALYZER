@@ -29,7 +29,7 @@ const SeasonalCalendar = () => {
   const currentHarvest = getCropsForMonth(currentMonth, "harvest");
 
   return (
-    <section id="crop-calendar" className="py-16 bg-background">
+    <section id="seasonal-calendar" className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <div className="flex items-center justify-center gap-3 mb-4">
