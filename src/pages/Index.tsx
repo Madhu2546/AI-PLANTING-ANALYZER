@@ -5,6 +5,8 @@ import CropRecommendationForm from "@/components/CropRecommendationForm";
 import CropComparison from "@/components/CropComparison";
 import SeasonalCalendar from "@/components/SeasonalCalendar";
 import RegionalRecommendations from "@/components/RegionalRecommendations";
+import CropDiseases from "@/components/CropDiseases";
+import ProfitCalculator from "@/components/ProfitCalculator";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import IndiaMap from "@/components/IndiaMap";
@@ -26,6 +28,8 @@ const Index = () => {
         <CropComparison />
         <SeasonalCalendar />
         <RegionalRecommendations />
+        <CropDiseases />
+        <ProfitCalculator />
         <IndiaMap />
         <HowItWorks />
         <Features />
