@@ -82,6 +82,18 @@ const Navbar = () => {
             >
               Calculator
             </button>
+            <button
+              onClick={() => scrollTo("weather-alerts")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Weather
+            </button>
+            <button
+              onClick={() => scrollTo("market-trends")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Trends
+            </button>
             <LanguageSwitcher />
             <Button
               variant="default"
