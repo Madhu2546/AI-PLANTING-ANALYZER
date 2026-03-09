@@ -16,6 +16,8 @@ import MarketPriceTrends from "@/components/MarketPriceTrends";
 import CropYieldPrediction from "@/components/CropYieldPrediction";
 import SoilHealthDashboard from "@/components/SoilHealthDashboard";
 import GovernmentSchemes from "@/components/GovernmentSchemes";
+import CropNutrientGuide from "@/components/CropNutrientGuide";
+import IrrigationScheduler from "@/components/IrrigationScheduler";
 import Footer from "@/components/Footer";
 
 const Index = () => {
