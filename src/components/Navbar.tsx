@@ -139,6 +139,15 @@ const Navbar = () => {
             </button>
             <ThemeToggle />
             <LanguageSwitcher />
+            {user ? (
+              <Button variant="outline" size="sm" onClick={handleLogout}>
+                <LogOut className="w-4 h-4 mr-1" /> Logout
+              </Button>
+            ) : (
+              <Button variant="outline" size="sm" onClick={() => navigate("/auth")}>
+                <LogIn className="w-4 h-4 mr-1" /> Login
+              </Button>
+            )}
             <Button
               variant="default"
               size="sm"
