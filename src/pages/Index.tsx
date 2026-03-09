@@ -13,6 +13,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import IndiaMap from "@/components/IndiaMap";
 import MarketPriceTrends from "@/components/MarketPriceTrends";
+import CropYieldPrediction from "@/components/CropYieldPrediction";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -36,6 +37,7 @@ const Index = () => {
         <CropDiseases />
         <ProfitCalculator />
         <MarketPriceTrends />
+        <CropYieldPrediction />
         <IndiaMap />
         <HowItWorks />
         <Features />
