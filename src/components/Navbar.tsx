@@ -286,9 +286,20 @@ const Navbar = () => {
                 Irrigation
               </button>
               {user ? (
-                <Button variant="outline" onClick={handleLogout} className="w-full mt-2">
-                  <LogOut className="w-4 h-4 mr-1" /> Logout
-                </Button>
+                <div className="border-t border-border pt-2 mt-2">
+                  <div className="flex items-center gap-2 px-1 py-2">
+                    <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                      <User className="w-4 h-4 text-primary" />
+                    </div>
+                    <div className="min-w-0">
+                      <p className="text-sm font-medium text-foreground truncate">{displayName}</p>
+                      <p className="text-xs text-muted-foreground truncate">{user.email}</p>
+                    </div>
+                  </div>
+                  <Button variant="outline" onClick={handleLogout} className="w-full mt-1">
+                    <LogOut className="w-4 h-4 mr-1" /> Logout
+                  </Button>
+                </div>
               ) : (
                 <Button variant="outline" onClick={() => { navigate("/auth"); setIsMobileMenuOpen(false); }} className="w-full mt-2">
                   <LogIn className="w-4 h-4 mr-1" /> Login
