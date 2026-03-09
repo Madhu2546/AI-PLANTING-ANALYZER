@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Calculator, TrendingUp, TrendingDown, IndianRupee, Wheat, Package, Tractor } from "lucide-react";
+import { Calculator, TrendingUp, TrendingDown, IndianRupee, Wheat, Package, Tractor, FileDown } from "lucide-react";
+import { exportProfitReportToPDF } from "@/utils/pdfExport";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
