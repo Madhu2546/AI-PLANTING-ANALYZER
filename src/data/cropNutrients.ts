@@ -251,6 +251,134 @@ export const cropNutrientPlans: Record<string, CropNutrientPlan> = {
       ]},
     ],
   },
+  Mango: {
+    crop: "Mango",
+    totalN: 1000, totalP: 500, totalK: 1000,
+    fertilizerSchedule: [
+      { stage: "Post-harvest (July-Aug)", timing: "Split 1", chemicals: [
+        { name: "FYM / Compost", type: "Organic", dose: "50 kg/tree", purpose: "Organic matter replenishment" },
+        { name: "Urea", type: "Fertilizer", dose: "700 g/tree", purpose: "Nitrogen for new flush" },
+        { name: "SSP", type: "Fertilizer", dose: "3 kg/tree", purpose: "Phosphorus" },
+      ]},
+      { stage: "Pre-flowering (Oct-Nov)", timing: "Split 2", chemicals: [
+        { name: "MOP", type: "Fertilizer", dose: "1 kg/tree", purpose: "Potassium for flowering" },
+        { name: "Borax", type: "Micronutrient", dose: "50 g/tree", purpose: "Better fruit set" },
+        { name: "ZnSO4 spray", type: "Micronutrient", dose: "0.5%", purpose: "Zinc nutrition" },
+      ]},
+      { stage: "Fruit Development (Feb-Apr)", timing: "Split 3", chemicals: [
+        { name: "KNO3 spray", type: "Fertilizer", dose: "1%", purpose: "Fruit size & sweetness" },
+        { name: "CaCl2 spray", type: "Micronutrient", dose: "1%", purpose: "Reduces fruit cracking" },
+      ]},
+    ],
+    pestsAndDiseases: [
+      { name: "Anthracnose", type: "disease", symptoms: "Black spots on flowers and fruits", pesticides: [
+        { name: "Carbendazim 50% WP", dose: "1 g/L", application: "Spray at flowering" },
+        { name: "Mancozeb 75% WP", dose: "2.5 g/L", application: "Preventive spray" },
+      ]},
+      { name: "Mango Hopper", type: "pest", symptoms: "Honeydew on flowers, flower drop", pesticides: [
+        { name: "Imidacloprid 17.8% SL", dose: "0.3 mL/L", application: "Spray at panicle emergence" },
+        { name: "Lambda Cyhalothrin 5% EC", dose: "0.5 mL/L", application: "Foliar spray" },
+      ]},
+      { name: "Powdery Mildew", type: "disease", symptoms: "White powder on panicles & leaves", pesticides: [
+        { name: "Wettable Sulphur", dose: "3 g/L", application: "Spray at first sign" },
+        { name: "Hexaconazole 5% EC", dose: "1 mL/L", application: "Curative spray" },
+      ]},
+    ],
+  },
+  Grapes: {
+    crop: "Grapes",
+    totalN: 500, totalP: 300, totalK: 500,
+    fertilizerSchedule: [
+      { stage: "After Pruning (Oct)", timing: "Split 1", chemicals: [
+        { name: "FYM", type: "Organic", dose: "25 kg/vine", purpose: "Organic base" },
+        { name: "19:19:19 NPK", type: "Fertilizer", dose: "100 g/vine", purpose: "Balanced nutrition" },
+        { name: "Ferrous Sulphate", type: "Micronutrient", dose: "50 g/vine", purpose: "Iron nutrition" },
+      ]},
+      { stage: "Berry Development (Dec-Jan)", timing: "Split 2", chemicals: [
+        { name: "Urea", type: "Fertilizer", dose: "150 g/vine", purpose: "Berry growth" },
+        { name: "SOP (K2SO4)", type: "Fertilizer", dose: "200 g/vine", purpose: "Berry quality" },
+        { name: "GA3 spray", type: "Growth regulator", dose: "30 ppm", purpose: "Berry elongation" },
+      ]},
+      { stage: "Veraison (Feb)", timing: "Split 3", chemicals: [
+        { name: "SOP", type: "Fertilizer", dose: "200 g/vine", purpose: "Sugar accumulation" },
+        { name: "Ethephon spray", type: "Growth regulator", dose: "300 ppm", purpose: "Uniform ripening" },
+      ]},
+    ],
+    pestsAndDiseases: [
+      { name: "Downy Mildew", type: "disease", symptoms: "Oily spots on upper leaf, white growth below", pesticides: [
+        { name: "Metalaxyl + Mancozeb", dose: "2.5 g/L", application: "Preventive spray" },
+        { name: "Fosetyl-Al 80% WP", dose: "3 g/L", application: "Systemic spray" },
+      ]},
+      { name: "Mealybug", type: "pest", symptoms: "White cottony masses on stems/berries", pesticides: [
+        { name: "Buprofezin 25% SC", dose: "1.25 mL/L", application: "Spray at early infestation" },
+        { name: "Profenophos 50% EC", dose: "2 mL/L", application: "Contact spray" },
+      ]},
+    ],
+  },
+  Papaya: {
+    crop: "Papaya",
+    totalN: 250, totalP: 250, totalK: 500,
+    fertilizerSchedule: [
+      { stage: "Planting (0-2 months)", timing: "Basal", chemicals: [
+        { name: "FYM", type: "Organic", dose: "20 kg/plant", purpose: "Organic matter" },
+        { name: "SSP", type: "Fertilizer", dose: "200 g/plant", purpose: "Root establishment" },
+        { name: "Neem Cake", type: "Organic", dose: "1 kg/plant", purpose: "Nematode control + slow N" },
+      ]},
+      { stage: "Vegetative (3-5 months)", timing: "Split 1", chemicals: [
+        { name: "Urea", type: "Fertilizer", dose: "100 g/plant", purpose: "Vegetative growth" },
+        { name: "MOP", type: "Fertilizer", dose: "100 g/plant", purpose: "Stem strength" },
+      ]},
+      { stage: "Flowering & Fruiting (6-12 months)", timing: "Monthly", chemicals: [
+        { name: "Urea", type: "Fertilizer", dose: "50 g/plant/month", purpose: "Continuous fruiting" },
+        { name: "MOP", type: "Fertilizer", dose: "75 g/plant/month", purpose: "Fruit quality" },
+        { name: "Borax spray", type: "Micronutrient", dose: "0.2%", purpose: "Better fruit set" },
+      ]},
+    ],
+    pestsAndDiseases: [
+      { name: "Papaya Ring Spot Virus", type: "disease", symptoms: "Ring spots on fruits, mosaic on leaves", pesticides: [
+        { name: "Imidacloprid 17.8% SL", dose: "0.3 mL/L", application: "Control aphid vectors" },
+        { name: "Neem oil", dose: "5 mL/L", application: "Preventive spray" },
+      ]},
+      { name: "Fruit Fly", type: "pest", symptoms: "Maggots inside fruit, premature fruit drop", pesticides: [
+        { name: "Methyl Eugenol traps", dose: "1 trap/100 m²", application: "Install at fruiting" },
+        { name: "Malathion 50% EC", dose: "2 mL/L", application: "Bait spray" },
+      ]},
+    ],
+  },
+  Watermelon: {
+    crop: "Watermelon",
+    totalN: 100, totalP: 50, totalK: 50,
+    fertilizerSchedule: [
+      { stage: "Basal (At Sowing)", timing: "0 days", chemicals: [
+        { name: "FYM", type: "Organic", dose: "15 tonnes/ha", purpose: "Organic matter" },
+        { name: "DAP", type: "Fertilizer", dose: "110 kg/ha", purpose: "Phosphorus base" },
+        { name: "MOP", type: "Fertilizer", dose: "83 kg/ha", purpose: "Potassium base" },
+      ]},
+      { stage: "Vine Running (20-25 days)", timing: "Split 1", chemicals: [
+        { name: "Urea", type: "Fertilizer", dose: "55 kg/ha", purpose: "Vine growth" },
+        { name: "19:19:19 spray", type: "Fertilizer", dose: "0.5%", purpose: "Balanced foliar" },
+      ]},
+      { stage: "Fruit Setting (40-45 days)", timing: "Split 2", chemicals: [
+        { name: "Urea", type: "Fertilizer", dose: "55 kg/ha", purpose: "Fruit development" },
+        { name: "CaNO3 spray", type: "Fertilizer", dose: "1%", purpose: "Reduces blossom end rot" },
+        { name: "Boron spray", type: "Micronutrient", dose: "0.2%", purpose: "Better pollination" },
+      ]},
+    ],
+    pestsAndDiseases: [
+      { name: "Fusarium Wilt", type: "disease", symptoms: "Wilting vines, brown vascular tissue", pesticides: [
+        { name: "Trichoderma harzianum", dose: "5 g/L", application: "Soil drench at planting" },
+        { name: "Carbendazim", dose: "1 g/L", application: "Soil application" },
+      ]},
+      { name: "Red Pumpkin Beetle", type: "pest", symptoms: "Holes in leaves and flowers", pesticides: [
+        { name: "Carbaryl 50% WP", dose: "2 g/L", application: "Dust or spray on seedlings" },
+        { name: "Neem oil", dose: "5 mL/L", application: "Preventive spray" },
+      ]},
+      { name: "Powdery Mildew", type: "disease", symptoms: "White powdery coating on leaves", pesticides: [
+        { name: "Wettable Sulphur", dose: "3 g/L", application: "Foliar spray" },
+        { name: "Hexaconazole", dose: "1 mL/L", application: "Curative spray" },
+      ]},
+    ],
+  },
 };
 
 export const availableCrops = Object.keys(cropNutrientPlans);
