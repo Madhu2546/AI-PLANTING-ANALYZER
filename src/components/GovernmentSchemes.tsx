@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Landmark, ExternalLink, Filter } from "lucide-react";
+import { Landmark, ExternalLink, Filter, Download } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { governmentSchemes, indianStates } from "@/data/governmentSchemes";
+import { exportSchemeDetailsToPDF } from "@/utils/pdfExport";
 
 const CROP_OPTIONS = ["All", "Rice", "Wheat", "Cotton", "Maize", "Lentil", "Chickpea", "Coconut", "Coffee", "Jute"];
 const CATEGORY_OPTIONS = [
