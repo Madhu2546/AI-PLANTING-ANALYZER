@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Leaf, AlertTriangle, CheckCircle, Info } from "lucide-react";
+import { Leaf, AlertTriangle, CheckCircle, Info, Download } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
+import { exportSoilHealthToPDF } from "@/utils/pdfExport";
 
 interface NutrientLevel {
   value: number;
@@ -156,6 +157,11 @@ const SoilHealthDashboard = () => {
                 </div>
               ))}
               <Button onClick={handleAnalyze} className="w-full">{t("soilHealth.analyze", "Analyze Soil Health")}</Button>
+              {analyzed && (
+                <Button variant="outline" size="sm" className="w-full" onClick={() => exportSoilHealthToPDF({ nitrogen: n, phosphorus: p, potassium: k, ph: phVal, organicCarbon: oc, score, amendments: amendments.map(a => ({ ...a })) })}>
+                  <Download className="w-3 h-3 mr-1" /> Export PDF
+                </Button>
+              )}
             </CardContent>
           </Card>
 

@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Landmark, ExternalLink, Filter } from "lucide-react";
+import { Landmark, ExternalLink, Filter, Download } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { governmentSchemes, indianStates } from "@/data/governmentSchemes";
+import { exportSchemeDetailsToPDF } from "@/utils/pdfExport";
 
 const CROP_OPTIONS = ["All", "Rice", "Wheat", "Cotton", "Maize", "Lentil", "Chickpea", "Coconut", "Coffee", "Jute"];
 const CATEGORY_OPTIONS = [
@@ -72,6 +73,11 @@ const GovernmentSchemes = () => {
                   <SelectContent>{CATEGORY_OPTIONS.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent>
                 </Select>
               </div>
+              {filtered.length > 0 && (
+                <Button variant="outline" size="sm" className="mt-3 w-full sm:w-auto" onClick={() => exportSchemeDetailsToPDF(filtered.map(s => ({ name: s.name, category: s.category, description: s.description, benefits: s.benefits, website: s.website })))}>
+                  <Download className="w-3 h-3 mr-1" /> Export as PDF
+                </Button>
+              )}
             </CardContent>
           </Card>
 
