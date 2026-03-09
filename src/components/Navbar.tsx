@@ -1,15 +1,33 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Leaf, Menu, X } from "lucide-react";
+import { Leaf, Menu, X, LogIn, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "sonner";
 import LanguageSwitcher from "./LanguageSwitcher";
 import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [user, setUser] = useState<any>(null);
+
+  useEffect(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+    supabase.auth.getSession().then(({ data: { session } }) => setUser(session?.user ?? null));
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    toast.success("Logged out");
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -121,6 +139,15 @@ const Navbar = () => {
             </button>
             <ThemeToggle />
             <LanguageSwitcher />
+            {user ? (
+              <Button variant="outline" size="sm" onClick={handleLogout}>
+                <LogOut className="w-4 h-4 mr-1" /> Logout
+              </Button>
+            ) : (
+              <Button variant="outline" size="sm" onClick={() => navigate("/auth")}>
+                <LogIn className="w-4 h-4 mr-1" /> Login
+              </Button>
+            )}
             <Button
               variant="default"
               size="sm"
@@ -223,6 +250,15 @@ const Navbar = () => {
               >
                 Irrigation
               </button>
+              {user ? (
+                <Button variant="outline" onClick={handleLogout} className="w-full mt-2">
+                  <LogOut className="w-4 h-4 mr-1" /> Logout
+                </Button>
+              ) : (
+                <Button variant="outline" onClick={() => { navigate("/auth"); setIsMobileMenuOpen(false); }} className="w-full mt-2">
+                  <LogIn className="w-4 h-4 mr-1" /> Login
+                </Button>
+              )}
               <Button
                 variant="default"
                 onClick={() => scrollTo("recommendation-form")}
