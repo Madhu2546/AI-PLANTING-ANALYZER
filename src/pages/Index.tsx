@@ -18,6 +18,7 @@ import SoilHealthDashboard from "@/components/SoilHealthDashboard";
 import GovernmentSchemes from "@/components/GovernmentSchemes";
 import CropNutrientGuide from "@/components/CropNutrientGuide";
 import IrrigationScheduler from "@/components/IrrigationScheduler";
+import FarmDiary from "@/components/FarmDiary";
 import Footer from "@/components/Footer";
 
 const Index = () => {
