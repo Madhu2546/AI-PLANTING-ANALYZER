@@ -95,6 +95,18 @@ const Navbar = () => {
             >
               Trends
             </button>
+            <button
+              onClick={() => scrollTo("soil-health")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Soil
+            </button>
+            <button
+              onClick={() => scrollTo("government-schemes")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Schemes
+            </button>
             <ThemeToggle />
             <LanguageSwitcher />
             <Button
