@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Calculator, TrendingUp, TrendingDown, IndianRupee, Wheat, Package, Tractor } from "lucide-react";
+import { Calculator, TrendingUp, TrendingDown, IndianRupee, Wheat, Package, Tractor, FileDown } from "lucide-react";
+import { exportProfitReportToPDF } from "@/utils/pdfExport";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -347,6 +348,36 @@ const ProfitCalculator = () => {
                     <li>• Explore government subsidies for seeds and fertilizers</li>
                   </ul>
                 </div>
+
+                {showResults && selectedCrop && (
+                  <Button
+                    variant="outline"
+                    className="w-full gap-2"
+                    onClick={() => {
+                      exportProfitReportToPDF({
+                        cropName: selectedCrop,
+                        landArea: parseFloat(landArea) || 0,
+                        expectedYield: parseFloat(expectedYield) || 0,
+                        marketPrice: parseFloat(marketPrice) || 0,
+                        totalRevenue: results.totalRevenue,
+                        totalCosts: results.totalCosts,
+                        netProfit: results.netProfit,
+                        profitMargin: results.profitMargin,
+                        costs: {
+                          seeds: parseFloat(seedCost) || 0,
+                          fertilizer: parseFloat(fertilizerCost) || 0,
+                          labor: parseFloat(laborCost) || 0,
+                          irrigation: parseFloat(irrigationCost) || 0,
+                          pesticide: parseFloat(pesticideCost) || 0,
+                          other: parseFloat(otherCosts) || 0,
+                        },
+                      });
+                    }}
+                  >
+                    <FileDown className="w-4 h-4" />
+                    Download PDF Report
+                  </Button>
+                )}
               </CardContent>
             </Card>
           </motion.div>

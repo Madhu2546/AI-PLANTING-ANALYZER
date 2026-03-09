@@ -12,6 +12,7 @@ import CropRotationPlanner from "@/components/CropRotationPlanner";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import IndiaMap from "@/components/IndiaMap";
+import MarketPriceTrends from "@/components/MarketPriceTrends";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -34,6 +35,7 @@ const Index = () => {
         <CropRotationPlanner />
         <CropDiseases />
         <ProfitCalculator />
+        <MarketPriceTrends />
         <IndiaMap />
         <HowItWorks />
         <Features />

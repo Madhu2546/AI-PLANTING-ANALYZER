@@ -1,16 +1,24 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, AlertCircle, Trophy, Medal, Eye } from "lucide-react";
+import { CheckCircle2, AlertCircle, Trophy, Medal, Eye, FileDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import CropDetailModal from "./CropDetailModal";
 import { cropDetails } from "@/data/cropDetails";
 import { cropImages } from "@/data/cropImages";
+import { exportCropRecommendationToPDF } from "@/utils/pdfExport";
 
 interface CropWithScore {
   name: string;
   icon: string;
   matchScore: number;
+  n?: number[];
+  p?: number[];
+  k?: number[];
+  temp?: number[];
+  humidity?: number[];
+  ph?: number[];
+  rainfall?: number[];
 }
 
 interface CropResultProps {
@@ -159,6 +167,39 @@ const CropResult = ({ crops }: CropResultProps) => {
             })}
           </div>
         </motion.div>
+      </motion.div>
+
+      {/* PDF Export */}
+      <motion.div
+        className="mt-6 flex justify-center"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.8 }}
+      >
+        <Button
+          variant="outline"
+          size="lg"
+          className="gap-2"
+          onClick={() => {
+            const topCropsData = crops.slice(0, 5).map(c => ({
+              cropName: c.name,
+              probability: Math.round(c.matchScore),
+              conditions: {
+                nitrogen: c.n ? (c.n[0] + c.n[1]) / 2 : 0,
+                phosphorus: c.p ? (c.p[0] + c.p[1]) / 2 : 0,
+                potassium: c.k ? (c.k[0] + c.k[1]) / 2 : 0,
+                temperature: c.temp ? (c.temp[0] + c.temp[1]) / 2 : 0,
+                humidity: c.humidity ? (c.humidity[0] + c.humidity[1]) / 2 : 0,
+                ph: c.ph ? (c.ph[0] + c.ph[1]) / 2 : 0,
+                rainfall: c.rainfall ? (c.rainfall[0] + c.rainfall[1]) / 2 : 0,
+              },
+            }));
+            exportCropRecommendationToPDF(topCropsData, topCropsData[0].conditions);
+          }}
+        >
+          <FileDown className="w-4 h-4" />
+          Download Recommendation Report (PDF)
+        </Button>
       </motion.div>
 
       <AnimatePresence>
