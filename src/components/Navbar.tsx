@@ -21,8 +21,19 @@ const Navbar = () => {
   useEffect(() => {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
+      if (session?.user) {
+        const name = session.user.user_metadata?.display_name || session.user.email?.split("@")[0] || "User";
+        setDisplayName(name);
+      } else {
+        setDisplayName("");
+      }
     });
-    supabase.auth.getSession().then(({ data: { session } }) => setUser(session?.user ?? null));
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null);
+      if (session?.user) {
+        setDisplayName(session.user.user_metadata?.display_name || session.user.email?.split("@")[0] || "User");
+      }
+    });
     return () => subscription.unsubscribe();
   }, []);
 
