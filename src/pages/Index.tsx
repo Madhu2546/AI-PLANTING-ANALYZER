@@ -37,6 +37,7 @@ const Index = () => {
         <CropDiseases />
         <ProfitCalculator />
         <MarketPriceTrends />
+        <CropYieldPrediction />
         <IndiaMap />
         <HowItWorks />
         <Features />

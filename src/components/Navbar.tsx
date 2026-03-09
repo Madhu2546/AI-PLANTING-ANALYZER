@@ -95,6 +95,7 @@ const Navbar = () => {
             >
               Trends
             </button>
+            <ThemeToggle />
             <LanguageSwitcher />
             <Button
               variant="default"
