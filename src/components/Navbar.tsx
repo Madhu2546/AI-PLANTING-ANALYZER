@@ -187,6 +187,18 @@ const Navbar = () => {
               >
                 Market Trends
               </button>
+              <button
+                onClick={() => scrollTo("soil-health")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Soil Health
+              </button>
+              <button
+                onClick={() => scrollTo("government-schemes")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Schemes
+              </button>
               <Button
                 variant="default"
                 onClick={() => scrollTo("recommendation-form")}

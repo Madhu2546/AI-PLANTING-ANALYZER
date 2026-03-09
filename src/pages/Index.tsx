@@ -40,6 +40,8 @@ const Index = () => {
         <ProfitCalculator />
         <MarketPriceTrends />
         <CropYieldPrediction />
+        <SoilHealthDashboard />
+        <GovernmentSchemes />
         <IndiaMap />
         <HowItWorks />
         <Features />
