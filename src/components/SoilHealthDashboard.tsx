@@ -157,6 +157,11 @@ const SoilHealthDashboard = () => {
                 </div>
               ))}
               <Button onClick={handleAnalyze} className="w-full">{t("soilHealth.analyze", "Analyze Soil Health")}</Button>
+              {analyzed && (
+                <Button variant="outline" size="sm" className="w-full" onClick={() => exportSoilHealthToPDF({ nitrogen: n, phosphorus: p, potassium: k, ph: phVal, organicCarbon: oc, score, amendments: amendments.map(a => ({ ...a })) })}>
+                  <Download className="w-3 h-3 mr-1" /> Export PDF
+                </Button>
+              )}
             </CardContent>
           </Card>
 

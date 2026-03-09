@@ -73,6 +73,11 @@ const GovernmentSchemes = () => {
                   <SelectContent>{CATEGORY_OPTIONS.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent>
                 </Select>
               </div>
+              {filtered.length > 0 && (
+                <Button variant="outline" size="sm" className="mt-3 w-full sm:w-auto" onClick={() => exportSchemeDetailsToPDF(filtered.map(s => ({ name: s.name, category: s.category, description: s.description, benefits: s.benefits, website: s.website })))}>
+                  <Download className="w-3 h-3 mr-1" /> Export as PDF
+                </Button>
+              )}
             </CardContent>
           </Card>
 
