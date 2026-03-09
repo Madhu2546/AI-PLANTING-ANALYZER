@@ -107,6 +107,18 @@ const Navbar = () => {
             >
               Schemes
             </button>
+            <button
+              onClick={() => scrollTo("nutrient-guide")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Nutrients
+            </button>
+            <button
+              onClick={() => scrollTo("irrigation-scheduler")}
+              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Irrigation
+            </button>
             <ThemeToggle />
             <LanguageSwitcher />
             <Button
