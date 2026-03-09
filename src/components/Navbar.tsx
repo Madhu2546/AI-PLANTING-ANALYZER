@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Leaf, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const { t } = useTranslation();
