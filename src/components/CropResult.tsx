@@ -12,6 +12,13 @@ interface CropWithScore {
   name: string;
   icon: string;
   matchScore: number;
+  n?: number[];
+  p?: number[];
+  k?: number[];
+  temp?: number[];
+  humidity?: number[];
+  ph?: number[];
+  rainfall?: number[];
 }
 
 interface CropResultProps {
