@@ -250,6 +250,15 @@ const Navbar = () => {
               >
                 Irrigation
               </button>
+              {user ? (
+                <Button variant="outline" onClick={handleLogout} className="w-full mt-2">
+                  <LogOut className="w-4 h-4 mr-1" /> Logout
+                </Button>
+              ) : (
+                <Button variant="outline" onClick={() => { navigate("/auth"); setIsMobileMenuOpen(false); }} className="w-full mt-2">
+                  <LogIn className="w-4 h-4 mr-1" /> Login
+                </Button>
+              )}
               <Button
                 variant="default"
                 onClick={() => scrollTo("recommendation-form")}
