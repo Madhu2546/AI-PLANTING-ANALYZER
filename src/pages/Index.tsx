@@ -47,6 +47,7 @@ const Index = () => {
         <GovernmentSchemes />
         <CropNutrientGuide />
         <IrrigationScheduler />
+        <FarmDiary />
         <IndiaMap />
         <HowItWorks />
         <Features />
