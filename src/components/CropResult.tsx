@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, AlertCircle, Trophy, Medal, Eye } from "lucide-react";
+import { CheckCircle2, AlertCircle, Trophy, Medal, Eye, FileDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import CropDetailModal from "./CropDetailModal";
 import { cropDetails } from "@/data/cropDetails";
 import { cropImages } from "@/data/cropImages";
+import { exportCropRecommendationToPDF } from "@/utils/pdfExport";
 
 interface CropWithScore {
   name: string;
