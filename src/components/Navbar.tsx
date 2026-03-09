@@ -161,6 +161,18 @@ const Navbar = () => {
               >
                 Profit Calculator
               </button>
+              <button
+                onClick={() => scrollTo("weather-alerts")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Weather Alerts
+              </button>
+              <button
+                onClick={() => scrollTo("market-trends")}
+                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
+              >
+                Market Trends
+              </button>
               <Button
                 variant="default"
                 onClick={() => scrollTo("recommendation-form")}
