@@ -130,10 +130,10 @@ const FarmDiary = () => {
         <motion.div className="text-center mb-12" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <BookOpen className="w-4 h-4" />
-            <span className="text-sm font-medium">Farm Diary</span>
+            <span className="text-sm font-medium">{t("diary.badge")}</span>
           </div>
-          <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Farm Activity Log</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">Track daily farming activities, expenses, and observations. Keep a digital record of your crop management.</p>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">{t("diary.title")}</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">{t("diary.description")}</p>
         </motion.div>
 
         <div className="max-w-4xl mx-auto space-y-6">
