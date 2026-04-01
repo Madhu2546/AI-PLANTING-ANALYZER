@@ -180,7 +180,7 @@ const Navbar = () => {
               </DropdownMenu>
             ) : (
               <Button variant="outline" size="sm" onClick={() => navigate("/auth")}>
-                <LogIn className="w-4 h-4 mr-1" /> Login
+                <LogIn className="w-4 h-4 mr-1" /> {t("navbar.login")}
               </Button>
             )}
             <Button
