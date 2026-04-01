@@ -204,7 +204,7 @@ const FarmDiary = () => {
               {/* Form */}
               {showForm && (
                 <Card>
-                  <CardHeader><CardTitle className="text-lg">New Entry</CardTitle></CardHeader>
+                  <CardHeader><CardTitle className="text-lg">{t("diary.newEntry")}</CardTitle></CardHeader>
                   <CardContent className="space-y-4">
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                       <div><Label className="text-xs">Date</Label><Input type="date" value={date} onChange={e => setDate(e.target.value)} className="mt-1" /></div>
