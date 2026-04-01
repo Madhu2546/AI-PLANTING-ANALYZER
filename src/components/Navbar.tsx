@@ -94,7 +94,7 @@ const Navbar = () => {
               onClick={() => scrollTo("seasonal-calendar")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Calendar
+              {t("navbar.calendar")}
             </button>
             <button
               onClick={() => scrollTo("regional-recommendations")}
