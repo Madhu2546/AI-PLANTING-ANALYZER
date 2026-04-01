@@ -130,7 +130,7 @@ const Navbar = () => {
               onClick={() => scrollTo("soil-health")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Soil
+              {t("navbar.soil")}
             </button>
             <button
               onClick={() => scrollTo("government-schemes")}
