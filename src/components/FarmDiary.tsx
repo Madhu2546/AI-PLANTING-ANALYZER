@@ -272,7 +272,7 @@ const FarmDiary = () => {
               {!loading && entries.length === 0 && (
                 <Card><CardContent className="py-12 text-center">
                   <StickyNote className="w-12 h-12 text-muted-foreground/50 mx-auto mb-4" />
-                  <p className="text-muted-foreground">No entries yet. Start logging your farm activities!</p>
+                  <p className="text-muted-foreground">{t("diary.noEntries")}</p>
                 </CardContent></Card>
               )}
             </>
