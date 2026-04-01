@@ -136,7 +136,7 @@ const Navbar = () => {
               onClick={() => scrollTo("government-schemes")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Schemes
+              {t("navbar.schemes")}
             </button>
             <button
               onClick={() => scrollTo("nutrient-guide")}
