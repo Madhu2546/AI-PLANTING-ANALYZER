@@ -118,7 +118,7 @@ const Navbar = () => {
               onClick={() => scrollTo("weather-alerts")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Weather
+              {t("navbar.weather")}
             </button>
             <button
               onClick={() => scrollTo("market-trends")}
