@@ -170,7 +170,7 @@ const Navbar = () => {
                   </div>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem onClick={() => scrollTo("farm-diary")} className="cursor-pointer">
-                    <BookOpen className="w-4 h-4 mr-2" /> Farm Diary
+                    <BookOpen className="w-4 h-4 mr-2" /> {t("navbar.farmDiary")}
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem onClick={handleLogout} className="cursor-pointer text-destructive">
