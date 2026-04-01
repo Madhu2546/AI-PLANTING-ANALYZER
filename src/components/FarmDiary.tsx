@@ -142,8 +142,8 @@ const FarmDiary = () => {
             <Card>
               <CardContent className="py-12 text-center space-y-4">
                 <LogIn className="w-12 h-12 text-muted-foreground/50 mx-auto" />
-                <p className="text-muted-foreground">Sign in to save and track your farm diary entries.</p>
-                <Button onClick={() => navigate("/auth")}>Sign In / Sign Up</Button>
+                <p className="text-muted-foreground">{t("diary.signInPrompt")}</p>
+                <Button onClick={() => navigate("/auth")}>{t("diary.signInButton")}</Button>
               </CardContent>
             </Card>
           ) : (
