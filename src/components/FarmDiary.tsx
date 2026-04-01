@@ -231,7 +231,7 @@ const FarmDiary = () => {
                   <Filter className="w-4 h-4 text-muted-foreground" />
                   <Select value={filterCat} onValueChange={setFilterCat}>
                     <SelectTrigger className="w-[180px]"><SelectValue /></SelectTrigger>
-                    <SelectContent><SelectItem value="all">All Categories</SelectItem>{CATEGORIES.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent>
+                    <SelectContent><SelectItem value="all">{t("diary.allCategories")}</SelectItem>{CATEGORIES.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent>
                   </Select>
                 </div>
               )}
