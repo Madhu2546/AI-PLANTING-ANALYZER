@@ -220,7 +220,7 @@ const FarmDiary = () => {
                     <div><Label className="text-xs">{t("diary.activityTitle")}</Label><Input value={title} onChange={e => setTitle(e.target.value)} placeholder={t("diary.activityPlaceholder")} className="mt-1" /></div>
                     <div><Label className="text-xs">{t("diary.notes")}</Label><Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder={t("diary.notesPlaceholder")} className="mt-1" rows={2} /></div>
                     <div><Label className="text-xs flex items-center gap-1"><IndianRupee className="w-3 h-3" />{t("diary.expense")}</Label><Input type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="₹0" className="mt-1" /></div>
-                    <div className="flex gap-2"><Button onClick={addEntry} className="flex-1">Save Entry</Button><Button variant="outline" onClick={() => setShowForm(false)}>Cancel</Button></div>
+                    <div className="flex gap-2"><Button onClick={addEntry} className="flex-1">{t("diary.saveEntry")}</Button><Button variant="outline" onClick={() => setShowForm(false)}>{t("diary.cancel")}</Button></div>
                   </CardContent>
                 </Card>
               )}
