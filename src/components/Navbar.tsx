@@ -174,7 +174,7 @@ const Navbar = () => {
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem onClick={handleLogout} className="cursor-pointer text-destructive">
-                    <LogOut className="w-4 h-4 mr-2" /> Logout
+                    <LogOut className="w-4 h-4 mr-2" /> {t("navbar.logout")}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
