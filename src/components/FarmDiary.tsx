@@ -184,7 +184,7 @@ const FarmDiary = () => {
               {/* Cost Chart */}
               {showChart && cropCostData.length > 0 && (
                 <Card>
-                  <CardHeader><CardTitle className="text-lg">Crop-wise Expense Comparison</CardTitle></CardHeader>
+                  <CardHeader><CardTitle className="text-lg">{t("diary.cropExpenseChart")}</CardTitle></CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={300}>
                       <BarChart data={cropCostData}>
