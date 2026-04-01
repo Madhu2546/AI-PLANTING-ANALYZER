@@ -69,8 +69,8 @@ const Auth = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl">{isLogin ? "Welcome Back" : "Create Account"}</CardTitle>
-            <CardDescription>{isLogin ? "Sign in to access your farm diary" : "Sign up to start tracking your farm activities"}</CardDescription>
+            <CardTitle className="text-xl">{isForgot ? "Reset Password" : isLogin ? "Welcome Back" : "Create Account"}</CardTitle>
+            <CardDescription>{isForgot ? "Enter your email to receive a reset link" : isLogin ? "Sign in to access your farm diary" : "Sign up to start tracking your farm activities"}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
