@@ -172,11 +172,11 @@ const FarmDiary = () => {
 
               {/* Action buttons */}
               <div className="flex flex-wrap gap-2">
-                {!showForm && <Button onClick={() => setShowForm(true)} className="flex-1" size="lg"><Plus className="w-4 h-4 mr-2" />Add Activity</Button>}
+                {!showForm && <Button onClick={() => setShowForm(true)} className="flex-1" size="lg"><Plus className="w-4 h-4 mr-2" />{t("diary.addActivity")}</Button>}
                 {entries.length > 0 && (
                   <>
-                    <Button variant="outline" size="lg" onClick={() => exportFarmDiaryToPDF(entries)}><Download className="w-4 h-4 mr-2" />Export PDF</Button>
-                    <Button variant="outline" size="lg" onClick={() => setShowChart(!showChart)}><BarChart3 className="w-4 h-4 mr-2" />{showChart ? "Hide" : "Cost"} Chart</Button>
+                    <Button variant="outline" size="lg" onClick={() => exportFarmDiaryToPDF(entries)}><Download className="w-4 h-4 mr-2" />{t("diary.exportPdf")}</Button>
+                    <Button variant="outline" size="lg" onClick={() => setShowChart(!showChart)}><BarChart3 className="w-4 h-4 mr-2" />{showChart ? t("diary.hideChart") : t("diary.costChart")}</Button>
                   </>
                 )}
               </div>
