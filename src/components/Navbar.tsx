@@ -88,7 +88,7 @@ const Navbar = () => {
               onClick={() => scrollTo("crop-comparison")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Compare Crops
+              {t("navbar.compareCrops")}
             </button>
             <button
               onClick={() => scrollTo("seasonal-calendar")}
