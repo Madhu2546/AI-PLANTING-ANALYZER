@@ -100,7 +100,7 @@ const Navbar = () => {
               onClick={() => scrollTo("regional-recommendations")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Regional
+              {t("navbar.regional")}
             </button>
             <button
               onClick={() => scrollTo("crop-diseases")}
