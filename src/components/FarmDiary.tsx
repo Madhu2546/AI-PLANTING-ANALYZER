@@ -207,19 +207,19 @@ const FarmDiary = () => {
                   <CardHeader><CardTitle className="text-lg">{t("diary.newEntry")}</CardTitle></CardHeader>
                   <CardContent className="space-y-4">
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                      <div><Label className="text-xs">Date</Label><Input type="date" value={date} onChange={e => setDate(e.target.value)} className="mt-1" /></div>
-                      <div><Label className="text-xs">Category</Label>
+                      <div><Label className="text-xs">{t("diary.date")}</Label><Input type="date" value={date} onChange={e => setDate(e.target.value)} className="mt-1" /></div>
+                      <div><Label className="text-xs">{t("diary.category")}</Label>
                         <Select value={category} onValueChange={setCategory}><SelectTrigger className="mt-1"><SelectValue /></SelectTrigger>
                           <SelectContent>{CATEGORIES.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent></Select>
                       </div>
-                      <div><Label className="text-xs">Crop</Label>
+                      <div><Label className="text-xs">{t("diary.crop")}</Label>
                         <Select value={crop} onValueChange={setCrop}><SelectTrigger className="mt-1"><SelectValue /></SelectTrigger>
                           <SelectContent>{CROP_OPTIONS.map(c => <SelectItem key={c} value={c}>{c}</SelectItem>)}</SelectContent></Select>
                       </div>
                     </div>
-                    <div><Label className="text-xs">Activity Title</Label><Input value={title} onChange={e => setTitle(e.target.value)} placeholder="e.g. Applied Urea to rice field" className="mt-1" /></div>
-                    <div><Label className="text-xs">Notes</Label><Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder="Additional details..." className="mt-1" rows={2} /></div>
-                    <div><Label className="text-xs flex items-center gap-1"><IndianRupee className="w-3 h-3" />Expense (optional)</Label><Input type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="₹0" className="mt-1" /></div>
+                    <div><Label className="text-xs">{t("diary.activityTitle")}</Label><Input value={title} onChange={e => setTitle(e.target.value)} placeholder={t("diary.activityPlaceholder")} className="mt-1" /></div>
+                    <div><Label className="text-xs">{t("diary.notes")}</Label><Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder={t("diary.notesPlaceholder")} className="mt-1" rows={2} /></div>
+                    <div><Label className="text-xs flex items-center gap-1"><IndianRupee className="w-3 h-3" />{t("diary.expense")}</Label><Input type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="₹0" className="mt-1" /></div>
                     <div className="flex gap-2"><Button onClick={addEntry} className="flex-1">Save Entry</Button><Button variant="outline" onClick={() => setShowForm(false)}>Cancel</Button></div>
                   </CardContent>
                 </Card>
