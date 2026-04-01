@@ -124,7 +124,7 @@ const Navbar = () => {
               onClick={() => scrollTo("market-trends")}
               className="text-foreground/80 hover:text-primary transition-colors font-medium"
             >
-              Trends
+              {t("navbar.trends")}
             </button>
             <button
               onClick={() => scrollTo("soil-health")}
