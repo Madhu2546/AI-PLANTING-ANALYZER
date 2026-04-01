@@ -130,10 +130,10 @@ const FarmDiary = () => {
         <motion.div className="text-center mb-12" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <BookOpen className="w-4 h-4" />
-            <span className="text-sm font-medium">Farm Diary</span>
+            <span className="text-sm font-medium">{t("diary.badge")}</span>
           </div>
-          <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Farm Activity Log</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">Track daily farming activities, expenses, and observations. Keep a digital record of your crop management.</p>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">{t("diary.title")}</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">{t("diary.description")}</p>
         </motion.div>
 
         <div className="max-w-4xl mx-auto space-y-6">
@@ -142,8 +142,8 @@ const FarmDiary = () => {
             <Card>
               <CardContent className="py-12 text-center space-y-4">
                 <LogIn className="w-12 h-12 text-muted-foreground/50 mx-auto" />
-                <p className="text-muted-foreground">Sign in to save and track your farm diary entries.</p>
-                <Button onClick={() => navigate("/auth")}>Sign In / Sign Up</Button>
+                <p className="text-muted-foreground">{t("diary.signInPrompt")}</p>
+                <Button onClick={() => navigate("/auth")}>{t("diary.signInButton")}</Button>
               </CardContent>
             </Card>
           ) : (
@@ -154,29 +154,29 @@ const FarmDiary = () => {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-foreground">{entries.length}</p>
-                  <p className="text-xs text-muted-foreground">Total Entries</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.totalEntries")}</p>
                 </CardContent></Card>
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-primary">₹{totalExpenses.toLocaleString("en-IN")}</p>
-                  <p className="text-xs text-muted-foreground">Total Expenses</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.totalExpenses")}</p>
                 </CardContent></Card>
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-foreground">{new Set(entries.map(e => e.crop)).size}</p>
-                  <p className="text-xs text-muted-foreground">Crops Tracked</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.cropsTracked")}</p>
                 </CardContent></Card>
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-foreground">{new Set(entries.map(e => e.date)).size}</p>
-                  <p className="text-xs text-muted-foreground">Active Days</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.activeDays")}</p>
                 </CardContent></Card>
               </div>
 
               {/* Action buttons */}
               <div className="flex flex-wrap gap-2">
-                {!showForm && <Button onClick={() => setShowForm(true)} className="flex-1" size="lg"><Plus className="w-4 h-4 mr-2" />Add Activity</Button>}
+                {!showForm && <Button onClick={() => setShowForm(true)} className="flex-1" size="lg"><Plus className="w-4 h-4 mr-2" />{t("diary.addActivity")}</Button>}
                 {entries.length > 0 && (
                   <>
-                    <Button variant="outline" size="lg" onClick={() => exportFarmDiaryToPDF(entries)}><Download className="w-4 h-4 mr-2" />Export PDF</Button>
-                    <Button variant="outline" size="lg" onClick={() => setShowChart(!showChart)}><BarChart3 className="w-4 h-4 mr-2" />{showChart ? "Hide" : "Cost"} Chart</Button>
+                    <Button variant="outline" size="lg" onClick={() => exportFarmDiaryToPDF(entries)}><Download className="w-4 h-4 mr-2" />{t("diary.exportPdf")}</Button>
+                    <Button variant="outline" size="lg" onClick={() => setShowChart(!showChart)}><BarChart3 className="w-4 h-4 mr-2" />{showChart ? t("diary.hideChart") : t("diary.costChart")}</Button>
                   </>
                 )}
               </div>
@@ -184,7 +184,7 @@ const FarmDiary = () => {
               {/* Cost Chart */}
               {showChart && cropCostData.length > 0 && (
                 <Card>
-                  <CardHeader><CardTitle className="text-lg">Crop-wise Expense Comparison</CardTitle></CardHeader>
+                  <CardHeader><CardTitle className="text-lg">{t("diary.cropExpenseChart")}</CardTitle></CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={300}>
                       <BarChart data={cropCostData}>
@@ -204,23 +204,23 @@ const FarmDiary = () => {
               {/* Form */}
               {showForm && (
                 <Card>
-                  <CardHeader><CardTitle className="text-lg">New Entry</CardTitle></CardHeader>
+                  <CardHeader><CardTitle className="text-lg">{t("diary.newEntry")}</CardTitle></CardHeader>
                   <CardContent className="space-y-4">
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                      <div><Label className="text-xs">Date</Label><Input type="date" value={date} onChange={e => setDate(e.target.value)} className="mt-1" /></div>
-                      <div><Label className="text-xs">Category</Label>
+                      <div><Label className="text-xs">{t("diary.date")}</Label><Input type="date" value={date} onChange={e => setDate(e.target.value)} className="mt-1" /></div>
+                      <div><Label className="text-xs">{t("diary.category")}</Label>
                         <Select value={category} onValueChange={setCategory}><SelectTrigger className="mt-1"><SelectValue /></SelectTrigger>
                           <SelectContent>{CATEGORIES.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent></Select>
                       </div>
-                      <div><Label className="text-xs">Crop</Label>
+                      <div><Label className="text-xs">{t("diary.crop")}</Label>
                         <Select value={crop} onValueChange={setCrop}><SelectTrigger className="mt-1"><SelectValue /></SelectTrigger>
                           <SelectContent>{CROP_OPTIONS.map(c => <SelectItem key={c} value={c}>{c}</SelectItem>)}</SelectContent></Select>
                       </div>
                     </div>
-                    <div><Label className="text-xs">Activity Title</Label><Input value={title} onChange={e => setTitle(e.target.value)} placeholder="e.g. Applied Urea to rice field" className="mt-1" /></div>
-                    <div><Label className="text-xs">Notes</Label><Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder="Additional details..." className="mt-1" rows={2} /></div>
-                    <div><Label className="text-xs flex items-center gap-1"><IndianRupee className="w-3 h-3" />Expense (optional)</Label><Input type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="₹0" className="mt-1" /></div>
-                    <div className="flex gap-2"><Button onClick={addEntry} className="flex-1">Save Entry</Button><Button variant="outline" onClick={() => setShowForm(false)}>Cancel</Button></div>
+                    <div><Label className="text-xs">{t("diary.activityTitle")}</Label><Input value={title} onChange={e => setTitle(e.target.value)} placeholder={t("diary.activityPlaceholder")} className="mt-1" /></div>
+                    <div><Label className="text-xs">{t("diary.notes")}</Label><Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder={t("diary.notesPlaceholder")} className="mt-1" rows={2} /></div>
+                    <div><Label className="text-xs flex items-center gap-1"><IndianRupee className="w-3 h-3" />{t("diary.expense")}</Label><Input type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="₹0" className="mt-1" /></div>
+                    <div className="flex gap-2"><Button onClick={addEntry} className="flex-1">{t("diary.saveEntry")}</Button><Button variant="outline" onClick={() => setShowForm(false)}>{t("diary.cancel")}</Button></div>
                   </CardContent>
                 </Card>
               )}
@@ -231,7 +231,7 @@ const FarmDiary = () => {
                   <Filter className="w-4 h-4 text-muted-foreground" />
                   <Select value={filterCat} onValueChange={setFilterCat}>
                     <SelectTrigger className="w-[180px]"><SelectValue /></SelectTrigger>
-                    <SelectContent><SelectItem value="all">All Categories</SelectItem>{CATEGORIES.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent>
+                    <SelectContent><SelectItem value="all">{t("diary.allCategories")}</SelectItem>{CATEGORIES.map(c => <SelectItem key={c.value} value={c.value}>{c.label}</SelectItem>)}</SelectContent>
                   </Select>
                 </div>
               )}
@@ -272,7 +272,7 @@ const FarmDiary = () => {
               {!loading && entries.length === 0 && (
                 <Card><CardContent className="py-12 text-center">
                   <StickyNote className="w-12 h-12 text-muted-foreground/50 mx-auto mb-4" />
-                  <p className="text-muted-foreground">No entries yet. Start logging your farm activities!</p>
+                  <p className="text-muted-foreground">{t("diary.noEntries")}</p>
                 </CardContent></Card>
               )}
             </>

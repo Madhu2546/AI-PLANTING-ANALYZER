@@ -15,12 +15,22 @@ const Auth = () => {
   const [password, setPassword] = useState("");
   const [displayName, setDisplayName] = useState("");
   const [loading, setLoading] = useState(false);
+  const [isForgot, setIsForgot] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
     try {
+      if (isForgot) {
+        const { error } = await supabase.auth.resetPasswordForEmail(email, {
+          redirectTo: `${window.location.origin}/reset-password`,
+        });
+        if (error) throw error;
+        toast.success("Check your email for password reset link!");
+        setIsForgot(false);
+        return;
+      }
       if (isLogin) {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
@@ -59,12 +69,12 @@ const Auth = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl">{isLogin ? "Welcome Back" : "Create Account"}</CardTitle>
-            <CardDescription>{isLogin ? "Sign in to access your farm diary" : "Sign up to start tracking your farm activities"}</CardDescription>
+            <CardTitle className="text-xl">{isForgot ? "Reset Password" : isLogin ? "Welcome Back" : "Create Account"}</CardTitle>
+            <CardDescription>{isForgot ? "Enter your email to receive a reset link" : isLogin ? "Sign in to access your farm diary" : "Sign up to start tracking your farm activities"}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
-              {!isLogin && (
+              {!isLogin && !isForgot && (
                 <div>
                   <Label>Display Name</Label>
                   <Input value={displayName} onChange={e => setDisplayName(e.target.value)} placeholder="Your name" className="mt-1" required />
@@ -74,18 +84,30 @@ const Auth = () => {
                 <Label>Email</Label>
                 <Input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" className="mt-1" required />
               </div>
-              <div>
-                <Label>Password</Label>
-                <Input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="••••••••" className="mt-1" required minLength={6} />
-              </div>
+              {!isForgot && (
+                <div>
+                  <Label>Password</Label>
+                  <Input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="••••••••" className="mt-1" required minLength={6} />
+                </div>
+              )}
               <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Please wait..." : isLogin ? <><LogIn className="w-4 h-4 mr-2" />Sign In</> : <><UserPlus className="w-4 h-4 mr-2" />Sign Up</>}
+                {loading ? "Please wait..." : isForgot ? "Send Reset Link" : isLogin ? <><LogIn className="w-4 h-4 mr-2" />Sign In</> : <><UserPlus className="w-4 h-4 mr-2" />Sign Up</>}
               </Button>
             </form>
-            <div className="mt-4 text-center">
-              <button onClick={() => setIsLogin(!isLogin)} className="text-sm text-primary hover:underline">
-                {isLogin ? "Don't have an account? Sign up" : "Already have an account? Sign in"}
+            <div className="mt-4 text-center space-y-2">
+              {isLogin && !isForgot && (
+                <button onClick={() => setIsForgot(true)} className="text-sm text-muted-foreground hover:text-primary block w-full">
+                  Forgot your password?
+                </button>
+              )}
+              <button onClick={() => { setIsLogin(!isLogin); setIsForgot(false); }} className="text-sm text-primary hover:underline">
+                {isLogin || isForgot ? "Don't have an account? Sign up" : "Already have an account? Sign in"}
               </button>
+              {isForgot && (
+                <button onClick={() => setIsForgot(false)} className="text-sm text-muted-foreground hover:text-foreground">
+                  Back to sign in
+                </button>
+              )}
             </div>
             <div className="mt-4 text-center">
               <button onClick={() => navigate("/")} className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1">
