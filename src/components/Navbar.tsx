@@ -213,78 +213,18 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
           >
             <div className="flex flex-col p-4 gap-2">
-              <button
-                onClick={() => scrollTo("how-it-works")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                How It Works
-              </button>
-              <button
-                onClick={() => scrollTo("crop-comparison")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Compare Crops
-              </button>
-              <button
-                onClick={() => scrollTo("seasonal-calendar")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Seasonal Calendar
-              </button>
-              <button
-                onClick={() => scrollTo("regional-recommendations")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Regional Crops
-              </button>
-              <button
-                onClick={() => scrollTo("crop-diseases")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Disease Guide
-              </button>
-              <button
-                onClick={() => scrollTo("profit-calculator")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Profit Calculator
-              </button>
-              <button
-                onClick={() => scrollTo("weather-alerts")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Weather Alerts
-              </button>
-              <button
-                onClick={() => scrollTo("market-trends")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Market Trends
-              </button>
-              <button
-                onClick={() => scrollTo("soil-health")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Soil Health
-              </button>
-              <button
-                onClick={() => scrollTo("government-schemes")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Schemes
-              </button>
-              <button
-                onClick={() => scrollTo("nutrient-guide")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Nutrients
-              </button>
-              <button
-                onClick={() => scrollTo("irrigation-scheduler")}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2"
-              >
-                Irrigation
-              </button>
+              <button onClick={() => scrollTo("how-it-works")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("nav.howItWorks")}</button>
+              <button onClick={() => scrollTo("crop-comparison")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.compareCrops")}</button>
+              <button onClick={() => scrollTo("seasonal-calendar")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.calendar")}</button>
+              <button onClick={() => scrollTo("regional-recommendations")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.regional")}</button>
+              <button onClick={() => scrollTo("crop-diseases")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.diseases")}</button>
+              <button onClick={() => scrollTo("profit-calculator")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.calculator")}</button>
+              <button onClick={() => scrollTo("weather-alerts")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.weather")}</button>
+              <button onClick={() => scrollTo("market-trends")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.trends")}</button>
+              <button onClick={() => scrollTo("soil-health")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.soil")}</button>
+              <button onClick={() => scrollTo("government-schemes")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.schemes")}</button>
+              <button onClick={() => scrollTo("nutrient-guide")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.nutrients")}</button>
+              <button onClick={() => scrollTo("irrigation-scheduler")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.irrigation")}</button>
               {user ? (
                 <div className="border-t border-border pt-2 mt-2">
                   <div className="flex items-center gap-2 px-1 py-2">
@@ -297,12 +237,12 @@ const Navbar = () => {
                     </div>
                   </div>
                   <Button variant="outline" onClick={handleLogout} className="w-full mt-1">
-                    <LogOut className="w-4 h-4 mr-1" /> Logout
+                    <LogOut className="w-4 h-4 mr-1" /> {t("navbar.logout")}
                   </Button>
                 </div>
               ) : (
                 <Button variant="outline" onClick={() => { navigate("/auth"); setIsMobileMenuOpen(false); }} className="w-full mt-2">
-                  <LogIn className="w-4 h-4 mr-1" /> Login
+                  <LogIn className="w-4 h-4 mr-1" /> {t("navbar.login")}
                 </Button>
               )}
               <Button
@@ -310,7 +250,7 @@ const Navbar = () => {
                 onClick={() => scrollTo("recommendation-form")}
                 className="w-full mt-2"
               >
-                Try Now
+                {t("nav.tryNow")}
               </Button>
             </div>
           </motion.div>
