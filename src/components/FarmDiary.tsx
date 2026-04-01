@@ -154,19 +154,19 @@ const FarmDiary = () => {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-foreground">{entries.length}</p>
-                  <p className="text-xs text-muted-foreground">Total Entries</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.totalEntries")}</p>
                 </CardContent></Card>
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-primary">₹{totalExpenses.toLocaleString("en-IN")}</p>
-                  <p className="text-xs text-muted-foreground">Total Expenses</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.totalExpenses")}</p>
                 </CardContent></Card>
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-foreground">{new Set(entries.map(e => e.crop)).size}</p>
-                  <p className="text-xs text-muted-foreground">Crops Tracked</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.cropsTracked")}</p>
                 </CardContent></Card>
                 <Card><CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-foreground">{new Set(entries.map(e => e.date)).size}</p>
-                  <p className="text-xs text-muted-foreground">Active Days</p>
+                  <p className="text-xs text-muted-foreground">{t("diary.activeDays")}</p>
                 </CardContent></Card>
               </div>
 
