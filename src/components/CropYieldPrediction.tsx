@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { BarChart2, TrendingUp, Leaf, Droplets, Thermometer, Cloud } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -84,6 +85,7 @@ const cropYieldDatabase: CropYieldData[] = [
 ];
 
 const CropYieldPrediction = () => {
+  const { t } = useTranslation();
   const [selectedCrop, setSelectedCrop] = useState<string>("");
   const [temperature, setTemperature] = useState<string>("");
   const [rainfall, setRainfall] = useState<string>("");
@@ -164,13 +166,13 @@ const CropYieldPrediction = () => {
         >
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <BarChart2 className="w-4 h-4" />
-            <span className="text-sm font-medium">AI Prediction</span>
+            <span className="text-sm font-medium">{t('yieldPrediction.badge')}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Crop Yield Prediction
+            {t('yieldPrediction.title')}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Predict your expected crop yield based on current weather conditions and historical data using our AI model.
+            {t('yieldPrediction.description')}
           </p>
         </motion.div>
 

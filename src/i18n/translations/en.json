@@ -222,6 +222,33 @@
     "irrigation": "Irrigation",
     "farmDiary": "Farm Diary",
     "login": "Login",
-    "logout": "Logout"
+    "logout": "Logout",
+    "features": "Features",
+    "allFeatures": "All Features",
+    "rotation": "Rotation",
+    "yield": "Yield Prediction"
+  },
+  "diseases": {
+    "badge": "Disease Identification",
+    "title": "Crop Disease Guide",
+    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
+    "searchPlaceholder": "Search diseases or crops...",
+    "allCrops": "All Crops",
+    "filterByCrop": "Filter by crop"
+  },
+  "rotation": {
+    "badge": "Sustainable Farming",
+    "title": "Crop Rotation Planner",
+    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+  },
+  "yieldPrediction": {
+    "badge": "AI Prediction",
+    "title": "Crop Yield Prediction",
+    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+  },
+  "marketTrends": {
+    "badge": "Market Intelligence",
+    "title": "Market Price Trends",
+    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
   }
 }
