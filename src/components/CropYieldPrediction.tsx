@@ -85,6 +85,7 @@ const cropYieldDatabase: CropYieldData[] = [
 ];
 
 const CropYieldPrediction = () => {
+  const { t } = useTranslation();
   const [selectedCrop, setSelectedCrop] = useState<string>("");
   const [temperature, setTemperature] = useState<string>("");
   const [rainfall, setRainfall] = useState<string>("");
