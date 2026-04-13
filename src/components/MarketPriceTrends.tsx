@@ -19,6 +19,7 @@ const CHART_COLORS = [
 ];
 
 const MarketPriceTrends = () => {
+  const { t } = useTranslation();
   const [selectedCrops, setSelectedCrops] = useState<string[]>(["Rice", "Wheat", "Cotton"]);
 
   const toggleCrop = (name: string) => {
@@ -59,13 +60,13 @@ const MarketPriceTrends = () => {
         >
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <BarChart3 className="w-4 h-4" />
-            <span className="text-sm font-medium">Market Intelligence</span>
+            <span className="text-sm font-medium">{t('marketTrends.badge')}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Market Price Trends
+            {t('marketTrends.title')}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare.
+            {t('marketTrends.description')}
           </p>
         </motion.div>
 
