@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { RotateCcw, ArrowRight, Leaf, AlertCircle, Calendar, Plus, Trash2 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -8,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { cropRotationData, generateRotationPlan, getSeasonColor, getNutrientColor, RotationPlan } from "@/data/cropRotation";
 
 const CropRotationPlanner = () => {
+  const { t } = useTranslation();
   const [selectedCrop, setSelectedCrop] = useState<string>("");
   const [rotationYears, setRotationYears] = useState<number>(4);
   const [rotationPlan, setRotationPlan] = useState<RotationPlan[]>([]);
@@ -34,13 +36,13 @@ const CropRotationPlanner = () => {
         >
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <RotateCcw className="w-4 h-4" />
-            <span className="text-sm font-medium">Sustainable Farming</span>
+            <span className="text-sm font-medium">{t('rotation.badge')}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Crop Rotation Planner
+            {t('rotation.title')}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons.
+            {t('rotation.description')}
           </p>
         </motion.div>
 

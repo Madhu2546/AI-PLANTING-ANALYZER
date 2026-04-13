@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Bug, AlertTriangle, Shield, Pill, Search, ChevronDown, ChevronUp } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,6 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { cropDiseases, getSeverityColor, Disease } from "@/data/cropDiseases";
 
 const CropDiseases = () => {
+  const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCrop, setSelectedCrop] = useState<string>("all");
   const [expandedDisease, setExpandedDisease] = useState<string | null>(null);
@@ -40,13 +42,13 @@ const CropDiseases = () => {
         >
           <div className="inline-flex items-center gap-2 bg-destructive/10 text-destructive px-4 py-2 rounded-full mb-4">
             <Bug className="w-4 h-4" />
-            <span className="text-sm font-medium">Disease Identification</span>
+            <span className="text-sm font-medium">{t('diseases.badge')}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Crop Disease Guide
+            {t('diseases.title')}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.
+            {t('diseases.description')}
           </p>
         </motion.div>
 
@@ -55,7 +57,7 @@ const CropDiseases = () => {
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <Input
-              placeholder="Search diseases or crops..."
+              placeholder={t('diseases.searchPlaceholder')}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="pl-10"
