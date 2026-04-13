@@ -2,9 +2,17 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Leaf, Menu, X, LogIn, LogOut, User, ChevronDown, BookOpen } from "lucide-react";
+import { Leaf, Menu, X, LogIn, LogOut, User, ChevronDown, BookOpen, LayoutGrid } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+  DropdownMenuGroup,
+  DropdownMenuLabel,
+} from "@/components/ui/dropdown-menu";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -55,6 +63,24 @@ const Navbar = () => {
     setIsMobileMenuOpen(false);
   };
 
+  const menuItems = [
+    { id: "crop-comparison", labelKey: "navbar.compareCrops" },
+    { id: "seasonal-calendar", labelKey: "navbar.calendar" },
+    { id: "regional-recommendations", labelKey: "navbar.regional" },
+    { id: "crop-rotation", labelKey: "navbar.rotation" },
+    { id: "crop-diseases", labelKey: "navbar.diseases" },
+    { id: "profit-calculator", labelKey: "navbar.calculator" },
+    { id: "weather-alerts", labelKey: "navbar.weather" },
+    { id: "market-trends", labelKey: "navbar.trends" },
+    { id: "yield-prediction", labelKey: "navbar.yield" },
+    { id: "soil-health", labelKey: "navbar.soil" },
+    { id: "government-schemes", labelKey: "navbar.schemes" },
+    { id: "nutrient-guide", labelKey: "navbar.nutrients" },
+    { id: "irrigation-scheduler", labelKey: "navbar.irrigation" },
+    { id: "farm-diary", labelKey: "navbar.farmDiary" },
+    { id: "india-map", labelKey: "nav.cropMap" },
+  ];
+
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -77,79 +103,40 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-4">
             <button
               onClick={() => scrollTo("how-it-works")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
+              className="text-foreground/80 hover:text-primary transition-colors font-medium text-sm"
             >
               {t("nav.howItWorks")}
             </button>
-            <button
-              onClick={() => scrollTo("crop-comparison")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.compareCrops")}
-            </button>
-            <button
-              onClick={() => scrollTo("seasonal-calendar")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.calendar")}
-            </button>
-            <button
-              onClick={() => scrollTo("regional-recommendations")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.regional")}
-            </button>
-            <button
-              onClick={() => scrollTo("crop-diseases")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.diseases")}
-            </button>
-            <button
-              onClick={() => scrollTo("profit-calculator")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.calculator")}
-            </button>
-            <button
-              onClick={() => scrollTo("weather-alerts")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.weather")}
-            </button>
-            <button
-              onClick={() => scrollTo("market-trends")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.trends")}
-            </button>
-            <button
-              onClick={() => scrollTo("soil-health")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.soil")}
-            </button>
-            <button
-              onClick={() => scrollTo("government-schemes")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.schemes")}
-            </button>
-            <button
-              onClick={() => scrollTo("nutrient-guide")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.nutrients")}
-            </button>
-            <button
-              onClick={() => scrollTo("irrigation-scheduler")}
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              {t("navbar.irrigation")}
-            </button>
+
+            {/* Features Menu Box */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" size="sm" className="gap-1.5">
+                  <LayoutGrid className="w-4 h-4" />
+                  {t("navbar.features")}
+                  <ChevronDown className="w-3 h-3" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="center" className="w-56 max-h-[70vh] overflow-y-auto">
+                <DropdownMenuLabel>{t("navbar.allFeatures")}</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuGroup>
+                  {menuItems.map((item) => (
+                    <DropdownMenuItem
+                      key={item.id}
+                      onClick={() => scrollTo(item.id)}
+                      className="cursor-pointer"
+                    >
+                      {t(item.labelKey)}
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuGroup>
+              </DropdownMenuContent>
+            </DropdownMenu>
+
             <ThemeToggle />
             <LanguageSwitcher />
             {user ? (
@@ -212,21 +199,20 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <div className="flex flex-col p-4 gap-2">
+            <div className="flex flex-col p-4 gap-1 max-h-[70vh] overflow-y-auto">
               <button onClick={() => scrollTo("how-it-works")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("nav.howItWorks")}</button>
-              <button onClick={() => scrollTo("crop-comparison")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.compareCrops")}</button>
-              <button onClick={() => scrollTo("seasonal-calendar")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.calendar")}</button>
-              <button onClick={() => scrollTo("regional-recommendations")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.regional")}</button>
-              <button onClick={() => scrollTo("crop-diseases")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.diseases")}</button>
-              <button onClick={() => scrollTo("profit-calculator")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.calculator")}</button>
-              <button onClick={() => scrollTo("weather-alerts")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.weather")}</button>
-              <button onClick={() => scrollTo("market-trends")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.trends")}</button>
-              <button onClick={() => scrollTo("soil-health")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.soil")}</button>
-              <button onClick={() => scrollTo("government-schemes")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.schemes")}</button>
-              <button onClick={() => scrollTo("nutrient-guide")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.nutrients")}</button>
-              <button onClick={() => scrollTo("irrigation-scheduler")} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2">{t("navbar.irrigation")}</button>
+              <div className="border-t border-border my-1" />
+              <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-1 py-1">{t("navbar.allFeatures")}</p>
+              {menuItems.map((item) => (
+                <button key={item.id} onClick={() => scrollTo(item.id)} className="text-foreground/80 hover:text-primary transition-colors font-medium text-left py-2 pl-2">{t(item.labelKey)}</button>
+              ))}
+              <div className="border-t border-border my-1" />
+              <div className="flex items-center gap-2 py-2">
+                <ThemeToggle />
+                <LanguageSwitcher />
+              </div>
               {user ? (
-                <div className="border-t border-border pt-2 mt-2">
+                <div className="border-t border-border pt-2 mt-1">
                   <div className="flex items-center gap-2 px-1 py-2">
                     <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
                       <User className="w-4 h-4 text-primary" />
