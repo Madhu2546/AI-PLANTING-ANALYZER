@@ -114,7 +114,7 @@ const SoilHealthDashboard = () => {
           <div className="flex items-center gap-2">
             <span className="text-muted-foreground">{value} {unit}</span>
             <Badge variant={status === "optimal" ? "default" : status === "low" ? "destructive" : "secondary"} className="text-xs">
-              {status === "optimal" ? "✓ Optimal" : status === "low" ? "↓ Low" : "↑ High"}
+              {status === "optimal" ? t("soilHealth.optimal") : status === "low" ? t("soilHealth.low") : t("soilHealth.high")}
             </Badge>
           </div>
         </div>
@@ -122,7 +122,7 @@ const SoilHealthDashboard = () => {
           <div className="absolute h-full rounded-full transition-all duration-700" style={{ width: `${pct}%`, backgroundColor: status === "optimal" ? "hsl(var(--primary))" : status === "low" ? "hsl(var(--destructive))" : "hsl(var(--sun))" }} />
           <div className="absolute h-full border-l-2 border-r-2 border-foreground/30 opacity-50" style={{ left: `${(range[0] / range[1]) * 80}%`, width: `${((range[1] - range[0]) / range[1]) * 80}%` }} />
         </div>
-        <p className="text-xs text-muted-foreground">Optimal: {range[0]}–{range[1]} {unit}</p>
+        <p className="text-xs text-muted-foreground">{t("soilHealth.optimalRange")}: {range[0]}–{range[1]} {unit}</p>
       </div>
     );
   };
@@ -159,7 +159,7 @@ const SoilHealthDashboard = () => {
               <Button onClick={handleAnalyze} className="w-full">{t("soilHealth.analyze", "Analyze Soil Health")}</Button>
               {analyzed && (
                 <Button variant="outline" size="sm" className="w-full" onClick={() => exportSoilHealthToPDF({ nitrogen: n, phosphorus: p, potassium: k, ph: phVal, organicCarbon: oc, score, amendments: amendments.map(a => ({ ...a })) })}>
-                  <Download className="w-3 h-3 mr-1" /> Export PDF
+                  <Download className="w-3 h-3 mr-1" /> {t("soilHealth.exportPdf")}
                 </Button>
               )}
             </CardContent>
@@ -192,7 +192,7 @@ const SoilHealthDashboard = () => {
 
                 {amendments.length > 0 && (
                   <Card>
-                    <CardHeader><CardTitle className="text-lg">{t("soilHealth.amendments", "Recommended Amendments")}</CardTitle></CardHeader>
+                    <CardHeader><CardTitle className="text-lg">{t("soilHealth.amendmentsTitle")}</CardTitle></CardHeader>
                     <CardContent className="space-y-3">
                       {amendments.map((a, i) => (
                         <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-muted/50">
