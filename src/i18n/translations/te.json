@@ -170,7 +170,25 @@
     "hasAccount": "ఇప్పటికే ఖాతా ఉందా? సైన్ ఇన్ చేయండి",
     "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?",
     "backToSignIn": "సైన్ ఇన్‌కు తిరిగి",
-    "backToHome": "హోమ్‌కు తిరిగి"
+    "backToHome": "హోమ్‌కు తిరిగి",
+    "yourName": "మీ పేరు",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "విజయవంతంగా లాగిన్ అయ్యారు!",
+    "signupSuccess": "ధృవీకరణ లింక్ కోసం మీ ఇమెయిల్ చూడండి!",
+    "resetEmailSent": "పాస్‌వర్డ్ రీసెట్ లింక్ కోసం మీ ఇమెయిల్ చూడండి!",
+    "newPassword": "కొత్త పాస్‌వర్డ్",
+    "confirmPassword": "పాస్‌వర్డ్ నిర్ధారించండి",
+    "setNewPassword": "కొత్త పాస్‌వర్డ్ సెట్ చేయండి",
+    "setNewPasswordDesc": "మీ కొత్త పాస్‌వర్డ్‌ను క్రింద నమోదు చేయండి",
+    "updatePassword": "పాస్‌వర్డ్ నవీకరించండి",
+    "updating": "నవీకరిస్తోంది...",
+    "passwordMismatch": "పాస్‌వర్డ్‌లు సరిపోలడం లేదు",
+    "passwordTooShort": "పాస్‌వర్డ్ కనీసం 6 అక్షరాలు ఉండాలి",
+    "passwordUpdated": "పాస్‌వర్డ్ విజయవంతంగా నవీకరించబడింది!",
+    "invalidLink": "చెల్లని లేదా గడువు ముగిసిన రీసెట్ లింక్. దయచేసి కొత్త పాస్‌వర్డ్ రీసెట్ అభ్యర్థించండి.",
+    "goToLogin": "లాగిన్‌కు వెళ్ళండి",
+    "backToLogin": "లాగిన్‌కు తిరిగి"
   },
   "diary": {
     "badge": "పొలం డైరీ",
@@ -206,7 +224,12 @@
     "irrigation": "💧 నీటిపారుదల",
     "harvest": "🌾 కోత",
     "expense_cat": "💰 ఖర్చు",
-    "observation": "📝 పరిశీలన"
+    "observation": "📝 పరిశీలన",
+    "loadFailed": "ప్రవేశాలను లోడ్ చేయడంలో విఫలమైంది",
+    "saveFailed": "ప్రవేశాన్ని సేవ్ చేయడంలో విఫలమైంది",
+    "deleteFailed": "తొలగించడంలో విఫలమైంది",
+    "saveSuccess": "ప్రవేశం సేవ్ చేయబడింది!",
+    "totalCost": "మొత్తం ఖర్చు"
   },
   "navbar": {
     "compareCrops": "పంటలను పోల్చు",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "స్మార్ట్ నీటిపారుదల",
+    "title": "వాతావరణ ఆధారిత నీటిపారుదల షెడ్యూలర్",
+    "description": "పంట రకం, ఉష్ణోగ్రత, తేమ మరియు వర్షపాతం సూచనల ఆధారంగా వ్యక్తిగతీకరించిన నీటి షెడ్యూల్‌లను పొందండి.",
+    "configure": "షెడ్యూల్ కాన్ఫిగర్ చేయండి",
+    "crop": "పంట",
+    "temp": "ఉష్ణ. (°C)",
+    "humidity": "తేమ (%)",
+    "rain": "వర్షం (మిమీ)",
+    "autoFill": "📍 స్థానం నుండి స్వయం పూరించు",
+    "fetching": "తీసుకువస్తోంది...",
+    "generate": "నీటిపారుదల ప్రణాళికను రూపొందించండి",
+    "summary": "నీటిపారుదల సారాంశం",
+    "frequency": "ఫ్రీక్వెన్సీ",
+    "waterNeed": "నీటి అవసరం",
+    "bestTime": "ఉత్తమ సమయం",
+    "method": "పద్ధతి",
+    "weeklySchedule": "వారపు షెడ్యూల్",
+    "tips": "చిట్కాలు",
+    "configurePrompt": "నీటిపారుదల ప్రణాళికను రూపొందించడానికి మీ పంట మరియు వాతావరణాన్ని కాన్ఫిగర్ చేయండి",
+    "irrigate": "నీరు పెట్టు",
+    "skipRain": "దాటవేయి (వర్షం)",
+    "monitor": "నేలను పర్యవేక్షించు",
+    "every": "ప్రతి",
+    "day": "రోజు",
+    "days": "రోజులు",
+    "weekly": "మిమీ/వారం"
+  },
+  "common": {
+    "selectOption": "ఎంపికను ఎంచుకోండి"
   }
 }

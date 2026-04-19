@@ -170,7 +170,25 @@
     "hasAccount": "आधीच खाते आहे? साइन इन करा",
     "forgotPassword": "पासवर्ड विसरलात?",
     "backToSignIn": "साइन इनवर परत जा",
-    "backToHome": "मुख्यपृष्ठावर परत जा"
+    "backToHome": "मुख्यपृष्ठावर परत जा",
+    "yourName": "तुमचे नाव",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "यशस्वीरित्या लॉग इन झाले!",
+    "signupSuccess": "सत्यापन दुव्यासाठी तुमचा ईमेल तपासा!",
+    "resetEmailSent": "पासवर्ड रीसेट दुव्यासाठी तुमचा ईमेल तपासा!",
+    "newPassword": "नवीन पासवर्ड",
+    "confirmPassword": "पासवर्डची पुष्टी करा",
+    "setNewPassword": "नवीन पासवर्ड सेट करा",
+    "setNewPasswordDesc": "खाली तुमचा नवीन पासवर्ड टाका",
+    "updatePassword": "पासवर्ड अपडेट करा",
+    "updating": "अपडेट होत आहे...",
+    "passwordMismatch": "पासवर्ड जुळत नाहीत",
+    "passwordTooShort": "पासवर्ड किमान 6 अक्षरांचा असावा",
+    "passwordUpdated": "पासवर्ड यशस्वीरित्या अपडेट झाला!",
+    "invalidLink": "अवैध किंवा कालबाह्य रीसेट दुवा. कृपया नवीन पासवर्ड रीसेटची विनंती करा.",
+    "goToLogin": "लॉगिनवर जा",
+    "backToLogin": "लॉगिनवर परत"
   },
   "diary": {
     "badge": "शेत डायरी",
@@ -206,7 +224,12 @@
     "irrigation": "💧 सिंचन",
     "harvest": "🌾 कापणी",
     "expense_cat": "💰 खर्च",
-    "observation": "📝 निरीक्षण"
+    "observation": "📝 निरीक्षण",
+    "loadFailed": "नोंदी लोड करण्यात अयशस्वी",
+    "saveFailed": "नोंद जतन करण्यात अयशस्वी",
+    "deleteFailed": "हटवण्यात अयशस्वी",
+    "saveSuccess": "नोंद जतन केली!",
+    "totalCost": "एकूण खर्च"
   },
   "navbar": {
     "compareCrops": "पिकांची तुलना",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "स्मार्ट सिंचन",
+    "title": "हवामानावर आधारित सिंचन शेड्यूलर",
+    "description": "पीक प्रकार, तापमान, आर्द्रता आणि पावसाच्या अंदाजावर आधारित वैयक्तिकृत पाणी देण्याचे वेळापत्रक मिळवा.",
+    "configure": "शेड्यूल कॉन्फिगर करा",
+    "crop": "पीक",
+    "temp": "तापमान (°C)",
+    "humidity": "आर्द्रता (%)",
+    "rain": "पाऊस (मिमी)",
+    "autoFill": "📍 स्थानावरून स्वयं-भरा",
+    "fetching": "आणत आहे...",
+    "generate": "सिंचन योजना तयार करा",
+    "summary": "सिंचन सारांश",
+    "frequency": "वारंवारता",
+    "waterNeed": "पाण्याची गरज",
+    "bestTime": "सर्वोत्तम वेळ",
+    "method": "पद्धत",
+    "weeklySchedule": "साप्ताहिक वेळापत्रक",
+    "tips": "टिपा",
+    "configurePrompt": "सिंचन योजना तयार करण्यासाठी तुमचे पीक आणि हवामान कॉन्फिगर करा",
+    "irrigate": "सिंचन करा",
+    "skipRain": "वगळा (पाऊस)",
+    "monitor": "मातीचे निरीक्षण",
+    "every": "प्रत्येक",
+    "day": "दिवस",
+    "days": "दिवस",
+    "weekly": "मिमी/आठवडा"
+  },
+  "common": {
+    "selectOption": "पर्याय निवडा"
   }
 }

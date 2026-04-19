@@ -170,7 +170,25 @@
     "hasAccount": "ഇതിനകം അക്കൗണ്ട് ഉണ്ടോ? സൈൻ ഇൻ ചെയ്യുക",
     "forgotPassword": "പാസ്‌വേഡ് മറന്നോ?",
     "backToSignIn": "സൈൻ ഇൻ ലേക്ക് മടങ്ങുക",
-    "backToHome": "ഹോമിലേക്ക് മടങ്ങുക"
+    "backToHome": "ഹോമിലേക്ക് മടങ്ങുക",
+    "yourName": "നിങ്ങളുടെ പേര്",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "വിജയകരമായി ലോഗിൻ ചെയ്തു!",
+    "signupSuccess": "സ്ഥിരീകരണ ലിങ്കിനായി നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കുക!",
+    "resetEmailSent": "പാസ്‌വേഡ് റീസെറ്റ് ലിങ്കിനായി നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കുക!",
+    "newPassword": "പുതിയ പാസ്‌വേഡ്",
+    "confirmPassword": "പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക",
+    "setNewPassword": "പുതിയ പാസ്‌വേഡ് സജ്ജമാക്കുക",
+    "setNewPasswordDesc": "നിങ്ങളുടെ പുതിയ പാസ്‌വേഡ് താഴെ നൽകുക",
+    "updatePassword": "പാസ്‌വേഡ് അപ്‌ഡേറ്റ് ചെയ്യുക",
+    "updating": "അപ്‌ഡേറ്റ് ചെയ്യുന്നു...",
+    "passwordMismatch": "പാസ്‌വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല",
+    "passwordTooShort": "പാസ്‌വേഡ് കുറഞ്ഞത് 6 പ്രതീകങ്ങൾ ആയിരിക്കണം",
+    "passwordUpdated": "പാസ്‌വേഡ് വിജയകരമായി അപ്‌ഡേറ്റ് ചെയ്തു!",
+    "invalidLink": "അസാധുവായ അല്ലെങ്കിൽ കാലഹരണപ്പെട്ട റീസെറ്റ് ലിങ്ക്. ദയവായി പുതിയ പാസ്‌വേഡ് റീസെറ്റ് അഭ്യർത്ഥിക്കുക.",
+    "goToLogin": "ലോഗിനിലേക്ക് പോകുക",
+    "backToLogin": "ലോഗിനിലേക്ക് മടങ്ങുക"
   },
   "diary": {
     "badge": "ഫാം ഡയറി",
@@ -206,7 +224,12 @@
     "irrigation": "💧 ജലസേചനം",
     "harvest": "🌾 വിളവെടുപ്പ്",
     "expense_cat": "💰 ചെലവ്",
-    "observation": "📝 നിരീക്ഷണം"
+    "observation": "📝 നിരീക്ഷണം",
+    "loadFailed": "എൻട്രികൾ ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+    "saveFailed": "എൻട്രി സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+    "deleteFailed": "ഇല്ലാതാക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+    "saveSuccess": "എൻട്രി സംരക്ഷിച്ചു!",
+    "totalCost": "മൊത്തം ചെലവ്"
   },
   "navbar": {
     "compareCrops": "വിളകൾ താരതമ്യം",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "സ്മാർട്ട് ജലസേചനം",
+    "title": "കാലാവസ്ഥാധിഷ്ഠിത ജലസേചന ഷെഡ്യൂളർ",
+    "description": "വിള തരം, താപനില, ആർദ്രത, മഴ പ്രവചനം എന്നിവയെ അടിസ്ഥാനമാക്കി വ്യക്തിഗത ജലസേചന ഷെഡ്യൂളുകൾ നേടുക.",
+    "configure": "ഷെഡ്യൂൾ കോൺഫിഗർ ചെയ്യുക",
+    "crop": "വിള",
+    "temp": "താപം (°C)",
+    "humidity": "ആർദ്രത (%)",
+    "rain": "മഴ (മിമീ)",
+    "autoFill": "📍 സ്ഥാനത്തിൽ നിന്ന് സ്വയം പൂരിപ്പിക്കുക",
+    "fetching": "ലഭ്യമാക്കുന്നു...",
+    "generate": "ജലസേചന പദ്ധതി സൃഷ്ടിക്കുക",
+    "summary": "ജലസേചന സംഗ്രഹം",
+    "frequency": "ആവൃത്തി",
+    "waterNeed": "ജല ആവശ്യം",
+    "bestTime": "മികച്ച സമയം",
+    "method": "രീതി",
+    "weeklySchedule": "പ്രതിവാര ഷെഡ്യൂൾ",
+    "tips": "നുറുങ്ങുകൾ",
+    "configurePrompt": "ജലസേചന പദ്ധതി സൃഷ്ടിക്കാൻ നിങ്ങളുടെ വിളയും കാലാവസ്ഥയും കോൺഫിഗർ ചെയ്യുക",
+    "irrigate": "നനയ്ക്കുക",
+    "skipRain": "ഒഴിവാക്കുക (മഴ)",
+    "monitor": "മണ്ണ് നിരീക്ഷിക്കുക",
+    "every": "ഓരോ",
+    "day": "ദിവസം",
+    "days": "ദിവസങ്ങൾ",
+    "weekly": "മിമീ/ആഴ്ച"
+  },
+  "common": {
+    "selectOption": "ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക"
   }
 }

@@ -170,7 +170,25 @@
     "hasAccount": "Already have an account? Sign in",
     "forgotPassword": "Forgot your password?",
     "backToSignIn": "Back to sign in",
-    "backToHome": "Back to home"
+    "backToHome": "Back to home",
+    "yourName": "Your name",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "Logged in successfully!",
+    "signupSuccess": "Check your email for verification link!",
+    "resetEmailSent": "Check your email for password reset link!",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "setNewPassword": "Set New Password",
+    "setNewPasswordDesc": "Enter your new password below",
+    "updatePassword": "Update Password",
+    "updating": "Updating...",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "passwordUpdated": "Password updated successfully!",
+    "invalidLink": "Invalid or expired reset link. Please request a new password reset.",
+    "goToLogin": "Go to Login",
+    "backToLogin": "Back to login"
   },
   "diary": {
     "badge": "Farm Diary",
@@ -206,7 +224,12 @@
     "irrigation": "💧 Irrigation",
     "harvest": "🌾 Harvest",
     "expense_cat": "💰 Expense",
-    "observation": "📝 Observation"
+    "observation": "📝 Observation",
+    "loadFailed": "Failed to load entries",
+    "saveFailed": "Failed to save entry",
+    "deleteFailed": "Failed to delete",
+    "saveSuccess": "Entry saved!",
+    "totalCost": "Total Cost"
   },
   "navbar": {
     "compareCrops": "Compare Crops",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "Smart Irrigation",
+    "title": "Weather-Based Irrigation Scheduler",
+    "description": "Get personalized watering schedules based on crop type, temperature, humidity, and rainfall forecast.",
+    "configure": "Configure Schedule",
+    "crop": "Crop",
+    "temp": "Temp (°C)",
+    "humidity": "Humidity (%)",
+    "rain": "Rain (mm)",
+    "autoFill": "📍 Auto-fill from Location",
+    "fetching": "Fetching...",
+    "generate": "Generate Irrigation Plan",
+    "summary": "Irrigation Summary",
+    "frequency": "Frequency",
+    "waterNeed": "Water Need",
+    "bestTime": "Best Time",
+    "method": "Method",
+    "weeklySchedule": "Weekly Schedule",
+    "tips": "Tips",
+    "configurePrompt": "Configure your crop and weather to generate an irrigation plan",
+    "irrigate": "Irrigate",
+    "skipRain": "Skip (rain)",
+    "monitor": "Monitor soil",
+    "every": "Every",
+    "day": "day",
+    "days": "days",
+    "weekly": "mm/week"
+  },
+  "common": {
+    "selectOption": "Select option"
   }
 }
