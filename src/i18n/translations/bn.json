@@ -170,7 +170,25 @@
     "hasAccount": "ইতিমধ্যে অ্যাকাউন্ট আছে? সাইন ইন করুন",
     "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
     "backToSignIn": "সাইন ইনে ফিরে যান",
-    "backToHome": "হোমে ফিরে যান"
+    "backToHome": "হোমে ফিরে যান",
+    "yourName": "আপনার নাম",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "সফলভাবে লগ ইন হয়েছে!",
+    "signupSuccess": "যাচাইকরণ লিঙ্কের জন্য আপনার ইমেল দেখুন!",
+    "resetEmailSent": "পাসওয়ার্ড রিসেট লিঙ্কের জন্য আপনার ইমেল দেখুন!",
+    "newPassword": "নতুন পাসওয়ার্ড",
+    "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+    "setNewPassword": "নতুন পাসওয়ার্ড সেট করুন",
+    "setNewPasswordDesc": "নীচে আপনার নতুন পাসওয়ার্ড লিখুন",
+    "updatePassword": "পাসওয়ার্ড আপডেট করুন",
+    "updating": "আপডেট হচ্ছে...",
+    "passwordMismatch": "পাসওয়ার্ড মেলে না",
+    "passwordTooShort": "পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে",
+    "passwordUpdated": "পাসওয়ার্ড সফলভাবে আপডেট হয়েছে!",
+    "invalidLink": "অবৈধ বা মেয়াদোত্তীর্ণ রিসেট লিঙ্ক। অনুগ্রহ করে নতুন পাসওয়ার্ড রিসেট অনুরোধ করুন।",
+    "goToLogin": "লগইনে যান",
+    "backToLogin": "লগইনে ফিরে যান"
   },
   "diary": {
     "badge": "খামার ডায়েরি",
@@ -206,7 +224,12 @@
     "irrigation": "💧 সেচ",
     "harvest": "🌾 ফসল কাটা",
     "expense_cat": "💰 খরচ",
-    "observation": "📝 পর্যবেক্ষণ"
+    "observation": "📝 পর্যবেক্ষণ",
+    "loadFailed": "এন্ট্রি লোড করতে ব্যর্থ",
+    "saveFailed": "এন্ট্রি সংরক্ষণ করতে ব্যর্থ",
+    "deleteFailed": "মুছে ফেলতে ব্যর্থ",
+    "saveSuccess": "এন্ট্রি সংরক্ষিত!",
+    "totalCost": "মোট খরচ"
   },
   "navbar": {
     "compareCrops": "ফসল তুলনা",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "স্মার্ট সেচ",
+    "title": "আবহাওয়া-ভিত্তিক সেচ সময়সূচী",
+    "description": "ফসলের ধরন, তাপমাত্রা, আর্দ্রতা এবং বৃষ্টিপাতের পূর্বাভাসের ভিত্তিতে ব্যক্তিগতকৃত সেচ সময়সূচী পান।",
+    "configure": "সময়সূচী কনফিগার করুন",
+    "crop": "ফসল",
+    "temp": "তাপ. (°C)",
+    "humidity": "আর্দ্রতা (%)",
+    "rain": "বৃষ্টি (মিমি)",
+    "autoFill": "📍 অবস্থান থেকে স্বয়ংক্রিয় পূরণ",
+    "fetching": "আনা হচ্ছে...",
+    "generate": "সেচ পরিকল্পনা তৈরি করুন",
+    "summary": "সেচ সারাংশ",
+    "frequency": "ফ্রিকোয়েন্সি",
+    "waterNeed": "জলের প্রয়োজন",
+    "bestTime": "সেরা সময়",
+    "method": "পদ্ধতি",
+    "weeklySchedule": "সাপ্তাহিক সময়সূচী",
+    "tips": "টিপস",
+    "configurePrompt": "সেচ পরিকল্পনা তৈরি করতে আপনার ফসল এবং আবহাওয়া কনফিগার করুন",
+    "irrigate": "সেচ দিন",
+    "skipRain": "এড়িয়ে যান (বৃষ্টি)",
+    "monitor": "মাটি পর্যবেক্ষণ",
+    "every": "প্রতি",
+    "day": "দিন",
+    "days": "দিন",
+    "weekly": "মিমি/সপ্তাহ"
+  },
+  "common": {
+    "selectOption": "বিকল্প নির্বাচন করুন"
   }
 }

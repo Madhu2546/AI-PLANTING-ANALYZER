@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ import { toast } from "sonner";
 
 const Auth = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -27,14 +29,14 @@ const Auth = () => {
           redirectTo: `${window.location.origin}/reset-password`,
         });
         if (error) throw error;
-        toast.success("Check your email for password reset link!");
+        toast.success(t("auth.resetEmailSent"));
         setIsForgot(false);
         return;
       }
       if (isLogin) {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
-        toast.success("Logged in successfully!");
+        toast.success(t("auth.loginSuccess"));
         navigate("/");
       } else {
         const { error } = await supabase.auth.signUp({
@@ -46,7 +48,7 @@ const Auth = () => {
           },
         });
         if (error) throw error;
-        toast.success("Check your email for verification link!");
+        toast.success(t("auth.signupSuccess"));
       }
     } catch (err: any) {
       toast.error(err.message);
@@ -69,49 +71,49 @@ const Auth = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl">{isForgot ? "Reset Password" : isLogin ? "Welcome Back" : "Create Account"}</CardTitle>
-            <CardDescription>{isForgot ? "Enter your email to receive a reset link" : isLogin ? "Sign in to access your farm diary" : "Sign up to start tracking your farm activities"}</CardDescription>
+            <CardTitle className="text-xl">{isForgot ? t("auth.resetPassword") : isLogin ? t("auth.welcomeBack") : t("auth.createAccount")}</CardTitle>
+            <CardDescription>{isForgot ? t("auth.resetDesc") : isLogin ? t("auth.signInDesc") : t("auth.signUpDesc")}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
               {!isLogin && !isForgot && (
                 <div>
-                  <Label>Display Name</Label>
-                  <Input value={displayName} onChange={e => setDisplayName(e.target.value)} placeholder="Your name" className="mt-1" required />
+                  <Label>{t("auth.displayName")}</Label>
+                  <Input value={displayName} onChange={e => setDisplayName(e.target.value)} placeholder={t("auth.yourName")} className="mt-1" required />
                 </div>
               )}
               <div>
-                <Label>Email</Label>
-                <Input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" className="mt-1" required />
+                <Label>{t("auth.email")}</Label>
+                <Input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder={t("auth.emailPlaceholder")} className="mt-1" required />
               </div>
               {!isForgot && (
                 <div>
-                  <Label>Password</Label>
-                  <Input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="••••••••" className="mt-1" required minLength={6} />
+                  <Label>{t("auth.password")}</Label>
+                  <Input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder={t("auth.passwordPlaceholder")} className="mt-1" required minLength={6} />
                 </div>
               )}
               <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Please wait..." : isForgot ? "Send Reset Link" : isLogin ? <><LogIn className="w-4 h-4 mr-2" />Sign In</> : <><UserPlus className="w-4 h-4 mr-2" />Sign Up</>}
+                {loading ? t("auth.pleaseWait") : isForgot ? t("auth.sendResetLink") : isLogin ? <><LogIn className="w-4 h-4 mr-2" />{t("auth.signIn")}</> : <><UserPlus className="w-4 h-4 mr-2" />{t("auth.signUp")}</>}
               </Button>
             </form>
             <div className="mt-4 text-center space-y-2">
               {isLogin && !isForgot && (
                 <button onClick={() => setIsForgot(true)} className="text-sm text-muted-foreground hover:text-primary block w-full">
-                  Forgot your password?
+                  {t("auth.forgotPassword")}
                 </button>
               )}
               <button onClick={() => { setIsLogin(!isLogin); setIsForgot(false); }} className="text-sm text-primary hover:underline">
-                {isLogin || isForgot ? "Don't have an account? Sign up" : "Already have an account? Sign in"}
+                {isLogin || isForgot ? t("auth.noAccount") : t("auth.hasAccount")}
               </button>
               {isForgot && (
                 <button onClick={() => setIsForgot(false)} className="text-sm text-muted-foreground hover:text-foreground">
-                  Back to sign in
+                  {t("auth.backToSignIn")}
                 </button>
               )}
             </div>
             <div className="mt-4 text-center">
               <button onClick={() => navigate("/")} className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1">
-                <ArrowLeft className="w-3 h-3" /> Back to home
+                <ArrowLeft className="w-3 h-3" /> {t("auth.backToHome")}
               </button>
             </div>
           </CardContent>

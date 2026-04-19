@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ import { toast } from "sonner";
 
 const ResetPassword = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -31,18 +33,18 @@ const ResetPassword = () => {
   const handleReset = async (e: React.FormEvent) => {
     e.preventDefault();
     if (password !== confirmPassword) {
-      toast.error("Passwords do not match");
+      toast.error(t("auth.passwordMismatch"));
       return;
     }
     if (password.length < 6) {
-      toast.error("Password must be at least 6 characters");
+      toast.error(t("auth.passwordTooShort"));
       return;
     }
     setLoading(true);
     try {
       const { error } = await supabase.auth.updateUser({ password });
       if (error) throw error;
-      toast.success("Password updated successfully!");
+      toast.success(t("auth.passwordUpdated"));
       navigate("/");
     } catch (err: any) {
       toast.error(err.message);
@@ -57,8 +59,8 @@ const ResetPassword = () => {
         <Card className="w-full max-w-md">
           <CardContent className="py-12 text-center space-y-4">
             <KeyRound className="w-12 h-12 text-muted-foreground/50 mx-auto" />
-            <p className="text-muted-foreground">Invalid or expired reset link. Please request a new password reset.</p>
-            <Button onClick={() => navigate("/auth")}>Go to Login</Button>
+            <p className="text-muted-foreground">{t("auth.invalidLink")}</p>
+            <Button onClick={() => navigate("/auth")}>{t("auth.goToLogin")}</Button>
           </CardContent>
         </Card>
       </div>
@@ -78,26 +80,26 @@ const ResetPassword = () => {
         </div>
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl">Set New Password</CardTitle>
-            <CardDescription>Enter your new password below</CardDescription>
+            <CardTitle className="text-xl">{t("auth.setNewPassword")}</CardTitle>
+            <CardDescription>{t("auth.setNewPasswordDesc")}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleReset} className="space-y-4">
               <div>
-                <Label>New Password</Label>
+                <Label>{t("auth.newPassword")}</Label>
                 <Input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="••••••••" className="mt-1" required minLength={6} />
               </div>
               <div>
-                <Label>Confirm Password</Label>
+                <Label>{t("auth.confirmPassword")}</Label>
                 <Input type="password" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} placeholder="••••••••" className="mt-1" required minLength={6} />
               </div>
               <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Updating..." : <><KeyRound className="w-4 h-4 mr-2" />Update Password</>}
+                {loading ? t("auth.updating") : <><KeyRound className="w-4 h-4 mr-2" />{t("auth.updatePassword")}</>}
               </Button>
             </form>
             <div className="mt-4 text-center">
               <button onClick={() => navigate("/auth")} className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1">
-                <ArrowLeft className="w-3 h-3" /> Back to login
+                <ArrowLeft className="w-3 h-3" /> {t("auth.backToLogin")}
               </button>
             </div>
           </CardContent>

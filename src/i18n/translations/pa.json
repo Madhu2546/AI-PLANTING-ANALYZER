@@ -170,7 +170,25 @@
     "hasAccount": "ਪਹਿਲਾਂ ਤੋਂ ਖਾਤਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ",
     "forgotPassword": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?",
     "backToSignIn": "ਸਾਈਨ ਇਨ ਤੇ ਵਾਪਸ ਜਾਓ",
-    "backToHome": "ਘਰ ਤੇ ਵਾਪਸ ਜਾਓ"
+    "backToHome": "ਘਰ ਤੇ ਵਾਪਸ ਜਾਓ",
+    "yourName": "ਤੁਹਾਡਾ ਨਾਮ",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "ਸਫਲਤਾਪੂਰਵਕ ਲੌਗ ਇਨ ਹੋ ਗਏ!",
+    "signupSuccess": "ਤਸਦੀਕ ਲਿੰਕ ਲਈ ਆਪਣਾ ਈਮੇਲ ਚੈੱਕ ਕਰੋ!",
+    "resetEmailSent": "ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਲਿੰਕ ਲਈ ਆਪਣਾ ਈਮੇਲ ਚੈੱਕ ਕਰੋ!",
+    "newPassword": "ਨਵਾਂ ਪਾਸਵਰਡ",
+    "confirmPassword": "ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "setNewPassword": "ਨਵਾਂ ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ",
+    "setNewPasswordDesc": "ਹੇਠਾਂ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ",
+    "updatePassword": "ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕਰੋ",
+    "updating": "ਅੱਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ...",
+    "passwordMismatch": "ਪਾਸਵਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ",
+    "passwordTooShort": "ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 6 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ",
+    "passwordUpdated": "ਪਾਸਵਰਡ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਹੋ ਗਿਆ!",
+    "invalidLink": "ਅਵੈਧ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ ਰੀਸੈੱਟ ਲਿੰਕ। ਕਿਰਪਾ ਕਰਕੇ ਨਵਾਂ ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਬੇਨਤੀ ਕਰੋ।",
+    "goToLogin": "ਲੌਗਇਨ ਤੇ ਜਾਓ",
+    "backToLogin": "ਲੌਗਇਨ ਤੇ ਵਾਪਸ"
   },
   "diary": {
     "badge": "ਖੇਤ ਡਾਇਰੀ",
@@ -206,7 +224,12 @@
     "irrigation": "💧 ਸਿੰਚਾਈ",
     "harvest": "🌾 ਵਾਢੀ",
     "expense_cat": "💰 ਖਰਚ",
-    "observation": "📝 ਨਿਰੀਖਣ"
+    "observation": "📝 ਨਿਰੀਖਣ",
+    "loadFailed": "ਐਂਟਰੀਆਂ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "saveFailed": "ਐਂਟਰੀ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "deleteFailed": "ਮਿਟਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "saveSuccess": "ਐਂਟਰੀ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ!",
+    "totalCost": "ਕੁੱਲ ਲਾਗਤ"
   },
   "navbar": {
     "compareCrops": "ਫਸਲਾਂ ਦੀ ਤੁਲਨਾ",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "ਸਮਾਰਟ ਸਿੰਚਾਈ",
+    "title": "ਮੌਸਮ-ਅਧਾਰਿਤ ਸਿੰਚਾਈ ਸ਼ਡਿਊਲਰ",
+    "description": "ਫਸਲ ਦੀ ਕਿਸਮ, ਤਾਪਮਾਨ, ਨਮੀ ਅਤੇ ਮੀਂਹ ਦੀ ਭਵਿੱਖਬਾਣੀ ਦੇ ਆਧਾਰ ਤੇ ਨਿੱਜੀ ਪਾਣੀ ਦੇਣ ਦੇ ਸ਼ਡਿਊਲ ਪ੍ਰਾਪਤ ਕਰੋ।",
+    "configure": "ਸ਼ਡਿਊਲ ਕੌਂਫਿਗਰ ਕਰੋ",
+    "crop": "ਫਸਲ",
+    "temp": "ਤਾਪ. (°C)",
+    "humidity": "ਨਮੀ (%)",
+    "rain": "ਮੀਂਹ (ਮਿਮੀ)",
+    "autoFill": "📍 ਸਥਾਨ ਤੋਂ ਆਟੋ-ਭਰੋ",
+    "fetching": "ਲਿਆ ਰਿਹਾ ਹੈ...",
+    "generate": "ਸਿੰਚਾਈ ਯੋਜਨਾ ਬਣਾਓ",
+    "summary": "ਸਿੰਚਾਈ ਸਾਰ",
+    "frequency": "ਬਾਰੰਬਾਰਤਾ",
+    "waterNeed": "ਪਾਣੀ ਦੀ ਲੋੜ",
+    "bestTime": "ਵਧੀਆ ਸਮਾਂ",
+    "method": "ਵਿਧੀ",
+    "weeklySchedule": "ਹਫਤਾਵਾਰੀ ਸ਼ਡਿਊਲ",
+    "tips": "ਸੁਝਾਅ",
+    "configurePrompt": "ਸਿੰਚਾਈ ਯੋਜਨਾ ਬਣਾਉਣ ਲਈ ਆਪਣੀ ਫਸਲ ਅਤੇ ਮੌਸਮ ਨੂੰ ਕੌਂਫਿਗਰ ਕਰੋ",
+    "irrigate": "ਸਿੰਚਾਈ",
+    "skipRain": "ਛੱਡੋ (ਮੀਂਹ)",
+    "monitor": "ਮਿੱਟੀ ਦੀ ਨਿਗਰਾਨੀ",
+    "every": "ਹਰ",
+    "day": "ਦਿਨ",
+    "days": "ਦਿਨ",
+    "weekly": "ਮਿਮੀ/ਹਫ਼ਤਾ"
+  },
+  "common": {
+    "selectOption": "ਵਿਕਲਪ ਚੁਣੋ"
   }
 }

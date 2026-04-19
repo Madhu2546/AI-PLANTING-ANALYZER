@@ -105,23 +105,23 @@ const IrrigationScheduler = () => {
         <motion.div className="text-center mb-12" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <div className="inline-flex items-center gap-2 bg-water/20 text-water px-4 py-2 rounded-full mb-4">
             <Droplets className="w-4 h-4" />
-            <span className="text-sm font-medium">Smart Irrigation</span>
+            <span className="text-sm font-medium">{t("irrigation.badge")}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Weather-Based Irrigation Scheduler
+            {t("irrigation.title")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Get personalized watering schedules based on crop type, temperature, humidity, and rainfall forecast.
+            {t("irrigation.description")}
           </p>
         </motion.div>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
           {/* Inputs */}
           <Card>
-            <CardHeader><CardTitle className="text-lg">Configure Schedule</CardTitle></CardHeader>
+            <CardHeader><CardTitle className="text-lg">{t("irrigation.configure")}</CardTitle></CardHeader>
             <CardContent className="space-y-4">
               <div>
-                <Label className="text-sm">Crop</Label>
+                <Label className="text-sm">{t("irrigation.crop")}</Label>
                 <Select value={crop} onValueChange={setCrop}>
                   <SelectTrigger className="mt-1"><SelectValue /></SelectTrigger>
                   <SelectContent>
@@ -131,22 +131,22 @@ const IrrigationScheduler = () => {
               </div>
               <div className="grid grid-cols-3 gap-3">
                 <div>
-                  <Label className="text-xs flex items-center gap-1"><Thermometer className="w-3 h-3" />Temp (°C)</Label>
+                  <Label className="text-xs flex items-center gap-1"><Thermometer className="w-3 h-3" />{t("irrigation.temp")}</Label>
                   <Input type="number" value={temp} onChange={e => setTemp(e.target.value)} className="mt-1" />
                 </div>
                 <div>
-                  <Label className="text-xs flex items-center gap-1"><Wind className="w-3 h-3" />Humidity (%)</Label>
+                  <Label className="text-xs flex items-center gap-1"><Wind className="w-3 h-3" />{t("irrigation.humidity")}</Label>
                   <Input type="number" value={humidity} onChange={e => setHumidity(e.target.value)} className="mt-1" />
                 </div>
                 <div>
-                  <Label className="text-xs flex items-center gap-1"><CloudRain className="w-3 h-3" />Rain (mm)</Label>
+                  <Label className="text-xs flex items-center gap-1"><CloudRain className="w-3 h-3" />{t("irrigation.rain")}</Label>
                   <Input type="number" value={rainfall} onChange={e => setRainfall(e.target.value)} className="mt-1" />
                 </div>
               </div>
               <Button variant="outline" size="sm" onClick={handleAutoFill} disabled={weatherLoading} className="w-full">
-                {weatherLoading ? <><Loader2 className="w-3 h-3 animate-spin" /> Fetching...</> : "📍 Auto-fill from Location"}
+                {weatherLoading ? <><Loader2 className="w-3 h-3 animate-spin" /> {t("irrigation.fetching")}</> : t("irrigation.autoFill")}
               </Button>
-              <Button onClick={handleGenerate} className="w-full">Generate Irrigation Plan</Button>
+              <Button onClick={handleGenerate} className="w-full">{t("irrigation.generate")}</Button>
             </CardContent>
           </Card>
 
@@ -154,14 +154,14 @@ const IrrigationScheduler = () => {
           {plan ? (
             <div className="space-y-4">
               <Card>
-                <CardHeader><CardTitle className="text-lg flex items-center gap-2"><Droplets className="w-5 h-5 text-water" />Irrigation Summary</CardTitle></CardHeader>
+                <CardHeader><CardTitle className="text-lg flex items-center gap-2"><Droplets className="w-5 h-5 text-water" />{t("irrigation.summary")}</CardTitle></CardHeader>
                 <CardContent className="space-y-3">
                   <div className="grid grid-cols-2 gap-3">
                     {[
-                      { label: "Frequency", value: plan.frequency },
-                      { label: "Water Need", value: plan.amount },
-                      { label: "Best Time", value: plan.bestTime },
-                      { label: "Method", value: plan.method },
+                      { label: t("irrigation.frequency"), value: plan.frequency },
+                      { label: t("irrigation.waterNeed"), value: plan.amount },
+                      { label: t("irrigation.bestTime"), value: plan.bestTime },
+                      { label: t("irrigation.method"), value: plan.method },
                     ].map(item => (
                       <div key={item.label} className="p-3 rounded-lg bg-muted/50">
                         <p className="text-xs text-muted-foreground">{item.label}</p>
@@ -173,22 +173,25 @@ const IrrigationScheduler = () => {
               </Card>
 
               <Card>
-                <CardHeader><CardTitle className="text-base">Weekly Schedule</CardTitle></CardHeader>
+                <CardHeader><CardTitle className="text-base">{t("irrigation.weeklySchedule")}</CardTitle></CardHeader>
                 <CardContent>
                   <div className="space-y-1.5">
-                    {plan.weeklySchedule.map(day => (
-                      <div key={day.day} className={`flex items-center justify-between p-2 rounded text-sm ${day.action === "Irrigate" ? "bg-water/10" : "bg-muted/30"}`}>
-                        <span className="font-medium text-foreground w-24">{day.day}</span>
-                        <Badge variant={day.action === "Irrigate" ? "default" : "secondary"} className="text-xs">{day.action}</Badge>
-                        <span className="text-muted-foreground text-xs w-16 text-right">{day.duration}</span>
-                      </div>
-                    ))}
+                    {plan.weeklySchedule.map(day => {
+                      const localizedAction = day.action === "Irrigate" ? t("irrigation.irrigate") : day.action === "Skip (rain)" ? t("irrigation.skipRain") : t("irrigation.monitor");
+                      return (
+                        <div key={day.day} className={`flex items-center justify-between p-2 rounded text-sm ${day.action === "Irrigate" ? "bg-water/10" : "bg-muted/30"}`}>
+                          <span className="font-medium text-foreground w-24">{day.day}</span>
+                          <Badge variant={day.action === "Irrigate" ? "default" : "secondary"} className="text-xs">{localizedAction}</Badge>
+                          <span className="text-muted-foreground text-xs w-16 text-right">{day.duration}</span>
+                        </div>
+                      );
+                    })}
                   </div>
                 </CardContent>
               </Card>
 
               <Card>
-                <CardHeader><CardTitle className="text-base">Tips</CardTitle></CardHeader>
+                <CardHeader><CardTitle className="text-base">{t("irrigation.tips")}</CardTitle></CardHeader>
                 <CardContent>
                   <div className="space-y-2">
                     {plan.tips.map((tip, i) => (
@@ -202,7 +205,7 @@ const IrrigationScheduler = () => {
             <Card className="flex items-center justify-center h-full">
               <CardContent className="text-center py-12">
                 <Droplets className="w-12 h-12 text-muted-foreground/50 mx-auto mb-4" />
-                <p className="text-muted-foreground">Configure your crop and weather to generate an irrigation plan</p>
+                <p className="text-muted-foreground">{t("irrigation.configurePrompt")}</p>
               </CardContent>
             </Card>
           )}

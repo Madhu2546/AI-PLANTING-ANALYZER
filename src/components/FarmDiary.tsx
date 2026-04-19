@@ -76,7 +76,7 @@ const FarmDiary = () => {
       .from("farm_diary_entries")
       .select("*")
       .order("date", { ascending: false });
-    if (error) { toast.error("Failed to load entries"); }
+    if (error) { toast.error(t("diary.loadFailed")); }
     else {
       setEntries((data || []).map(d => ({
         id: d.id,
@@ -100,15 +100,15 @@ const FarmDiary = () => {
       date, category, crop, title: title.trim(), notes: notes.trim(),
       amount: amount ? parseFloat(amount) : null,
     });
-    if (error) { toast.error("Failed to save entry"); return; }
-    toast.success("Entry saved!");
+    if (error) { toast.error(t("diary.saveFailed")); return; }
+    toast.success(t("diary.saveSuccess"));
     setTitle(""); setNotes(""); setAmount(""); setShowForm(false);
     fetchEntries();
   };
 
   const deleteEntry = async (id: string) => {
     const { error } = await supabase.from("farm_diary_entries").delete().eq("id", id);
-    if (error) { toast.error("Failed to delete"); return; }
+    if (error) { toast.error(t("diary.deleteFailed")); return; }
     setEntries(prev => prev.filter(e => e.id !== id));
   };
 
@@ -191,7 +191,7 @@ const FarmDiary = () => {
                         <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                         <XAxis dataKey="crop" tick={{ fontSize: 12 }} />
                         <YAxis tick={{ fontSize: 12 }} tickFormatter={v => `₹${v.toLocaleString("en-IN")}`} />
-                        <Tooltip formatter={(v: number) => [`₹${v.toLocaleString("en-IN")}`, "Total Cost"]} />
+                        <Tooltip formatter={(v: number) => [`₹${v.toLocaleString("en-IN")}`, t("diary.totalCost")]} />
                         <Bar dataKey="total" radius={[6, 6, 0, 0]}>
                           {cropCostData.map((_, i) => <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />)}
                         </Bar>

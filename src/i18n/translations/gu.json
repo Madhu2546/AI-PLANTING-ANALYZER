@@ -170,7 +170,25 @@
     "hasAccount": "પહેલેથી ખાતું છે? સાઇન ઇન કરો",
     "forgotPassword": "પાસવર્ડ ભૂલી ગયા?",
     "backToSignIn": "સાઇન ઇન પર પાછા જાઓ",
-    "backToHome": "હોમ પર પાછા જાઓ"
+    "backToHome": "હોમ પર પાછા જાઓ",
+    "yourName": "તમારું નામ",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "સફળતાપૂર્વક લોગ ઇન થયા!",
+    "signupSuccess": "ચકાસણી લિંક માટે તમારું ઇમેઇલ તપાસો!",
+    "resetEmailSent": "પાસવર્ડ રીસેટ લિંક માટે તમારું ઇમેઇલ તપાસો!",
+    "newPassword": "નવો પાસવર્ડ",
+    "confirmPassword": "પાસવર્ડની પુષ્ટિ કરો",
+    "setNewPassword": "નવો પાસવર્ડ સેટ કરો",
+    "setNewPasswordDesc": "નીચે તમારો નવો પાસવર્ડ દાખલ કરો",
+    "updatePassword": "પાસવર્ડ અપડેટ કરો",
+    "updating": "અપડેટ થઈ રહ્યું છે...",
+    "passwordMismatch": "પાસવર્ડ મેળ ખાતા નથી",
+    "passwordTooShort": "પાસવર્ડ ઓછામાં ઓછા 6 અક્ષરનો હોવો જોઈએ",
+    "passwordUpdated": "પાસવર્ડ સફળતાપૂર્વક અપડેટ થયો!",
+    "invalidLink": "અમાન્ય અથવા સમાપ્ત રીસેટ લિંક. કૃપા કરીને નવી પાસવર્ડ રીસેટની વિનંતી કરો.",
+    "goToLogin": "લૉગિન પર જાઓ",
+    "backToLogin": "લૉગિન પર પાછા"
   },
   "diary": {
     "badge": "ખેત ડાયરી",
@@ -206,7 +224,12 @@
     "irrigation": "💧 સિંચાઈ",
     "harvest": "🌾 કાપણી",
     "expense_cat": "💰 ખર્ચ",
-    "observation": "📝 અવલોકન"
+    "observation": "📝 અવલોકન",
+    "loadFailed": "પ્રવેશો લોડ કરવામાં નિષ્ફળ",
+    "saveFailed": "પ્રવેશ સાચવવામાં નિષ્ફળ",
+    "deleteFailed": "કાઢી નાખવામાં નિષ્ફળ",
+    "saveSuccess": "પ્રવેશ સાચવ્યો!",
+    "totalCost": "કુલ ખર્ચ"
   },
   "navbar": {
     "compareCrops": "પાકની સરખામણી",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "સ્માર્ટ સિંચાઈ",
+    "title": "હવામાન આધારિત સિંચાઈ શેડ્યૂલર",
+    "description": "પાક પ્રકાર, તાપમાન, ભેજ અને વરસાદની આગાહીના આધારે વ્યક્તિગત પાણી આપવાનું શેડ્યૂલ મેળવો.",
+    "configure": "શેડ્યૂલ કૉન્ફિગર કરો",
+    "crop": "પાક",
+    "temp": "તાપ. (°C)",
+    "humidity": "ભેજ (%)",
+    "rain": "વરસાદ (મિમી)",
+    "autoFill": "📍 સ્થાનથી સ્વતઃ ભરો",
+    "fetching": "લાવી રહ્યું છે...",
+    "generate": "સિંચાઈ યોજના બનાવો",
+    "summary": "સિંચાઈ સારાંશ",
+    "frequency": "આવર્તન",
+    "waterNeed": "પાણીની જરૂરિયાત",
+    "bestTime": "શ્રેષ્ઠ સમય",
+    "method": "પદ્ધતિ",
+    "weeklySchedule": "સાપ્તાહિક શેડ્યૂલ",
+    "tips": "ટિપ્સ",
+    "configurePrompt": "સિંચાઈ યોજના બનાવવા માટે તમારો પાક અને હવામાન કૉન્ફિગર કરો",
+    "irrigate": "સિંચાઈ કરો",
+    "skipRain": "છોડો (વરસાદ)",
+    "monitor": "જમીનનું નિરીક્ષણ",
+    "every": "દર",
+    "day": "દિવસ",
+    "days": "દિવસ",
+    "weekly": "મિમી/અઠવાડિયું"
+  },
+  "common": {
+    "selectOption": "વિકલ્પ પસંદ કરો"
   }
 }

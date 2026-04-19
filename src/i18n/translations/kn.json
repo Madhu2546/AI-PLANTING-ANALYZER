@@ -170,7 +170,25 @@
     "hasAccount": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "forgotPassword": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿರಾ?",
     "backToSignIn": "ಸೈನ್ ಇನ್‌ಗೆ ಹಿಂತಿರುಗಿ",
-    "backToHome": "ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ"
+    "backToHome": "ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+    "yourName": "ನಿಮ್ಮ ಹೆಸರು",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "loginSuccess": "ಯಶಸ್ವಿಯಾಗಿ ಲಾಗ್ ಇನ್ ಆಗಿದೆ!",
+    "signupSuccess": "ಪರಿಶೀಲನೆ ಲಿಂಕ್‌ಗಾಗಿ ನಿಮ್ಮ ಇಮೇಲ್ ಪರಿಶೀಲಿಸಿ!",
+    "resetEmailSent": "ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಲಿಂಕ್‌ಗಾಗಿ ನಿಮ್ಮ ಇಮೇಲ್ ಪರಿಶೀಲಿಸಿ!",
+    "newPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್",
+    "confirmPassword": "ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಿಸಿ",
+    "setNewPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಹೊಂದಿಸಿ",
+    "setNewPasswordDesc": "ಕೆಳಗೆ ನಿಮ್ಮ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ",
+    "updatePassword": "ಪಾಸ್‌ವರ್ಡ್ ನವೀಕರಿಸಿ",
+    "updating": "ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ...",
+    "passwordMismatch": "ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ",
+    "passwordTooShort": "ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳಾಗಿರಬೇಕು",
+    "passwordUpdated": "ಪಾಸ್‌ವರ್ಡ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ!",
+    "invalidLink": "ಅಮಾನ್ಯ ಅಥವಾ ಮುಗಿದ ಮರುಹೊಂದಿಸುವ ಲಿಂಕ್. ದಯವಿಟ್ಟು ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸುವಿಕೆಯನ್ನು ವಿನಂತಿಸಿ.",
+    "goToLogin": "ಲಾಗಿನ್‌ಗೆ ಹೋಗಿ",
+    "backToLogin": "ಲಾಗಿನ್‌ಗೆ ಹಿಂತಿರುಗಿ"
   },
   "diary": {
     "badge": "ಹೊಲ ಡೈರಿ",
@@ -206,7 +224,12 @@
     "irrigation": "💧 ನೀರಾವರಿ",
     "harvest": "🌾 ಕೊಯ್ಲು",
     "expense_cat": "💰 ಖರ್ಚು",
-    "observation": "📝 ಅವಲೋಕನ"
+    "observation": "📝 ಅವಲೋಕನ",
+    "loadFailed": "ನಮೂದುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "saveFailed": "ನಮೂದನ್ನು ಉಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "deleteFailed": "ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "saveSuccess": "ನಮೂದು ಉಳಿಸಲಾಗಿದೆ!",
+    "totalCost": "ಒಟ್ಟು ವೆಚ್ಚ"
   },
   "navbar": {
     "compareCrops": "ಬೆಳೆ ಹೋಲಿಕೆ",
@@ -250,5 +273,36 @@
     "badge": "Market Intelligence",
     "title": "Market Price Trends",
     "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+  },
+  "irrigation": {
+    "badge": "ಸ್ಮಾರ್ಟ್ ನೀರಾವರಿ",
+    "title": "ಹವಾಮಾನ-ಆಧಾರಿತ ನೀರಾವರಿ ಶೆಡ್ಯೂಲರ್",
+    "description": "ಬೆಳೆ ಪ್ರಕಾರ, ತಾಪಮಾನ, ಆರ್ದ್ರತೆ ಮತ್ತು ಮಳೆ ಮುನ್ಸೂಚನೆಯ ಆಧಾರದ ಮೇಲೆ ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ನೀರುಣಿಸುವ ವೇಳಾಪಟ್ಟಿಗಳನ್ನು ಪಡೆಯಿರಿ.",
+    "configure": "ಶೆಡ್ಯೂಲ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+    "crop": "ಬೆಳೆ",
+    "temp": "ತಾಪ. (°C)",
+    "humidity": "ಆರ್ದ್ರತೆ (%)",
+    "rain": "ಮಳೆ (ಮಿಮೀ)",
+    "autoFill": "📍 ಸ್ಥಳದಿಂದ ಸ್ವಯಂ ತುಂಬಿಸು",
+    "fetching": "ತರಲಾಗುತ್ತಿದೆ...",
+    "generate": "ನೀರಾವರಿ ಯೋಜನೆ ರಚಿಸಿ",
+    "summary": "ನೀರಾವರಿ ಸಾರಾಂಶ",
+    "frequency": "ಆವರ್ತನ",
+    "waterNeed": "ನೀರಿನ ಅಗತ್ಯ",
+    "bestTime": "ಅತ್ಯುತ್ತಮ ಸಮಯ",
+    "method": "ವಿಧಾನ",
+    "weeklySchedule": "ವಾರದ ವೇಳಾಪಟ್ಟಿ",
+    "tips": "ಸಲಹೆಗಳು",
+    "configurePrompt": "ನೀರಾವರಿ ಯೋಜನೆ ರಚಿಸಲು ನಿಮ್ಮ ಬೆಳೆ ಮತ್ತು ಹವಾಮಾನವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+    "irrigate": "ನೀರಾವರಿ",
+    "skipRain": "ಬಿಡಿ (ಮಳೆ)",
+    "monitor": "ಮಣ್ಣು ಮೇಲ್ವಿಚಾರಣೆ",
+    "every": "ಪ್ರತಿ",
+    "day": "ದಿನ",
+    "days": "ದಿನಗಳು",
+    "weekly": "ಮಿಮೀ/ವಾರ"
+  },
+  "common": {
+    "selectOption": "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ"
   }
 }
