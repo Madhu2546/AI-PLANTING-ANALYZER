@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { Calculator, TrendingUp, TrendingDown, IndianRupee, Wheat, Package, Tractor, FileDown } from "lucide-react";
 import { exportProfitReportToPDF } from "@/utils/pdfExport";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,9 +11,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 interface CropData {
   name: string;
-  avgYield: number; // quintal per hectare
-  avgPrice: number; // Rs per quintal
-  seedCost: number; // Rs per hectare
+  avgYield: number;
+  avgPrice: number;
+  seedCost: number;
   fertilizerCost: number;
   laborCost: number;
   irrigationCost: number;
@@ -36,6 +37,7 @@ const cropDatabase: CropData[] = [
 ];
 
 const ProfitCalculator = () => {
+  const { t } = useTranslation();
   const [selectedCrop, setSelectedCrop] = useState<string>("");
   const [landArea, setLandArea] = useState<string>("1");
   const [expectedYield, setExpectedYield] = useState<string>("");
@@ -113,37 +115,31 @@ const ProfitCalculator = () => {
         >
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <Calculator className="w-4 h-4" />
-            <span className="text-sm font-medium">Financial Planning</span>
+            <span className="text-sm font-medium">{t("profit.badge")}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Crop Profit Calculator
+            {t("profit.title")}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Estimate your potential profits by calculating expected revenue against input costs. Make informed decisions for your farming business.
+            {t("profit.description")}
           </p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {/* Input Form */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
+          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Wheat className="w-5 h-5 text-primary" />
-                  Enter Crop Details
+                  {t("profit.enterDetails")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                {/* Crop Selection */}
                 <div className="space-y-2">
-                  <Label>Select Crop (auto-fills average values)</Label>
+                  <Label>{t("profit.selectCrop")}</Label>
                   <Select value={selectedCrop} onValueChange={handleCropSelect}>
                     <SelectTrigger>
-                      <SelectValue placeholder="Choose a crop" />
+                      <SelectValue placeholder={t("profit.chooseCrop")} />
                     </SelectTrigger>
                     <SelectContent>
                       {cropDatabase.map(crop => (
@@ -155,197 +151,105 @@ const ProfitCalculator = () => {
                   </Select>
                 </div>
 
-                {/* Land Area */}
                 <div className="space-y-2">
-                  <Label>Land Area (Hectares)</Label>
-                  <Input
-                    type="number"
-                    value={landArea}
-                    onChange={(e) => setLandArea(e.target.value)}
-                    placeholder="e.g., 2"
-                    min="0.1"
-                    step="0.1"
-                  />
+                  <Label>{t("profit.landArea")}</Label>
+                  <Input type="number" value={landArea} onChange={(e) => setLandArea(e.target.value)} placeholder="e.g., 2" min="0.1" step="0.1" />
                 </div>
 
-                {/* Revenue Section */}
                 <div className="space-y-4">
                   <h4 className="font-medium text-foreground flex items-center gap-2">
                     <TrendingUp className="w-4 h-4 text-green-600" />
-                    Expected Revenue
+                    {t("profit.expectedRevenue")}
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label>Expected Yield (Quintal/ha)</Label>
-                      <Input
-                        type="number"
-                        value={expectedYield}
-                        onChange={(e) => setExpectedYield(e.target.value)}
-                        placeholder="e.g., 40"
-                      />
+                      <Label>{t("profit.expectedYield")}</Label>
+                      <Input type="number" value={expectedYield} onChange={(e) => setExpectedYield(e.target.value)} placeholder="e.g., 40" />
                     </div>
                     <div className="space-y-2">
-                      <Label>Market Price (₹/Quintal)</Label>
-                      <Input
-                        type="number"
-                        value={marketPrice}
-                        onChange={(e) => setMarketPrice(e.target.value)}
-                        placeholder="e.g., 2200"
-                      />
+                      <Label>{t("profit.marketPrice")}</Label>
+                      <Input type="number" value={marketPrice} onChange={(e) => setMarketPrice(e.target.value)} placeholder="e.g., 2200" />
                     </div>
                   </div>
                 </div>
 
-                {/* Costs Section */}
                 <div className="space-y-4">
                   <h4 className="font-medium text-foreground flex items-center gap-2">
                     <Package className="w-4 h-4 text-red-600" />
-                    Input Costs (₹ per Hectare)
+                    {t("profit.inputCosts")}
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label>Seeds</Label>
-                      <Input
-                        type="number"
-                        value={seedCost}
-                        onChange={(e) => setSeedCost(e.target.value)}
-                        placeholder="e.g., 1500"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label>Fertilizers</Label>
-                      <Input
-                        type="number"
-                        value={fertilizerCost}
-                        onChange={(e) => setFertilizerCost(e.target.value)}
-                        placeholder="e.g., 8000"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label>Labor</Label>
-                      <Input
-                        type="number"
-                        value={laborCost}
-                        onChange={(e) => setLaborCost(e.target.value)}
-                        placeholder="e.g., 15000"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label>Irrigation</Label>
-                      <Input
-                        type="number"
-                        value={irrigationCost}
-                        onChange={(e) => setIrrigationCost(e.target.value)}
-                        placeholder="e.g., 5000"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label>Pesticides</Label>
-                      <Input
-                        type="number"
-                        value={pesticideCost}
-                        onChange={(e) => setPesticideCost(e.target.value)}
-                        placeholder="e.g., 3000"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label>Other Costs</Label>
-                      <Input
-                        type="number"
-                        value={otherCosts}
-                        onChange={(e) => setOtherCosts(e.target.value)}
-                        placeholder="e.g., 2000"
-                      />
-                    </div>
+                    <div className="space-y-2"><Label>{t("profit.seeds")}</Label><Input type="number" value={seedCost} onChange={(e) => setSeedCost(e.target.value)} placeholder="e.g., 1500" /></div>
+                    <div className="space-y-2"><Label>{t("profit.fertilizers")}</Label><Input type="number" value={fertilizerCost} onChange={(e) => setFertilizerCost(e.target.value)} placeholder="e.g., 8000" /></div>
+                    <div className="space-y-2"><Label>{t("profit.labor")}</Label><Input type="number" value={laborCost} onChange={(e) => setLaborCost(e.target.value)} placeholder="e.g., 15000" /></div>
+                    <div className="space-y-2"><Label>{t("profit.irrigation")}</Label><Input type="number" value={irrigationCost} onChange={(e) => setIrrigationCost(e.target.value)} placeholder="e.g., 5000" /></div>
+                    <div className="space-y-2"><Label>{t("profit.pesticides")}</Label><Input type="number" value={pesticideCost} onChange={(e) => setPesticideCost(e.target.value)} placeholder="e.g., 3000" /></div>
+                    <div className="space-y-2"><Label>{t("profit.otherCosts")}</Label><Input type="number" value={otherCosts} onChange={(e) => setOtherCosts(e.target.value)} placeholder="e.g., 2000" /></div>
                   </div>
                 </div>
 
-                <Button
-                  onClick={() => setShowResults(true)}
-                  className="w-full"
-                  size="lg"
-                >
+                <Button onClick={() => setShowResults(true)} className="w-full" size="lg">
                   <Calculator className="w-4 h-4 mr-2" />
-                  Calculate Profit
+                  {t("profit.calculate")}
                 </Button>
               </CardContent>
             </Card>
           </motion.div>
 
-          {/* Results */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
+          <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <Card className={`h-full ${showResults ? '' : 'opacity-60'}`}>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Tractor className="w-5 h-5 text-primary" />
-                  Profit Analysis
+                  {t("profit.analysis")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                {/* Main Profit Card */}
                 <div className={`p-6 rounded-xl ${results.isProfitable ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
                   <div className="flex items-center gap-3 mb-2">
-                    {results.isProfitable ? (
-                      <TrendingUp className="w-8 h-8 text-green-600" />
-                    ) : (
-                      <TrendingDown className="w-8 h-8 text-red-600" />
-                    )}
+                    {results.isProfitable ? <TrendingUp className="w-8 h-8 text-green-600" /> : <TrendingDown className="w-8 h-8 text-red-600" />}
                     <span className={`text-sm font-medium ${results.isProfitable ? 'text-green-600' : 'text-red-600'}`}>
-                      {results.isProfitable ? 'Profitable' : 'Loss'}
+                      {results.isProfitable ? t("profit.profitable") : t("profit.loss")}
                     </span>
                   </div>
                   <div className={`text-3xl font-bold ${results.isProfitable ? 'text-green-700' : 'text-red-700'}`}>
                     {formatCurrency(results.netProfit)}
                   </div>
-                  <p className="text-sm text-muted-foreground mt-1">Net Profit / Loss</p>
+                  <p className="text-sm text-muted-foreground mt-1">{t("profit.netProfitLoss")}</p>
                 </div>
 
-                {/* Breakdown Cards */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 bg-muted/50 rounded-lg">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground mb-1">
                       <IndianRupee className="w-4 h-4" />
-                      Total Revenue
+                      {t("profit.totalRevenue")}
                     </div>
-                    <p className="text-xl font-semibold text-green-600">
-                      {formatCurrency(results.totalRevenue)}
-                    </p>
+                    <p className="text-xl font-semibold text-green-600">{formatCurrency(results.totalRevenue)}</p>
                   </div>
                   <div className="p-4 bg-muted/50 rounded-lg">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground mb-1">
                       <Package className="w-4 h-4" />
-                      Total Costs
+                      {t("profit.totalCosts")}
                     </div>
-                    <p className="text-xl font-semibold text-red-600">
-                      {formatCurrency(results.totalCosts)}
-                    </p>
+                    <p className="text-xl font-semibold text-red-600">{formatCurrency(results.totalCosts)}</p>
                   </div>
                   <div className="p-4 bg-muted/50 rounded-lg">
-                    <div className="text-sm text-muted-foreground mb-1">Profit Margin</div>
-                    <p className={`text-xl font-semibold ${results.profitMargin >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                      {results.profitMargin.toFixed(1)}%
-                    </p>
+                    <div className="text-sm text-muted-foreground mb-1">{t("profit.profitMargin")}</div>
+                    <p className={`text-xl font-semibold ${results.profitMargin >= 0 ? 'text-green-600' : 'text-red-600'}`}>{results.profitMargin.toFixed(1)}%</p>
                   </div>
                   <div className="p-4 bg-muted/50 rounded-lg">
-                    <div className="text-sm text-muted-foreground mb-1">Break-even Price</div>
-                    <p className="text-xl font-semibold text-foreground">
-                      ₹{results.breakEvenPrice.toFixed(0)}/Q
-                    </p>
+                    <div className="text-sm text-muted-foreground mb-1">{t("profit.breakEven")}</div>
+                    <p className="text-xl font-semibold text-foreground">₹{results.breakEvenPrice.toFixed(0)}/Q</p>
                   </div>
                 </div>
 
-                {/* Tips */}
                 <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">
-                  <h4 className="font-medium text-foreground mb-2">💡 Tips to Improve Profitability</h4>
+                  <h4 className="font-medium text-foreground mb-2">{t("profit.tipsTitle")}</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Sell when market prices are above {formatCurrency(results.breakEvenPrice)} per quintal</li>
-                    <li>• Consider organic certification for premium pricing</li>
-                    <li>• Group purchasing of inputs can reduce costs by 10-15%</li>
-                    <li>• Explore government subsidies for seeds and fertilizers</li>
+                    <li>• {t("profit.tip1")}</li>
+                    <li>• {t("profit.tip2")}</li>
+                    <li>• {t("profit.tip3")}</li>
+                    <li>• {t("profit.tip4")}</li>
                   </ul>
                 </div>
 
@@ -375,7 +279,7 @@ const ProfitCalculator = () => {
                     }}
                   >
                     <FileDown className="w-4 h-4" />
-                    Download PDF Report
+                    {t("profit.downloadPdf")}
                   </Button>
                 )}
               </CardContent>

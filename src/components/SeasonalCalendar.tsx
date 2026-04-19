@@ -35,11 +35,11 @@ const SeasonalCalendar = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Calendar className="h-8 w-8 text-primary" />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              {t("Seasonal Crop Calendar")}
+              {t("calendar.title")}
             </h2>
           </div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            {t("Plan your farming with the best planting and harvesting times throughout the year")}
+            {t("calendar.description")}
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const SeasonalCalendar = () => {
               <div className="flex items-center gap-2 mb-4">
                 <Sprout className="h-5 w-5 text-green-600" />
                 <h3 className="font-semibold text-foreground">
-                  Plant Now ({monthNames[currentMonth]})
+                  {t("calendar.plantNow")} ({monthNames[currentMonth]})
                 </h3>
               </div>
               <div className="flex flex-wrap gap-2">
@@ -59,7 +59,7 @@ const SeasonalCalendar = () => {
                     {crop.crop}
                   </Badge>
                 )) : (
-                  <span className="text-muted-foreground text-sm">No major planting this month</span>
+                  <span className="text-muted-foreground text-sm">{t("calendar.noPlanting")}</span>
                 )}
               </div>
             </CardContent>
@@ -70,7 +70,7 @@ const SeasonalCalendar = () => {
               <div className="flex items-center gap-2 mb-4">
                 <Wheat className="h-5 w-5 text-amber-600" />
                 <h3 className="font-semibold text-foreground">
-                  Harvest Now ({monthNames[currentMonth]})
+                  {t("calendar.harvestNow")} ({monthNames[currentMonth]})
                 </h3>
               </div>
               <div className="flex flex-wrap gap-2">
@@ -79,7 +79,7 @@ const SeasonalCalendar = () => {
                     {crop.crop}
                   </Badge>
                 )) : (
-                  <span className="text-muted-foreground text-sm">No major harvests this month</span>
+                  <span className="text-muted-foreground text-sm">{t("calendar.noHarvests")}</span>
                 )}
               </div>
             </CardContent>
@@ -89,11 +89,11 @@ const SeasonalCalendar = () => {
         {/* Season Filter */}
         <Tabs value={selectedSeason} onValueChange={setSelectedSeason} className="mb-6">
           <TabsList className="grid w-full max-w-lg mx-auto grid-cols-5">
-            <TabsTrigger value="all">All</TabsTrigger>
-            <TabsTrigger value="Kharif">Kharif</TabsTrigger>
-            <TabsTrigger value="Rabi">Rabi</TabsTrigger>
-            <TabsTrigger value="Zaid">Zaid</TabsTrigger>
-            <TabsTrigger value="Year-round">Year-round</TabsTrigger>
+            <TabsTrigger value="all">{t("calendar.all")}</TabsTrigger>
+            <TabsTrigger value="Kharif">{t("calendar.kharif")}</TabsTrigger>
+            <TabsTrigger value="Rabi">{t("calendar.rabi")}</TabsTrigger>
+            <TabsTrigger value="Zaid">{t("calendar.zaid")}</TabsTrigger>
+            <TabsTrigger value="Year-round">{t("calendar.yearRound")}</TabsTrigger>
           </TabsList>
         </Tabs>
 
@@ -103,7 +103,7 @@ const SeasonalCalendar = () => {
             <thead>
               <tr>
                 <th className="text-left p-3 bg-card border-b font-semibold text-foreground sticky left-0 z-10 min-w-[140px]">
-                  Crop
+                  {t("calendar.cropCol")}
                 </th>
                 {monthNames.map((month, idx) => (
                   <th 
@@ -116,7 +116,7 @@ const SeasonalCalendar = () => {
                   </th>
                 ))}
                 <th className="p-3 bg-card border-b text-center font-semibold text-foreground min-w-[100px]">
-                  Season
+                  {t("calendar.seasonCol")}
                 </th>
               </tr>
             </thead>
@@ -171,11 +171,11 @@ const SeasonalCalendar = () => {
         <div className="flex flex-wrap justify-center gap-6 mt-6">
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 rounded-full bg-green-500" />
-            <span className="text-sm text-muted-foreground">Planting Time</span>
+            <span className="text-sm text-muted-foreground">{t("calendar.plantingTime")}</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 rounded-full bg-amber-500" />
-            <span className="text-sm text-muted-foreground">Harvest Time</span>
+            <span className="text-sm text-muted-foreground">{t("calendar.harvestTime")}</span>
           </div>
         </div>
       </div>
