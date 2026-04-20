@@ -39,7 +39,9 @@
     "fetching": "వాతావరణ డేటా పొందుతోంది...",
     "weatherSuccess": "మీ స్థానం నుండి వాతావరణ డేటా ఆటో-ఫిల్ అయింది!",
     "weatherError": "వాతావరణ డేటా పొందలేకపోయింది. దయచేసి మాన్యువల్‌గా నమోదు చేయండి.",
-    "locationError": "స్థాన యాక్సెస్ నిరాకరించబడింది. దయచేసి డేటాను మాన్యువల్‌గా నమోదు చేయండి."
+    "locationError": "స్థాన యాక్సెస్ నిరాకరించబడింది. దయచేసి డేటాను మాన్యువల్‌గా నమోదు చేయండి.",
+    "rainfallAuto": "వర్షపాతం స్వయం పూరణ",
+    "rainfallSuccess": "మీ స్థానం నుండి వర్షపాతం స్వయం పూరణ!"
   },
   "results": {
     "title": "మీ భూమికి సిఫార్సు చేయబడిన పంటలు",
@@ -252,27 +254,62 @@
     "yield": "Yield Prediction"
   },
   "diseases": {
-    "badge": "Disease Identification",
-    "title": "Crop Disease Guide",
-    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
-    "searchPlaceholder": "Search diseases or crops...",
-    "allCrops": "All Crops",
-    "filterByCrop": "Filter by crop"
+    "badge": "వ్యాధి గుర్తింపు",
+    "title": "పంట వ్యాధి గైడ్",
+    "description": "సాధారణ పంట వ్యాధులను గుర్తించండి, వాటి లక్షణాలను అర్థం చేసుకోండి మరియు సమర్థవంతమైన చికిత్స మరియు నివారణ పద్ధతులను తెలుసుకోండి.",
+    "searchPlaceholder": "వ్యాధులు లేదా పంటలను శోధించండి...",
+    "allCrops": "అన్ని పంటలు",
+    "filterByCrop": "పంట ద్వారా ఫిల్టర్ చేయండి",
+    "noResults": "మీ ప్రమాణాలకు సరిపోయే వ్యాధులు కనుగొనబడలేదు.",
+    "symptoms": "లక్షణాలు",
+    "causes": "కారణాలు",
+    "treatment": "చికిత్స",
+    "prevention": "నివారణ",
+    "showLess": "తక్కువ చూపించు",
+    "viewDetails": "వివరాలు చూడండి"
   },
   "rotation": {
-    "badge": "Sustainable Farming",
-    "title": "Crop Rotation Planner",
-    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+    "badge": "స్థిరమైన వ్యవసాయం",
+    "title": "పంట భ్రమణ ప్లానర్",
+    "description": "నేల ఆరోగ్యాన్ని కాపాడటానికి, తెగుళ్ల ఒత్తిడిని తగ్గించడానికి మరియు బహుళ సీజన్లలో దిగుబడిని పెంచడానికి సరైన పంట క్రమాలను ప్రణాళిక చేయండి.",
+    "startTitle": "మీ భ్రమణ ప్రణాళికను ప్రారంభించండి",
+    "startingCrop": "ప్రారంభ పంట",
+    "selectCrop": "పంటను ఎంచుకోండి",
+    "planDuration": "ప్రణాళిక వ్యవధి",
+    "generatePlan": "ప్రణాళిక రూపొందించండి",
+    "cropInfo": "పంట సమాచారం",
+    "compatibilityGuide": "పంట అనుకూలత గైడ్",
+    "tips": "భ్రమణ చిట్కాలు",
+    "year": "సంవత్సరం",
+    "yearsUnit": "సంవత్సరాలు",
+    "crop": "పంట"
   },
   "yieldPrediction": {
-    "badge": "AI Prediction",
-    "title": "Crop Yield Prediction",
-    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+    "badge": "AI అంచనా",
+    "title": "పంట దిగుబడి అంచనా",
+    "description": "మా AI మోడల్‌ను ఉపయోగించి ప్రస్తుత వాతావరణ పరిస్థితులు మరియు చారిత్రక డేటా ఆధారంగా మీ ఆశించిన పంట దిగుబడిని అంచనా వేయండి.",
+    "enterConditions": "పరిస్థితులను నమోదు చేయండి",
+    "selectCrop": "పంటను ఎంచుకోండి",
+    "chooseCrop": "ఒక పంటను ఎంచుకోండి",
+    "avgTemperature": "సగటు ఉష్ణోగ్రత (°C)",
+    "expectedRainfall": "ఆశించిన వర్షపాతం (మిమీ)",
+    "avgHumidity": "సగటు తేమ (%)",
+    "optimal": "సరైనది",
+    "predictYield": "దిగుబడిని అంచనా వేయండి",
+    "yieldPrediction": "దిగుబడి అంచనా",
+    "predictedYield": "అంచనా దిగుబడి",
+    "confidence": "అంచనా విశ్వాసం",
+    "analysisFactors": "విశ్లేషణ కారకాలు:",
+    "historicalTrend": "చారిత్రక ధోరణి",
+    "placeholder": "అంచనా చూడటానికి పంట మరియు పరిస్థితులను నమోదు చేయండి"
   },
   "marketTrends": {
-    "badge": "Market Intelligence",
-    "title": "Market Price Trends",
-    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+    "badge": "మార్కెట్ ఇంటెలిజెన్స్",
+    "title": "మార్కెట్ ధరల ధోరణులు",
+    "description": "సంవత్సరాలలో ప్రధాన పంటల MSP మరియు మార్కెట్ ధరల ధోరణులను ట్రాక్ చేయండి. పోల్చడానికి 4 పంటల వరకు ఎంచుకోండి.",
+    "priceComparison": "ధర పోలిక (₹/క్వింటాల్)",
+    "currentMSP": "ప్రస్తుత MSP",
+    "since": "నుండి"
   },
   "irrigation": {
     "badge": "స్మార్ట్ నీటిపారుదల",
@@ -300,7 +337,9 @@
     "every": "ప్రతి",
     "day": "రోజు",
     "days": "రోజులు",
-    "weekly": "మిమీ/వారం"
+    "weekly": "మిమీ/వారం",
+    "rainfallAuto": "వర్షపాతం స్వయం పూరణ",
+    "rainfallFetched": "మీ స్థానం నుండి వర్షపాత డేటా పొందబడింది"
   },
   "common": {
     "selectOption": "ఎంపికను ఎంచుకోండి"
@@ -341,11 +380,28 @@
   },
   "soilHealth": {
     "exportPdf": "PDF ఎగుమతి",
-    "optimal": "✓ అనుకూలం",
+    "optimal": "✓ సరైనది",
     "low": "↓ తక్కువ",
     "high": "↑ ఎక్కువ",
-    "optimalRange": "అనుకూలం",
-    "amendmentsTitle": "సిఫార్సు చేయబడిన సవరణలు"
+    "optimalRange": "సరైనది",
+    "amendmentsTitle": "సిఫార్సు చేయబడిన సవరణలు",
+    "badge": "నేల విశ్లేషణ",
+    "title": "నేల ఆరోగ్య డాష్‌బోర్డ్",
+    "description": "అనుకూలీకరించిన నేల సవరణ సిఫార్సులను పొందడానికి NPK బ్యాలెన్స్, pH మరియు సేంద్రీయ కార్బన్‌ను ట్రాక్ చేయండి.",
+    "analyze": "నేల ఆరోగ్యాన్ని విశ్లేషించండి",
+    "scoreTitle": "నేల ఆరోగ్య స్కోర్",
+    "placeholder": "విశ్లేషణ చూడటానికి మీ నేల పరీక్ష ఫలితాలను నమోదు చేయండి",
+    "inputTitle": "నేల పరీక్ష ఫలితాలను నమోదు చేయండి",
+    "nitrogen": "నత్రజని (కిగ్రా/హెక్టారు)",
+    "phosphorus": "ఫాస్ఫరస్ (కిగ్రా/హెక్టారు)",
+    "potassium": "పొటాషియం (కిగ్రా/హెక్టారు)",
+    "ph": "నేల pH",
+    "organicCarbon": "సేంద్రీయ కార్బన్ (%)",
+    "labelN": "నత్రజని",
+    "labelP": "ఫాస్ఫరస్",
+    "labelK": "పొటాషియం",
+    "labelPh": "pH",
+    "labelOC": "సేంద్రీయ కార్బన్"
   },
   "weatherAlerts": {
     "badge": "వ్యాధి ప్రమాద హెచ్చరికలు",
@@ -384,5 +440,61 @@
     "seasonCol": "సీజన్",
     "plantingTime": "నాట్ల సమయం",
     "harvestTime": "పంట కోత సమయం"
+  },
+  "compare": {
+    "title": "పంటలను పోల్చండి",
+    "description": "బహుళ పంటల పెరుగుదల పరిస్థితులు మరియు అవసరాలను పక్క పక్కనే పోల్చండి",
+    "addPlaceholder": "పోల్చడానికి పంటను జోడించండి",
+    "clearAll": "అన్నీ క్లియర్",
+    "selectPrompt": "వాటి పెరుగుదల అవసరాలను పోల్చడానికి 4 పంటల వరకు ఎంచుకోండి",
+    "property": "లక్షణం",
+    "season": "సీజన్",
+    "growingPeriod": "పెరుగుదల కాలం",
+    "waterRequirement": "నీటి అవసరం",
+    "soilType": "నేల రకం",
+    "expectedYield": "ఆశించిన దిగుబడి",
+    "temperature": "ఉష్ణోగ్రత",
+    "humidity": "తేమ",
+    "phRange": "pH పరిధి",
+    "npk": "NPK అవసరాలు",
+    "description2": "వివరణ"
+  },
+  "regional": {
+    "title": "ప్రాంతీయ పంట సిఫార్సులు",
+    "description": "మీ రాష్ట్ర వాతావరణం మరియు నేల పరిస్థితుల ఆధారంగా పంట సిఫార్సులను పొందండి",
+    "selectState": "మీ రాష్ట్రాన్ని ఎంచుకోండి",
+    "selectPrompt": "మీ ప్రాంతానికి సిఫార్సు చేయబడిన పంటలను చూడటానికి మీ రాష్ట్రాన్ని ఎంచుకోండి",
+    "climate": "వాతావరణం",
+    "soilTypes": "నేల రకాలు",
+    "bestSeason": "ఉత్తమ సీజన్",
+    "recommendedFor": "సిఫార్సు చేయబడిన పంటలు -",
+    "tip": "ఈ సిఫార్సులు సాధారణ వాతావరణం మరియు నేల పరిస్థితులపై ఆధారపడి ఉంటాయి. ఖచ్చితమైన సిఫార్సుల కోసం, మీ నిర్దిష్ట నేల పారామితులతో పైన పంట సిఫార్సు వ్యవస్థను ఉపయోగించండి.",
+    "tipLabel": "చిట్కా"
+  },
+  "schemes": {
+    "badge": "ప్రభుత్వ పథకాలు",
+    "title": "వ్యవసాయ పథకం ఫైండర్",
+    "description": "మీ పంట మరియు ప్రాంతానికి సంబంధిత ప్రభుత్వ సబ్సిడీలు, బీమా మరియు రుణ పథకాలను కనుగొనండి.",
+    "filters": "పథకాలను ఫిల్టర్ చేయండి",
+    "benefits": "ప్రయోజనాలు",
+    "visitWebsite": "వెబ్‌సైట్ సందర్శించండి",
+    "noResults": "మీ ఫిల్టర్‌లకు సరిపోయే పథకాలు కనుగొనబడలేదు.",
+    "exportPdf": "PDF గా ఎగుమతి",
+    "allCategories": "అన్ని వర్గాలు",
+    "subsidy": "సబ్సిడీ",
+    "insurance": "బీమా",
+    "loan": "రుణం",
+    "support": "మద్దతు"
+  },
+  "nutrient": {
+    "badge": "పంట పోషక గైడ్",
+    "title": "ఎరువు & పురుగుమందు ప్లానర్",
+    "description": "మీ పంటకు సిఫార్సు చేయబడిన రసాయనాలతో దశల వారీ ఎరువు షెడ్యూల్, తెగులు & వ్యాధి నిర్వహణ.",
+    "selectCrop": "పంటను ఎంచుకోండి:",
+    "fertilizerSchedule": "ఎరువు షెడ్యూల్",
+    "pestDiseaseControl": "తెగులు & వ్యాధి నియంత్రణ",
+    "symptoms": "లక్షణాలు",
+    "recommendedPesticides": "సిఫార్సు చేయబడిన పురుగుమందులు / శిలీంద్రనాశకాలు:",
+    "dose": "మోతాదు"
   }
 }

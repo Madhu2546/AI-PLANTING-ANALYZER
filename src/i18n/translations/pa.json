@@ -39,7 +39,9 @@
     "fetching": "ਮੌਸਮ ਡੇਟਾ ਪ੍ਰਾਪਤ ਹੋ ਰਿਹਾ ਹੈ...",
     "weatherSuccess": "ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਤੋਂ ਮੌਸਮ ਡੇਟਾ ਆਟੋ-ਭਰਿਆ ਗਿਆ!",
     "weatherError": "ਮੌਸਮ ਡੇਟਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਹੱਥੀਂ ਦਾਖਲ ਕਰੋ।",
-    "locationError": "ਟਿਕਾਣਾ ਪਹੁੰਚ ਮਨ੍ਹਾ ਕੀਤੀ ਗਈ। ਕਿਰਪਾ ਕਰਕੇ ਡੇਟਾ ਹੱਥੀਂ ਦਾਖਲ ਕਰੋ।"
+    "locationError": "ਟਿਕਾਣਾ ਪਹੁੰਚ ਮਨ੍ਹਾ ਕੀਤੀ ਗਈ। ਕਿਰਪਾ ਕਰਕੇ ਡੇਟਾ ਹੱਥੀਂ ਦਾਖਲ ਕਰੋ।",
+    "rainfallAuto": "ਬਾਰਿਸ਼ ਆਟੋ-ਫਿਲ",
+    "rainfallSuccess": "ਤੁਹਾਡੇ ਸਥਾਨ ਤੋਂ ਬਾਰਿਸ਼ ਆਟੋ-ਫਿਲ ਹੋ ਗਈ!"
   },
   "results": {
     "title": "ਤੁਹਾਡੀ ਜ਼ਮੀਨ ਲਈ ਸਿਫਾਰਸ਼ੀ ਫਸਲਾਂ",
@@ -252,27 +254,62 @@
     "yield": "Yield Prediction"
   },
   "diseases": {
-    "badge": "Disease Identification",
-    "title": "Crop Disease Guide",
-    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
-    "searchPlaceholder": "Search diseases or crops...",
-    "allCrops": "All Crops",
-    "filterByCrop": "Filter by crop"
+    "badge": "ਬਿਮਾਰੀ ਪਛਾਣ",
+    "title": "ਫਸਲ ਬਿਮਾਰੀ ਗਾਈਡ",
+    "description": "ਆਮ ਫਸਲ ਬਿਮਾਰੀਆਂ ਦੀ ਪਛਾਣ ਕਰੋ, ਉਹਨਾਂ ਦੇ ਲੱਛਣਾਂ ਨੂੰ ਸਮਝੋ.",
+    "searchPlaceholder": "ਬਿਮਾਰੀਆਂ ਜਾਂ ਫਸਲਾਂ ਖੋਜੋ...",
+    "allCrops": "ਸਾਰੀਆਂ ਫਸਲਾਂ",
+    "filterByCrop": "ਫਸਲ ਦੁਆਰਾ ਫਿਲਟਰ ਕਰੋ",
+    "noResults": "ਤੁਹਾਡੇ ਮਾਪਦੰਡਾਂ ਨਾਲ ਮੇਲ ਖਾਂਦੀ ਕੋਈ ਬਿਮਾਰੀ ਨਹੀਂ ਮਿਲੀ।",
+    "symptoms": "ਲੱਛਣ",
+    "causes": "ਕਾਰਨ",
+    "treatment": "ਇਲਾਜ",
+    "prevention": "ਰੋਕਥਾਮ",
+    "showLess": "ਘੱਟ ਦਿਖਾਓ",
+    "viewDetails": "ਵੇਰਵੇ ਵੇਖੋ"
   },
   "rotation": {
-    "badge": "Sustainable Farming",
-    "title": "Crop Rotation Planner",
-    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+    "badge": "ਟਿਕਾਊ ਖੇਤੀ",
+    "title": "ਫਸਲ ਚੱਕਰ ਯੋਜਨਾਕਾਰ",
+    "description": "ਮਿੱਟੀ ਦੀ ਸਿਹਤ ਨੂੰ ਬਣਾਈ ਰੱਖਣ, ਕੀੜੇ-ਮਕੌੜਿਆਂ ਦੇ ਦਬਾਅ ਨੂੰ ਘਟਾਉਣ ਲਈ ਅਨੁਕੂਲ ਫਸਲ ਕ੍ਰਮ ਦੀ ਯੋਜਨਾ ਬਣਾਓ.",
+    "startTitle": "ਆਪਣੀ ਚੱਕਰ ਯੋਜਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "startingCrop": "ਸ਼ੁਰੂਆਤੀ ਫਸਲ",
+    "selectCrop": "ਇੱਕ ਫਸਲ ਚੁਣੋ",
+    "planDuration": "ਯੋਜਨਾ ਦੀ ਮਿਆਦ",
+    "generatePlan": "ਯੋਜਨਾ ਬਣਾਓ",
+    "cropInfo": "ਫਸਲ ਜਾਣਕਾਰੀ",
+    "compatibilityGuide": "ਫਸਲ ਅਨੁਕੂਲਤਾ ਗਾਈਡ",
+    "tips": "ਚੱਕਰ ਸੁਝਾਅ",
+    "year": "ਸਾਲ",
+    "yearsUnit": "ਸਾਲ",
+    "crop": "ਫਸਲ"
   },
   "yieldPrediction": {
-    "badge": "AI Prediction",
-    "title": "Crop Yield Prediction",
-    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+    "badge": "AI ਪੂਰਵ ਅਨੁਮਾਨ",
+    "title": "ਫਸਲ ਉਪਜ ਪੂਰਵ ਅਨੁਮਾਨ",
+    "description": "ਸਾਡੇ AI ਮਾਡਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਮੌਜੂਦਾ ਮੌਸਮ ਦੀਆਂ ਸਥਿਤੀਆਂ ਅਤੇ ਇਤਿਹਾਸਕ ਡੇਟਾ ਦੇ ਆਧਾਰ 'ਤੇ ਆਪਣੀ ਅਨੁਮਾਨਿਤ ਫਸਲ ਉਪਜ ਦੀ ਭਵਿੱਖਬਾਣੀ ਕਰੋ.",
+    "enterConditions": "ਸਥਿਤੀਆਂ ਦਾਖਲ ਕਰੋ",
+    "selectCrop": "ਫਸਲ ਚੁਣੋ",
+    "chooseCrop": "ਇੱਕ ਫਸਲ ਚੁਣੋ",
+    "avgTemperature": "ਔਸਤ ਤਾਪਮਾਨ (°C)",
+    "expectedRainfall": "ਅਨੁਮਾਨਿਤ ਬਾਰਿਸ਼ (ਮਿਮੀ)",
+    "avgHumidity": "ਔਸਤ ਨਮੀ (%)",
+    "optimal": "ਅਨੁਕੂਲ",
+    "predictYield": "ਉਪਜ ਪੂਰਵ ਅਨੁਮਾਨ",
+    "yieldPrediction": "ਉਪਜ ਪੂਰਵ ਅਨੁਮਾਨ",
+    "predictedYield": "ਅਨੁਮਾਨਿਤ ਉਪਜ",
+    "confidence": "ਪੂਰਵ ਅਨੁਮਾਨ ਭਰੋਸਾ",
+    "analysisFactors": "ਵਿਸ਼ਲੇਸ਼ਣ ਕਾਰਕ:",
+    "historicalTrend": "ਇਤਿਹਾਸਕ ਰੁਝਾਨ",
+    "placeholder": "ਪੂਰਵ ਅਨੁਮਾਨ ਦੇਖਣ ਲਈ ਫਸਲ ਅਤੇ ਸਥਿਤੀਆਂ ਦਾਖਲ ਕਰੋ"
   },
   "marketTrends": {
-    "badge": "Market Intelligence",
-    "title": "Market Price Trends",
-    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+    "badge": "ਮਾਰਕੀਟ ਇੰਟੈਲੀਜੈਂਸ",
+    "title": "ਮਾਰਕੀਟ ਕੀਮਤ ਰੁਝਾਨ",
+    "description": "ਸਾਲਾਂ ਵਿੱਚ ਮੁੱਖ ਫਸਲਾਂ ਲਈ MSP ਅਤੇ ਮਾਰਕੀਟ ਕੀਮਤ ਰੁਝਾਨਾਂ ਨੂੰ ਟਰੈਕ ਕਰੋ.",
+    "priceComparison": "ਕੀਮਤ ਤੁਲਨਾ (₹/ਕੁਇੰਟਲ)",
+    "currentMSP": "ਮੌਜੂਦਾ MSP",
+    "since": "ਤੋਂ"
   },
   "irrigation": {
     "badge": "ਸਮਾਰਟ ਸਿੰਚਾਈ",
@@ -300,7 +337,9 @@
     "every": "ਹਰ",
     "day": "ਦਿਨ",
     "days": "ਦਿਨ",
-    "weekly": "ਮਿਮੀ/ਹਫ਼ਤਾ"
+    "weekly": "ਮਿਮੀ/ਹਫ਼ਤਾ",
+    "rainfallAuto": "ਬਾਰਿਸ਼ ਆਟੋ-ਫਿਲ",
+    "rainfallFetched": "ਤੁਹਾਡੇ ਸਥਾਨ ਤੋਂ ਬਾਰਿਸ਼ ਡੇਟਾ ਪ੍ਰਾਪਤ ਹੋਇਆ"
   },
   "common": {
     "selectOption": "ਵਿਕਲਪ ਚੁਣੋ"
@@ -343,9 +382,21 @@
     "exportPdf": "PDF ਨਿਰਯਾਤ",
     "optimal": "✓ ਅਨੁਕੂਲ",
     "low": "↓ ਘੱਟ",
-    "high": "↑ ਉੱਚ",
+    "high": "↑ ਵੱਧ",
     "optimalRange": "ਅਨੁਕੂਲ",
-    "amendmentsTitle": "ਸਿਫਾਰਸ਼ ਕੀਤੀਆਂ ਸੋਧਾਂ"
+    "amendmentsTitle": "ਸਿਫ਼ਾਰਸ਼ੀ ਸੁਧਾਰ",
+    "badge": "ਮਿੱਟੀ ਵਿਸ਼ਲੇਸ਼ਣ",
+    "title": "ਮਿੱਟੀ ਸਿਹਤ ਡੈਸ਼ਬੋਰਡ",
+    "description": "ਅਨੁਕੂਲਿਤ ਮਿੱਟੀ ਸੁਧਾਰ ਸਿਫ਼ਾਰਸ਼ਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ NPK, pH ਅਤੇ ਜੈਵਿਕ ਕਾਰਬਨ ਨੂੰ ਟਰੈਕ ਕਰੋ.",
+    "analyze": "ਮਿੱਟੀ ਦੀ ਸਿਹਤ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ",
+    "scoreTitle": "ਮਿੱਟੀ ਸਿਹਤ ਸਕੋਰ",
+    "placeholder": "ਵਿਸ਼ਲੇਸ਼ਣ ਦੇਖਣ ਲਈ ਆਪਣੇ ਮਿੱਟੀ ਟੈਸਟ ਨਤੀਜੇ ਦਾਖਲ ਕਰੋ",
+    "inputTitle": "ਮਿੱਟੀ ਟੈਸਟ ਨਤੀਜੇ ਦਾਖਲ ਕਰੋ",
+    "nitrogen": "ਨਾਈਟ੍ਰੋਜਨ (ਕਿਲੋ/ਹੈ)",
+    "phosphorus": "ਫਾਸਫੋਰਸ (ਕਿਲੋ/ਹੈ)",
+    "potassium": "ਪੋਟਾਸ਼ੀਅਮ (ਕਿਲੋ/ਹੈ)",
+    "ph": "ਮਿੱਟੀ pH",
+    "organicCarbon": "ਜੈਵਿਕ ਕਾਰਬਨ (%)"
   },
   "weatherAlerts": {
     "badge": "ਬਿਮਾਰੀ ਜੋਖਮ ਚੇਤਾਵਨੀਆਂ",
@@ -384,5 +435,61 @@
     "seasonCol": "ਮੌਸਮ",
     "plantingTime": "ਬੀਜਣ ਦਾ ਸਮਾਂ",
     "harvestTime": "ਵਾਢੀ ਦਾ ਸਮਾਂ"
+  },
+  "compare": {
+    "title": "ਫਸਲਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ",
+    "description": "ਕਈ ਫਸਲਾਂ ਦੀਆਂ ਵਧਣ ਦੀਆਂ ਸਥਿਤੀਆਂ ਅਤੇ ਜ਼ਰੂਰਤਾਂ ਦੀ ਨਾਲ-ਨਾਲ ਤੁਲਨਾ ਕਰੋ",
+    "addPlaceholder": "ਤੁਲਨਾ ਲਈ ਫਸਲ ਜੋੜੋ",
+    "clearAll": "ਸਭ ਸਾਫ਼ ਕਰੋ",
+    "selectPrompt": "ਉਨ੍ਹਾਂ ਦੀਆਂ ਵਧਣ ਦੀਆਂ ਜ਼ਰੂਰਤਾਂ ਦੀ ਤੁਲਨਾ ਕਰਨ ਲਈ 4 ਤੱਕ ਫਸਲਾਂ ਚੁਣੋ",
+    "property": "ਗੁਣ",
+    "season": "ਮੌਸਮ",
+    "growingPeriod": "ਵਾਧੇ ਦਾ ਸਮਾਂ",
+    "waterRequirement": "ਪਾਣੀ ਦੀ ਜ਼ਰੂਰਤ",
+    "soilType": "ਮਿੱਟੀ ਦੀ ਕਿਸਮ",
+    "expectedYield": "ਅਨੁਮਾਨਿਤ ਉਪਜ",
+    "temperature": "ਤਾਪਮਾਨ",
+    "humidity": "ਨਮੀ",
+    "phRange": "pH ਰੇਂਜ",
+    "npk": "NPK ਜ਼ਰੂਰਤਾਂ",
+    "description2": "ਵੇਰਵਾ"
+  },
+  "regional": {
+    "title": "ਖੇਤਰੀ ਫਸਲ ਸਿਫ਼ਾਰਸ਼ਾਂ",
+    "description": "ਆਪਣੇ ਰਾਜ ਦੇ ਜਲਵਾਯੂ ਅਤੇ ਮਿੱਟੀ ਦੀਆਂ ਸਥਿਤੀਆਂ ਦੇ ਆਧਾਰ 'ਤੇ ਫਸਲ ਸਿਫ਼ਾਰਸ਼ਾਂ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "selectState": "ਆਪਣਾ ਰਾਜ ਚੁਣੋ",
+    "selectPrompt": "ਆਪਣੇ ਖੇਤਰ ਲਈ ਸਿਫ਼ਾਰਸ਼ੀ ਫਸਲਾਂ ਦੇਖਣ ਲਈ ਆਪਣਾ ਰਾਜ ਚੁਣੋ",
+    "climate": "ਜਲਵਾਯੂ",
+    "soilTypes": "ਮਿੱਟੀ ਦੀਆਂ ਕਿਸਮਾਂ",
+    "bestSeason": "ਵਧੀਆ ਮੌਸਮ",
+    "recommendedFor": "ਸਿਫ਼ਾਰਸ਼ੀ ਫਸਲਾਂ -",
+    "tip": "ਇਹ ਸਿਫ਼ਾਰਸ਼ਾਂ ਆਮ ਜਲਵਾਯੂ ਅਤੇ ਮਿੱਟੀ ਦੀਆਂ ਸਥਿਤੀਆਂ 'ਤੇ ਆਧਾਰਿਤ ਹਨ।",
+    "tipLabel": "ਸੁਝਾਅ"
+  },
+  "schemes": {
+    "badge": "ਸਰਕਾਰੀ ਯੋਜਨਾਵਾਂ",
+    "title": "ਖੇਤੀਬਾੜੀ ਯੋਜਨਾ ਖੋਜਕ",
+    "description": "ਆਪਣੀ ਫਸਲ ਅਤੇ ਖੇਤਰ ਲਈ ਢੁਕਵੀਆਂ ਸਰਕਾਰੀ ਸਬਸਿਡੀਆਂ, ਬੀਮਾ ਅਤੇ ਕਰਜ਼ਾ ਯੋਜਨਾਵਾਂ ਲੱਭੋ.",
+    "filters": "ਯੋਜਨਾਵਾਂ ਫਿਲਟਰ ਕਰੋ",
+    "benefits": "ਲਾਭ",
+    "visitWebsite": "ਵੈਬਸਾਈਟ ਤੇ ਜਾਓ",
+    "noResults": "ਤੁਹਾਡੇ ਫਿਲਟਰਾਂ ਨਾਲ ਮੇਲ ਖਾਂਦੀਆਂ ਕੋਈ ਯੋਜਨਾਵਾਂ ਨਹੀਂ ਮਿਲੀਆਂ.",
+    "exportPdf": "PDF ਨਿਰਯਾਤ",
+    "allCategories": "ਸਾਰੀਆਂ ਸ਼੍ਰੇਣੀਆਂ",
+    "subsidy": "ਸਬਸਿਡੀ",
+    "insurance": "ਬੀਮਾ",
+    "loan": "ਕਰਜ਼ਾ",
+    "support": "ਸਹਾਇਤਾ"
+  },
+  "nutrient": {
+    "badge": "ਫਸਲ ਪੋਸ਼ਕ ਗਾਈਡ",
+    "title": "ਖਾਦ ਅਤੇ ਕੀਟਨਾਸ਼ਕ ਯੋਜਨਾਕਾਰ",
+    "description": "ਆਪਣੀ ਫਸਲ ਲਈ ਸਿਫ਼ਾਰਸ਼ੀ ਰਸਾਇਣਾਂ ਨਾਲ ਪੜਾਅ-ਵਾਰ ਖਾਦ ਅਨੁਸੂਚੀ.",
+    "selectCrop": "ਫਸਲ ਚੁਣੋ:",
+    "fertilizerSchedule": "ਖਾਦ ਅਨੁਸੂਚੀ",
+    "pestDiseaseControl": "ਕੀੜੇ ਅਤੇ ਬਿਮਾਰੀ ਨਿਯੰਤਰਣ",
+    "symptoms": "ਲੱਛਣ",
+    "recommendedPesticides": "ਸਿਫ਼ਾਰਸ਼ੀ ਕੀਟਨਾਸ਼ਕ / ਉੱਲੀਨਾਸ਼ਕ:",
+    "dose": "ਖੁਰਾਕ"
   }
 }

@@ -39,7 +39,9 @@
     "fetching": "আবহাওয়া ডেটা পাওয়া যাচ্ছে...",
     "weatherSuccess": "আপনার অবস্থান থেকে আবহাওয়া ডেটা স্বয়ংক্রিয়ভাবে পূরণ হয়েছে!",
     "weatherError": "আবহাওয়া ডেটা পাওয়া যায়নি। অনুগ্রহ করে ম্যানুয়ালি লিখুন।",
-    "locationError": "অবস্থান অ্যাক্সেস অস্বীকৃত। অনুগ্রহ করে ম্যানুয়ালি ডেটা লিখুন।"
+    "locationError": "অবস্থান অ্যাক্সেস অস্বীকৃত। অনুগ্রহ করে ম্যানুয়ালি ডেটা লিখুন।",
+    "rainfallAuto": "বৃষ্টিপাত স্বয়ংক্রিয়",
+    "rainfallSuccess": "আপনার অবস্থান থেকে বৃষ্টিপাত স্বয়ংক্রিয়ভাবে পূরণ!"
   },
   "results": {
     "title": "আপনার জমির জন্য সুপারিশকৃত ফসল",
@@ -252,27 +254,62 @@
     "yield": "Yield Prediction"
   },
   "diseases": {
-    "badge": "Disease Identification",
-    "title": "Crop Disease Guide",
-    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
-    "searchPlaceholder": "Search diseases or crops...",
-    "allCrops": "All Crops",
-    "filterByCrop": "Filter by crop"
+    "badge": "রোগ সনাক্তকরণ",
+    "title": "ফসল রোগ গাইড",
+    "description": "সাধারণ ফসলের রোগ সনাক্ত করুন, তাদের লক্ষণগুলি বুঝুন এবং কার্যকর চিকিত্সা ও প্রতিরোধ পদ্ধতি শিখুন.",
+    "searchPlaceholder": "রোগ বা ফসল অনুসন্ধান করুন...",
+    "allCrops": "সব ফসল",
+    "filterByCrop": "ফসল দ্বারা ফিল্টার করুন",
+    "noResults": "আপনার মানদণ্ডের সাথে মেলে এমন কোনো রোগ পাওয়া যায়নি.",
+    "symptoms": "লক্ষণ",
+    "causes": "কারণ",
+    "treatment": "চিকিৎসা",
+    "prevention": "প্রতিরোধ",
+    "showLess": "কম দেখান",
+    "viewDetails": "বিস্তারিত দেখুন"
   },
   "rotation": {
-    "badge": "Sustainable Farming",
-    "title": "Crop Rotation Planner",
-    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+    "badge": "টেকসই কৃষি",
+    "title": "ফসল আবর্তন পরিকল্পনাকারী",
+    "description": "মাটির স্বাস্থ্য বজায় রাখতে, কীটপতঙ্গের চাপ কমাতে এবং একাধিক মৌসুমে ফলন বাড়াতে অনুকূল ফসল ক্রম পরিকল্পনা করুন.",
+    "startTitle": "আপনার আবর্তন পরিকল্পনা শুরু করুন",
+    "startingCrop": "শুরুর ফসল",
+    "selectCrop": "একটি ফসল নির্বাচন করুন",
+    "planDuration": "পরিকল্পনার সময়কাল",
+    "generatePlan": "পরিকল্পনা তৈরি করুন",
+    "cropInfo": "ফসলের তথ্য",
+    "compatibilityGuide": "ফসল সামঞ্জস্য গাইড",
+    "tips": "আবর্তন টিপস",
+    "year": "বছর",
+    "yearsUnit": "বছর",
+    "crop": "ফসল"
   },
   "yieldPrediction": {
-    "badge": "AI Prediction",
-    "title": "Crop Yield Prediction",
-    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+    "badge": "AI ভবিষ্যদ্বাণী",
+    "title": "ফসল ফলন ভবিষ্যদ্বাণী",
+    "description": "আমাদের AI মডেল ব্যবহার করে বর্তমান আবহাওয়ার অবস্থা এবং ঐতিহাসিক ডেটার উপর ভিত্তি করে আপনার প্রত্যাশিত ফসলের ফলন ভবিষ্যদ্বাণী করুন.",
+    "enterConditions": "শর্ত লিখুন",
+    "selectCrop": "ফসল নির্বাচন করুন",
+    "chooseCrop": "একটি ফসল চয়ন করুন",
+    "avgTemperature": "গড় তাপমাত্রা (°C)",
+    "expectedRainfall": "প্রত্যাশিত বৃষ্টিপাত (মিমি)",
+    "avgHumidity": "গড় আর্দ্রতা (%)",
+    "optimal": "অনুকূল",
+    "predictYield": "ফলন ভবিষ্যদ্বাণী",
+    "yieldPrediction": "ফলন ভবিষ্যদ্বাণী",
+    "predictedYield": "ভবিষ্যদ্বাণীকৃত ফলন",
+    "confidence": "ভবিষ্যদ্বাণী আস্থা",
+    "analysisFactors": "বিশ্লেষণ কারণ:",
+    "historicalTrend": "ঐতিহাসিক প্রবণতা",
+    "placeholder": "ভবিষ্যদ্বাণী দেখতে ফসল এবং অবস্থা লিখুন"
   },
   "marketTrends": {
-    "badge": "Market Intelligence",
-    "title": "Market Price Trends",
-    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+    "badge": "বাজার বুদ্ধিমত্তা",
+    "title": "বাজার মূল্য প্রবণতা",
+    "description": "বছরের পর বছর প্রধান ফসলের জন্য MSP এবং বাজার মূল্য প্রবণতা ট্র্যাক করুন.",
+    "priceComparison": "মূল্য তুলনা (₹/কুইন্টাল)",
+    "currentMSP": "বর্তমান MSP",
+    "since": "থেকে"
   },
   "irrigation": {
     "badge": "স্মার্ট সেচ",
@@ -300,7 +337,9 @@
     "every": "প্রতি",
     "day": "দিন",
     "days": "দিন",
-    "weekly": "মিমি/সপ্তাহ"
+    "weekly": "মিমি/সপ্তাহ",
+    "rainfallAuto": "বৃষ্টিপাত স্বয়ংক্রিয়",
+    "rainfallFetched": "আপনার অবস্থান থেকে বৃষ্টিপাতের ডেটা সংগ্রহ করা হয়েছে"
   },
   "common": {
     "selectOption": "বিকল্প নির্বাচন করুন"
@@ -340,12 +379,24 @@
     "downloadPdf": "PDF রিপোর্ট ডাউনলোড করুন"
   },
   "soilHealth": {
-    "exportPdf": "PDF রপ্তানি",
-    "optimal": "✓ সর্বোত্তম",
+    "exportPdf": "PDF এক্সপোর্ট",
+    "optimal": "✓ অনুকূল",
     "low": "↓ কম",
     "high": "↑ বেশি",
-    "optimalRange": "সর্বোত্তম",
-    "amendmentsTitle": "প্রস্তাবিত সংশোধন"
+    "optimalRange": "অনুকূল",
+    "amendmentsTitle": "সুপারিশকৃত সংশোধন",
+    "badge": "মাটি বিশ্লেষণ",
+    "title": "মাটি স্বাস্থ্য ড্যাশবোর্ড",
+    "description": "কাস্টমাইজড মাটি সংশোধন সুপারিশ পেতে NPK ব্যালেন্স, pH এবং জৈব কার্বন ট্র্যাক করুন.",
+    "analyze": "মাটির স্বাস্থ্য বিশ্লেষণ করুন",
+    "scoreTitle": "মাটি স্বাস্থ্য স্কোর",
+    "placeholder": "বিশ্লেষণ দেখতে আপনার মাটি পরীক্ষার ফলাফল লিখুন",
+    "inputTitle": "মাটি পরীক্ষার ফলাফল লিখুন",
+    "nitrogen": "নাইট্রোজেন (কেজি/হেক্টর)",
+    "phosphorus": "ফসফরাস (কেজি/হেক্টর)",
+    "potassium": "পটাশিয়াম (কেজি/হেক্টর)",
+    "ph": "মাটি pH",
+    "organicCarbon": "জৈব কার্বন (%)"
   },
   "weatherAlerts": {
     "badge": "রোগ ঝুঁকি সতর্কতা",
@@ -384,5 +435,61 @@
     "seasonCol": "মৌসুম",
     "plantingTime": "রোপণ সময়",
     "harvestTime": "ফসল কাটার সময়"
+  },
+  "compare": {
+    "title": "ফসল তুলনা করুন",
+    "description": "একাধিক ফসলের বৃদ্ধির অবস্থা এবং প্রয়োজনীয়তা পাশাপাশি তুলনা করুন",
+    "addPlaceholder": "তুলনা করতে ফসল যোগ করুন",
+    "clearAll": "সব মুছুন",
+    "selectPrompt": "তাদের বৃদ্ধির প্রয়োজনীয়তা তুলনা করতে ৪টি পর্যন্ত ফসল নির্বাচন করুন",
+    "property": "বৈশিষ্ট্য",
+    "season": "মৌসুম",
+    "growingPeriod": "বৃদ্ধির সময়",
+    "waterRequirement": "জলের প্রয়োজন",
+    "soilType": "মাটির ধরন",
+    "expectedYield": "প্রত্যাশিত ফলন",
+    "temperature": "তাপমাত্রা",
+    "humidity": "আর্দ্রতা",
+    "phRange": "pH পরিসর",
+    "npk": "NPK প্রয়োজনীয়তা",
+    "description2": "বিবরণ"
+  },
+  "regional": {
+    "title": "আঞ্চলিক ফসল সুপারিশ",
+    "description": "আপনার রাজ্যের জলবায়ু এবং মাটির অবস্থার উপর ভিত্তি করে ফসলের সুপারিশ পান",
+    "selectState": "আপনার রাজ্য নির্বাচন করুন",
+    "selectPrompt": "আপনার অঞ্চলের জন্য সুপারিশকৃত ফসল দেখতে আপনার রাজ্য নির্বাচন করুন",
+    "climate": "জলবায়ু",
+    "soilTypes": "মাটির ধরন",
+    "bestSeason": "সেরা মৌসুম",
+    "recommendedFor": "সুপারিশকৃত ফসল -",
+    "tip": "এই সুপারিশগুলি সাধারণ জলবায়ু এবং মাটির অবস্থার উপর ভিত্তি করে।",
+    "tipLabel": "টিপ"
+  },
+  "schemes": {
+    "badge": "সরকারি প্রকল্প",
+    "title": "কৃষি প্রকল্প ফাইন্ডার",
+    "description": "আপনার ফসল এবং অঞ্চলের জন্য প্রাসঙ্গিক সরকারি ভর্তুকি, বীমা এবং ঋণ প্রকল্প খুঁজুন.",
+    "filters": "প্রকল্প ফিল্টার করুন",
+    "benefits": "সুবিধা",
+    "visitWebsite": "ওয়েবসাইট দেখুন",
+    "noResults": "আপনার ফিল্টারের সাথে মেলে এমন কোনো প্রকল্প পাওয়া যায়নি.",
+    "exportPdf": "PDF এক্সপোর্ট",
+    "allCategories": "সব বিভাগ",
+    "subsidy": "ভর্তুকি",
+    "insurance": "বীমা",
+    "loan": "ঋণ",
+    "support": "সহায়তা"
+  },
+  "nutrient": {
+    "badge": "ফসল পুষ্টি গাইড",
+    "title": "সার ও কীটনাশক পরিকল্পনাকারী",
+    "description": "আপনার ফসলের জন্য সুপারিশকৃত রাসায়নিকের সাথে পর্যায়-ভিত্তিক সার সময়সূচী, কীটপতঙ্গ ও রোগ ব্যবস্থাপনা।",
+    "selectCrop": "ফসল নির্বাচন:",
+    "fertilizerSchedule": "সার সময়সূচী",
+    "pestDiseaseControl": "কীটপতঙ্গ ও রোগ নিয়ন্ত্রণ",
+    "symptoms": "লক্ষণ",
+    "recommendedPesticides": "সুপারিশকৃত কীটনাশক / ছত্রাকনাশক:",
+    "dose": "মাত্রা"
   }
 }

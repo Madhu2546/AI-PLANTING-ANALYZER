@@ -20,11 +20,11 @@ const RegionalRecommendations = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <MapPin className="h-8 w-8 text-primary" />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              {t("Regional Crop Recommendations")}
+              {t("regional.title")}
             </h2>
           </div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            {t("Get crop recommendations based on your state's climate and soil conditions")}
+            {t("regional.description")}
           </p>
         </div>
 
@@ -32,7 +32,7 @@ const RegionalRecommendations = () => {
         <div className="max-w-md mx-auto mb-10">
           <Select value={selectedState} onValueChange={setSelectedState}>
             <SelectTrigger className="w-full">
-              <SelectValue placeholder="Select your state" />
+              <SelectValue placeholder={t("regional.selectState")} />
             </SelectTrigger>
             <SelectContent>
               {indianStates.map(state => (
@@ -49,7 +49,7 @@ const RegionalRecommendations = () => {
             <CardContent className="py-12 text-center">
               <MapPin className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
               <p className="text-muted-foreground">
-                Select your state to see recommended crops for your region
+                {t("regional.selectPrompt")}
               </p>
             </CardContent>
           </Card>
@@ -67,21 +67,21 @@ const RegionalRecommendations = () => {
                   <div className="flex items-start gap-3">
                     <Thermometer className="h-5 w-5 text-orange-500 mt-0.5" />
                     <div>
-                      <h4 className="font-medium text-foreground">Climate</h4>
+                      <h4 className="font-medium text-foreground">{t("regional.climate")}</h4>
                       <p className="text-sm text-muted-foreground">{stateData.climate}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Mountain className="h-5 w-5 text-amber-600 mt-0.5" />
                     <div>
-                      <h4 className="font-medium text-foreground">Soil Types</h4>
+                      <h4 className="font-medium text-foreground">{t("regional.soilTypes")}</h4>
                       <p className="text-sm text-muted-foreground">{stateData.soilTypes.join(", ")}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <CalendarDays className="h-5 w-5 text-green-600 mt-0.5" />
                     <div>
-                      <h4 className="font-medium text-foreground">Best Season</h4>
+                      <h4 className="font-medium text-foreground">{t("regional.bestSeason")}</h4>
                       <p className="text-sm text-muted-foreground">{stateData.bestSeason}</p>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ const RegionalRecommendations = () => {
             </Card>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">
-              Recommended Crops for {stateData.name}
+              {t("regional.recommendedFor")} {stateData.name}
             </h3>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
@@ -113,8 +113,7 @@ const RegionalRecommendations = () => {
 
             <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/20">
               <p className="text-sm text-muted-foreground text-center">
-                💡 <strong>Tip:</strong> These recommendations are based on general climate and soil conditions. 
-                For precise recommendations, use the Crop Recommendation System above with your specific soil parameters.
+                💡 <strong>{t("regional.tipLabel")}:</strong> {t("regional.tip")}
               </p>
             </div>
           </div>
