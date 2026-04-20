@@ -90,7 +90,7 @@ const MarketPriceTrends = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <TrendingUp className="w-5 h-5 text-primary" />
-                Price Comparison (₹/Quintal)
+                {t('marketTrends.priceComparison')}
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -138,12 +138,12 @@ const MarketPriceTrends = () => {
                     <p className="text-2xl font-bold text-foreground mt-1">
                       ₹{crop.currentMSP.toLocaleString("en-IN")}
                     </p>
-                    <p className="text-xs text-muted-foreground">Current MSP</p>
+                    <p className="text-xs text-muted-foreground">{t('marketTrends.currentMSP')}</p>
                     <div className="flex items-center justify-center gap-1 mt-2">
                       <TrendingUp className="w-3 h-3 text-primary" />
                       <span className="text-sm font-medium text-primary">+{growth}%</span>
                     </div>
-                    <p className="text-xs text-muted-foreground">since 2018</p>
+                    <p className="text-xs text-muted-foreground">{t('marketTrends.since')} 2018</p>
                   </CardContent>
                 </Card>
               );

@@ -22,13 +22,13 @@ const CropNutrientGuide = () => {
         <motion.div className="text-center mb-12" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-4">
             <Beaker className="w-4 h-4" />
-            <span className="text-sm font-medium">Crop Nutrient Guide</span>
+            <span className="text-sm font-medium">{t('nutrient.badge')}</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Fertilizer & Pesticide Planner
+            {t('nutrient.title')}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Stage-wise fertilizer schedule, pest & disease management with recommended chemicals for your crop.
+            {t('nutrient.description')}
           </p>
         </motion.div>
 
@@ -39,7 +39,7 @@ const CropNutrientGuide = () => {
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
                 <div className="flex items-center gap-2">
                   <Sprout className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium text-foreground">Select Crop:</span>
+                  <span className="text-sm font-medium text-foreground">{t('nutrient.selectCrop')}</span>
                 </div>
                 <Select value={selectedCrop} onValueChange={setSelectedCrop}>
                   <SelectTrigger className="w-full sm:w-[200px]"><SelectValue /></SelectTrigger>
@@ -58,8 +58,8 @@ const CropNutrientGuide = () => {
 
           <Tabs defaultValue="schedule">
             <TabsList className="grid w-full grid-cols-2">
-              <TabsTrigger value="schedule" className="gap-2"><Clock className="w-4 h-4" />Fertilizer Schedule</TabsTrigger>
-              <TabsTrigger value="protection" className="gap-2"><Shield className="w-4 h-4" />Pest & Disease Control</TabsTrigger>
+              <TabsTrigger value="schedule" className="gap-2"><Clock className="w-4 h-4" />{t('nutrient.fertilizerSchedule')}</TabsTrigger>
+              <TabsTrigger value="protection" className="gap-2"><Shield className="w-4 h-4" />{t('nutrient.pestDiseaseControl')}</TabsTrigger>
             </TabsList>
 
             {/* Fertilizer Schedule */}
@@ -123,19 +123,19 @@ const CropNutrientGuide = () => {
                             <CardTitle className="text-base">{pd.name}</CardTitle>
                             <Badge variant={pd.type === "pest" ? "destructive" : "secondary"} className="text-xs capitalize">{pd.type}</Badge>
                           </div>
-                          <p className="text-xs text-muted-foreground mt-0.5">Symptoms: {pd.symptoms}</p>
+                          <p className="text-xs text-muted-foreground mt-0.5">{t('nutrient.symptoms')}: {pd.symptoms}</p>
                         </div>
                       </div>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-xs font-medium text-foreground mb-2">Recommended Pesticides / Fungicides:</p>
+                      <p className="text-xs font-medium text-foreground mb-2">{t('nutrient.recommendedPesticides')}</p>
                       <div className="space-y-2">
                         {pd.pesticides.map((pest, pi) => (
                           <div key={pi} className="flex items-start gap-3 p-3 rounded-lg bg-muted/50">
                             <Shield className="w-4 h-4 mt-0.5 text-primary shrink-0" />
                             <div className="flex-1">
                               <span className="font-medium text-sm text-foreground">{pest.name}</span>
-                              <p className="text-xs text-muted-foreground">{pest.application} · Dose: {pest.dose}</p>
+                              <p className="text-xs text-muted-foreground">{pest.application} · {t('nutrient.dose')}: {pest.dose}</p>
                             </div>
                           </div>
                         ))}

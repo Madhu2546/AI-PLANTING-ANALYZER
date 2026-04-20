@@ -57,16 +57,16 @@ const CropRotationPlanner = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Leaf className="w-5 h-5 text-primary" />
-                  Start Your Rotation Plan
+                  {t('rotation.startTitle')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid md:grid-cols-3 gap-4">
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-foreground">Starting Crop</label>
+                    <label className="text-sm font-medium text-foreground">{t('rotation.startingCrop')}</label>
                     <Select value={selectedCrop} onValueChange={setSelectedCrop}>
                       <SelectTrigger>
-                        <SelectValue placeholder="Select a crop" />
+                        <SelectValue placeholder={t('rotation.selectCrop')} />
                       </SelectTrigger>
                       <SelectContent>
                         {cropRotationData.map(crop => (
@@ -78,7 +78,7 @@ const CropRotationPlanner = () => {
                     </Select>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-foreground">Plan Duration</label>
+                    <label className="text-sm font-medium text-foreground">{t('rotation.planDuration')}</label>
                     <Select 
                       value={rotationYears.toString()} 
                       onValueChange={(v) => setRotationYears(parseInt(v))}
@@ -87,10 +87,10 @@ const CropRotationPlanner = () => {
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="2">2 Years</SelectItem>
-                        <SelectItem value="3">3 Years</SelectItem>
-                        <SelectItem value="4">4 Years</SelectItem>
-                        <SelectItem value="5">5 Years</SelectItem>
+                        <SelectItem value="2">{t('rotation.years2')}</SelectItem>
+                        <SelectItem value="3">{t('rotation.years3')}</SelectItem>
+                        <SelectItem value="4">{t('rotation.years4')}</SelectItem>
+                        <SelectItem value="5">{t('rotation.years5')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -101,7 +101,7 @@ const CropRotationPlanner = () => {
                       className="w-full"
                     >
                       <Calendar className="w-4 h-4 mr-2" />
-                      Generate Plan
+                      {t('rotation.generatePlan')}
                     </Button>
                   </div>
                 </div>
@@ -113,32 +113,32 @@ const CropRotationPlanner = () => {
                     animate={{ opacity: 1, height: "auto" }}
                     className="mt-6 p-4 bg-muted/50 rounded-lg"
                   >
-                    <h4 className="font-medium text-foreground mb-3">Crop Information: {selectedCropData.crop}</h4>
+                    <h4 className="font-medium text-foreground mb-3">{t('rotation.cropInfo')}: {selectedCropData.crop}</h4>
                     <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                       <div>
-                        <span className="text-muted-foreground">Family:</span>
+                        <span className="text-muted-foreground">{t('rotation.family')}:</span>
                         <p className="font-medium">{selectedCropData.family}</p>
                       </div>
                       <div>
-                        <span className="text-muted-foreground">Nutrient Effect:</span>
+                        <span className="text-muted-foreground">{t('rotation.nutrientEffect')}:</span>
                         <p className={`font-medium ${getNutrientColor(selectedCropData.nutrientEffect)}`}>
-                          {selectedCropData.nutrientEffect === 'enriching' ? '↑ Enriching' : 
-                           selectedCropData.nutrientEffect === 'depleting' ? '↓ Depleting' : '= Neutral'}
+                          {selectedCropData.nutrientEffect === 'enriching' ? t('rotation.enriching') : 
+                           selectedCropData.nutrientEffect === 'depleting' ? t('rotation.depleting') : t('rotation.neutral')}
                         </p>
                       </div>
                       <div>
-                        <span className="text-muted-foreground">Rest Period:</span>
-                        <p className="font-medium">{selectedCropData.restPeriod} years</p>
+                        <span className="text-muted-foreground">{t('rotation.restPeriod')}:</span>
+                        <p className="font-medium">{selectedCropData.restPeriod} {t('rotation.yearsUnit')}</p>
                       </div>
                       <div>
-                        <span className="text-muted-foreground">Season:</span>
+                        <span className="text-muted-foreground">{t('rotation.season')}:</span>
                         <Badge className={getSeasonColor(selectedCropData.seasonType)}>
                           {selectedCropData.seasonType.toUpperCase()}
                         </Badge>
                       </div>
                     </div>
                     <div className="mt-3">
-                      <span className="text-muted-foreground text-sm">Soil Impact:</span>
+                      <span className="text-muted-foreground text-sm">{t('rotation.soilImpact')}:</span>
                       <p className="text-sm">{selectedCropData.soilImpact}</p>
                     </div>
                   </motion.div>
@@ -157,7 +157,7 @@ const CropRotationPlanner = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Calendar className="w-5 h-5 text-primary" />
-                    Your {rotationYears}-Year Rotation Plan
+                    {t('rotation.yourPlan', { years: rotationYears })}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -169,7 +169,7 @@ const CropRotationPlanner = () => {
                           <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">
                             Y{yearIndex + 1}
                           </div>
-                          <h4 className="text-lg font-semibold">Year {yearIndex + 1}</h4>
+                          <h4 className="text-lg font-semibold">{t('rotation.year')} {yearIndex + 1}</h4>
                         </div>
                         
                         <div className="ml-5 pl-8 border-l-2 border-primary/20 space-y-4">
@@ -207,24 +207,24 @@ const CropRotationPlanner = () => {
                   <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/20">
                     <div className="flex items-center gap-2 mb-3">
                       <AlertCircle className="w-5 h-5 text-primary" />
-                      <h4 className="font-medium text-foreground">Rotation Tips</h4>
+                      <h4 className="font-medium text-foreground">{t('rotation.tips')}</h4>
                     </div>
                     <ul className="text-sm text-muted-foreground space-y-2">
                       <li className="flex items-start gap-2">
                         <span className="text-primary">•</span>
-                        Alternate between nitrogen-fixing legumes and heavy feeders for balanced soil nutrition
+                        {t('rotation.tip1')}
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-primary">•</span>
-                        Include a cover crop or green manure if fields are fallow between seasons
+                        {t('rotation.tip2')}
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-primary">•</span>
-                        Test soil nutrients annually to adjust fertilizer applications
+                        {t('rotation.tip3')}
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-primary">•</span>
-                        Keep records of pest and disease issues to inform future crop choices
+                        {t('rotation.tip4')}
                       </li>
                     </ul>
                   </div>
@@ -242,17 +242,17 @@ const CropRotationPlanner = () => {
           >
             <Card>
               <CardHeader>
-                <CardTitle>Crop Compatibility Guide</CardTitle>
+                <CardTitle>{t('rotation.compatibilityGuide')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="border-b border-border">
-                        <th className="text-left p-3 font-medium">Crop</th>
-                        <th className="text-left p-3 font-medium">Best Followed By</th>
-                        <th className="text-left p-3 font-medium">Avoid After</th>
-                        <th className="text-center p-3 font-medium">Rest Period</th>
+                        <th className="text-left p-3 font-medium">{t('rotation.crop')}</th>
+                        <th className="text-left p-3 font-medium">{t('rotation.bestFollowedBy')}</th>
+                        <th className="text-left p-3 font-medium">{t('rotation.avoidAfter')}</th>
+                        <th className="text-center p-3 font-medium">{t('rotation.restPeriod')}</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -277,7 +277,7 @@ const CropRotationPlanner = () => {
                               ))}
                             </div>
                           </td>
-                          <td className="p-3 text-center">{crop.restPeriod} years</td>
+                          <td className="p-3 text-center">{crop.restPeriod} {t('rotation.yearsUnit')}</td>
                         </tr>
                       ))}
                     </tbody>
