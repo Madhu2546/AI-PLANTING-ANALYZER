@@ -39,7 +39,9 @@
     "fetching": "കാലാവസ്ഥ ഡാറ്റ ലഭിക്കുന്നു...",
     "weatherSuccess": "നിങ്ങളുടെ സ്ഥലത്തുനിന്ന് കാലാവസ്ഥ ഡാറ്റ ഓട്ടോ-ഫിൽ ചെയ്തു!",
     "weatherError": "കാലാവസ്ഥ ഡാറ്റ ലഭിക്കാൻ കഴിഞ്ഞില്ല. മാനുവലായി നൽകുക.",
-    "locationError": "സ്ഥല ആക്സസ് നിഷേധിച്ചു. ഡാറ്റ മാനുവലായി നൽകുക."
+    "locationError": "സ്ഥല ആക്സസ് നിഷേധിച്ചു. ഡാറ്റ മാനുവലായി നൽകുക.",
+    "rainfallAuto": "മഴ സ്വയം പൂരിപ്പിക്കുക",
+    "rainfallSuccess": "നിങ്ങളുടെ സ്ഥലത്ത് നിന്ന് മഴ സ്വയം പൂരിപ്പിച്ചു!"
   },
   "results": {
     "title": "നിങ്ങളുടെ ഭൂമിക്ക് ശുപാർശ ചെയ്ത വിളകൾ",
@@ -252,27 +254,62 @@
     "yield": "Yield Prediction"
   },
   "diseases": {
-    "badge": "Disease Identification",
-    "title": "Crop Disease Guide",
-    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
-    "searchPlaceholder": "Search diseases or crops...",
-    "allCrops": "All Crops",
-    "filterByCrop": "Filter by crop"
+    "badge": "രോഗ തിരിച്ചറിയൽ",
+    "title": "വിള രോഗ ഗൈഡ്",
+    "description": "സാധാരണ വിള രോഗങ്ങൾ തിരിച്ചറിയുക, അവയുടെ ലക്ഷണങ്ങൾ മനസ്സിലാക്കുക.",
+    "searchPlaceholder": "രോഗങ്ങൾ അല്ലെങ്കിൽ വിളകൾ തിരയുക...",
+    "allCrops": "എല്ലാ വിളകളും",
+    "filterByCrop": "വിള പ്രകാരം ഫിൽട്ടർ",
+    "noResults": "നിങ്ങളുടെ മാനദണ്ഡങ്ങളുമായി പൊരുത്തപ്പെടുന്ന രോഗങ്ങളൊന്നും കണ്ടെത്തിയില്ല.",
+    "symptoms": "ലക്ഷണങ്ങൾ",
+    "causes": "കാരണങ്ങൾ",
+    "treatment": "ചികിത്സ",
+    "prevention": "പ്രതിരോധം",
+    "showLess": "കുറവ് കാണിക്കുക",
+    "viewDetails": "വിശദാംശങ്ങൾ കാണുക"
   },
   "rotation": {
-    "badge": "Sustainable Farming",
-    "title": "Crop Rotation Planner",
-    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+    "badge": "സുസ്ഥിര കൃഷി",
+    "title": "വിള ഭ്രമണ ആസൂത്രകൻ",
+    "description": "മണ്ണിന്റെ ആരോഗ്യം നിലനിർത്താനും ഒന്നിലധികം സീസണുകളിൽ വിളവ് വർദ്ധിപ്പിക്കാനും അനുയോജ്യമായ വിള ക്രമങ്ങൾ ആസൂത്രണം ചെയ്യുക.",
+    "startTitle": "നിങ്ങളുടെ ഭ്രമണ പദ്ധതി ആരംഭിക്കുക",
+    "startingCrop": "ആരംഭ വിള",
+    "selectCrop": "ഒരു വിള തിരഞ്ഞെടുക്കുക",
+    "planDuration": "പദ്ധതി കാലയളവ്",
+    "generatePlan": "പദ്ധതി സൃഷ്ടിക്കുക",
+    "cropInfo": "വിള വിവരം",
+    "compatibilityGuide": "വിള അനുയോജ്യത ഗൈഡ്",
+    "tips": "ഭ്രമണ നുറുങ്ങുകൾ",
+    "year": "വർഷം",
+    "yearsUnit": "വർഷങ്ങൾ",
+    "crop": "വിള"
   },
   "yieldPrediction": {
-    "badge": "AI Prediction",
-    "title": "Crop Yield Prediction",
-    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+    "badge": "AI പ്രവചനം",
+    "title": "വിള വിളവ് പ്രവചനം",
+    "description": "ഞങ്ങളുടെ AI മോഡൽ ഉപയോഗിച്ച് നിലവിലെ കാലാവസ്ഥയും ചരിത്രപരമായ ഡാറ്റയും അടിസ്ഥാനമാക്കി നിങ്ങളുടെ പ്രതീക്ഷിക്കുന്ന വിള വിളവ് പ്രവചിക്കുക.",
+    "enterConditions": "സാഹചര്യങ്ങൾ നൽകുക",
+    "selectCrop": "വിള തിരഞ്ഞെടുക്കുക",
+    "chooseCrop": "ഒരു വിള തിരഞ്ഞെടുക്കുക",
+    "avgTemperature": "ശരാശരി താപനില (°C)",
+    "expectedRainfall": "പ്രതീക്ഷിക്കുന്ന മഴ (മിമീ)",
+    "avgHumidity": "ശരാശരി ഈർപ്പം (%)",
+    "optimal": "അനുയോജ്യം",
+    "predictYield": "വിളവ് പ്രവചിക്കുക",
+    "yieldPrediction": "വിളവ് പ്രവചനം",
+    "predictedYield": "പ്രവചിച്ച വിളവ്",
+    "confidence": "പ്രവചന ആത്മവിശ്വാസം",
+    "analysisFactors": "വിശകലന ഘടകങ്ങൾ:",
+    "historicalTrend": "ചരിത്രപരമായ പ്രവണത",
+    "placeholder": "പ്രവചനം കാണാൻ വിളയും സാഹചര്യങ്ങളും നൽകുക"
   },
   "marketTrends": {
-    "badge": "Market Intelligence",
-    "title": "Market Price Trends",
-    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+    "badge": "മാർക്കറ്റ് ഇന്റലിജൻസ്",
+    "title": "മാർക്കറ്റ് വില പ്രവണതകൾ",
+    "description": "വർഷങ്ങളിൽ പ്രധാന വിളകൾക്കായി MSP, മാർക്കറ്റ് വില പ്രവണതകൾ ട്രാക്ക് ചെയ്യുക.",
+    "priceComparison": "വില താരതമ്യം (₹/ക്വിന്റൽ)",
+    "currentMSP": "നിലവിലെ MSP",
+    "since": "മുതൽ"
   },
   "irrigation": {
     "badge": "സ്മാർട്ട് ജലസേചനം",
@@ -300,7 +337,9 @@
     "every": "ഓരോ",
     "day": "ദിവസം",
     "days": "ദിവസങ്ങൾ",
-    "weekly": "മിമീ/ആഴ്ച"
+    "weekly": "മിമീ/ആഴ്ച",
+    "rainfallAuto": "മഴ സ്വയം പൂരിപ്പിക്കുക",
+    "rainfallFetched": "നിങ്ങളുടെ സ്ഥലത്ത് നിന്ന് മഴ ഡാറ്റ ലഭിച്ചു"
   },
   "common": {
     "selectOption": "ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക"
@@ -341,11 +380,23 @@
   },
   "soilHealth": {
     "exportPdf": "PDF കയറ്റുമതി",
-    "optimal": "✓ ഒപ്റ്റിമൽ",
+    "optimal": "✓ അനുയോജ്യം",
     "low": "↓ കുറവ്",
-    "high": "↑ ഉയർന്ന",
-    "optimalRange": "ഒപ്റ്റിമൽ",
-    "amendmentsTitle": "ശുപാർശ ചെയ്ത തിരുത്തലുകൾ"
+    "high": "↑ കൂടുതൽ",
+    "optimalRange": "അനുയോജ്യം",
+    "amendmentsTitle": "ശുപാർശ ചെയ്ത ഭേദഗതികൾ",
+    "badge": "മണ്ണ് വിശകലനം",
+    "title": "മണ്ണിന്റെ ആരോഗ്യ ഡാഷ്ബോർഡ്",
+    "description": "അനുയോജ്യമായ മണ്ണ് ഭേദഗതി ശുപാർശകൾ ലഭിക്കുന്നതിന് NPK, pH, ജൈവ കാർബൺ എന്നിവ ട്രാക്ക് ചെയ്യുക.",
+    "analyze": "മണ്ണിന്റെ ആരോഗ്യം വിശകലനം ചെയ്യുക",
+    "scoreTitle": "മണ്ണിന്റെ ആരോഗ്യ സ്കോർ",
+    "placeholder": "വിശകലനം കാണാൻ നിങ്ങളുടെ മണ്ണ് പരിശോധനാ ഫലങ്ങൾ നൽകുക",
+    "inputTitle": "മണ്ണ് പരിശോധനാ ഫലങ്ങൾ നൽകുക",
+    "nitrogen": "നൈട്രജൻ (കിലോ/ഹെ)",
+    "phosphorus": "ഫോസ്ഫറസ് (കിലോ/ഹെ)",
+    "potassium": "പൊട്ടാസ്യം (കിലോ/ഹെ)",
+    "ph": "മണ്ണ് pH",
+    "organicCarbon": "ജൈവ കാർബൺ (%)"
   },
   "weatherAlerts": {
     "badge": "രോഗ അപകട മുന്നറിയിപ്പുകൾ",
@@ -384,5 +435,61 @@
     "seasonCol": "സീസൺ",
     "plantingTime": "നടീൽ സമയം",
     "harvestTime": "വിളവെടുപ്പ് സമയം"
+  },
+  "compare": {
+    "title": "വിളകൾ താരതമ്യം ചെയ്യുക",
+    "description": "ഒന്നിലധികം വിളകളുടെ വളർച്ചാ സാഹചര്യങ്ങളും ആവശ്യങ്ങളും താരതമ്യം ചെയ്യുക",
+    "addPlaceholder": "താരതമ്യം ചെയ്യാൻ വിള ചേർക്കുക",
+    "clearAll": "എല്ലാം മായ്ക്കുക",
+    "selectPrompt": "വളർച്ചാ ആവശ്യങ്ങൾ താരതമ്യം ചെയ്യാൻ 4 വരെ വിളകൾ തിരഞ്ഞെടുക്കുക",
+    "property": "സ്വഭാവം",
+    "season": "സീസൺ",
+    "growingPeriod": "വളർച്ചാ കാലയളവ്",
+    "waterRequirement": "ജല ആവശ്യകത",
+    "soilType": "മണ്ണിന്റെ തരം",
+    "expectedYield": "പ്രതീക്ഷിക്കുന്ന വിളവ്",
+    "temperature": "താപനില",
+    "humidity": "ഈർപ്പം",
+    "phRange": "pH ശ്രേണി",
+    "npk": "NPK ആവശ്യങ്ങൾ",
+    "description2": "വിവരണം"
+  },
+  "regional": {
+    "title": "പ്രാദേശിക വിള ശുപാർശകൾ",
+    "description": "നിങ്ങളുടെ സംസ്ഥാനത്തിന്റെ കാലാവസ്ഥയും മണ്ണിന്റെ അവസ്ഥയും അടിസ്ഥാനമാക്കി വിള ശുപാർശകൾ നേടുക",
+    "selectState": "നിങ്ങളുടെ സംസ്ഥാനം തിരഞ്ഞെടുക്കുക",
+    "selectPrompt": "നിങ്ങളുടെ പ്രദേശത്തിന് ശുപാർശ ചെയ്ത വിളകൾ കാണാൻ നിങ്ങളുടെ സംസ്ഥാനം തിരഞ്ഞെടുക്കുക",
+    "climate": "കാലാവസ്ഥ",
+    "soilTypes": "മണ്ണിന്റെ തരങ്ങൾ",
+    "bestSeason": "മികച്ച സീസൺ",
+    "recommendedFor": "ശുപാർശ ചെയ്ത വിളകൾ -",
+    "tip": "ഈ ശുപാർശകൾ പൊതുവായ കാലാവസ്ഥയും മണ്ണിന്റെ അവസ്ഥയും അടിസ്ഥാനമാക്കിയുള്ളതാണ്.",
+    "tipLabel": "നുറുങ്ങ്"
+  },
+  "schemes": {
+    "badge": "സർക്കാർ പദ്ധതികൾ",
+    "title": "കാർഷിക പദ്ധതി ഫൈൻഡർ",
+    "description": "നിങ്ങളുടെ വിളയ്ക്കും പ്രദേശത്തിനും പ്രസക്തമായ സർക്കാർ സബ്സിഡികൾ, ഇൻഷുറൻസ്, വായ്പ പദ്ധതികൾ കണ്ടെത്തുക.",
+    "filters": "പദ്ധതികൾ ഫിൽട്ടർ ചെയ്യുക",
+    "benefits": "ആനുകൂല്യങ്ങൾ",
+    "visitWebsite": "വെബ്സൈറ്റ് സന്ദർശിക്കുക",
+    "noResults": "നിങ്ങളുടെ ഫിൽട്ടറുകളുമായി പൊരുത്തപ്പെടുന്ന പദ്ധതികളൊന്നും കണ്ടെത്തിയില്ല.",
+    "exportPdf": "PDF കയറ്റുമതി",
+    "allCategories": "എല്ലാ വിഭാഗങ്ങളും",
+    "subsidy": "സബ്സിഡി",
+    "insurance": "ഇൻഷുറൻസ്",
+    "loan": "വായ്പ",
+    "support": "പിന്തുണ"
+  },
+  "nutrient": {
+    "badge": "വിള പോഷക ഗൈഡ്",
+    "title": "വളവും കീടനാശിനി ആസൂത്രകനും",
+    "description": "നിങ്ങളുടെ വിളയ്ക്ക് ശുപാർശ ചെയ്ത രാസവസ്തുക്കളോടെ ഘട്ടം-വൈസ് വള ഷെഡ്യൂൾ.",
+    "selectCrop": "വിള തിരഞ്ഞെടുക്കുക:",
+    "fertilizerSchedule": "വള ഷെഡ്യൂൾ",
+    "pestDiseaseControl": "കീട, രോഗ നിയന്ത്രണം",
+    "symptoms": "ലക്ഷണങ്ങൾ",
+    "recommendedPesticides": "ശുപാർശ ചെയ്ത കീടനാശിനികൾ / ഫംഗിസൈഡുകൾ:",
+    "dose": "ഡോസ്"
   }
 }

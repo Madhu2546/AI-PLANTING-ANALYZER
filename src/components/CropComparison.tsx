@@ -26,15 +26,15 @@ const CropComparison = () => {
   const availableCrops = allCrops.filter(c => !selectedCrops.includes(c));
 
   const comparisonFields: { key: keyof CropDetails; label: string }[] = [
-    { key: "season", label: "Season" },
-    { key: "growingPeriod", label: "Growing Period" },
-    { key: "waterRequirement", label: "Water Requirement" },
-    { key: "soilType", label: "Soil Type" },
-    { key: "expectedYield", label: "Expected Yield" },
-    { key: "optimalTemp", label: "Temperature" },
-    { key: "optimalHumidity", label: "Humidity" },
-    { key: "optimalPh", label: "pH Range" },
-    { key: "npk", label: "NPK Requirements" },
+    { key: "season", label: t("compare.season") },
+    { key: "growingPeriod", label: t("compare.growingPeriod") },
+    { key: "waterRequirement", label: t("compare.waterRequirement") },
+    { key: "soilType", label: t("compare.soilType") },
+    { key: "expectedYield", label: t("compare.expectedYield") },
+    { key: "optimalTemp", label: t("compare.temperature") },
+    { key: "optimalHumidity", label: t("compare.humidity") },
+    { key: "optimalPh", label: t("compare.phRange") },
+    { key: "npk", label: t("compare.npk") },
   ];
 
   return (
@@ -44,11 +44,11 @@ const CropComparison = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Scale className="h-8 w-8 text-primary" />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              {t("Compare Crops")}
+              {t("compare.title")}
             </h2>
           </div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            {t("Compare growing conditions and requirements of multiple crops side by side")}
+            {t("compare.description")}
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const CropComparison = () => {
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
           <Select onValueChange={addCrop} value="">
             <SelectTrigger className="w-[200px]">
-              <SelectValue placeholder="Add a crop to compare" />
+              <SelectValue placeholder={t("compare.addPlaceholder")} />
             </SelectTrigger>
             <SelectContent>
               {availableCrops.map(crop => (
@@ -80,7 +80,7 @@ const CropComparison = () => {
 
           {selectedCrops.length > 0 && (
             <Button variant="outline" size="sm" onClick={() => setSelectedCrops([])}>
-              Clear All
+              {t("compare.clearAll")}
             </Button>
           )}
         </div>
@@ -90,7 +90,7 @@ const CropComparison = () => {
             <CardContent className="py-12 text-center">
               <Plus className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
               <p className="text-muted-foreground">
-                Select up to 4 crops to compare their growing requirements
+                {t("compare.selectPrompt")}
               </p>
             </CardContent>
           </Card>
@@ -100,7 +100,7 @@ const CropComparison = () => {
               <thead>
                 <tr>
                   <th className="text-left p-4 bg-card border-b font-semibold text-foreground min-w-[160px]">
-                    Property
+                    {t("compare.property")}
                   </th>
                   {selectedCrops.map(crop => (
                     <th key={crop} className="p-4 bg-card border-b min-w-[200px]">
@@ -130,7 +130,7 @@ const CropComparison = () => {
                   </tr>
                 ))}
                 <tr className="bg-muted/20">
-                  <td className="p-4 border-b font-medium text-foreground">Description</td>
+                  <td className="p-4 border-b font-medium text-foreground">{t("compare.description2")}</td>
                   {selectedCrops.map(crop => (
                     <td key={crop} className="p-4 border-b text-sm text-muted-foreground">
                       {cropDetails[crop]?.description || "-"}

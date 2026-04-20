@@ -39,7 +39,9 @@
     "fetching": "हवामान डेटा मिळवत आहे...",
     "weatherSuccess": "तुमच्या स्थानावरून हवामान डेटा ऑटो-फिल झाला!",
     "weatherError": "हवामान डेटा मिळू शकला नाही. कृपया मॅन्युअली प्रविष्ट करा.",
-    "locationError": "स्थान प्रवेश नाकारला. कृपया डेटा मॅन्युअली प्रविष्ट करा."
+    "locationError": "स्थान प्रवेश नाकारला. कृपया डेटा मॅन्युअली प्रविष्ट करा.",
+    "rainfallAuto": "पर्जन्यवृष्टी स्वयं भरा",
+    "rainfallSuccess": "आपल्या स्थानावरून पर्जन्यवृष्टी स्वयं भरली!"
   },
   "results": {
     "title": "तुमच्या जमिनीसाठी शिफारस केलेली पिके",
@@ -252,27 +254,62 @@
     "yield": "Yield Prediction"
   },
   "diseases": {
-    "badge": "Disease Identification",
-    "title": "Crop Disease Guide",
-    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
-    "searchPlaceholder": "Search diseases or crops...",
-    "allCrops": "All Crops",
-    "filterByCrop": "Filter by crop"
+    "badge": "रोग ओळख",
+    "title": "पीक रोग मार्गदर्शक",
+    "description": "सामान्य पीक रोग ओळखा, त्यांची लक्षणे समजून घ्या आणि प्रभावी उपचार आणि प्रतिबंधात्मक पद्धती शिका.",
+    "searchPlaceholder": "रोग किंवा पिके शोधा...",
+    "allCrops": "सर्व पिके",
+    "filterByCrop": "पिकानुसार फिल्टर करा",
+    "noResults": "आपल्या निकषांशी जुळणारे कोणतेही रोग आढळले नाहीत.",
+    "symptoms": "लक्षणे",
+    "causes": "कारणे",
+    "treatment": "उपचार",
+    "prevention": "प्रतिबंध",
+    "showLess": "कमी दाखवा",
+    "viewDetails": "तपशील पहा"
   },
   "rotation": {
-    "badge": "Sustainable Farming",
-    "title": "Crop Rotation Planner",
-    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+    "badge": "शाश्वत शेती",
+    "title": "पीक फेरपालट योजनाकार",
+    "description": "मातीचे आरोग्य राखण्यासाठी, कीटकांचा दबाव कमी करण्यासाठी आणि अनेक हंगामांत उत्पादन वाढवण्यासाठी इष्टतम पीक क्रमांची योजना करा.",
+    "startTitle": "आपली फेरपालट योजना सुरू करा",
+    "startingCrop": "प्रारंभिक पीक",
+    "selectCrop": "एक पीक निवडा",
+    "planDuration": "योजना कालावधी",
+    "generatePlan": "योजना तयार करा",
+    "cropInfo": "पीक माहिती",
+    "compatibilityGuide": "पीक सुसंगतता मार्गदर्शक",
+    "tips": "फेरपालट टिप्स",
+    "year": "वर्ष",
+    "yearsUnit": "वर्षे",
+    "crop": "पीक"
   },
   "yieldPrediction": {
-    "badge": "AI Prediction",
-    "title": "Crop Yield Prediction",
-    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+    "badge": "AI अंदाज",
+    "title": "पीक उत्पादन अंदाज",
+    "description": "आमच्या AI मॉडेलचा वापर करून सध्याच्या हवामान परिस्थिती आणि ऐतिहासिक डेटाच्या आधारे आपल्या अपेक्षित पीक उत्पादनाचा अंदाज घ्या.",
+    "enterConditions": "परिस्थिती प्रविष्ट करा",
+    "selectCrop": "पीक निवडा",
+    "chooseCrop": "एक पीक निवडा",
+    "avgTemperature": "सरासरी तापमान (°C)",
+    "expectedRainfall": "अपेक्षित पर्जन्यवृष्टी (मिमी)",
+    "avgHumidity": "सरासरी आर्द्रता (%)",
+    "optimal": "इष्टतम",
+    "predictYield": "उत्पादन अंदाज",
+    "yieldPrediction": "उत्पादन अंदाज",
+    "predictedYield": "अंदाजित उत्पादन",
+    "confidence": "अंदाज विश्वास",
+    "analysisFactors": "विश्लेषण घटक:",
+    "historicalTrend": "ऐतिहासिक ट्रेंड",
+    "placeholder": "अंदाज पाहण्यासाठी पीक आणि परिस्थिती प्रविष्ट करा"
   },
   "marketTrends": {
-    "badge": "Market Intelligence",
-    "title": "Market Price Trends",
-    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+    "badge": "बाजार बुद्धिमत्ता",
+    "title": "बाजार किंमत ट्रेंड",
+    "description": "वर्षानुवर्षे प्रमुख पिकांसाठी MSP आणि बाजार किंमत ट्रेंडचा मागोवा घ्या.",
+    "priceComparison": "किंमत तुलना (₹/क्विंटल)",
+    "currentMSP": "सध्याचा MSP",
+    "since": "पासून"
   },
   "irrigation": {
     "badge": "स्मार्ट सिंचन",
@@ -300,7 +337,9 @@
     "every": "प्रत्येक",
     "day": "दिवस",
     "days": "दिवस",
-    "weekly": "मिमी/आठवडा"
+    "weekly": "मिमी/आठवडा",
+    "rainfallAuto": "पर्जन्यवृष्टी स्वयं भरा",
+    "rainfallFetched": "आपल्या स्थानावरून पर्जन्यवृष्टी डेटा प्राप्त"
   },
   "common": {
     "selectOption": "पर्याय निवडा"
@@ -345,7 +384,19 @@
     "low": "↓ कमी",
     "high": "↑ जास्त",
     "optimalRange": "इष्टतम",
-    "amendmentsTitle": "शिफारस केलेले सुधारणा"
+    "amendmentsTitle": "शिफारस केलेल्या सुधारणा",
+    "badge": "माती विश्लेषण",
+    "title": "माती आरोग्य डॅशबोर्ड",
+    "description": "अनुकूलित माती सुधारणा शिफारसी मिळवण्यासाठी NPK, pH आणि सेंद्रिय कार्बनचा मागोवा घ्या.",
+    "analyze": "मातीच्या आरोग्याचे विश्लेषण करा",
+    "scoreTitle": "माती आरोग्य स्कोअर",
+    "placeholder": "विश्लेषण पाहण्यासाठी आपल्या माती चाचणीचे निकाल प्रविष्ट करा",
+    "inputTitle": "माती चाचणी निकाल प्रविष्ट करा",
+    "nitrogen": "नायट्रोजन (किलो/हे)",
+    "phosphorus": "फॉस्फरस (किलो/हे)",
+    "potassium": "पोटॅशियम (किलो/हे)",
+    "ph": "माती pH",
+    "organicCarbon": "सेंद्रिय कार्बन (%)"
   },
   "weatherAlerts": {
     "badge": "रोग जोखीम सूचना",
@@ -384,5 +435,61 @@
     "seasonCol": "हंगाम",
     "plantingTime": "पेरणी वेळ",
     "harvestTime": "कापणी वेळ"
+  },
+  "compare": {
+    "title": "पिकांची तुलना करा",
+    "description": "अनेक पिकांच्या वाढीच्या परिस्थिती आणि गरजा बाजूबाजूला तुलना करा",
+    "addPlaceholder": "तुलनेसाठी पीक जोडा",
+    "clearAll": "सर्व साफ करा",
+    "selectPrompt": "त्यांच्या वाढीच्या गरजांची तुलना करण्यासाठी 4 पर्यंत पिके निवडा",
+    "property": "गुणधर्म",
+    "season": "हंगाम",
+    "growingPeriod": "वाढीचा कालावधी",
+    "waterRequirement": "पाण्याची गरज",
+    "soilType": "मातीचा प्रकार",
+    "expectedYield": "अपेक्षित उत्पादन",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "phRange": "pH श्रेणी",
+    "npk": "NPK गरजा",
+    "description2": "वर्णन"
+  },
+  "regional": {
+    "title": "प्रादेशिक पीक शिफारसी",
+    "description": "आपल्या राज्याच्या हवामान आणि मातीच्या परिस्थितीवर आधारित पीक शिफारसी मिळवा",
+    "selectState": "आपले राज्य निवडा",
+    "selectPrompt": "आपल्या क्षेत्रासाठी शिफारस केलेली पिके पाहण्यासाठी आपले राज्य निवडा",
+    "climate": "हवामान",
+    "soilTypes": "मातीचे प्रकार",
+    "bestSeason": "सर्वोत्तम हंगाम",
+    "recommendedFor": "शिफारस केलेली पिके -",
+    "tip": "या शिफारसी सामान्य हवामान आणि मातीच्या परिस्थितीवर आधारित आहेत.",
+    "tipLabel": "टीप"
+  },
+  "schemes": {
+    "badge": "सरकारी योजना",
+    "title": "कृषी योजना शोधक",
+    "description": "आपल्या पिक आणि क्षेत्रासाठी संबंधित सरकारी अनुदान, विमा आणि कर्ज योजना शोधा.",
+    "filters": "योजना फिल्टर करा",
+    "benefits": "फायदे",
+    "visitWebsite": "वेबसाइटला भेट द्या",
+    "noResults": "आपल्या फिल्टरशी जुळणाऱ्या कोणत्याही योजना आढळल्या नाहीत.",
+    "exportPdf": "PDF निर्यात",
+    "allCategories": "सर्व श्रेणी",
+    "subsidy": "अनुदान",
+    "insurance": "विमा",
+    "loan": "कर्ज",
+    "support": "समर्थन"
+  },
+  "nutrient": {
+    "badge": "पीक पोषण मार्गदर्शक",
+    "title": "खत आणि कीटकनाशक योजनाकार",
+    "description": "आपल्या पिकासाठी शिफारस केलेल्या रसायनांसह टप्प्याटप्प्याने खत वेळापत्रक, कीटक आणि रोग व्यवस्थापन.",
+    "selectCrop": "पीक निवडा:",
+    "fertilizerSchedule": "खत वेळापत्रक",
+    "pestDiseaseControl": "कीटक आणि रोग नियंत्रण",
+    "symptoms": "लक्षणे",
+    "recommendedPesticides": "शिफारस केलेली कीटकनाशके / बुरशीनाशके:",
+    "dose": "डोस"
   }
 }

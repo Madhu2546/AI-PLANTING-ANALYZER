@@ -39,7 +39,9 @@
     "fetching": "હવામાન ડેટા મેળવી રહ્યા છીએ...",
     "weatherSuccess": "તમારા સ્થાનમાંથી હવામાન ડેટા ઓટો-ભરાયો!",
     "weatherError": "હવામાન ડેટા મેળવી શકાયો નહીં. કૃપા કરીને મેન્યુઅલી દાખલ કરો.",
-    "locationError": "સ્થાન ઍક્સેસ નકારવામાં આવ્યું. કૃપા કરીને ડેટા મેન્યુઅલી દાખલ કરો."
+    "locationError": "સ્થાન ઍક્સેસ નકારવામાં આવ્યું. કૃપા કરીને ડેટા મેન્યુઅલી દાખલ કરો.",
+    "rainfallAuto": "વરસાદ સ્વતઃ ભરો",
+    "rainfallSuccess": "તમારા સ્થાનથી વરસાદ સ્વતઃ ભરાયો!"
   },
   "results": {
     "title": "તમારી જમીન માટે ભલામણ કરેલ પાક",
@@ -252,27 +254,62 @@
     "yield": "Yield Prediction"
   },
   "diseases": {
-    "badge": "Disease Identification",
-    "title": "Crop Disease Guide",
-    "description": "Identify common crop diseases, understand their symptoms, and learn effective treatment and prevention methods.",
-    "searchPlaceholder": "Search diseases or crops...",
-    "allCrops": "All Crops",
-    "filterByCrop": "Filter by crop"
+    "badge": "રોગ ઓળખ",
+    "title": "પાક રોગ માર્ગદર્શિકા",
+    "description": "સામાન્ય પાક રોગો ઓળખો, તેમના લક્ષણો સમજો અને અસરકારક સારવાર અને નિવારણ પદ્ધતિઓ શીખો.",
+    "searchPlaceholder": "રોગ અથવા પાક શોધો...",
+    "allCrops": "બધા પાક",
+    "filterByCrop": "પાક દ્વારા ફિલ્ટર કરો",
+    "noResults": "તમારા માપદંડ સાથે મેળ ખાતા કોઈ રોગ મળ્યા નથી.",
+    "symptoms": "લક્ષણો",
+    "causes": "કારણો",
+    "treatment": "સારવાર",
+    "prevention": "નિવારણ",
+    "showLess": "ઓછું બતાવો",
+    "viewDetails": "વિગતો જુઓ"
   },
   "rotation": {
-    "badge": "Sustainable Farming",
-    "title": "Crop Rotation Planner",
-    "description": "Plan optimal crop sequences to maintain soil health, reduce pest pressure, and maximize yields over multiple seasons."
+    "badge": "ટકાઉ ખેતી",
+    "title": "પાક ફેરફાર પ્લાનર",
+    "description": "જમીનનું આરોગ્ય જાળવવા, જીવાતોના દબાણને ઘટાડવા અને બહુવિધ ઋતુઓમાં ઉપજને મહત્તમ બનાવવા માટે શ્રેષ્ઠ પાક ક્રમની યોજના કરો.",
+    "startTitle": "તમારી ફેરફાર યોજના શરૂ કરો",
+    "startingCrop": "પ્રારંભિક પાક",
+    "selectCrop": "એક પાક પસંદ કરો",
+    "planDuration": "યોજનાનો સમયગાળો",
+    "generatePlan": "યોજના બનાવો",
+    "cropInfo": "પાક માહિતી",
+    "compatibilityGuide": "પાક સુસંગતતા માર્ગદર્શિકા",
+    "tips": "ફેરફાર ટિપ્સ",
+    "year": "વર્ષ",
+    "yearsUnit": "વર્ષો",
+    "crop": "પાક"
   },
   "yieldPrediction": {
-    "badge": "AI Prediction",
-    "title": "Crop Yield Prediction",
-    "description": "Predict your expected crop yield based on current weather conditions and historical data using our AI model."
+    "badge": "AI આગાહી",
+    "title": "પાક ઉપજ આગાહી",
+    "description": "અમારા AI મોડેલનો ઉપયોગ કરીને વર્તમાન હવામાન સ્થિતિ અને ઐતિહાસિક ડેટાના આધારે તમારી અપેક્ષિત પાક ઉપજની આગાહી કરો.",
+    "enterConditions": "શરતો દાખલ કરો",
+    "selectCrop": "પાક પસંદ કરો",
+    "chooseCrop": "એક પાક પસંદ કરો",
+    "avgTemperature": "સરેરાશ તાપમાન (°C)",
+    "expectedRainfall": "અપેક્ષિત વરસાદ (મિમી)",
+    "avgHumidity": "સરેરાશ ભેજ (%)",
+    "optimal": "શ્રેષ્ઠ",
+    "predictYield": "ઉપજ આગાહી",
+    "yieldPrediction": "ઉપજ આગાહી",
+    "predictedYield": "આગાહી કરેલ ઉપજ",
+    "confidence": "આગાહી વિશ્વાસ",
+    "analysisFactors": "વિશ્લેષણ પરિબળો:",
+    "historicalTrend": "ઐતિહાસિક વલણ",
+    "placeholder": "આગાહી જોવા માટે પાક અને શરતો દાખલ કરો"
   },
   "marketTrends": {
-    "badge": "Market Intelligence",
-    "title": "Market Price Trends",
-    "description": "Track MSP and market price trends for major crops over the years. Select up to 4 crops to compare."
+    "badge": "બજાર બુદ્ધિ",
+    "title": "બજાર ભાવ વલણો",
+    "description": "વર્ષોમાં મુખ્ય પાક માટે MSP અને બજાર ભાવ વલણોને ટ્રેક કરો.",
+    "priceComparison": "ભાવ તુલના (₹/ક્વિન્ટલ)",
+    "currentMSP": "વર્તમાન MSP",
+    "since": "થી"
   },
   "irrigation": {
     "badge": "સ્માર્ટ સિંચાઈ",
@@ -300,7 +337,9 @@
     "every": "દર",
     "day": "દિવસ",
     "days": "દિવસ",
-    "weekly": "મિમી/અઠવાડિયું"
+    "weekly": "મિમી/અઠવાડિયું",
+    "rainfallAuto": "વરસાદ સ્વતઃ ભરો",
+    "rainfallFetched": "તમારા સ્થાનથી વરસાદનો ડેટા મળ્યો"
   },
   "common": {
     "selectOption": "વિકલ્પ પસંદ કરો"
@@ -343,9 +382,21 @@
     "exportPdf": "PDF નિકાસ",
     "optimal": "✓ શ્રેષ્ઠ",
     "low": "↓ ઓછું",
-    "high": "↑ ઊંચું",
+    "high": "↑ વધુ",
     "optimalRange": "શ્રેષ્ઠ",
-    "amendmentsTitle": "ભલામણ કરેલ સુધારાઓ"
+    "amendmentsTitle": "ભલામણ કરેલ સુધારણાઓ",
+    "badge": "જમીન વિશ્લેષણ",
+    "title": "જમીન આરોગ્ય ડેશબોર્ડ",
+    "description": "અનુકૂળ જમીન સુધારણા ભલામણો મેળવવા માટે NPK, pH અને કાર્બનિક કાર્બનને ટ્રેક કરો.",
+    "analyze": "જમીન આરોગ્યનું વિશ્લેષણ કરો",
+    "scoreTitle": "જમીન આરોગ્ય સ્કોર",
+    "placeholder": "વિશ્લેષણ જોવા માટે તમારા જમીન પરીક્ષણ પરિણામો દાખલ કરો",
+    "inputTitle": "જમીન પરીક્ષણ પરિણામો દાખલ કરો",
+    "nitrogen": "નાઇટ્રોજન (કિગ્રા/હે)",
+    "phosphorus": "ફોસ્ફરસ (કિગ્રા/હે)",
+    "potassium": "પોટેશિયમ (કિગ્રા/હે)",
+    "ph": "જમીન pH",
+    "organicCarbon": "કાર્બનિક કાર્બન (%)"
   },
   "weatherAlerts": {
     "badge": "રોગ જોખમ ચેતવણીઓ",
@@ -384,5 +435,61 @@
     "seasonCol": "મોસમ",
     "plantingTime": "વાવેતર સમય",
     "harvestTime": "લણણી સમય"
+  },
+  "compare": {
+    "title": "પાકોની તુલના કરો",
+    "description": "બહુવિધ પાકોની વૃદ્ધિ સ્થિતિઓ અને જરૂરિયાતોની બાજુ-બાજુ તુલના કરો",
+    "addPlaceholder": "તુલના માટે પાક ઉમેરો",
+    "clearAll": "બધું સાફ કરો",
+    "selectPrompt": "તેમની વૃદ્ધિ જરૂરિયાતોની તુલના કરવા માટે 4 સુધી પાક પસંદ કરો",
+    "property": "ગુણધર્મ",
+    "season": "ઋતુ",
+    "growingPeriod": "વૃદ્ધિ સમયગાળો",
+    "waterRequirement": "પાણીની જરૂરિયાત",
+    "soilType": "જમીનનો પ્રકાર",
+    "expectedYield": "અપેક્ષિત ઉપજ",
+    "temperature": "તાપમાન",
+    "humidity": "ભેજ",
+    "phRange": "pH શ્રેણી",
+    "npk": "NPK જરૂરિયાતો",
+    "description2": "વર્ણન"
+  },
+  "regional": {
+    "title": "પ્રાદેશિક પાક ભલામણો",
+    "description": "તમારા રાજ્યના આબોહવા અને જમીનની સ્થિતિના આધારે પાક ભલામણો મેળવો",
+    "selectState": "તમારું રાજ્ય પસંદ કરો",
+    "selectPrompt": "તમારા વિસ્તાર માટે ભલામણ કરેલા પાક જોવા માટે તમારું રાજ્ય પસંદ કરો",
+    "climate": "આબોહવા",
+    "soilTypes": "જમીનના પ્રકારો",
+    "bestSeason": "શ્રેષ્ઠ ઋતુ",
+    "recommendedFor": "ભલામણ કરેલા પાક -",
+    "tip": "આ ભલામણો સામાન્ય આબોહવા અને જમીનની સ્થિતિ પર આધારિત છે.",
+    "tipLabel": "સૂચન"
+  },
+  "schemes": {
+    "badge": "સરકારી યોજનાઓ",
+    "title": "કૃષિ યોજના શોધક",
+    "description": "તમારા પાક અને પ્રદેશ માટે સંબંધિત સરકારી સબસિડી, વીમો અને લોન યોજનાઓ શોધો.",
+    "filters": "યોજનાઓ ફિલ્ટર કરો",
+    "benefits": "લાભો",
+    "visitWebsite": "વેબસાઇટની મુલાકાત લો",
+    "noResults": "તમારા ફિલ્ટર સાથે મેળ ખાતી કોઈ યોજનાઓ મળી નથી.",
+    "exportPdf": "PDF નિકાસ",
+    "allCategories": "બધી શ્રેણીઓ",
+    "subsidy": "સબસિડી",
+    "insurance": "વીમો",
+    "loan": "લોન",
+    "support": "સહાય"
+  },
+  "nutrient": {
+    "badge": "પાક પોષક માર્ગદર્શિકા",
+    "title": "ખાતર અને જંતુનાશક પ્લાનર",
+    "description": "તમારા પાક માટે ભલામણ કરેલ રસાયણો સાથે તબક્કાવાર ખાતર શેડ્યૂલ, જીવાત અને રોગ વ્યવસ્થાપન.",
+    "selectCrop": "પાક પસંદ કરો:",
+    "fertilizerSchedule": "ખાતર શેડ્યૂલ",
+    "pestDiseaseControl": "જીવાત અને રોગ નિયંત્રણ",
+    "symptoms": "લક્ષણો",
+    "recommendedPesticides": "ભલામણ કરેલ જંતુનાશકો / ફૂગનાશકો:",
+    "dose": "ડોઝ"
   }
 }

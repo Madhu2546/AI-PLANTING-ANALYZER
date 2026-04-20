@@ -65,10 +65,10 @@ const CropDiseases = () => {
           </div>
           <Select value={selectedCrop} onValueChange={setSelectedCrop}>
             <SelectTrigger className="w-full sm:w-[180px]">
-              <SelectValue placeholder="Filter by crop" />
+              <SelectValue placeholder={t('diseases.filterByCrop')} />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Crops</SelectItem>
+              <SelectItem value="all">{t('diseases.allCrops')}</SelectItem>
               {affectedCrops.map(crop => (
                 <SelectItem key={crop} value={crop}>{crop}</SelectItem>
               ))}
@@ -92,7 +92,7 @@ const CropDiseases = () => {
         {filteredDiseases.length === 0 && (
           <div className="text-center py-12">
             <Bug className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-            <p className="text-muted-foreground">No diseases found matching your criteria.</p>
+            <p className="text-muted-foreground">{t('diseases.noResults')}</p>
           </div>
         )}
       </div>
@@ -108,6 +108,7 @@ interface DiseaseCardProps {
 }
 
 const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps) => {
+  const { t } = useTranslation();
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -136,7 +137,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
           <div>
             <div className="flex items-center gap-2 text-sm font-medium text-foreground mb-2">
               <AlertTriangle className="w-4 h-4 text-yellow-600" />
-              Symptoms
+              {t('diseases.symptoms')}
             </div>
             <ul className="text-sm text-muted-foreground space-y-1">
               {disease.symptoms.slice(0, 2).map((symptom, i) => (
@@ -172,7 +173,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
               <div>
                 <div className="flex items-center gap-2 text-sm font-medium text-foreground mb-2">
                   <Bug className="w-4 h-4 text-red-600" />
-                  Causes
+                  {t('diseases.causes')}
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   {disease.causes.map((cause, i) => (
@@ -188,7 +189,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
               <div>
                 <div className="flex items-center gap-2 text-sm font-medium text-foreground mb-2">
                   <Pill className="w-4 h-4 text-blue-600" />
-                  Treatment
+                  {t('diseases.treatment')}
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   {disease.treatment.map((treat, i) => (
@@ -204,7 +205,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
               <div>
                 <div className="flex items-center gap-2 text-sm font-medium text-foreground mb-2">
                   <Shield className="w-4 h-4 text-green-600" />
-                  Prevention
+                  {t('diseases.prevention')}
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   {disease.prevention.map((prev, i) => (
@@ -227,12 +228,12 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
             {isExpanded ? (
               <>
                 <ChevronUp className="w-4 h-4 mr-2" />
-                Show Less
+                {t('diseases.showLess')}
               </>
             ) : (
               <>
                 <ChevronDown className="w-4 h-4 mr-2" />
-                View Details
+                {t('diseases.viewDetails')}
               </>
             )}
           </Button>

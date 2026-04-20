@@ -187,15 +187,15 @@ const CropYieldPrediction = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Leaf className="w-5 h-5 text-primary" />
-                  Enter Conditions
+                  {t('yieldPrediction.enterConditions')}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="space-y-2">
-                  <Label>Select Crop</Label>
+                  <Label>{t('yieldPrediction.selectCrop')}</Label>
                   <Select value={selectedCrop} onValueChange={setSelectedCrop}>
                     <SelectTrigger>
-                      <SelectValue placeholder="Choose a crop" />
+                      <SelectValue placeholder={t('yieldPrediction.chooseCrop')} />
                     </SelectTrigger>
                     <SelectContent>
                       {cropYieldDatabase.map(crop => (
@@ -210,7 +210,7 @@ const CropYieldPrediction = () => {
                 <div className="space-y-2">
                   <Label className="flex items-center gap-2">
                     <Thermometer className="w-4 h-4 text-sun" />
-                    Average Temperature (°C)
+                    {t('yieldPrediction.avgTemperature')}
                   </Label>
                   <Input
                     type="number"
@@ -220,7 +220,7 @@ const CropYieldPrediction = () => {
                   />
                   {selectedCropData && (
                     <p className="text-xs text-muted-foreground">
-                      Optimal: {selectedCropData.optimalConditions.temperature[0]}–{selectedCropData.optimalConditions.temperature[1]}°C
+                      {t('yieldPrediction.optimal')}: {selectedCropData.optimalConditions.temperature[0]}–{selectedCropData.optimalConditions.temperature[1]}°C
                     </p>
                   )}
                 </div>
@@ -228,7 +228,7 @@ const CropYieldPrediction = () => {
                 <div className="space-y-2">
                   <Label className="flex items-center gap-2">
                     <Cloud className="w-4 h-4 text-water" />
-                    Expected Rainfall (mm)
+                    {t('yieldPrediction.expectedRainfall')}
                   </Label>
                   <Input
                     type="number"
@@ -238,7 +238,7 @@ const CropYieldPrediction = () => {
                   />
                   {selectedCropData && (
                     <p className="text-xs text-muted-foreground">
-                      Optimal: {selectedCropData.optimalConditions.rainfall[0]}–{selectedCropData.optimalConditions.rainfall[1]} mm
+                      {t('yieldPrediction.optimal')}: {selectedCropData.optimalConditions.rainfall[0]}–{selectedCropData.optimalConditions.rainfall[1]} mm
                     </p>
                   )}
                 </div>
@@ -246,7 +246,7 @@ const CropYieldPrediction = () => {
                 <div className="space-y-2">
                   <Label className="flex items-center gap-2">
                     <Droplets className="w-4 h-4 text-water" />
-                    Average Humidity (%)
+                    {t('yieldPrediction.avgHumidity')}
                   </Label>
                   <Input
                     type="number"
@@ -256,7 +256,7 @@ const CropYieldPrediction = () => {
                   />
                   {selectedCropData && (
                     <p className="text-xs text-muted-foreground">
-                      Optimal: {selectedCropData.optimalConditions.humidity[0]}–{selectedCropData.optimalConditions.humidity[1]}%
+                      {t('yieldPrediction.optimal')}: {selectedCropData.optimalConditions.humidity[0]}–{selectedCropData.optimalConditions.humidity[1]}%
                     </p>
                   )}
                 </div>
@@ -268,7 +268,7 @@ const CropYieldPrediction = () => {
                   disabled={!selectedCrop || !temperature || !rainfall || !humidity}
                 >
                   <TrendingUp className="w-4 h-4 mr-2" />
-                  Predict Yield
+                  {t('yieldPrediction.predictYield')}
                 </Button>
               </CardContent>
             </Card>
@@ -284,14 +284,14 @@ const CropYieldPrediction = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <BarChart2 className="w-5 h-5 text-primary" />
-                  Yield Prediction
+                  {t('yieldPrediction.yieldPrediction')}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 {prediction ? (
                   <>
                     <div className="p-6 rounded-xl bg-primary/10 border border-primary/20 text-center">
-                      <p className="text-sm text-muted-foreground mb-2">Predicted Yield</p>
+                      <p className="text-sm text-muted-foreground mb-2">{t('yieldPrediction.predictedYield')}</p>
                       <p className="text-4xl font-bold text-primary">
                         {prediction.yield} <span className="text-lg">{selectedCropData?.unit}</span>
                       </p>
@@ -299,14 +299,14 @@ const CropYieldPrediction = () => {
 
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
-                        <span>Prediction Confidence</span>
+                        <span>{t('yieldPrediction.confidence')}</span>
                         <span className="font-medium">{prediction.confidence}%</span>
                       </div>
                       <Progress value={prediction.confidence} className="h-2" />
                     </div>
 
                     <div className="space-y-3">
-                      <p className="font-medium text-foreground">Analysis Factors:</p>
+                      <p className="font-medium text-foreground">{t('yieldPrediction.analysisFactors')}</p>
                       {prediction.factors.map((factor, i) => (
                         <div key={i} className="text-sm text-muted-foreground p-2 bg-muted/50 rounded">
                           {factor}
@@ -316,7 +316,7 @@ const CropYieldPrediction = () => {
 
                     {selectedCropData && (
                       <div className="p-4 bg-muted/50 rounded-lg">
-                        <p className="text-sm font-medium text-foreground mb-2">Historical Trend</p>
+                        <p className="text-sm font-medium text-foreground mb-2">{t('yieldPrediction.historicalTrend')}</p>
                         <div className="flex items-end gap-1 h-16">
                           {selectedCropData.historicalYields.map((h, i) => {
                             const max = Math.max(...selectedCropData.historicalYields.map(x => x.yield));
@@ -337,7 +337,7 @@ const CropYieldPrediction = () => {
                   </>
                 ) : (
                   <div className="h-full flex items-center justify-center text-muted-foreground">
-                    <p>Enter crop and conditions to see prediction</p>
+                    <p>{t('yieldPrediction.placeholder')}</p>
                   </div>
                 )}
               </CardContent>
