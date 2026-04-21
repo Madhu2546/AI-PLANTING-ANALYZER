@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Leaf, LogIn, UserPlus, ArrowLeft } from "lucide-react";
 import { toast } from "sonner";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Auth = () => {
   const navigate = useNavigate();
@@ -58,7 +59,10 @@ const Auth = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+    <div className="min-h-screen bg-background flex items-center justify-center p-4 relative">
+      <div className="absolute top-4 right-4">
+        <LanguageSwitcher />
+      </div>
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 mb-4">

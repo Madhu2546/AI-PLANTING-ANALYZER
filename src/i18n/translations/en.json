@@ -529,5 +529,123 @@
     "dose": "Dose",
     "pest": "pest",
     "disease": "disease"
+  },
+  "crops": {
+    "Rice": "Rice",
+    "Wheat": "Wheat",
+    "Maize": "Maize",
+    "Cotton": "Cotton",
+    "Chickpea": "Chickpea",
+    "Lentil": "Lentil",
+    "Coconut": "Coconut",
+    "Coffee": "Coffee",
+    "Mango": "Mango",
+    "Grapes": "Grapes",
+    "Jute": "Jute",
+    "Soybean": "Soybean",
+    "Mustard": "Mustard",
+    "Groundnut": "Groundnut",
+    "Sorghum": "Sorghum",
+    "Pigeon Peas": "Pigeon Peas",
+    "Mung Bean": "Mung Bean",
+    "Sugarcane": "Sugarcane",
+    "Tomato": "Tomato",
+    "Onion": "Onion",
+    "Potato": "Potato",
+    "Banana": "Banana",
+    "Apple": "Apple",
+    "All": "All"
+  },
+  "severity": {
+    "low": "LOW",
+    "medium": "MEDIUM",
+    "high": "HIGH"
+  },
+  "nutrientEffect": {
+    "enriching": "Enriching",
+    "depleting": "Depleting",
+    "neutral": "Neutral"
+  },
+  "pestType": {
+    "pest": "Pest",
+    "disease": "Disease"
+  },
+  "chemType": {
+    "Fertilizer": "Fertilizer",
+    "Micronutrient": "Micronutrient",
+    "Pesticide": "Pesticide",
+    "Fungicide": "Fungicide"
+  },
+  "schemeCategory": {
+    "subsidy": "Subsidy",
+    "insurance": "Insurance",
+    "loan": "Loan",
+    "support": "Support",
+    "all": "All Categories"
+  },
+  "schemeData": {
+    "pmkisan": {
+      "name": "PM-KISAN",
+      "description": "Direct income support of ₹6,000/year to small and marginal farmer families.",
+      "benefits": "₹6,000 per year in 3 installments"
+    },
+    "pmfby": {
+      "name": "PM Fasal Bima Yojana",
+      "description": "Crop insurance scheme covering losses from natural calamities, pests, and diseases.",
+      "benefits": "Premium: 2% Kharif, 1.5% Rabi, 5% Commercial"
+    },
+    "kcc": {
+      "name": "Kisan Credit Card",
+      "description": "Easy credit access for farmers at subsidized interest rates for crop production.",
+      "benefits": "Loans up to ₹3 lakh at 4% interest"
+    },
+    "nmsa": {
+      "name": "National Mission for Sustainable Agriculture",
+      "description": "Promotes sustainable agriculture through soil health, water management, and climate adaptation.",
+      "benefits": "50-100% subsidy on micro-irrigation, soil testing"
+    },
+    "rkvy": {
+      "name": "Rashtriya Krishi Vikas Yojana",
+      "description": "State-level agricultural development with funding for infrastructure and innovation.",
+      "benefits": "Project-based funding for agri-infrastructure"
+    },
+    "mspc": {
+      "name": "MSP Procurement",
+      "description": "Government procurement at Minimum Support Price for major crops.",
+      "benefits": "Guaranteed purchase at MSP rates"
+    },
+    "enam": {
+      "name": "e-NAM (National Agriculture Market)",
+      "description": "Online trading platform for agricultural commodities with transparent pricing.",
+      "benefits": "Better price discovery, reduced intermediaries"
+    },
+    "pmkmy": {
+      "name": "PM Kisan Maan-Dhan Yojana",
+      "description": "Pension scheme for small farmers providing ₹3,000/month after age 60.",
+      "benefits": "₹3,000/month pension after age 60"
+    }
+  },
+  "indianStates": {
+    "All States": "All States",
+    "Andhra Pradesh": "Andhra Pradesh",
+    "Assam": "Assam",
+    "Bihar": "Bihar",
+    "Chhattisgarh": "Chhattisgarh",
+    "Gujarat": "Gujarat",
+    "Haryana": "Haryana",
+    "Himachal Pradesh": "Himachal Pradesh",
+    "Jharkhand": "Jharkhand",
+    "Karnataka": "Karnataka",
+    "Kerala": "Kerala",
+    "Madhya Pradesh": "Madhya Pradesh",
+    "Maharashtra": "Maharashtra",
+    "Odisha": "Odisha",
+    "Punjab": "Punjab",
+    "Rajasthan": "Rajasthan",
+    "Tamil Nadu": "Tamil Nadu",
+    "Telangana": "Telangana",
+    "Uttar Pradesh": "Uttar Pradesh",
+    "Uttarakhand": "Uttarakhand",
+    "West Bengal": "West Bengal"
   }
 }

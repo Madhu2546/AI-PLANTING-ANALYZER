@@ -71,7 +71,7 @@ const CropRotationPlanner = () => {
                       <SelectContent>
                         {cropRotationData.map(crop => (
                           <SelectItem key={crop.crop} value={crop.crop}>
-                            {crop.crop}
+                            {t(`crops.${crop.crop}`, crop.crop)}
                           </SelectItem>
                         ))}
                       </SelectContent>
@@ -113,7 +113,7 @@ const CropRotationPlanner = () => {
                     animate={{ opacity: 1, height: "auto" }}
                     className="mt-6 p-4 bg-muted/50 rounded-lg"
                   >
-                    <h4 className="font-medium text-foreground mb-3">{t('rotation.cropInfo')}: {selectedCropData.crop}</h4>
+                    <h4 className="font-medium text-foreground mb-3">{t('rotation.cropInfo')}: {t(`crops.${selectedCropData.crop}`, selectedCropData.crop)}</h4>
                     <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                       <div>
                         <span className="text-muted-foreground">{t('rotation.family')}:</span>
@@ -122,8 +122,7 @@ const CropRotationPlanner = () => {
                       <div>
                         <span className="text-muted-foreground">{t('rotation.nutrientEffect')}:</span>
                         <p className={`font-medium ${getNutrientColor(selectedCropData.nutrientEffect)}`}>
-                          {selectedCropData.nutrientEffect === 'enriching' ? t('rotation.enriching') : 
-                           selectedCropData.nutrientEffect === 'depleting' ? t('rotation.depleting') : t('rotation.neutral')}
+                          {t(`nutrientEffect.${selectedCropData.nutrientEffect}`, selectedCropData.nutrientEffect)}
                         </p>
                       </div>
                       <div>
@@ -133,7 +132,7 @@ const CropRotationPlanner = () => {
                       <div>
                         <span className="text-muted-foreground">{t('rotation.season')}:</span>
                         <Badge className={getSeasonColor(selectedCropData.seasonType)}>
-                          {selectedCropData.seasonType.toUpperCase()}
+                          {t(`calendar.${selectedCropData.seasonType}`, selectedCropData.seasonType.toUpperCase())}
                         </Badge>
                       </div>
                     </div>
@@ -188,10 +187,10 @@ const CropRotationPlanner = () => {
                                   <CardContent className="p-4">
                                     <div className="flex flex-wrap items-center gap-3 mb-2">
                                       <Badge className={getSeasonColor(plan.season)}>
-                                        {plan.season}
+                                        {t(`calendar.${plan.season}`, plan.season)}
                                       </Badge>
                                       <ArrowRight className="w-4 h-4 text-muted-foreground" />
-                                      <span className="font-semibold text-foreground">{plan.crop}</span>
+                                      <span className="font-semibold text-foreground">{t(`crops.${plan.crop}`, plan.crop)}</span>
                                     </div>
                                     <p className="text-sm text-muted-foreground">{plan.benefit}</p>
                                   </CardContent>
@@ -258,12 +257,12 @@ const CropRotationPlanner = () => {
                     <tbody>
                       {cropRotationData.slice(0, 8).map((crop, index) => (
                         <tr key={crop.crop} className={index % 2 === 0 ? 'bg-muted/30' : ''}>
-                          <td className="p-3 font-medium">{crop.crop}</td>
+                          <td className="p-3 font-medium">{t(`crops.${crop.crop}`, crop.crop)}</td>
                           <td className="p-3">
                             <div className="flex flex-wrap gap-1">
                               {crop.bestFollowedBy.slice(0, 3).map(c => (
                                 <Badge key={c} variant="outline" className="text-xs bg-green-50 text-green-700 border-green-200">
-                                  {c}
+                                  {t(`crops.${c}`, c)}
                                 </Badge>
                               ))}
                             </div>
@@ -272,7 +271,7 @@ const CropRotationPlanner = () => {
                             <div className="flex flex-wrap gap-1">
                               {crop.avoidAfter.map(c => (
                                 <Badge key={c} variant="outline" className="text-xs bg-red-50 text-red-700 border-red-200">
-                                  {c}
+                                  {t(`crops.${c}`, c)}
                                 </Badge>
                               ))}
                             </div>

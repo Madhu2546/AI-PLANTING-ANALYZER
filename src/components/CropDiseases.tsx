@@ -70,7 +70,7 @@ const CropDiseases = () => {
             <SelectContent>
               <SelectItem value="all">{t('diseases.allCrops')}</SelectItem>
               {affectedCrops.map(crop => (
-                <SelectItem key={crop} value={crop}>{crop}</SelectItem>
+                <SelectItem key={crop} value={crop}>{t(`crops.${crop}`, crop)}</SelectItem>
               ))}
             </SelectContent>
           </Select>
@@ -121,13 +121,13 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
           <div className="flex items-start justify-between gap-2">
             <CardTitle className="text-lg font-semibold">{disease.name}</CardTitle>
             <Badge className={getSeverityColor(disease.severity)}>
-              {disease.severity.toUpperCase()}
+              {t(`severity.${disease.severity}`, disease.severity.toUpperCase())}
             </Badge>
           </div>
           <div className="flex flex-wrap gap-1 mt-2">
             {disease.affectedCrops.map(crop => (
               <Badge key={crop} variant="outline" className="text-xs">
-                {crop}
+                {t(`crops.${crop}`, crop)}
               </Badge>
             ))}
           </div>

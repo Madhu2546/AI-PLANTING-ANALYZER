@@ -44,7 +44,7 @@ const CropNutrientGuide = () => {
                 <Select value={selectedCrop} onValueChange={setSelectedCrop}>
                   <SelectTrigger className="w-full sm:w-[200px]"><SelectValue /></SelectTrigger>
                   <SelectContent>
-                    {availableCrops.map(c => <SelectItem key={c} value={c}>{c}</SelectItem>)}
+                    {availableCrops.map(c => <SelectItem key={c} value={c}>{t(`crops.${c}`, c)}</SelectItem>)}
                   </SelectContent>
                 </Select>
                 <div className="flex gap-2 ml-auto">
@@ -95,7 +95,7 @@ const CropNutrientGuide = () => {
                               <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-2 flex-wrap">
                                   <span className="font-medium text-sm text-foreground">{chem.name}</span>
-                                  <Badge variant="secondary" className="text-xs">{chem.type}</Badge>
+                                  <Badge variant="secondary" className="text-xs">{t(`chemType.${chem.type}`, chem.type)}</Badge>
                                 </div>
                                 <p className="text-xs text-muted-foreground mt-0.5">{chem.purpose}</p>
                               </div>
@@ -121,7 +121,7 @@ const CropNutrientGuide = () => {
                         <div>
                           <div className="flex items-center gap-2">
                             <CardTitle className="text-base">{pd.name}</CardTitle>
-                            <Badge variant={pd.type === "pest" ? "destructive" : "secondary"} className="text-xs capitalize">{pd.type}</Badge>
+                            <Badge variant={pd.type === "pest" ? "destructive" : "secondary"} className="text-xs capitalize">{t(`pestType.${pd.type}`, pd.type)}</Badge>
                           </div>
                           <p className="text-xs text-muted-foreground mt-0.5">{t('nutrient.symptoms')}: {pd.symptoms}</p>
                         </div>
