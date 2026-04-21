@@ -119,7 +119,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
       <Card className="h-full hover:shadow-lg transition-shadow">
         <CardHeader className="pb-3">
           <div className="flex items-start justify-between gap-2">
-            <CardTitle className="text-lg font-semibold">{disease.name}</CardTitle>
+            <CardTitle className="text-lg font-semibold">{t(`diseaseGuide.${disease.id}.name`, disease.name)}</CardTitle>
             <Badge className={getSeverityColor(disease.severity)}>
               {t(`severity.${disease.severity}`, disease.severity.toUpperCase())}
             </Badge>
@@ -143,7 +143,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
               {disease.symptoms.slice(0, 2).map((symptom, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <span className="text-yellow-600 mt-1">•</span>
-                  {symptom}
+                  {t(`diseaseGuide.${disease.id}.symptoms.${i}`, symptom)}
                 </li>
               ))}
             </ul>
@@ -163,7 +163,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
                   {disease.symptoms.slice(2).map((symptom, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <span className="text-yellow-600 mt-1">•</span>
-                      {symptom}
+                      {t(`diseaseGuide.${disease.id}.symptoms.${i + 2}`, symptom)}
                     </li>
                   ))}
                 </ul>
@@ -179,7 +179,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
                   {disease.causes.map((cause, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <span className="text-red-600 mt-1">•</span>
-                      {cause}
+                      {t(`diseaseGuide.${disease.id}.causes.${i}`, cause)}
                     </li>
                   ))}
                 </ul>
@@ -195,7 +195,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
                   {disease.treatment.map((treat, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <span className="text-blue-600 mt-1">•</span>
-                      {treat}
+                      {t(`diseaseGuide.${disease.id}.treatment.${i}`, treat)}
                     </li>
                   ))}
                 </ul>
@@ -211,7 +211,7 @@ const DiseaseCard = ({ disease, index, isExpanded, onToggle }: DiseaseCardProps)
                   {disease.prevention.map((prev, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <span className="text-green-600 mt-1">•</span>
-                      {prev}
+                      {t(`diseaseGuide.${disease.id}.prevention.${i}`, prev)}
                     </li>
                   ))}
                 </ul>

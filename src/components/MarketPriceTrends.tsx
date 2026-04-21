@@ -80,7 +80,7 @@ const MarketPriceTrends = () => {
                 className="cursor-pointer text-sm px-4 py-2 transition-colors"
                 onClick={() => toggleCrop(crop.name)}
               >
-                {crop.name}
+                {t(`crops.${crop.name}`, crop.name)}
               </Badge>
             ))}
           </div>
@@ -134,7 +134,7 @@ const MarketPriceTrends = () => {
               return (
                 <Card key={name}>
                   <CardContent className="p-4 text-center">
-                    <p className="text-sm text-muted-foreground">{crop.name}</p>
+                    <p className="text-sm text-muted-foreground">{t(`crops.${crop.name}`, crop.name)}</p>
                     <p className="text-2xl font-bold text-foreground mt-1">
                       ₹{crop.currentMSP.toLocaleString("en-IN")}
                     </p>

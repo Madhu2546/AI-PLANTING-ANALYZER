@@ -117,7 +117,7 @@ const CropRotationPlanner = () => {
                     <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                       <div>
                         <span className="text-muted-foreground">{t('rotation.family')}:</span>
-                        <p className="font-medium">{selectedCropData.family}</p>
+                        <p className="font-medium">{t(`rotationData.${selectedCropData.crop}.family`, selectedCropData.family)}</p>
                       </div>
                       <div>
                         <span className="text-muted-foreground">{t('rotation.nutrientEffect')}:</span>
@@ -138,7 +138,7 @@ const CropRotationPlanner = () => {
                     </div>
                     <div className="mt-3">
                       <span className="text-muted-foreground text-sm">{t('rotation.soilImpact')}:</span>
-                      <p className="text-sm">{selectedCropData.soilImpact}</p>
+                      <p className="text-sm">{t(`rotationData.${selectedCropData.crop}.soilImpact`, selectedCropData.soilImpact)}</p>
                     </div>
                   </motion.div>
                 )}
@@ -192,7 +192,7 @@ const CropRotationPlanner = () => {
                                       <ArrowRight className="w-4 h-4 text-muted-foreground" />
                                       <span className="font-semibold text-foreground">{t(`crops.${plan.crop}`, plan.crop)}</span>
                                     </div>
-                                    <p className="text-sm text-muted-foreground">{plan.benefit}</p>
+                                    <p className="text-sm text-muted-foreground">{t(`rotationData.${plan.crop}.soilImpact`, plan.benefit)}</p>
                                   </CardContent>
                                 </Card>
                               </motion.div>

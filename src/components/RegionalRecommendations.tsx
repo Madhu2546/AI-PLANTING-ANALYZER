@@ -37,7 +37,7 @@ const RegionalRecommendations = () => {
             <SelectContent>
               {indianStates.map(state => (
                 <SelectItem key={state} value={state}>
-                  {state}
+                  {t(`indianStates.${state}`, state)}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -59,7 +59,7 @@ const RegionalRecommendations = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-2xl">
                   <MapPin className="h-6 w-6 text-primary" />
-                  {stateData.name}
+                  {t(`indianStates.${stateData.name}`, stateData.name)}
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -68,21 +68,21 @@ const RegionalRecommendations = () => {
                     <Thermometer className="h-5 w-5 text-orange-500 mt-0.5" />
                     <div>
                       <h4 className="font-medium text-foreground">{t("regional.climate")}</h4>
-                      <p className="text-sm text-muted-foreground">{stateData.climate}</p>
+                      <p className="text-sm text-muted-foreground">{t(`climate.${stateData.climate}`, stateData.climate)}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Mountain className="h-5 w-5 text-amber-600 mt-0.5" />
                     <div>
                       <h4 className="font-medium text-foreground">{t("regional.soilTypes")}</h4>
-                      <p className="text-sm text-muted-foreground">{stateData.soilTypes.join(", ")}</p>
+                      <p className="text-sm text-muted-foreground">{stateData.soilTypes.map(s => t(`soilType.${s}`, s)).join(", ")}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <CalendarDays className="h-5 w-5 text-green-600 mt-0.5" />
                     <div>
                       <h4 className="font-medium text-foreground">{t("regional.bestSeason")}</h4>
-                      <p className="text-sm text-muted-foreground">{stateData.bestSeason}</p>
+                      <p className="text-sm text-muted-foreground">{t(`bestSeasonText.${stateData.bestSeason}`, stateData.bestSeason)}</p>
                     </div>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const RegionalRecommendations = () => {
             </Card>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">
-              {t("regional.recommendedFor")} {stateData.name}
+              {t("regional.recommendedFor")} {t(`indianStates.${stateData.name}`, stateData.name)}
             </h3>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
@@ -104,7 +104,7 @@ const RegionalRecommendations = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-3">
-                      <h4 className="font-semibold text-white text-center">{crop}</h4>
+                      <h4 className="font-semibold text-white text-center">{t(`crops.${crop}`, crop)}</h4>
                     </div>
                   </div>
                 </Card>
