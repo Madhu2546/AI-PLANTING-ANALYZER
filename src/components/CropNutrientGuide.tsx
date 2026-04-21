@@ -78,8 +78,8 @@ const CropNutrientGuide = () => {
                               {idx + 1}
                             </div>
                             <div>
-                              <CardTitle className="text-base">{stage.stage}</CardTitle>
-                              <p className="text-xs text-muted-foreground mt-0.5">⏱ {stage.timing}</p>
+                              <CardTitle className="text-base">{t(`nutrientStages.${stage.stage}`, stage.stage)}</CardTitle>
+                              <p className="text-xs text-muted-foreground mt-0.5">⏱ {t(`nutrientTiming.${stage.timing}`, stage.timing)}</p>
                             </div>
                           </div>
                           {expandedStage === idx ? <ChevronUp className="w-4 h-4 text-muted-foreground" /> : <ChevronDown className="w-4 h-4 text-muted-foreground" />}
@@ -97,7 +97,7 @@ const CropNutrientGuide = () => {
                                   <span className="font-medium text-sm text-foreground">{chem.name}</span>
                                   <Badge variant="secondary" className="text-xs">{t(`chemType.${chem.type}`, chem.type)}</Badge>
                                 </div>
-                                <p className="text-xs text-muted-foreground mt-0.5">{chem.purpose}</p>
+                                <p className="text-xs text-muted-foreground mt-0.5">{t(`nutrientPurpose.${chem.purpose}`, chem.purpose)}</p>
                               </div>
                               <span className="text-sm font-medium text-primary shrink-0">{chem.dose}</span>
                             </div>
@@ -120,10 +120,10 @@ const CropNutrientGuide = () => {
                         <Bug className={`w-5 h-5 ${pd.type === "pest" ? "text-destructive" : "text-sun"}`} />
                         <div>
                           <div className="flex items-center gap-2">
-                            <CardTitle className="text-base">{pd.name}</CardTitle>
+                            <CardTitle className="text-base">{t(`pestDiseaseNames.${pd.name}`, pd.name)}</CardTitle>
                             <Badge variant={pd.type === "pest" ? "destructive" : "secondary"} className="text-xs capitalize">{t(`pestType.${pd.type}`, pd.type)}</Badge>
                           </div>
-                          <p className="text-xs text-muted-foreground mt-0.5">{t('nutrient.symptoms')}: {pd.symptoms}</p>
+                          <p className="text-xs text-muted-foreground mt-0.5">{t('nutrient.symptoms')}: {t(`pestSymptoms.${pd.symptoms}`, pd.symptoms)}</p>
                         </div>
                       </div>
                     </CardHeader>
@@ -135,7 +135,7 @@ const CropNutrientGuide = () => {
                             <Shield className="w-4 h-4 mt-0.5 text-primary shrink-0" />
                             <div className="flex-1">
                               <span className="font-medium text-sm text-foreground">{pest.name}</span>
-                              <p className="text-xs text-muted-foreground">{pest.application} · {t('nutrient.dose')}: {pest.dose}</p>
+                              <p className="text-xs text-muted-foreground">{t(`pestApplication.${pest.application}`, pest.application)} · {t('nutrient.dose')}: {pest.dose}</p>
                             </div>
                           </div>
                         ))}

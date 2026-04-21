@@ -152,14 +152,14 @@ const WeatherDiseaseAlerts = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {allCrops.map(crop => (
+                    {allCrops.map(crop => (
                     <Badge
                       key={crop}
                       variant={selectedCrops.includes(crop) ? "default" : "outline"}
                       className="cursor-pointer transition-all hover:scale-105"
                       onClick={() => toggleCrop(crop)}
                     >
-                      {crop}
+                      {t(`crops.${crop}`, crop)}
                       {selectedCrops.includes(crop) && (
                         <X className="w-3 h-3 ml-1" />
                       )}
@@ -168,7 +168,7 @@ const WeatherDiseaseAlerts = () => {
                 </div>
                 {selectedCrops.length > 0 && (
                   <p className="text-sm text-muted-foreground mt-3">
-                    {t("weatherAlerts.showingFor")} {selectedCrops.join(', ')}
+                    {t("weatherAlerts.showingFor")} {selectedCrops.map(c => t(`crops.${c}`, c)).join(', ')}
                   </p>
                 )}
               </CardContent>
@@ -211,18 +211,18 @@ const WeatherDiseaseAlerts = () => {
                                   alert.riskLevel === 'high' ? 'text-red-600' :
                                   alert.riskLevel === 'medium' ? 'text-yellow-600' : 'text-green-600'
                                 }`} />
-                                <h4 className="font-semibold text-foreground">{alert.diseaseName}</h4>
+                              <h4 className="font-semibold text-foreground">{t(`diseaseData.${alert.diseaseId}.name`, alert.diseaseName)}</h4>
                                 <Badge className={getRiskColor(alert.riskLevel)}>
-                                  {alert.riskLevel.toUpperCase()} {t("weatherAlerts.riskBadge")}
+                                  {t(`severity.${alert.riskLevel}`, alert.riskLevel.toUpperCase())} {t("weatherAlerts.riskBadge")}
                                 </Badge>
                               </div>
                               <p className="text-sm text-muted-foreground mb-2">
-                                {alert.description}
+                                {t(`diseaseData.${alert.diseaseId}.description`, alert.description)}
                               </p>
                               <div className="flex flex-wrap gap-1">
                                 {alert.affectedCrops.map(crop => (
                                   <Badge key={crop} variant="outline" className="text-xs">
-                                    {crop}
+                                    {t(`crops.${crop}`, crop)}
                                   </Badge>
                                 ))}
                               </div>
@@ -252,7 +252,7 @@ const WeatherDiseaseAlerts = () => {
                                   {alert.preventiveMeasures.map((measure, i) => (
                                     <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                                       <span className="text-green-600 mt-0.5">✓</span>
-                                      {measure}
+                                      {t(`diseaseData.${alert.diseaseId}.preventiveMeasures.${i}`, measure)}
                                     </li>
                                   ))}
                                 </ul>

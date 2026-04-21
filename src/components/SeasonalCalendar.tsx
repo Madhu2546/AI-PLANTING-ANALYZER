@@ -50,13 +50,13 @@ const SeasonalCalendar = () => {
               <div className="flex items-center gap-2 mb-4">
                 <Sprout className="h-5 w-5 text-green-600" />
                 <h3 className="font-semibold text-foreground">
-                  {t("calendar.plantNow")} ({monthNames[currentMonth]})
+                  {t("calendar.plantNow")} ({t(`months.${monthNames[currentMonth]}`, monthNames[currentMonth])})
                 </h3>
               </div>
               <div className="flex flex-wrap gap-2">
                 {currentPlanting.length > 0 ? currentPlanting.map(crop => (
-                  <Badge key={crop.crop} variant="outline" className="bg-green-500/10 border-green-500/30">
-                    {crop.crop}
+              <Badge key={crop.crop} variant="outline" className="bg-green-500/10 border-green-500/30">
+                    {t(`crops.${crop.crop}`, crop.crop)}
                   </Badge>
                 )) : (
                   <span className="text-muted-foreground text-sm">{t("calendar.noPlanting")}</span>
@@ -70,13 +70,13 @@ const SeasonalCalendar = () => {
               <div className="flex items-center gap-2 mb-4">
                 <Wheat className="h-5 w-5 text-amber-600" />
                 <h3 className="font-semibold text-foreground">
-                  {t("calendar.harvestNow")} ({monthNames[currentMonth]})
+                  {t("calendar.harvestNow")} ({t(`months.${monthNames[currentMonth]}`, monthNames[currentMonth])})
                 </h3>
               </div>
               <div className="flex flex-wrap gap-2">
                 {currentHarvest.length > 0 ? currentHarvest.map(crop => (
-                  <Badge key={crop.crop} variant="outline" className="bg-amber-500/10 border-amber-500/30">
-                    {crop.crop}
+              <Badge key={crop.crop} variant="outline" className="bg-amber-500/10 border-amber-500/30">
+                    {t(`crops.${crop.crop}`, crop.crop)}
                   </Badge>
                 )) : (
                   <span className="text-muted-foreground text-sm">{t("calendar.noHarvests")}</span>
@@ -112,7 +112,7 @@ const SeasonalCalendar = () => {
                       idx === currentMonth ? "bg-primary/10" : ""
                     }`}
                   >
-                    {month}
+                    {t(`monthsShort.${month}`, month)}
                   </th>
                 ))}
                 <th className="p-3 bg-card border-b text-center font-semibold text-foreground min-w-[100px]">
@@ -130,7 +130,7 @@ const SeasonalCalendar = () => {
                         alt={crop.crop}
                         className="w-8 h-8 object-cover rounded"
                       />
-                      <span className="font-medium text-foreground text-sm">{crop.crop}</span>
+                      <span className="font-medium text-foreground text-sm">{t(`crops.${crop.crop}`, crop.crop)}</span>
                     </div>
                   </td>
                   {monthNames.map((_, monthIdx) => {
@@ -158,7 +158,7 @@ const SeasonalCalendar = () => {
                   })}
                   <td className="p-3 border-b text-center">
                     <Badge className={`${seasonColors[crop.season]} text-white text-xs`}>
-                      {crop.season}
+                      {t(`seasonName.${crop.season}`, crop.season)}
                     </Badge>
                   </td>
                 </tr>
