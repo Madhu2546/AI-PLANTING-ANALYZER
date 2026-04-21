@@ -649,5 +649,775 @@
     "Uttar Pradesh": "उत्तर प्रदेश",
     "Uttarakhand": "उत्तराखंड",
     "West Bengal": "पश्चिम बंगाल"
+  },
+  "months": {
+    "Jan": "जनवरी",
+    "Feb": "फ़रवरी",
+    "Mar": "मार्च",
+    "Apr": "अप्रैल",
+    "May": "मई",
+    "Jun": "जून",
+    "Jul": "जुलाई",
+    "Aug": "अगस्त",
+    "Sep": "सितंबर",
+    "Oct": "अक्टूबर",
+    "Nov": "नवंबर",
+    "Dec": "दिसंबर"
+  },
+  "monthsShort": {
+    "Jan": "जन",
+    "Feb": "फ़र",
+    "Mar": "मार्च",
+    "Apr": "अप्रै",
+    "May": "मई",
+    "Jun": "जून",
+    "Jul": "जुल",
+    "Aug": "अग",
+    "Sep": "सित",
+    "Oct": "अक्टू",
+    "Nov": "नव",
+    "Dec": "दिस"
+  },
+  "seasonName": {
+    "Kharif": "ख़रीफ़",
+    "Rabi": "रबी",
+    "Zaid": "ज़ायद",
+    "Year-round": "पूरे वर्ष",
+    "kharif": "ख़रीफ़",
+    "rabi": "रबी",
+    "zaid": "ज़ायद",
+    "perennial": "बारहमासी"
+  },
+  "soilType": {
+    "Black soil": "काली मिट्टी",
+    "Red soil": "लाल मिट्टी",
+    "Alluvial": "जलोढ़",
+    "Forest soil": "वन मिट्टी",
+    "Laterite": "लैटेराइट",
+    "Clay loam": "चिकनी दोमट",
+    "Red and yellow soil": "लाल-पीली मिट्टी",
+    "Sandy loam": "बलुई दोमट",
+    "Mountain soil": "पहाड़ी मिट्टी",
+    "Sandy": "बलुई",
+    "Saline": "लवणीय"
+  },
+  "climate": {
+    "Tropical, Hot and Humid": "उष्णकटिबंधीय, गर्म और आर्द्र",
+    "Subtropical to Alpine": "उपोष्ण से अल्पाइन",
+    "Tropical Monsoon": "उष्णकटिबंधीय मानसून",
+    "Humid Subtropical": "आर्द्र उपोष्णकटिबंधीय",
+    "Tropical Wet and Dry": "उष्णकटिबंधीय आर्द्र-शुष्क",
+    "Semi-arid to Arid": "अर्ध-शुष्क से शुष्क",
+    "Semi-arid": "अर्ध-शुष्क",
+    "Temperate to Alpine": "समशीतोष्ण से अल्पाइन",
+    "Tropical to Semi-arid": "उष्णकटिबंधीय से अर्ध-शुष्क",
+    "Subtropical": "उपोष्णकटिबंधीय",
+    "Tropical to Subtropical": "उष्णकटिबंधीय से उपोष्ण",
+    "Tropical": "उष्णकटिबंधीय",
+    "Tropical, Semi-arid": "उष्णकटिबंधीय, अर्ध-शुष्क",
+    "Arid to Semi-arid": "शुष्क से अर्ध-शुष्क",
+    "Tropical Wet": "उष्णकटिबंधीय आर्द्र"
+  },
+  "bestSeasonText": {
+    "Kharif (June-Oct) & Rabi (Nov-Mar)": "ख़रीफ़ (जून-अक्टू) और रबी (नव-मार्च)",
+    "Kharif (Apr-Sept)": "ख़रीफ़ (अप्रै-सित)",
+    "Kharif (June-Oct)": "ख़रीफ़ (जून-अक्टू)",
+    "Kharif & Rabi": "ख़रीफ़ और रबी",
+    "Kharif (June-Sept)": "ख़रीफ़ (जून-सित)",
+    "Two monsoons (June-Sept & Oct-Nov)": "दो मानसून (जून-सित और अक्टू-नव)",
+    "Samba (Aug-Jan) & Kuruvai (June-Sept)": "सांबा (अग-जन) और कुरुवई (जून-सित)"
+  },
+  "regionalTips": {
+    "default": "यहाँ फसल चयन और बुवाई की तिथियाँ स्थानीय जलवायु और मिट्टी के अनुसार हैं। अपने नजदीकी कृषि विज्ञान केंद्र से क्षेत्रीय सलाह लें।"
+  },
+  "diseaseData": {
+    "rice-blast": {
+      "name": "धान का झुलसा",
+      "description": "उच्च आर्द्रता और मध्यम तापमान धान के झुलसा फफूंद के लिए अनुकूल होते हैं।",
+      "preventiveMeasures": [
+        "बचाव के लिए फफूंदनाशक का छिड़काव करें",
+        "अत्यधिक नाइट्रोजन न दें",
+        "खेत में उचित जल निकासी रखें",
+        "प्रतिरोधी धान की किस्में उपयोग करें"
+      ]
+    },
+    "bacterial-leaf-blight": {
+      "name": "जीवाणुजनित पर्ण अंगमारी",
+      "description": "गर्म और नम मौसम, विशेषकर भारी बारिश के बाद, बैक्टीरिया के फैलाव के लिए अनुकूल है।",
+      "preventiveMeasures": [
+        "खेत से अतिरिक्त पानी निकालें",
+        "ताम्र आधारित जीवाणुनाशी का छिड़काव करें",
+        "गीले खेत में काम न करें",
+        "संक्रमित पौधों को हटाएँ व नष्ट करें"
+      ]
+    },
+    "maize-rust": {
+      "name": "मक्का का सामान्य रतुआ",
+      "description": "ठंडा तापमान, उच्च आर्द्रता और प्रातः ओस रतुआ के विकास को बढ़ाते हैं।",
+      "preventiveMeasures": [
+        "खेतों की नियमित निगरानी करें",
+        "पहले लक्षण पर ही फफूंदनाशक छिड़कें",
+        "रतुआ-प्रतिरोधी संकर लगाएँ",
+        "ऊपर से सिंचाई से बचें"
+      ]
+    },
+    "powdery-mildew": {
+      "name": "चूर्णिल आसिता",
+      "description": "बिना वर्षा के मध्यम नमी और गर्म तापमान इस रोग को बढ़ावा देते हैं।",
+      "preventiveMeasures": [
+        "गंधक आधारित फफूंदनाशक लगाएँ",
+        "छंटाई से वायु संचार सुधारें",
+        "अत्यधिक नाइट्रोजन से बचें",
+        "संक्रमित भाग हटा दें"
+      ]
+    },
+    "anthracnose": {
+      "name": "एंथ्रेक्नोज़",
+      "description": "पुष्पन एवं फलन के दौरान उच्च आर्द्रता व गर्म तापमान से फैलता है।",
+      "preventiveMeasures": [
+        "वर्षा से पहले ताम्र फफूंदनाशक छिड़कें",
+        "पुष्पन में ऊपर से सिंचाई न करें",
+        "गिरे फल व कचरा हटाएँ",
+        "बाग की सफाई बनाए रखें"
+      ]
+    },
+    "fusarium-wilt": {
+      "name": "फ्यूज़ेरियम म्लानि",
+      "description": "गर्म मिट्टी व मध्यम नमी मिट्टी-जनित फफूंद को बढ़ावा देती है।",
+      "preventiveMeasures": [
+        "प्रतिरोधी किस्में उपयोग करें",
+        "फसल चक्र अपनाएँ",
+        "ट्राइकोडर्मा आधारित जैविक नियंत्रण करें",
+        "जल-जमाव न होने दें"
+      ]
+    },
+    "late-blight": {
+      "name": "पछेती झुलसा",
+      "description": "ठंडा व आर्द्र मौसम इस रोगाणु के तेजी से फैलाव के लिए आदर्श है।",
+      "preventiveMeasures": [
+        "वर्षा से पहले निवारक फफूंदनाशक छिड़कें",
+        "शाम को ऊपर से सिंचाई से बचें",
+        "संक्रमित अवशेष नष्ट करें",
+        "प्रमाणित रोगमुक्त बीज कंद उपयोग करें"
+      ]
+    },
+    "downy-mildew": {
+      "name": "मृदुरोमिल आसिता",
+      "description": "ठंडी रातें, उच्च आर्द्रता व प्रातः ओस इस रोग को बढ़ाते हैं।",
+      "preventiveMeasures": [
+        "गीले मौसम से पहले सुरक्षात्मक फफूंदनाशक लगाएँ",
+        "वायु संचार सुधारें",
+        "सुबह जल्दी सिंचाई करें",
+        "संक्रमित पत्तियाँ तुरंत हटाएँ"
+      ]
+    },
+    "bacterial-wilt": {
+      "name": "जीवाणुजनित म्लानि",
+      "description": "गर्म व आर्द्र मौसम मिट्टी व पानी से जीवाणु का तेजी से प्रसार करता है।",
+      "preventiveMeasures": [
+        "कठोर स्वच्छता रखें",
+        "प्रतिरोधी किस्में लगाएँ",
+        "खेत में जल-जमाव न होने दें",
+        "संक्रमित पौधे तुरंत नष्ट करें"
+      ]
+    },
+    "coffee-rust": {
+      "name": "कॉफी पत्ती रतुआ",
+      "description": "वर्षा ऋतु में गर्म व आर्द्र मौसम रतुआ के फैलाव को बढ़ाता है।",
+      "preventiveMeasures": [
+        "निवारक रूप से ताम्र फफूंदनाशक लगाएँ",
+        "वायु संचार हेतु छंटाई करें",
+        "छायादार पेड़ रणनीतिक रूप से लगाएँ",
+        "रतुआ-प्रतिरोधी कॉफी किस्में प्रयोग करें"
+      ]
+    }
+  },
+  "diseaseGuide": {
+    "rice-blast": {
+      "name": "धान का झुलसा",
+      "symptoms": [
+        "पत्तियों पर हीरे के आकार के घाव",
+        "भूरे किनारे वाले सफेद भूरे-हरे घाव",
+        "पेनिकल का टूटना (नेक रॉट)",
+        "नोड्स का भूरा व सड़ जाना"
+      ],
+      "causes": [
+        "फफूंद Magnaporthe oryzae",
+        "उच्च आर्द्रता व मध्यम तापमान",
+        "अत्यधिक नाइट्रोजन उर्वरक",
+        "घना रोपण"
+      ],
+      "treatment": [
+        "ट्राईसाइक्लाज़ोल या आइसोप्रोथायोलेन छिड़कें",
+        "संक्रमित अवशेष हटाएँ व नष्ट करें",
+        "सिलिकॉन आधारित उर्वरक लगाएँ",
+        "निवारक रूप से ताम्र फफूंदनाशक छिड़कें"
+      ],
+      "prevention": [
+        "प्रतिरोधी धान किस्में उपयोग करें",
+        "अधिक नाइट्रोजन न दें",
+        "सही पौध दूरी बनाएँ",
+        "खेत में अच्छी जल निकासी सुनिश्चित करें"
+      ]
+    },
+    "bacterial-leaf-blight": {
+      "name": "जीवाणुजनित पर्ण अंगमारी",
+      "symptoms": [
+        "पत्ती के किनारे जलयुक्त घाव",
+        "घाव पीले से धूसर-श्वेत में बदलते हैं",
+        "सिरे से नीचे तक पत्तियाँ सूखना",
+        "संक्रमित पत्तियों पर जीवाणु रिसाव"
+      ],
+      "causes": [
+        "बैक्टीरिया Xanthomonas oryzae",
+        "गर्म व आर्द्र मौसम",
+        "बाढ़ व भारी वर्षा",
+        "कीट या यांत्रिक क्षति"
+      ],
+      "treatment": [
+        "ताम्र आधारित जीवाणुनाशी छिड़कें",
+        "खेत से अतिरिक्त पानी निकालें",
+        "पौधों को मजबूत करने हेतु पोटाश दें",
+        "गंभीर संक्रमित पौधे हटाएँ"
+      ],
+      "prevention": [
+        "प्रमाणित रोगमुक्त बीज",
+        "अधिक नाइट्रोजन से बचें",
+        "उचित जल प्रबंधन",
+        "कीट वाहक नियंत्रित करें"
+      ]
+    },
+    "maize-rust": {
+      "name": "मक्का का सामान्य रतुआ",
+      "symptoms": [
+        "पत्तियों पर छोटे गोल-लंबे भूरे फोड़े",
+        "दोनों सतहों पर फोड़े",
+        "पत्तियों का पीला पड़ना",
+        "गंभीर स्थिति में असमय पत्ती मृत्यु"
+      ],
+      "causes": [
+        "फफूंद Puccinia sorghi",
+        "16-23°C ठंडा तापमान",
+        "उच्च आर्द्रता व ओस",
+        "हवा से बीजाणु फैलाव"
+      ],
+      "treatment": [
+        "मैंकोज़ेब या प्रोपिकोनाज़ोल छिड़कें",
+        "कटाई बाद अवशेष हटाएँ",
+        "पहले लक्षण पर पर्णीय फफूंदनाशक",
+        "गंभीर स्थिति में ट्राइज़ोल आधारित फफूंदनाशक"
+      ],
+      "prevention": [
+        "रतुआ-प्रतिरोधी संकर लगाएँ",
+        "शीघ्र बुवाई करें",
+        "गैर-मेज़बान फसलों से चक्र",
+        "ऊपर से सिंचाई से बचें"
+      ]
+    },
+    "cotton-wilt": {
+      "name": "कपास का फ्यूज़ेरियम म्लानि",
+      "symptoms": [
+        "पत्तियों का पीला व मुरझाना",
+        "संवहनी ऊतक का भूरा होना",
+        "पौधे की बौनी वृद्धि",
+        "असमय पत्ती गिरना"
+      ],
+      "causes": [
+        "Fusarium oxysporum f.sp. vasinfectum",
+        "कई वर्षों तक रहने वाला मिट्टी-जनित रोगाणु",
+        "23-28°C गर्म मिट्टी",
+        "निमैटोड द्वारा जड़ क्षति"
+      ],
+      "treatment": [
+        "संक्रमण बाद कोई प्रभावी रसायन नहीं",
+        "संक्रमित पौधे हटाकर नष्ट करें",
+        "मिट्टी का सोलराइज़ेशन",
+        "ट्राइकोडर्मा जैसा जैविक नियंत्रण"
+      ],
+      "prevention": [
+        "प्रतिरोधी कपास किस्में",
+        "4-5 वर्ष का फसल चक्र",
+        "मूल-ग्रंथि निमैटोड नियंत्रण",
+        "मिट्टी pH 7 से ऊपर रखें"
+      ]
+    },
+    "mango-anthracnose": {
+      "name": "आम एंथ्रेक्नोज़",
+      "symptoms": [
+        "फूलों व कच्चे फलों पर काले धब्बे",
+        "पके फलों पर गहरे धँसे घाव",
+        "पत्तियों पर अनियमित धब्बे",
+        "टहनी सूखना व पुष्पन झुलसा"
+      ],
+      "causes": [
+        "Colletotrichum gloeosporioides",
+        "उच्च आर्द्रता व वर्षा",
+        "25-30°C गर्म तापमान",
+        "ऊपर से सिंचाई"
+      ],
+      "treatment": [
+        "पुष्पन से पहले ताम्र फफूंदनाशक",
+        "गर्म जल उपचार (52°C, 5 मिनट)",
+        "कटाई-उपरांत फफूंदनाशक डुबकी",
+        "संक्रमित भाग काटें"
+      ],
+      "prevention": [
+        "बाग़ स्वच्छता",
+        "पुष्पन में ऊपरी सिंचाई से बचें",
+        "निवारक फफूंदनाशक",
+        "छंटाई द्वारा वायु संचार"
+      ]
+    },
+    "banana-sigatoka": {
+      "name": "ब्लैक सिगाटोका",
+      "symptoms": [
+        "पत्ती की निचली सतह पर हल्की धारियाँ",
+        "धारियाँ बढ़कर काली-भूरी",
+        "असमय पत्तियाँ सूखना",
+        "फल का आकार व गुणवत्ता कम"
+      ],
+      "causes": [
+        "Mycosphaerella fijiensis",
+        "उच्च आर्द्रता व गर्म तापमान",
+        "लंबी पत्ती नमी",
+        "सघन रोपण"
+      ],
+      "treatment": [
+        "प्रोपिकोनाज़ोल जैसा प्रणालीगत फफूंदनाशक",
+        "संक्रमित पत्तियाँ हटाएँ",
+        "फफूंदनाशक बदलते रहें",
+        "फफूंदनाशक में खनिज तेल मिलाएँ"
+      ],
+      "prevention": [
+        "प्रतिरोधी केला किस्में",
+        "उचित दूरी",
+        "पुरानी पत्तियाँ हटाएँ",
+        "अच्छी जल निकासी"
+      ]
+    },
+    "citrus-canker": {
+      "name": "नींबू वर्गीय कैंकर",
+      "symptoms": [
+        "पत्तियों व फलों पर उभरे कॉर्क-जैसे घाव",
+        "घावों के चारों ओर जलयुक्त किनारे",
+        "घावों के चारों ओर पीला प्रभामंडल",
+        "असमय फल व पत्ती गिरना"
+      ],
+      "causes": [
+        "Xanthomonas citri",
+        "हवा-वर्षा से जीवाणु प्रसार",
+        "काँटे, कीट, हवा से घाव",
+        "उच्च तापमान व आर्द्रता"
+      ],
+      "treatment": [
+        "ताम्र आधारित जीवाणुनाशी",
+        "संक्रमित भाग हटाएँ",
+        "गंभीर स्थिति में स्ट्रेप्टोमाइसिन",
+        "घावों पर ताम्र लेप"
+      ],
+      "prevention": [
+        "प्रमाणित नर्सरी पौध",
+        "वायुरोधक लगाएँ",
+        "औज़ारों को संक्रमणमुक्त करें",
+        "पत्ती सुरंगक कीट नियंत्रण"
+      ]
+    },
+    "grape-powdery-mildew": {
+      "name": "अंगूर का चूर्णिल आसिता",
+      "symptoms": [
+        "पत्तियों व टहनियों पर सफेद चूर्ण",
+        "कोमल पत्तियाँ विकृत",
+        "फल की सतह पर भूरा निशान",
+        "बेरी फटना"
+      ],
+      "causes": [
+        "Uncinula necator",
+        "20-27°C मध्यम तापमान",
+        "छाया व कम वायु संचार",
+        "वर्षा के बिना उच्च आर्द्रता"
+      ],
+      "treatment": [
+        "गंधक आधारित फफूंदनाशक",
+        "मायक्लोब्यूटानिल जैसा प्रणालीगत",
+        "भारी संक्रमित पत्तियाँ हटाएँ",
+        "पोटैशियम बाइकार्बोनेट छिड़काव"
+      ],
+      "prevention": [
+        "प्रतिरोधी अंगूर किस्में",
+        "छंटाई द्वारा वायु संचार",
+        "अधिक नाइट्रोजन से बचें",
+        "सुप्त संक्रमित लकड़ी हटाएँ"
+      ]
+    },
+    "chickpea-wilt": {
+      "name": "चना म्लानि",
+      "symptoms": [
+        "पत्तियाँ पीली व झुकना",
+        "पूरा पौधा तेजी से मुरझाना",
+        "जड़ व तने का आधार भूरा",
+        "संवहनी ऊतक का भीतरी भूरापन"
+      ],
+      "causes": [
+        "Fusarium oxysporum f.sp. ciceris",
+        "मिट्टी-जनित रोगाणु",
+        "गर्म मिट्टी",
+        "पिछली चना फसल"
+      ],
+      "treatment": [
+        "संक्रमण बाद प्रभावी उपचार नहीं",
+        "संक्रमित पौधे नष्ट करें",
+        "ट्राइकोडर्मा जैविक नियंत्रण",
+        "बुवाई पूर्व सोलराइज़ेशन"
+      ],
+      "prevention": [
+        "म्लानि-प्रतिरोधी किस्में",
+        "4-5 वर्ष का फसल चक्र",
+        "बीज उपचार",
+        "पुष्पन में जल तनाव न हो"
+      ]
+    },
+    "papaya-ringspot": {
+      "name": "पपीता रिंगस्पॉट वायरस",
+      "symptoms": [
+        "फलों पर छल्लेदार धब्बे",
+        "पत्तियों पर मोज़ेक",
+        "पत्तियाँ विकृत व फीतानुमा",
+        "तना व डंठल पर तैलीय धारियाँ"
+      ],
+      "causes": [
+        "PRSV वायरस",
+        "मानू (ऐफिड) द्वारा संचरण",
+        "संक्रमित पौध सामग्री",
+        "बीज से नहीं फैलता"
+      ],
+      "treatment": [
+        "संक्रमित पौधों का इलाज नहीं",
+        "संक्रमित पौधे तुरंत हटाएँ",
+        "कीटनाशकों से ऐफिड नियंत्रण",
+        "परावर्ती मल्च का प्रयोग"
+      ],
+      "prevention": [
+        "वायरस-प्रतिरोधी किस्में",
+        "वायरस-मुक्त पौध",
+        "सीमांत फसलें बाड़ के रूप में",
+        "नियमित निगरानी"
+      ]
+    },
+    "coffee-leaf-rust": {
+      "name": "कॉफी पत्ती रतुआ",
+      "symptoms": [
+        "पत्ती की निचली सतह पर नारंगी-पीले चूर्ण धब्बे",
+        "ऊपरी सतह पर हल्के पीले धब्बे",
+        "असमय पत्ती गिरना",
+        "कम बेरी उत्पादन"
+      ],
+      "causes": [
+        "Hemileia vastatrix",
+        "हवा से बीजाणु फैलाव",
+        "गर्म व आर्द्र मौसम",
+        "छाया व कम वायु संचार"
+      ],
+      "treatment": [
+        "ताम्र फफूंदनाशक",
+        "ट्राइडाइमेफॉन जैसा प्रणालीगत",
+        "गिरी संक्रमित पत्तियाँ हटाएँ",
+        "वर्षा ऋतु में निवारक छिड़काव"
+      ],
+      "prevention": [
+        "रतुआ-प्रतिरोधी किस्में",
+        "उचित दूरी व छंटाई",
+        "संतुलित उर्वरक",
+        "छाया प्रबंधन"
+      ]
+    },
+    "pomegranate-bacterial-blight": {
+      "name": "अनार जीवाणुजनित अंगमारी",
+      "symptoms": [
+        "पत्तियों पर जलयुक्त धब्बे",
+        "फलों पर गहरे भूरे-काले घाव",
+        "फल फटना व सड़ना",
+        "शाखाओं पर गिरडलिंग कैंकर"
+      ],
+      "causes": [
+        "Xanthomonas axonopodis",
+        "गर्म व गीला मौसम",
+        "कीट/ओले से घाव",
+        "संक्रमित पौध सामग्री"
+      ],
+      "treatment": [
+        "स्ट्रेप्टोमाइसिन सल्फेट",
+        "ताम्र हाइड्रॉक्साइड",
+        "संक्रमित शाखाएँ काटें",
+        "मानसून से पूर्व जीवाणुनाशी"
+      ],
+      "prevention": [
+        "रोगमुक्त पौध",
+        "ऊपर से सिंचाई से बचें",
+        "कीट नियंत्रण",
+        "बाग़ स्वच्छता"
+      ]
+    }
+  },
+  "rotationData": {
+    "Rice": {
+      "family": "ग्रैमिनी",
+      "soilImpact": "भारी नाइट्रोजन खपत; मिट्टी में जल-जमाव कर सकती है।"
+    },
+    "Wheat": {
+      "family": "ग्रैमिनी",
+      "soilImpact": "मध्यम नाइट्रोजन खपत; मिट्टी की संरचना सुधारती है।"
+    },
+    "Maize": {
+      "family": "ग्रैमिनी",
+      "soilImpact": "भारी खपत; अच्छे अवशेष छोड़ती है।"
+    },
+    "Chickpea": {
+      "family": "लेग्यूमिनोसी",
+      "soilImpact": "वायुमंडलीय नाइट्रोजन स्थिरीकरण; उर्वरता बढ़ाती है।"
+    },
+    "Lentil": {
+      "family": "लेग्यूमिनोसी",
+      "soilImpact": "नाइट्रोजन स्थिरीकरण; संरचना सुधारती है।"
+    },
+    "Soybean": {
+      "family": "लेग्यूमिनोसी",
+      "soilImpact": "उत्कृष्ट नाइट्रोजन स्थिरीकरण; जैव पदार्थ बढ़ाती है।"
+    },
+    "Cotton": {
+      "family": "मैल्वेसी",
+      "soilImpact": "भारी पोटाश खपत; गहरी जड़ प्रणाली।"
+    },
+    "Groundnut": {
+      "family": "लेग्यूमिनोसी",
+      "soilImpact": "नाइट्रोजन स्थिरीकरण; वायु संचार बढ़ाती है।"
+    },
+    "Mustard": {
+      "family": "क्रूसिफरी",
+      "soilImpact": "गहरी जड़ें मिट्टी सुधारती हैं; जैव-धूम्रक गुण।"
+    },
+    "Potato": {
+      "family": "सोलानेसी",
+      "soilImpact": "भारी पोटाश खपत; मिट्टी ढीली करती है।"
+    },
+    "Sugarcane": {
+      "family": "ग्रैमिनी",
+      "soilImpact": "बहुत भारी खपत; लंबी अवधि की फसल।"
+    },
+    "Jute": {
+      "family": "टिलिएसी",
+      "soilImpact": "रेशेदार जड़ें मिट्टी सुधारती हैं; अच्छी हरी खाद।"
+    }
+  },
+  "nutrientStages": {
+    "Basal (Before Transplanting)": "Basal (before transplanting)",
+    "Basal (At Sowing)": "Basal (at sowing)",
+    "Basal": "Basal",
+    "Tillering Stage": "Tillering stage",
+    "Panicle Initiation": "Panicle initiation",
+    "Flowering Stage": "Flowering stage",
+    "Crown Root Initiation (CRI)": "Crown root initiation (CRI)",
+    "Late Jointing": "Late jointing",
+    "Flowering/Grain Filling": "Flowering / grain filling",
+    "Knee-high (V6)": "Knee-high (V6)",
+    "Tasseling": "Tasselling",
+    "Square Formation": "Square formation",
+    "Flowering": "Flowering",
+    "Boll Development": "Boll development",
+    "Pre-monsoon (May-June)": "Pre-monsoon (May-Jun)",
+    "Post-monsoon (Sep-Oct)": "Post-monsoon (Sep-Oct)",
+    "Pre-blossom (March)": "Pre-blossom (March)",
+    "Post-blossom (May)": "Post-blossom (May)",
+    "Monsoon (August)": "Monsoon (August)",
+    "Post-monsoon (October)": "Post-monsoon (October)",
+    "Post-harvest (July-Aug)": "Post-harvest (Jul-Aug)",
+    "Pre-flowering (Oct-Nov)": "Pre-flowering (Oct-Nov)",
+    "Fruit Development (Feb-Apr)": "Fruit development (Feb-Apr)",
+    "After Pruning (Oct)": "After pruning (Oct)",
+    "Berry Development (Dec-Jan)": "Berry development (Dec-Jan)",
+    "Veraison (Feb)": "Veraison (Feb)",
+    "Planting (0-2 months)": "Planting (0-2 months)",
+    "Vegetative (3-5 months)": "Vegetative (3-5 months)",
+    "Flowering & Fruiting (6-12 months)": "Flowering & fruiting (6-12 months)",
+    "Vine Running (20-25 days)": "Vine running (20-25 days)",
+    "Fruit Setting (40-45 days)": "Fruit setting (40-45 days)"
+  },
+  "nutrientTiming": {
+    "0 days": "0 days",
+    "21-25 days": "21-25 days",
+    "45-50 days": "45-50 days",
+    "70-80 days": "70-80 days",
+    "21 days": "21 days",
+    "75-85 days": "75-85 days",
+    "25-30 days": "25-30 days",
+    "50-55 days": "50-55 days",
+    "30-35 days": "30-35 days",
+    "60-65 days": "60-65 days",
+    "90-100 days": "90-100 days",
+    "Annual - Split 1": "Annual — split 1",
+    "Annual - Split 2": "Annual — split 2",
+    "Split 1": "Split 1",
+    "Split 2": "Split 2",
+    "Split 3": "Split 3",
+    "Split 4": "Split 4",
+    "Basal": "Basal",
+    "Monthly": "Monthly"
+  },
+  "nutrientPurpose": {
+    "Phosphorus base": "Phosphorus base",
+    "Potassium base": "Potassium base",
+    "Zinc deficiency prevention": "Prevent zinc deficiency",
+    "Nitrogen for tillering": "Nitrogen for tillering",
+    "Nitrogen for grain filling": "Nitrogen for grain filling",
+    "Grain development": "Grain development",
+    "Late nitrogen boost": "Late nitrogen boost",
+    "Better grain setting": "Better grain setting",
+    "Phosphorus + Nitrogen base": "Phosphorus + nitrogen base",
+    "Nitrogen for ear development": "Nitrogen for ear development",
+    "Zinc enrichment": "Zinc enrichment",
+    "Potassium + nitrogen boost": "Potassium + nitrogen boost",
+    "Zinc nutrition": "Zinc nutrition",
+    "Vegetative growth": "Vegetative growth",
+    "Ear development": "Ear development",
+    "Phosphorus + Sulphur": "Phosphorus + sulphur",
+    "Magnesium nutrition": "Magnesium nutrition",
+    "Boll development": "Boll development",
+    "Foliar phosphorus": "Foliar phosphorus",
+    "Boll weight increase": "Increase boll weight",
+    "Reduces boll shedding": "Reduce boll shedding",
+    "Phosphorus + starter nitrogen": "Phosphorus + starter nitrogen",
+    "Biological N fixation": "Biological nitrogen fixation",
+    "Phosphorus solubilization": "Phosphorus solubilisation",
+    "Mild nitrogen boost": "Mild nitrogen boost",
+    "Reduce flower drop": "Reduce flower drop",
+    "N fixation": "Nitrogen fixation",
+    "Yield boost": "Yield boost",
+    "Nitrogen - 1st split": "Nitrogen — 1st split",
+    "Nitrogen - 2nd split": "Nitrogen — 2nd split",
+    "Phosphorus": "Phosphorus",
+    "Potassium - 1st split": "Potassium — 1st split",
+    "Potassium - 2nd split": "Potassium — 2nd split",
+    "Boron nutrition": "Boron nutrition",
+    "Balanced nutrition pre-flowering": "Balanced nutrition pre-flowering",
+    "Nitrogen for berry set": "Nitrogen for berry set",
+    "Potassium for berry": "Potassium for berries",
+    "Berry development": "Berry development",
+    "Berry maturity": "Berry maturity",
+    "Organic matter replenishment": "Replenish organic matter",
+    "Nitrogen for new flush": "Nitrogen for new flush",
+    "Potassium for flowering": "Potassium for flowering",
+    "Better fruit set": "Better fruit set",
+    "Fruit size & sweetness": "Fruit size & sweetness",
+    "Reduces fruit cracking": "Reduce fruit cracking",
+    "Organic base": "Organic base",
+    "Balanced nutrition": "Balanced nutrition",
+    "Iron nutrition": "Iron nutrition",
+    "Berry growth": "Berry growth",
+    "Berry quality": "Berry quality",
+    "Berry elongation": "Berry elongation",
+    "Sugar accumulation": "Sugar accumulation",
+    "Uniform ripening": "Uniform ripening",
+    "Organic matter": "Organic matter",
+    "Root establishment": "Root establishment",
+    "Nematode control + slow N": "Nematode control + slow nitrogen",
+    "Stem strength": "Stem strength",
+    "Continuous fruiting": "Continuous fruiting",
+    "Fruit quality": "Fruit quality",
+    "Vine growth": "Vine growth",
+    "Balanced foliar": "Balanced foliar",
+    "Fruit development": "Fruit development",
+    "Reduces blossom end rot": "Reduce blossom-end rot",
+    "Better pollination": "Better pollination"
+  },
+  "pestDiseaseNames": {
+    "Blast": "Blast",
+    "Brown Plant Hopper (BPH)": "Brown plant hopper (BPH)",
+    "Sheath Blight": "Sheath blight",
+    "Yellow Rust": "Yellow rust",
+    "Aphids": "Aphids",
+    "Karnal Bunt": "Karnal bunt",
+    "Fall Armyworm": "Fall armyworm",
+    "Turcicum Leaf Blight": "Turcicum leaf blight",
+    "Bollworm": "Bollworm",
+    "Whitefly": "Whitefly",
+    "Wilt (Fusarium)": "Wilt (Fusarium)",
+    "Pod Borer (Helicoverpa)": "Pod borer (Helicoverpa)",
+    "Rust": "Rust",
+    "Rhinoceros Beetle": "Rhinoceros beetle",
+    "Bud Rot": "Bud rot",
+    "Coffee Berry Borer": "Coffee berry borer",
+    "Leaf Rust": "Leaf rust",
+    "Anthracnose": "Anthracnose",
+    "Mango Hopper": "Mango hopper",
+    "Powdery Mildew": "Powdery mildew",
+    "Downy Mildew": "Downy mildew",
+    "Mealybug": "Mealybug",
+    "Papaya Ring Spot Virus": "Papaya ringspot virus",
+    "Fruit Fly": "Fruit fly",
+    "Fusarium Wilt": "Fusarium wilt",
+    "Red Pumpkin Beetle": "Red pumpkin beetle"
+  },
+  "pestSymptoms": {
+    "Diamond-shaped spots on leaves": "Diamond-shaped spots on leaves",
+    "Hopper burn, yellowing at base": "Hopper burn; yellowing at the base",
+    "Oval lesions on leaf sheath": "Oval lesions on leaf sheath",
+    "Yellow stripes on leaves": "Yellow stripes on leaves",
+    "Honeydew on leaves, stunted growth": "Honeydew on leaves; stunted growth",
+    "Fishy smell in grains, black powder": "Fishy smell in grains; black powder",
+    "Ragged holes in leaves, frass in whorl": "Ragged holes in leaves; frass in the whorl",
+    "Cigar-shaped grey-green lesions": "Cigar-shaped grey-green lesions",
+    "Damaged bolls, frass on plant": "Damaged bolls; frass on plant",
+    "Sticky honeydew, sooty mold": "Sticky honeydew; sooty mould",
+    "Wilting of entire plant, dry roots": "Wilting of entire plant; dry roots",
+    "Holes in pods, larvae inside": "Holes in pods; larvae inside",
+    "Orange-brown pustules on leaves": "Orange-brown pustules on leaves",
+    "Curling leaves, honeydew": "Curling leaves; honeydew",
+    "V-shaped cuts on fronds": "V-shaped cuts on fronds",
+    "Rotting of central shoot": "Rotting of central shoot",
+    "Small holes in berries": "Small holes in berries",
+    "Orange powdery spots on underside of leaves": "Orange powdery spots on underside of leaves",
+    "Black spots on flowers and fruits": "Black spots on flowers and fruits",
+    "Honeydew on flowers, flower drop": "Honeydew on flowers; flower drop",
+    "White powder on panicles & leaves": "White powder on panicles and leaves",
+    "Oily spots on upper leaf, white growth below": "Oily spots on upper leaf; white growth below",
+    "White cottony masses on stems/berries": "White cottony masses on stems/berries",
+    "Ring spots on fruits, mosaic on leaves": "Ring spots on fruits; mosaic on leaves",
+    "Maggots inside fruit, premature fruit drop": "Maggots inside fruit; premature fruit drop",
+    "Wilting vines, brown vascular tissue": "Wilting vines; brown vascular tissue",
+    "Holes in leaves and flowers": "Holes in leaves and flowers",
+    "White powdery coating on leaves": "White powdery coating on leaves"
+  },
+  "pestApplication": {
+    "Foliar spray at first symptom": "Foliar spray at first symptom",
+    "Preventive spray": "Preventive spray",
+    "Spray at base of plant": "Spray at the base of the plant",
+    "Foliar spray": "Foliar spray",
+    "Spray at tillering stage": "Spray at tillering stage",
+    "Spray at first symptom": "Spray at first symptom",
+    "Systemic spray": "Systemic spray",
+    "Spray at boot stage": "Spray at boot stage",
+    "Spray into whorl": "Spray into the whorl",
+    "Spray at flowering": "Spray at flowering",
+    "Under-leaf spray": "Under-leaf spray",
+    "Seed treatment": "Seed treatment",
+    "Soil drench": "Soil drench",
+    "Biological spray at flowering": "Biological spray at flowering",
+    "Spray at first sign": "Spray at first sign",
+    "Apply to manure pits": "Apply to manure pits",
+    "Place in leaf axil": "Place in leaf axil",
+    "Apply to cut surface": "Apply to cut surface",
+    "Crown drench": "Crown drench",
+    "Spray during berry stage": "Spray during berry stage",
+    "Spot spray": "Spot spray",
+    "Pre-monsoon spray": "Pre-monsoon spray",
+    "Curative spray": "Curative spray",
+    "Spray at panicle emergence": "Spray at panicle emergence",
+    "Contact spray": "Contact spray",
+    "Control aphid vectors": "Control aphid vectors",
+    "Install at fruiting": "Install at fruiting",
+    "Bait spray": "Bait spray",
+    "Soil drench at planting": "Soil drench at planting",
+    "Soil application": "Soil application",
+    "Dust or spray on seedlings": "Dust or spray on seedlings",
+    "Spray at early infestation": "Spray at early infestation"
   }
 }
