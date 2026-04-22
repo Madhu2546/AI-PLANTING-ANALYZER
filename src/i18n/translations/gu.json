@@ -692,692 +692,692 @@
   },
   "diseaseData": {
     "rice-blast": {
-      "name": "Rice Blast",
-      "description": "High humidity with moderate temperatures creates ideal conditions for the rice blast fungus.",
+      "name": "ડાંગરનો બ્લાસ્ટ",
+      "description": "મધ્યમ તાપમાન સાથે ઉચ્ચ ભેજ ડાંગરના બ્લાસ્ટ ફૂગ માટે આદર્શ પરિસ્થિતિઓ બનાવે છે.",
       "preventiveMeasures": [
-        "Apply preventive fungicide sprays",
-        "Avoid excessive nitrogen fertilization",
-        "Ensure proper drainage in fields",
-        "Use resistant rice varieties"
+        "નિવારક ફૂગનાશક સ્પ્રેનો ઉપયોગ કરો",
+        "વધુ પડતા નાઇટ્રોજન ખાતરનો ઉપયોગ ટાળો",
+        "ખેતરોમાં યોગ્ય નિકાલ સુનિશ્ચિત કરો",
+        "પ્રતિરોધક ડાંગરની જાતોનો ઉપયોગ કરો"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
-      "description": "Warm and humid conditions favour bacterial spread, especially after heavy rains.",
+      "name": "બેક્ટેરિયલ પાનનો બ્લાઇટ",
+      "description": "ગરમ અને ભેજવાળી પરિસ્થિતિઓ, ખાસ કરીને ભારે વરસાદ પછી, બેક્ટેરિયાના ફેલાવાને પ્રોત્સાહન આપે છે.",
       "preventiveMeasures": [
-        "Drain excess water from fields",
-        "Apply copper-based bactericides",
-        "Avoid working in wet fields",
-        "Remove and destroy infected plants"
+        "ખેતરોમાંથી વધારાનું પાણી કાઢી નાખો",
+        "તાંબા આધારિત બેક્ટેરિયાનાશક દવાઓનો છંટકાવ કરો",
+        "ભીના ખેતરોમાં કામ કરવાનું ટાળો",
+        "ચેપગ્રસ્ત છોડને દૂર કરો અને નાશ કરો"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
-      "description": "Cool temperatures with high humidity and morning dew promote rust development.",
+      "name": "મકાઇનો સામાન્ય ગેરુ",
+      "description": "વધુ ભેજવાળા અને સવારના ઝાકળવાળા ઠંડા તાપમાનથી રસ્ટનો વિકાસ થાય છે.",
       "preventiveMeasures": [
-        "Scout fields regularly for early symptoms",
-        "Apply fungicides at the first sign of infection",
-        "Plant rust-resistant hybrids",
-        "Avoid overhead irrigation"
+        "પ્રારંભિક લક્ષણો માટે નિયમિતપણે ખેતરોનું નિરીક્ષણ કરો",
+        "સંક્રમણના પ્રથમ ચિહ્નો પર ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "રસ્ટ-પ્રતિરોધક સંકર જાતોનું વાવેતર કરો",
+        "ઉપરથી પાણી આપવાનું ટાળો"
       ]
     },
     "powdery-mildew": {
-      "name": "Powdery Mildew",
-      "description": "Moderate humidity without rain and warm temperatures favour powdery mildew growth.",
+      "name": "ભૂકી છારો",
+      "description": "વરસાદ વિનાની મધ્યમ ભેજ અને ગરમ તાપમાન પાવડરી માઇલ્ડ્યુના વિકાસને અનુકૂળ છે.",
       "preventiveMeasures": [
-        "Apply sulfur-based fungicides",
-        "Improve air circulation through pruning",
-        "Avoid excessive nitrogen",
-        "Remove infected plant parts"
+        "સલ્ફર આધારિત ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "કાપણી દ્વારા હવા પરિભ્રમણ સુધારવું",
+        "વધુ પડતા નાઇટ્રોજનનો ઉપયોગ ટાળો",
+        "ચેપગ્રસ્ત છોડના ભાગોને દૂર કરો"
       ]
     },
     "anthracnose": {
-      "name": "Anthracnose",
-      "description": "High humidity with warm temperatures, especially during flowering and fruiting.",
+      "name": "એન્થ્રેકનોઝ",
+      "description": "ગરમ તાપમાન સાથે ઉચ્ચ ભેજ, ખાસ કરીને ફૂલો અને ફળ બેસવાના સમયે.",
       "preventiveMeasures": [
-        "Apply copper-based fungicides before rain",
-        "Avoid overhead irrigation during flowering",
-        "Remove fallen fruits and debris",
-        "Ensure proper orchard sanitation"
+        "વરસાદ પહેલા તાંબા આધારિત ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "ફૂલ આવવાના સમયે ઉપરથી પાણી આપવાનું ટાળો",
+        "ખરેલા ફળો અને કચરો દૂર કરો",
+        "બાગાયતની યોગ્ય સ્વચ્છતા સુનિશ્ચિત કરો"
       ]
     },
     "fusarium-wilt": {
-      "name": "Fusarium Wilt",
-      "description": "Warm soil temperatures with moderate moisture favour soil-borne fungal spread.",
+      "name": "ફ્યુઝેરિયમ વિલ્ટ",
+      "description": "મધ્યમ ભેજ સાથે ગરમ જમીનનું તાપમાન જમીનજન્ય ફૂગના ફેલાવાને પ્રોત્સાહન આપે છે.",
       "preventiveMeasures": [
-        "Use resistant crop varieties",
-        "Practice crop rotation",
-        "Apply Trichoderma-based biocontrol",
-        "Avoid waterlogging"
+        "પ્રતિરોધક પાકની જાતોનો ઉપયોગ કરો",
+        "પાક પરિભ્રમણનો અભ્યાસ કરો",
+        "ટ્રાયકોડર્મા આધારિત જૈવિક નિયંત્રણનો ઉપયોગ કરો",
+        "જળ ભરાવો ટાળો"
       ]
     },
     "late-blight": {
-      "name": "Late Blight",
-      "description": "Cool and wet conditions are ideal for rapid spread of the late blight pathogen.",
+      "name": "પાછોતરો સુકારો",
+      "description": "ઠંડી અને ભેજવાળી પરિસ્થિતિઓથી લીટ બ્લાઇટના રોગકારકનો ઝડપી ફેલાવો થાય છે.",
       "preventiveMeasures": [
-        "Apply preventive fungicides before rain",
-        "Avoid overhead irrigation in the evening",
-        "Destroy infected plant debris",
-        "Use certified disease-free seed tubers"
+        "વરસાદ પહેલા નિવારક ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "સાંજે ઉપરથી પાણી આપવાનું ટાળો",
+        "રોગગ્રસ્ત છોડનો કચરો નાશ કરો",
+        "પ્રમાણિત રોગમુક્ત બીજના કંદનો ઉપયોગ કરો"
       ]
     },
     "downy-mildew": {
-      "name": "Downy Mildew",
-      "description": "Cool nights with high humidity and morning dew favour downy mildew development.",
+      "name": "ડાઉની માઇલ્ડ્યુ",
+      "description": "ઊંચા ભેજવાળી ઠંડી રાત અને સવારના ઝાકળ ડાઉની માઇલ્ડ્યુના વિકાસમાં મદદ કરે છે.",
       "preventiveMeasures": [
-        "Apply protective fungicides before wet weather",
-        "Improve air circulation",
-        "Water early in the morning to reduce leaf wetness",
-        "Remove infected leaves immediately"
+        "ભેજવાળા હવામાન પહેલા રક્ષણાત્મક ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "હવા પરિભ્રમણ સુધારવું",
+        "પાંદડાની ભીનાશ ઘટાડવા માટે સવારે વહેલા પાણી આપો",
+        "ચેપગ્રસ્ત પાંદડા તરત જ દૂર કરો"
       ]
     },
     "bacterial-wilt": {
-      "name": "Bacterial Wilt",
-      "description": "Hot and humid conditions accelerate bacterial wilt spread through soil and water.",
+      "name": "બેક્ટેરિયલ વિલ્ટ",
+      "description": "ગરમ અને ભેજવાળી પરિસ્થિતિઓ જમીન અને પાણી દ્વારા બેક્ટેરિયલ વિલ્ટના ફેલાવાને વેગ આપે છે.",
       "preventiveMeasures": [
-        "Practice strict sanitation",
-        "Use resistant varieties",
-        "Avoid field flooding",
-        "Remove and destroy infected plants immediately"
+        "કડક સ્વચ્છતાનો અભ્યાસ કરો",
+        "પ્રતિરોધક જાતોનો ઉપયોગ કરો",
+        "ખેતરમાં પાણી ભરાતું અટકાવો",
+        "ચેપગ્રસ્ત છોડને તરત જ કાઢીને નાશ કરો"
       ]
     },
     "coffee-rust": {
-      "name": "Coffee Leaf Rust",
-      "description": "Warm temperatures with high humidity during the rainy season favour rust spread.",
+      "name": "કોફીનો પર્ણ ગેરુ",
+      "description": "વરસાદની ઋતુમાં ઊંચી ભેજ સાથેનું ગરમ ​​તાપમાન રસ્ટના ફેલાવાને પ્રોત્સાહન આપે છે.",
       "preventiveMeasures": [
-        "Apply copper fungicides preventively",
-        "Prune for better air circulation",
-        "Plant shade trees strategically",
-        "Use rust-resistant coffee varieties"
+        "તાંબા આધારિત ફૂગનાશક દવાઓનો નિવારક રીતે છંટકાવ કરો",
+        "વધુ સારી હવાના પરિભ્રમણ માટે છાંટણી કરો",
+        "વ્યૂહાત્મક રીતે છાંયડાવાળા વૃક્ષો વાવો",
+        "રસ્ટ-પ્રતિરોધક કોફીની જાતોનો ઉપયોગ કરો"
       ]
     }
   },
   "diseaseGuide": {
     "rice-blast": {
-      "name": "Rice Blast",
+      "name": "ડાંગરનો બ્લાસ્ટ",
       "symptoms": [
-        "Diamond-shaped lesions on leaves",
-        "Gray-green lesions turning white with brown borders",
-        "Neck rot causing the panicle to break",
-        "Nodes become brown and rotted"
+        "પાંદડા પર હીરા આકારના જખમ",
+        "ભૂરા કિનારીઓ સાથે રાખોડી-લીલા ડાઘ સફેદ થતા",
+        "ગરદનનો સડો જેના કારણે દંડલ તૂટી જાય છે",
+        "ગાંઠો ભૂરા અને સડેલા બની જાય છે"
       ],
       "causes": [
-        "Fungus Magnaporthe oryzae",
-        "High humidity and moderate temperatures",
-        "Excessive nitrogen fertilization",
-        "Dense planting"
+        "ફૂગ મેગ્નાપોર્થે ઓરીઝે",
+        "ઉચ્ચ ભેજ અને મધ્યમ તાપમાન",
+        "વધુ પડતું નાઇટ્રોજન ખાતર",
+        "ઘન વાવેતર"
       ],
       "treatment": [
-        "Apply fungicides like Tricyclazole or Isoprothiolane",
-        "Remove and destroy infected plant debris",
-        "Apply silicon-based fertilizers to strengthen cell walls",
-        "Use copper-based fungicides as a preventive measure"
+        "ટ્રાઇસાયક્લાઝોલ અથવા આઇસોપ્રોથિઓલેન જેવા ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "ચેપગ્રસ્ત છોડના કચરાને દૂર કરો અને નાશ કરો",
+        "કોષ દિવાલોને મજબૂત કરવા માટે સિલિકોન આધારિત ખાતરોનો ઉપયોગ કરો",
+        "નિવારક માપદંડ તરીકે કોપર આધારિત ફૂગનાશકનો ઉપયોગ કરો"
       ],
       "prevention": [
-        "Use resistant rice varieties",
-        "Avoid excessive nitrogen application",
-        "Maintain proper plant spacing",
-        "Ensure good drainage in fields"
+        "પ્રતિરોધક ડાંગરની જાતોનો ઉપયોગ કરો",
+        "વધુ પડતી નાઇટ્રોજન એપ્લિકેશન ટાળો",
+        "છોડ વચ્ચે યોગ્ય અંતર જાળવો",
+        "ખેતરોમાં સારા નિકાલની ખાતરી કરો"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
+      "name": "બેક્ટેરિયલ પાનનો બ્લાઇટ",
       "symptoms": [
-        "Water-soaked lesions on leaf margins",
-        "Lesions turn yellow then greyish-white",
-        "Leaves dry up from the tip downward",
-        "Bacterial ooze on infected leaves"
+        "પાંદડાની કિનારીઓ પર પાણીથી ભીના થયેલા જખમ",
+        "ઘા પીળા પડીને રાખોડી-સફેદ થાય છે",
+        "પાંદડા ટોચથી નીચેની તરફ સુકાઈ જાય છે",
+        "ચેપગ્રસ્ત પાંદડા પર બેક્ટેરિયલ ઓઝ"
       ],
       "causes": [
-        "Bacteria Xanthomonas oryzae",
-        "Warm and humid conditions",
-        "Flooding and heavy rains",
-        "Wounds from insects or mechanical damage"
+        "બેક્ટેરિયા ઝેન્થોમોનાસ ઓરીઝે",
+        "ગરમ અને ભેજવાળી પરિસ્થિતિઓ",
+        "પૂર અને ભારે વરસાદ",
+        "જંતુઓ કે યાંત્રિક નુકસાનથી થયેલા ઘા"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
-        "Drain excess water from fields",
-        "Apply potassium fertilizers to strengthen plants",
-        "Remove severely infected plants"
+        "તાંબા આધારિત બેક્ટેરિયાનાશક દવાઓનો છંટકાવ કરો",
+        "ખેતરોમાંથી વધારાનું પાણી કાઢી નાખો",
+        "છોડને મજબૂત કરવા માટે પોટેશિયમ ખાતરોનો ઉપયોગ કરો",
+        "ગંભીર રીતે ચેપગ્રસ્ત છોડને દૂર કરો"
       ],
       "prevention": [
-        "Use certified disease-free seeds",
-        "Avoid excessive nitrogen fertilization",
-        "Maintain proper water management",
-        "Control insect vectors"
+        "પ્રમાણિત રોગમુક્ત બીજનો ઉપયોગ કરો",
+        "વધુ પડતા નાઇટ્રોજન ખાતરનો ઉપયોગ ટાળો",
+        "યોગ્ય જળ વ્યવસ્થાપન જાળવો",
+        "કીટકના વાહકોને નિયંત્રિત કરો"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
+      "name": "મકાઇનો સામાન્ય ગેરુ",
       "symptoms": [
-        "Small circular to elongated brown pustules on leaves",
-        "Pustules appear on both leaf surfaces",
-        "Severe infection causes leaf yellowing",
-        "Premature leaf death in severe cases"
+        "પાંદડા પર નાના ગોળાકારથી લંબગોળ ભૂરા ફોલ્લા",
+        "બંને પાંદડાની સપાટી પર ફોલ્લા દેખાય છે",
+        "ગંભીર ચેપ પાંદડા પીળા થવાનું કારણ બને છે",
+        "ગંભીર કિસ્સાઓમાં પાનનો અકાળે મૃત્યુ"
       ],
       "causes": [
-        "Fungus Puccinia sorghi",
-        "Cool to moderate temperatures (16-23°C)",
-        "High humidity and dew formation",
-        "Wind-borne spore dispersal"
+        "ફૂગ પુક્સીનિયા સોર્ગી",
+        "ઠંડાથી મધ્યમ તાપમાન (16-23°C)",
+        "ઉચ્ચ ભેજ અને ઝાકળનું નિર્માણ",
+        "પવન દ્વારા બીજકણનો ફેલાવો"
       ],
       "treatment": [
-        "Apply fungicides like Mancozeb or Propiconazole",
-        "Remove infected plant debris after harvest",
-        "Apply foliar fungicides at the first sign of infection",
-        "Use triazole-based fungicides for severe infection"
+        "મેન્કોઝેબ અથવા પ્રોપિકોનાઝોલ જેવા ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "લણણી પછી ચેપગ્રસ્ત છોડનો કચરો દૂર કરો",
+        "સંક્રમણના પ્રથમ ચિહ્નો પર પર્ણસમૂહ ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "ગંભીર ચેપ માટે ટ્રાયાઝોલ-આધારિત ફૂગનાશકનો ઉપયોગ કરો"
       ],
       "prevention": [
-        "Plant rust-resistant hybrid varieties",
-        "Early planting to avoid peak infection periods",
-        "Crop rotation with non-host crops",
-        "Avoid overhead irrigation"
+        "રસ્ટ-પ્રતિરોધક સંકર જાતોનું વાવેતર કરો",
+        "ચેપના ટોચના સમયગાળા ટાળવા માટે વહેલું વાવેતર",
+        "બિન-યજમાન પાક સાથે પાકનું પરિભ્રમણ",
+        "ઉપરથી પાણી આપવાનું ટાળો"
       ]
     },
     "cotton-wilt": {
-      "name": "Fusarium Wilt of Cotton",
+      "name": "કપાસનો ફ્યુઝેરિયમ વિલ્ટ",
       "symptoms": [
-        "Yellowing and wilting of leaves",
-        "Brown discolouration of vascular tissue",
-        "Stunted plant growth",
-        "Leaves drop prematurely"
+        "પાંદડા પીળા પડવા અને કરમાઈ જવા",
+        "વાસ્ક્યુલર પેશીનું બદામી વિકૃતિકરણ",
+        "છોડનો અવરોધિત વિકાસ",
+        "પાન અકાળે ખરી પડે છે"
       ],
       "causes": [
-        "Fungus Fusarium oxysporum f.sp. vasinfectum",
-        "Soil-borne pathogen surviving for years",
-        "Warm soil temperatures (23-28°C)",
-        "Root damage from nematodes"
+        "ફૂગ ફ્યુઝેરિયમ ઓક્સિસ્પોરમ એફ.એસ.પી. વસિનફેક્ટમ",
+        "વર્ષો સુધી ટકી રહેતા જમીનજન્ય રોગકારક",
+        "ગરમ જમીનનું તાપમાન (23-28°C)",
+        "નેમેટોડ્સ દ્વારા મૂળને નુકસાન"
       ],
       "treatment": [
-        "No effective chemical treatment once infected",
-        "Remove and destroy infected plants",
-        "Solarize soil to reduce pathogen levels",
-        "Apply biological control agents like Trichoderma"
+        "એકવાર ચેપ લાગ્યા પછી કોઈ અસરકારક રાસાયણિક સારવાર નથી",
+        "ચેપગ્રસ્ત છોડને દૂર કરો અને નાશ કરો",
+        "રોગકારકનું સ્તર ઘટાડવા માટે જમીનને સૌર ઊર્જાથી ગરમ કરો",
+        "ટ્રાયકોડર્મા જેવા જૈવિક નિયંત્રક એજન્ટોનો ઉપયોગ કરો"
       ],
       "prevention": [
-        "Use resistant cotton varieties",
-        "Practice crop rotation (4-5 years)",
-        "Control root-knot nematodes",
-        "Maintain soil pH above 7.0"
+        "પ્રતિરોધક કપાસની જાતોનો ઉપયોગ કરો",
+        "પાક ફેરબદલીનો અભ્યાસ કરો (4-5 વર્ષ)",
+        "મૂળ ગાંઠ નેમાટોડ્સને નિયંત્રિત કરો",
+        "જમીનનો pH 7.0 થી ઉપર જાળવો"
       ]
     },
     "mango-anthracnose": {
-      "name": "Mango Anthracnose",
+      "name": "આંબાનો એન્થ્રેકનોઝ",
       "symptoms": [
-        "Black spots on flowers and young fruits",
-        "Sunken dark lesions on mature fruits",
-        "Leaf spots with irregular margins",
-        "Twig dieback and blossom blight"
+        "ફૂલો અને યુવાન ફળો પર કાળા ડાઘ",
+        "પાકેલા ફળો પર ઉંડા કાળા જખમ",
+        "અનિયમિત કિનારીવાળા પાનાં પરના ધાબા",
+        "ડાળી સુકાવવી અને ફૂલોનો સુકારો"
       ],
       "causes": [
-        "Fungus Colletotrichum gloeosporioides",
-        "High humidity and rainfall",
-        "Warm temperatures (25-30°C)",
-        "Overhead irrigation wetting foliage"
+        "ફૂગ કોલેટોટ્રિકમ ગ્લોયોસ્પોરિયોઈડ્સ",
+        "ઉચ્ચ ભેજ અને વરસાદ",
+        "ગરમ તાપમાન (25-30°C)",
+        "ઊપરથી સિંચાઈ દ્વારા પાંદડા ભીના થવા"
       ],
       "treatment": [
-        "Apply copper-based fungicides before flowering",
-        "Hot water treatment of harvested fruits (52°C for 5 min)",
-        "Post-harvest fungicide dips",
-        "Prune and destroy infected plant parts"
+        "ફૂલ આવતા પહેલા તાંબા આધારિત ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "કાપેલા ફળોની ગરમ પાણીથી સારવાર (52°C પર 5 મિનિટ માટે)",
+        "કાપણી પછી ફૂગનાશક ડૂબકી",
+        "ચેપગ્રસ્ત છોડના ભાગોને કાપીને નાશ કરો"
       ],
       "prevention": [
-        "Maintain orchard sanitation",
-        "Avoid overhead irrigation during flowering",
-        "Apply preventive fungicide sprays",
-        "Ensure good air circulation through pruning"
+        "બાગાયતની સ્વચ્છતા જાળવો",
+        "ફૂલ આવવાના સમયે ઉપરથી પાણી આપવાનું ટાળો",
+        "નિવારક ફૂગનાશક સ્પ્રેનો ઉપયોગ કરો",
+        "કાપણી દ્વારા સારા હવાના પરિભ્રમણને સુનિશ્ચિત કરો"
       ]
     },
     "banana-sigatoka": {
-      "name": "Black Sigatoka",
+      "name": "બ્લેક સિગાટોકા",
       "symptoms": [
-        "Small pale streaks on lower leaf surface",
-        "Streaks enlarge and turn brown-black",
-        "Leaves dry out prematurely",
-        "Reduced fruit size and quality"
+        "નીચેની પાંદડાની સપાટી પર નાના આછા ચાઠાં",
+        "ચાઠાં મોટા થાય છે અને ભૂરા-કાળા થાય છે",
+        "પાંદડા અકાળે સુકાઈ જાય છે",
+        "ઘટેલું ફળનું કદ અને ગુણવત્તા"
       ],
       "causes": [
-        "Fungus Mycosphaerella fijiensis",
-        "High humidity and warm temperatures",
-        "Prolonged leaf wetness",
-        "Dense plantings with poor air circulation"
+        "ફૂગ માયકોસ્ફેરેલા ફિજિએન્સિસ",
+        "ઉચ્ચ ભેજ અને ગરમ તાપમાન",
+        "પાંદડા લાંબા સમય સુધી ભીના રહેવા",
+        "ખરાબ હવાના પરિભ્રમણવાળા ગાઢ વાવેતર"
       ],
       "treatment": [
-        "Apply systemic fungicides like Propiconazole",
-        "Remove and destroy infected leaves",
-        "Rotate fungicide modes of action",
-        "Apply mineral oil with fungicides"
+        "પ્રોપિકોનાઝોલ જેવા પ્રણાલીગત ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "ચેપગ્રસ્ત પાંદડા કાઢીને નાશ કરો",
+        "ફૂગનાશકના કાર્ય કરવાની પદ્ધતિઓને ફેરવો",
+        "ફૂગનાશક દવાઓ સાથે ખનિજ તેલનો ઉપયોગ કરો"
       ],
       "prevention": [
-        "Use resistant banana varieties",
-        "Maintain proper spacing between plants",
-        "Remove old leaves to improve airflow",
-        "Practice good drainage management"
+        "પ્રતિરોધક કેળાની જાતોનો ઉપયોગ કરો",
+        "છોડ વચ્ચે યોગ્ય અંતર જાળવો",
+        "હવાના પ્રવાહને સુધારવા માટે જૂના પાંદડા દૂર કરો",
+        "સારા ડ્રેનેજ વ્યવસ્થાપનનો અભ્યાસ કરો"
       ]
     },
     "citrus-canker": {
-      "name": "Citrus Canker",
+      "name": "સાઇટ્રસ કેન્કર",
       "symptoms": [
-        "Raised corky lesions on leaves and fruits",
-        "Lesions with water-soaked margins",
-        "Yellow halo around lesions",
-        "Premature fruit and leaf drop"
+        "પાંદડા અને ફળો પર ઉપસેલા કોર્કી જખમ",
+        "પાણીથી ભીંજાયેલી કિનારીવાળા ઘા",
+        "જખમની આસપાસ પીળું વર્તુળ",
+        "ફળો અને પાંદડા અકાળે ખરી પડવા"
       ],
       "causes": [
-        "Bacteria Xanthomonas citri",
-        "Wind-driven rain spreading bacteria",
-        "Wounds from thorns, insects, or wind",
-        "High temperatures and humidity"
+        "બેક્ટેરિયા ઝેન્થોમોનાસ સિટ્રી",
+        "પવનથી ચાલતો વરસાદ બેક્ટેરિયાનો ફેલાવો કરે છે",
+        "કાંટા, જંતુઓ કે પવનથી થયેલા ઘા",
+        "ઊંચા તાપમાન અને ભેજ"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
-        "Remove and destroy infected plant parts",
-        "Apply streptomycin in severe cases",
-        "Protect wounds with copper paste"
+        "તાંબા આધારિત બેક્ટેરિયાનાશક દવાઓનો છંટકાવ કરો",
+        "ચેપગ્રસ્ત છોડના ભાગોને દૂર કરો અને નાશ કરો",
+        "ગંભીર કિસ્સાઓમાં સ્ટ્રેપ્ટોમાયસિનનો ઉપયોગ કરો",
+        "તાંબાની પેસ્ટ વડે ઘાને સુરક્ષિત કરો"
       ],
       "prevention": [
-        "Use certified disease-free nursery stock",
-        "Windbreaks to reduce wind-driven rain",
-        "Disinfect pruning tools between trees",
-        "Control leaf miner insects"
+        "પ્રમાણિત રોગમુક્ત નર્સરી સ્ટોકનો ઉપયોગ કરો",
+        "પવનથી ચાલતો વરસાદ ઘટાડવા માટે પવનરોધક",
+        "ઝાડ વચ્ચે કાપણીના સાધનોને જંતુમુક્ત કરો",
+        "પાંદડાની ખાણિયા કીટકોને નિયંત્રિત કરો"
       ]
     },
     "grape-powdery-mildew": {
-      "name": "Powdery Mildew of Grape",
+      "name": "દ્રાક્ષનો ભૂકી છારો",
       "symptoms": [
-        "White powdery growth on leaves and shoots",
-        "Distorted and curled young leaves",
-        "Brown scarring on fruit surface",
-        "Cracking of infected berries"
+        "પાંદડા અને કુંપણો પર સફેદ પાવડરી વૃદ્ધિ",
+        "વિકૃત અને વાંકડિયા યુવાન પાંદડા",
+        "ફળની સપાટી પર બદામી ડાઘ",
+        "ચેપગ્રસ્ત બેરીનું ફાટી જવું"
       ],
       "causes": [
-        "Fungus Uncinula necator",
-        "Moderate temperatures (20-27°C)",
-        "Shade and poor air circulation",
-        "High humidity without rain"
+        "ફૂગ અનસીનુલા નેકેટર",
+        "મધ્યમ તાપમાન (20-27°C)",
+        "છાંયો અને નબળી હવા અવરજવર",
+        "વરસાદ વિના ઉચ્ચ ભેજ"
       ],
       "treatment": [
-        "Apply sulfur-based fungicides",
-        "Use systemic fungicides like Myclobutanil",
-        "Remove heavily infected leaves",
-        "Apply potassium bicarbonate sprays"
+        "સલ્ફર આધારિત ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "સાયક્લોબ્યુટાનિલ જેવા પ્રણાલીગત ફૂગનાશકનો ઉપયોગ કરો",
+        "ગંભીર રીતે ચેપગ્રસ્ત પાંદડા દૂર કરો",
+        "પોટેશિયમ બાયકાર્બોનેટનો છંટકાવ કરો"
       ],
       "prevention": [
-        "Select resistant grape varieties",
-        "Prune for good air circulation",
-        "Avoid excessive nitrogen fertilization",
-        "Remove dormant infected wood"
+        "પ્રતિરોધક દ્રાક્ષની જાતો પસંદ કરો",
+        "સારી હવાના પરિભ્રમણ માટે છાંટણી કરો",
+        "વધુ પડતા નાઇટ્રોજન ખાતરનો ઉપયોગ ટાળો",
+        "નિષ્ક્રિય ચેપગ્રસ્ત લાકડું દૂર કરો"
       ]
     },
     "chickpea-wilt": {
-      "name": "Chickpea Wilt",
+      "name": "ચણાનો સુકારો",
       "symptoms": [
-        "Yellowing and drooping of leaves",
-        "Rapid wilting of the entire plant",
-        "Brown discolouration of roots and stem base",
-        "Internal browning of vascular tissue"
+        "પાંદડા પીળા પડવા અને નમી જવા",
+        "આખા છોડનો ઝડપી સુકારો",
+        "મૂળ અને દાંડીના પાયાના ભાગમાં બદામી વિકૃતિકરણ",
+        "વાહક પેશીઓનું આંતરિક બ્રાઉનિંગ"
       ],
       "causes": [
-        "Fungus Fusarium oxysporum f.sp. ciceris",
-        "Soil-borne pathogen",
-        "Warm soil temperatures",
-        "Previous chickpea cultivation in the field"
+        "ફૂગ ફ્યુઝેરિયમ ઓક્સિસ્પોરમ એફ.એસ.પી. સિસેરિસ",
+        "જમીનજન્ય રોગકારક",
+        "ગરમ જમીનનું તાપમાન",
+        "ખેતરમાં અગાઉ ચણાની ખેતી"
       ],
       "treatment": [
-        "No effective treatment once infected",
-        "Remove and destroy infected plants",
-        "Apply Trichoderma-based biocontrol",
-        "Solarize soil before planting"
+        "એકવાર ચેપ લાગ્યા પછી કોઈ અસરકારક સારવાર નથી",
+        "ચેપગ્રસ્ત છોડને દૂર કરો અને નાશ કરો",
+        "ટ્રાયકોડર્મા આધારિત જૈવિક નિયંત્રણનો ઉપયોગ કરો",
+        "વાવણી પહેલાં જમીનને સૌર ઊર્જાથી ગરમ કરો"
       ],
       "prevention": [
-        "Use wilt-resistant varieties",
-        "Practice 4-5 year crop rotation",
-        "Treat seeds with fungicides",
-        "Avoid water stress during flowering"
+        "સુકારા-પ્રતિરોધક જાતોનો ઉપયોગ કરો",
+        "4-5 વર્ષના પાક પરિભ્રમણનો અભ્યાસ કરો",
+        "બીજને ફૂગનાશકથી માવજત કરો",
+        "ફૂલોના સમયે પાણીનો તાણ ટાળો"
       ]
     },
     "papaya-ringspot": {
-      "name": "Papaya Ringspot Virus",
+      "name": "પપૈયા રિંગસ્પોટ વાયરસ",
       "symptoms": [
-        "Ring-shaped spots on fruits",
-        "Mosaic patterns on leaves",
-        "Distorted and shoe-string shaped leaves",
-        "Oily streaks on stems and petioles"
+        "ફળો પર રીંગ આકારના ટપકાં",
+        "પાંદડા પર મોઝેક પેટર્ન",
+        "વિકૃત અને જૂતાની દોરી આકારના પાંદડા",
+        "દાંડી અને પર્ણદંડ પર તેલીયા પટ્ટાઓ"
       ],
       "causes": [
-        "Papaya ringspot virus (PRSV)",
-        "Aphid transmission",
-        "Infected plant material",
-        "No seed transmission"
+        "પપૈયા રિંગસ્પોટ વાયરસ (પી.આર.એસ.વી.)",
+        "મોલો દ્વારા સંક્રમણ",
+        "ચેપગ્રસ્ત છોડ સામગ્રી",
+        "બીજ દ્વારા કોઈ સંક્રમણ નથી"
       ],
       "treatment": [
-        "No cure for infected plants",
-        "Remove and destroy infected plants immediately",
-        "Control aphid vectors with insecticides",
-        "Use reflective mulches to repel aphids"
+        "ચેપગ્રસ્ત છોડ માટે કોઈ ઇલાજ નથી",
+        "ચેપગ્રસ્ત છોડને તરત જ કાઢીને નાશ કરો",
+        "એફિડ વેક્ટર્સને જંતુનાશકોથી નિયંત્રિત કરો",
+        "એફિડને દૂર કરવા માટે રીફ્લેક્ટીવ મલ્ચનો ઉપયોગ કરો"
       ],
       "prevention": [
-        "Plant virus-resistant varieties",
-        "Use virus-free seedlings",
-        "Maintain border crops as barriers",
-        "Regular monitoring and roguing"
+        "વાયરસ-પ્રતિરોધક જાતોનું વાવેતર કરો",
+        "વાયરસ-મુક્ત રોપાઓનો ઉપયોગ કરો",
+        "સરહદી પાકને અવરોધ તરીકે જાળવો",
+        "નિયમિત દેખરેખ અને રોગિંગ"
       ]
     },
     "coffee-leaf-rust": {
-      "name": "Coffee Leaf Rust",
+      "name": "કોફીનો પર્ણ ગેરુ",
       "symptoms": [
-        "Orange-yellow powdery spots on leaf undersides",
-        "Pale yellow spots visible on upper leaf surface",
-        "Premature leaf fall",
-        "Reduced berry production"
+        "પાંદડાની નીચેની સપાટી પર નારંગી-પીળા પાવડરી ડાઘ",
+        "પાંદડાની ઉપરની સપાટી પર આછા પીળા ડાઘ દેખાય છે",
+        "પાનખર અકાળે ખરી પડવી",
+        "બેરી ઉત્પાદનમાં ઘટાડો"
       ],
       "causes": [
-        "Fungus Hemileia vastatrix",
-        "Wind-borne spore dispersal",
-        "Warm and humid conditions",
-        "Shade and poor air circulation"
+        "ફૂગ હેમિલીયા વાસ્ટાટ્રિક્સ",
+        "પવન દ્વારા બીજકણનો ફેલાવો",
+        "ગરમ અને ભેજવાળી પરિસ્થિતિઓ",
+        "છાંયો અને નબળી હવા અવરજવર"
       ],
       "treatment": [
-        "Apply copper-based fungicides",
-        "Use systemic fungicides like Triadimefon",
-        "Remove and destroy fallen infected leaves",
-        "Apply fungicides preventively during the rainy season"
+        "તાંબા આધારિત ફૂગનાશક દવાઓનો છંટકાવ કરો",
+        "ટ્રાયાડિમેફોન જેવા પ્રણાલીગત ફૂગનાશકનો ઉપયોગ કરો",
+        "ખરેલા ચેપગ્રસ્ત પાંદડા કાઢીને નાશ કરો",
+        "વરસાદની ઋતુ દરમિયાન નિવારક રીતે ફૂગનાશક દવાઓનો છંટકાવ કરો"
       ],
       "prevention": [
-        "Plant rust-resistant coffee varieties",
-        "Maintain proper spacing and pruning",
-        "Balanced fertilization to maintain plant vigour",
-        "Shade management for air circulation"
+        "રસ્ટ-પ્રતિરોધક કોફીની જાતોનું વાવેતર કરો",
+        "યોગ્ય અંતર અને છંટણી જાળવો",
+        "છોડની જોમ જાળવી રાખવા સંતુલિત ખાતર",
+        "હવા અવરજવર માટે છાયા વ્યવસ્થાપન"
       ]
     },
     "pomegranate-bacterial-blight": {
-      "name": "Bacterial Blight of Pomegranate",
+      "name": "દાડમનો બેક્ટેરિયલ બ્લાઇટ",
       "symptoms": [
-        "Water-soaked spots on leaves",
-        "Dark brown to black lesions on fruits",
-        "Cracking and rotting of fruits",
-        "Girdling cankers on branches"
+        "પાંદડા પર પાણીથી ભીના થયેલા ડાઘા",
+        "ફળો પર ઘેરા બદામીથી કાળા રંગના જખમ",
+        "ફળોનું ફાટી જવું અને સડી જવું",
+        "શાખાઓ પર રિંગિંગ ચાંદા"
       ],
       "causes": [
-        "Bacteria Xanthomonas axonopodis",
-        "Warm and wet conditions",
-        "Wounds from insects or hail",
-        "Infected planting material"
+        "બેક્ટેરિયા ઝેન્થોમોનાસ એક્સોનોપોડિસ",
+        "ગરમ અને ભેજવાળી પરિસ્થિતિઓ",
+        "જંતુઓ કે કરાથી થયેલા ઘા",
+        "ચેપગ્રસ્ત વાવેતર સામગ્રી"
       ],
       "treatment": [
-        "Apply streptomycin sulphate sprays",
-        "Use copper hydroxide applications",
-        "Prune and destroy infected branches",
-        "Apply bactericides before monsoon"
+        "સ્ટ્રેપ્ટોમાયસિન સલ્ફેટનો છંટકાવ કરો",
+        "કોપર હાઇડ્રોક્સાઇડનો છંટકાવ કરો",
+        "ચેપગ્રસ્ત ડાળીઓને કાપીને નાશ કરો",
+        "ચોમાસા પહેલા બેક્ટેરિયાનાશક દવાઓનો છંટકાવ કરો"
       ],
       "prevention": [
-        "Use disease-free planting material",
-        "Avoid overhead irrigation",
-        "Control insect pests causing wounds",
-        "Maintain orchard hygiene"
+        "રોગમુક્ત વાવેતર સામગ્રીનો ઉપયોગ કરો",
+        "ઉપરથી પાણી આપવાનું ટાળો",
+        "ઘા પેદા કરતા કીટકોને નિયંત્રિત કરો",
+        "બાગાયતની સ્વચ્છતા જાળવો"
       ]
     }
   },
   "rotationData": {
     "Rice": {
-      "family": "Gramineae",
-      "soilImpact": "Heavy nitrogen feeder; can waterlog the soil."
+      "family": "ઘાસકુળ (ગ્રામિને",
+      "soilImpact": "ભારે નાઇટ્રોજન લેનાર; જમીનને પાણીથી ભરી શકે છે."
     },
     "Wheat": {
-      "family": "Gramineae",
-      "soilImpact": "Moderate nitrogen feeder; improves soil structure."
+      "family": "ઘાસકુળ (ગ્રામિને",
+      "soilImpact": "મધ્યમ નાઇટ્રોજનનો ઉપયોગ કરનાર; જમીનની રચના સુધારે છે."
     },
     "Maize": {
-      "family": "Gramineae",
-      "soilImpact": "Heavy feeder; leaves good residue."
+      "family": "ઘાસકુળ (ગ્રામિને",
+      "soilImpact": "ભારે પોષક તત્વો લેનાર; સારો અવશેષ છોડે છે."
     },
     "Chickpea": {
-      "family": "Leguminosae",
-      "soilImpact": "Fixes atmospheric nitrogen; improves soil fertility."
+      "family": "લેગ્યુમિનસે",
+      "soilImpact": "વાયુમંડળીય નાઇટ્રોજનનું સ્થિરીકરણ કરે છે; જમીનની ફળદ્રુપતા સુધારે છે."
     },
     "Lentil": {
-      "family": "Leguminosae",
-      "soilImpact": "Nitrogen fixer; improves soil structure."
+      "family": "લેગ્યુમિનસે",
+      "soilImpact": "નાઇટ્રોજન સ્થાપક; જમીનની રચના સુધારે છે."
     },
     "Soybean": {
-      "family": "Leguminosae",
-      "soilImpact": "Excellent nitrogen fixer; improves soil organic matter."
+      "family": "લેગ્યુમિનસે",
+      "soilImpact": "ઉત્તમ નાઇટ્રોજન ફિક્સર; જમીનના જૈવિક પદાર્થોને સુધારે છે."
     },
     "Cotton": {
-      "family": "Malvaceae",
-      "soilImpact": "Heavy potassium feeder; deep root system."
+      "family": "માલ્વેસી",
+      "soilImpact": "ભારે પોટેશિયમ લેનાર; ઊંડા મૂળ તંત્ર."
     },
     "Groundnut": {
-      "family": "Leguminosae",
-      "soilImpact": "Fixes nitrogen; improves soil aeration."
+      "family": "લેગ્યુમિનસે",
+      "soilImpact": "નાઇટ્રોજનનું સ્થિરીકરણ કરે છે; જમીનની વાતાહરણ સુધારે છે."
     },
     "Mustard": {
-      "family": "Cruciferae",
-      "soilImpact": "Deep roots improve soil structure; biofumigant properties."
+      "family": "ક્રુસિફેરી",
+      "soilImpact": "ઊંડા મૂળ જમીનની રચના સુધારે છે; બાયોફ્યુમિગન્ટ ગુણધર્મો."
     },
     "Potato": {
-      "family": "Solanaceae",
-      "soilImpact": "Heavy potassium feeder; loosens the soil."
+      "family": "સોલાનેસી (રીંગણ વર્ગ)",
+      "soilImpact": "ભારે પોટેશિયમ લેનાર; જમીનને ઢીલી પાડે છે."
     },
     "Sugarcane": {
-      "family": "Gramineae",
-      "soilImpact": "Very heavy feeder; long-duration crop."
+      "family": "ઘાસકુળ (ગ્રામિને",
+      "soilImpact": "ખૂબ ભારે પોષક તત્ત્વો શોષતો; લાંબા ગાળાનો પાક."
     },
     "Jute": {
-      "family": "Tiliaceae",
-      "soilImpact": "Fibrous roots improve soil; good for green manure."
+      "family": "ટિલિએસી કુટુંબ",
+      "soilImpact": "રેસાવાળા મૂળ જમીનને સુધારે છે; લીલા ખાતર માટે સારું."
     }
   },
   "nutrientStages": {
-    "Basal (Before Transplanting)": "Basal (before transplanting)",
-    "Basal (At Sowing)": "Basal (at sowing)",
-    "Basal": "Basal",
-    "Tillering Stage": "Tillering stage",
-    "Panicle Initiation": "Panicle initiation",
-    "Flowering Stage": "Flowering stage",
-    "Crown Root Initiation (CRI)": "Crown root initiation (CRI)",
-    "Late Jointing": "Late jointing",
-    "Flowering/Grain Filling": "Flowering / grain filling",
-    "Knee-high (V6)": "Knee-high (V6)",
-    "Tasseling": "Tasselling",
-    "Square Formation": "Square formation",
-    "Flowering": "Flowering",
-    "Boll Development": "Boll development",
-    "Pre-monsoon (May-June)": "Pre-monsoon (May-Jun)",
-    "Post-monsoon (Sep-Oct)": "Post-monsoon (Sep-Oct)",
-    "Pre-blossom (March)": "Pre-blossom (March)",
-    "Post-blossom (May)": "Post-blossom (May)",
-    "Monsoon (August)": "Monsoon (August)",
-    "Post-monsoon (October)": "Post-monsoon (October)",
-    "Post-harvest (July-Aug)": "Post-harvest (Jul-Aug)",
-    "Pre-flowering (Oct-Nov)": "Pre-flowering (Oct-Nov)",
-    "Fruit Development (Feb-Apr)": "Fruit development (Feb-Apr)",
-    "After Pruning (Oct)": "After pruning (Oct)",
-    "Berry Development (Dec-Jan)": "Berry development (Dec-Jan)",
-    "Veraison (Feb)": "Veraison (Feb)",
-    "Planting (0-2 months)": "Planting (0-2 months)",
-    "Vegetative (3-5 months)": "Vegetative (3-5 months)",
-    "Flowering & Fruiting (6-12 months)": "Flowering & fruiting (6-12 months)",
-    "Vine Running (20-25 days)": "Vine running (20-25 days)",
-    "Fruit Setting (40-45 days)": "Fruit setting (40-45 days)"
+    "Basal (Before Transplanting)": "આધારલક્ષી (રોપણ પહેલાં)",
+    "Basal (At Sowing)": "આધારલક્ષી (વાવણી સમયે)",
+    "Basal": "એસ. આઈ. એં.",
+    "Tillering Stage": "ફૂટ નીકળવાનો તબક્કો",
+    "Panicle Initiation": "પૅનિકલની શરૂઆત",
+    "Flowering Stage": "ફૂલ આવવાનો તબક્કો",
+    "Crown Root Initiation (CRI)": "ક્રાઉન રૂટ ઇનિશિયેશન (CRI)",
+    "Late Jointing": "મોડું સાંઠિયાણ",
+    "Flowering/Grain Filling": "ફૂલ આવવા / દાણા ભરવા",
+    "Knee-high (V6)": "ઘૂંટણ-ઊંચાઈ (V6)",
+    "Tasseling": "ડોકયુ (મકાઈમાં ઉપરનો ભાગ)",
+    "Square Formation": "ચોરસ રચના",
+    "Flowering": "ફૂલ આવવા",
+    "Boll Development": "ઝીંડવાનો વિકાસ",
+    "Pre-monsoon (May-June)": "પૂર્વ-ચોમાસુ (મે-જૂન)",
+    "Post-monsoon (Sep-Oct)": "ચોમાસા પછી (સપ્ટેમ્બર-ઓક્ટોબર)",
+    "Pre-blossom (March)": "ફૂલ આવતા પહેલા (માર્ચ)",
+    "Post-blossom (May)": "ફૂલ આવ્યા પછી (મે)",
+    "Monsoon (August)": "ચોમાસુ (ઓગસ્ટ)",
+    "Post-monsoon (October)": "ચોમાસા પછી (ઓક્ટોબર)",
+    "Post-harvest (July-Aug)": "કાપણી પછી (જુલાઇ-ઓગસ્ટ)",
+    "Pre-flowering (Oct-Nov)": "ફૂલ આવતા પહેલા (ઓક્ટોબર-નવેમ્બર)",
+    "Fruit Development (Feb-Apr)": "ફળનો વિકાસ (ફેબ્રુઆરી-એપ્રિલ)",
+    "After Pruning (Oct)": "છાંટણી પછી (ઓક્ટો)",
+    "Berry Development (Dec-Jan)": "બેરીનો વિકાસ (ડિસેમ્બર-જાન્યુઆરી)",
+    "Veraison (Feb)": "વેરાઇઝન (ફેબ્રુઆરી)",
+    "Planting (0-2 months)": "વાવણી (0-2 મહિના)",
+    "Vegetative (3-5 months)": "વનસ્પતિ વૃદ્ધિ (3-5 મહિના)",
+    "Flowering & Fruiting (6-12 months)": "ફૂલ આવવા અને ફળ આવવા (6-12 મહિના)",
+    "Vine Running (20-25 days)": "વેલનો ફેલાવો (20-25 દિવસ)",
+    "Fruit Setting (40-45 days)": "ફળ બેસવા (40-45 દિવસ)"
   },
   "nutrientTiming": {
-    "0 days": "0 days",
-    "21-25 days": "21-25 days",
-    "45-50 days": "45-50 days",
-    "70-80 days": "70-80 days",
-    "21 days": "21 days",
-    "75-85 days": "75-85 days",
-    "25-30 days": "25-30 days",
-    "50-55 days": "50-55 days",
-    "30-35 days": "30-35 days",
-    "60-65 days": "60-65 days",
-    "90-100 days": "90-100 days",
-    "Annual - Split 1": "Annual — split 1",
-    "Annual - Split 2": "Annual — split 2",
-    "Split 1": "Split 1",
-    "Split 2": "Split 2",
-    "Split 3": "Split 3",
-    "Split 4": "Split 4",
-    "Basal": "Basal",
-    "Monthly": "Monthly"
+    "0 days": "0 દિવસ",
+    "21-25 days": "21-25 દિવસ",
+    "45-50 days": "45-50 દિવસ",
+    "70-80 days": "70-80 દિવસ",
+    "21 days": "21 દિવસ",
+    "75-85 days": "75-85 દિવસ",
+    "25-30 days": "25-30 દિવસ",
+    "50-55 days": "50-55 દિવસ",
+    "30-35 days": "30-35 દિવસ",
+    "60-65 days": "60-65 દિવસ",
+    "90-100 days": "90-100 દિવસ",
+    "Annual - Split 1": "વાર્ષિક - ભાગ 1",
+    "Annual - Split 2": "વાર્ષિક - ભાગ 2",
+    "Split 1": "ભાગ 1",
+    "Split 2": "ભાગ 2",
+    "Split 3": "ભાગ 3",
+    "Split 4": "ભાગ 4",
+    "Basal": "એસ. આઈ. એં.",
+    "Monthly": "માસિક"
   },
   "nutrientPurpose": {
-    "Phosphorus base": "Phosphorus base",
-    "Potassium base": "Potassium base",
-    "Zinc deficiency prevention": "Prevent zinc deficiency",
-    "Nitrogen for tillering": "Nitrogen for tillering",
-    "Nitrogen for grain filling": "Nitrogen for grain filling",
-    "Grain development": "Grain development",
-    "Late nitrogen boost": "Late nitrogen boost",
-    "Better grain setting": "Better grain setting",
-    "Phosphorus + Nitrogen base": "Phosphorus + nitrogen base",
-    "Nitrogen for ear development": "Nitrogen for ear development",
-    "Zinc enrichment": "Zinc enrichment",
-    "Potassium + nitrogen boost": "Potassium + nitrogen boost",
-    "Zinc nutrition": "Zinc nutrition",
-    "Vegetative growth": "Vegetative growth",
-    "Ear development": "Ear development",
-    "Phosphorus + Sulphur": "Phosphorus + sulphur",
-    "Magnesium nutrition": "Magnesium nutrition",
-    "Boll development": "Boll development",
-    "Foliar phosphorus": "Foliar phosphorus",
-    "Boll weight increase": "Increase boll weight",
-    "Reduces boll shedding": "Reduce boll shedding",
-    "Phosphorus + starter nitrogen": "Phosphorus + starter nitrogen",
-    "Biological N fixation": "Biological nitrogen fixation",
-    "Phosphorus solubilization": "Phosphorus solubilisation",
-    "Mild nitrogen boost": "Mild nitrogen boost",
-    "Reduce flower drop": "Reduce flower drop",
-    "N fixation": "Nitrogen fixation",
-    "Yield boost": "Yield boost",
-    "Nitrogen - 1st split": "Nitrogen — 1st split",
-    "Nitrogen - 2nd split": "Nitrogen — 2nd split",
-    "Phosphorus": "Phosphorus",
-    "Potassium - 1st split": "Potassium — 1st split",
-    "Potassium - 2nd split": "Potassium — 2nd split",
-    "Boron nutrition": "Boron nutrition",
-    "Balanced nutrition pre-flowering": "Balanced nutrition pre-flowering",
-    "Nitrogen for berry set": "Nitrogen for berry set",
-    "Potassium for berry": "Potassium for berries",
-    "Berry development": "Berry development",
-    "Berry maturity": "Berry maturity",
-    "Organic matter replenishment": "Replenish organic matter",
-    "Nitrogen for new flush": "Nitrogen for new flush",
-    "Potassium for flowering": "Potassium for flowering",
-    "Better fruit set": "Better fruit set",
-    "Fruit size & sweetness": "Fruit size & sweetness",
-    "Reduces fruit cracking": "Reduce fruit cracking",
-    "Organic base": "Organic base",
-    "Balanced nutrition": "Balanced nutrition",
-    "Iron nutrition": "Iron nutrition",
-    "Berry growth": "Berry growth",
-    "Berry quality": "Berry quality",
-    "Berry elongation": "Berry elongation",
-    "Sugar accumulation": "Sugar accumulation",
-    "Uniform ripening": "Uniform ripening",
-    "Organic matter": "Organic matter",
-    "Root establishment": "Root establishment",
-    "Nematode control + slow N": "Nematode control + slow nitrogen",
-    "Stem strength": "Stem strength",
-    "Continuous fruiting": "Continuous fruiting",
-    "Fruit quality": "Fruit quality",
-    "Vine growth": "Vine growth",
-    "Balanced foliar": "Balanced foliar",
-    "Fruit development": "Fruit development",
-    "Reduces blossom end rot": "Reduce blossom-end rot",
-    "Better pollination": "Better pollination"
+    "Phosphorus base": "ફોસ્ફરસ બેઝ",
+    "Potassium base": "પોટેશિયમ બેઝ",
+    "Zinc deficiency prevention": "ઝીંકની ઉણપ અટકાવો",
+    "Nitrogen for tillering": "ફૂટ માટે નાઇટ્રોજન",
+    "Nitrogen for grain filling": "દાણા ભરવા માટે નાઇટ્રોજન",
+    "Grain development": "અનાજનો વિકાસ",
+    "Late nitrogen boost": "નાઇટ્રોજનનો મોડો વધારો",
+    "Better grain setting": "વધુ સારી દાણાની બેઠક",
+    "Phosphorus + Nitrogen base": "ફોસ્ફરસ + નાઇટ્રોજન બેઝ",
+    "Nitrogen for ear development": "ડૂંડાના વિકાસ માટે નાઇટ્રોજન",
+    "Zinc enrichment": "ઝીંક સંવર્ધન",
+    "Potassium + nitrogen boost": "પોટેશિયમ + નાઇટ્રોજનનો વધારો",
+    "Zinc nutrition": "ઝીંક પોષણ",
+    "Vegetative growth": "વાનસ્પતિક વૃદ્ધિ",
+    "Ear development": "કાનનો વિકાસ",
+    "Phosphorus + Sulphur": "ફોસ્ફરસ + સલ્ફર",
+    "Magnesium nutrition": "મેગ્નેશિયમનું પોષણ",
+    "Boll development": "ઝીંડવાનો વિકાસ",
+    "Foliar phosphorus": "પર્ણ ફોસ્ફરસ",
+    "Boll weight increase": "ઝીંડું વજન વધારવું",
+    "Reduces boll shedding": "જીંડવા ખરી પડતા અટકાવવા",
+    "Phosphorus + starter nitrogen": "ફોસ્ફરસ + સ્ટાર્ટર નાઇટ્રોજન",
+    "Biological N fixation": "જૈવિક નાઇટ્રોજન સ્થાપન",
+    "Phosphorus solubilization": "ફોસ્ફરસનું દ્રાવ્યીકરણ",
+    "Mild nitrogen boost": "નાઇટ્રોજનનો હળવો વધારો",
+    "Reduce flower drop": "ફૂલો ખરતા ઘટાડવા",
+    "N fixation": "નાઇટ્રોજન સ્થાપન",
+    "Yield boost": "ઉપજમાં વધારો",
+    "Nitrogen - 1st split": "નાઇટ્રોજન — ૧લો હપ્તો",
+    "Nitrogen - 2nd split": "નાઇટ્રોજન — ૨જો હપ્તો",
+    "Phosphorus": "ફોસ્ફરસ",
+    "Potassium - 1st split": "પોટેશિયમ — 1લો ભાગ",
+    "Potassium - 2nd split": "પોટેશિયમ — 2જો ભાગ",
+    "Boron nutrition": "બોરોન પોષણ",
+    "Balanced nutrition pre-flowering": "ફૂલો પહેલાં સંતુલિત પોષણ",
+    "Nitrogen for berry set": "બેરીના નિર્માણ માટે નાઇટ્રોજન",
+    "Potassium for berry": "બેરી માટે પોટેશિયમ",
+    "Berry development": "બેરીનો વિકાસ",
+    "Berry maturity": "બેરીની પરિપક્વતા",
+    "Organic matter replenishment": "જૈવિક પદાર્થ ફરીથી ભરો",
+    "Nitrogen for new flush": "નવી ફૂટ માટે નાઇટ્રોજન",
+    "Potassium for flowering": "ફૂલો માટે પોટેશિયમ",
+    "Better fruit set": "વધુ સારી ફળ બેઠક",
+    "Fruit size & sweetness": "ફળનું કદ અને મીઠાશ",
+    "Reduces fruit cracking": "ફળ ફાટતા ઘટાડવા",
+    "Organic base": "ઓર્ગેનિક બેઝ",
+    "Balanced nutrition": "સંતુલિત પોષણ",
+    "Iron nutrition": "લોહ તત્ત્વનું પોષણ",
+    "Berry growth": "બેરીની વૃદ્ધિ",
+    "Berry quality": "બેરીની ગુણવત્તા",
+    "Berry elongation": "બેરીનું વિસ્તરણ",
+    "Sugar accumulation": "ખાંડનો સંગ્રહ",
+    "Uniform ripening": "સમાન પાકવું",
+    "Organic matter": "જૈવિક પદાર્થ",
+    "Root establishment": "મૂળ સ્થાપના",
+    "Nematode control + slow N": "નેમેટોડ નિયંત્રણ + ધીમો નાઇટ્રોજન",
+    "Stem strength": "દાંડીની મજબૂતી",
+    "Continuous fruiting": "સતત ફળ બેસવા",
+    "Fruit quality": "ફળની ગુણવત્તા",
+    "Vine growth": "વેલની વૃદ્ધિ",
+    "Balanced foliar": "સંતુલિત ફોલિયર",
+    "Fruit development": "ફળનો વિકાસ",
+    "Reduces blossom end rot": "બ્લોસમ-એન્ડ રોટ ઘટાડવો",
+    "Better pollination": "વધુ સારી પરાગનયન"
   },
   "pestDiseaseNames": {
-    "Blast": "Blast",
-    "Brown Plant Hopper (BPH)": "Brown plant hopper (BPH)",
-    "Sheath Blight": "Sheath blight",
-    "Yellow Rust": "Yellow rust",
-    "Aphids": "Aphids",
-    "Karnal Bunt": "Karnal bunt",
-    "Fall Armyworm": "Fall armyworm",
-    "Turcicum Leaf Blight": "Turcicum leaf blight",
-    "Bollworm": "Bollworm",
-    "Whitefly": "Whitefly",
-    "Wilt (Fusarium)": "Wilt (Fusarium)",
-    "Pod Borer (Helicoverpa)": "Pod borer (Helicoverpa)",
-    "Rust": "Rust",
-    "Rhinoceros Beetle": "Rhinoceros beetle",
-    "Bud Rot": "Bud rot",
-    "Coffee Berry Borer": "Coffee berry borer",
-    "Leaf Rust": "Leaf rust",
-    "Anthracnose": "Anthracnose",
-    "Mango Hopper": "Mango hopper",
-    "Powdery Mildew": "Powdery mildew",
-    "Downy Mildew": "Downy mildew",
-    "Mealybug": "Mealybug",
-    "Papaya Ring Spot Virus": "Papaya ringspot virus",
-    "Fruit Fly": "Fruit fly",
-    "Fusarium Wilt": "Fusarium wilt",
-    "Red Pumpkin Beetle": "Red pumpkin beetle"
+    "Blast": "બ્લાસ્ટ",
+    "Brown Plant Hopper (BPH)": "બ્રાઉન પ્લાન્ટ હોપર (BPH)",
+    "Sheath Blight": "પાન આવરણનો સુકારો",
+    "Yellow Rust": "પીળી ગેરડી",
+    "Aphids": "મોલો",
+    "Karnal Bunt": "કરનાલ બન્ટ",
+    "Fall Armyworm": "ફોલ આર્મીવોર્મ",
+    "Turcicum Leaf Blight": "તુર્કિકમ પાનનો સુકારો",
+    "Bollworm": "ઇયળ",
+    "Whitefly": "સફેદ માખી",
+    "Wilt (Fusarium)": "સુકારો (ફ્યુસેરિયમ)",
+    "Pod Borer (Helicoverpa)": "શીંગ કોરી ખાનાર ઇયળ (હેલિકોવર્પા)",
+    "Rust": "ગરવો",
+    "Rhinoceros Beetle": "ગેંડા ભમરો",
+    "Bud Rot": "કળીનો સડો",
+    "Coffee Berry Borer": "કોફી બેરી બોરર",
+    "Leaf Rust": "પાનનો ગેરુ",
+    "Anthracnose": "એન્થ્રેકનોઝ",
+    "Mango Hopper": "આંબાનો મોલો",
+    "Powdery Mildew": "ભૂકી છારો",
+    "Downy Mildew": "ડાઉની માઇલ્ડ્યુ",
+    "Mealybug": "મીલી બગ",
+    "Papaya Ring Spot Virus": "પપૈયા રિંગસ્પોટ વાયરસ",
+    "Fruit Fly": "ફળ માખી",
+    "Fusarium Wilt": "ફ્યુઝેરિયમ સુકારો",
+    "Red Pumpkin Beetle": "લાલ કોળિયો ભમરો"
   },
   "pestSymptoms": {
-    "Diamond-shaped spots on leaves": "Diamond-shaped spots on leaves",
-    "Hopper burn, yellowing at base": "Hopper burn; yellowing at the base",
-    "Oval lesions on leaf sheath": "Oval lesions on leaf sheath",
-    "Yellow stripes on leaves": "Yellow stripes on leaves",
-    "Honeydew on leaves, stunted growth": "Honeydew on leaves; stunted growth",
-    "Fishy smell in grains, black powder": "Fishy smell in grains; black powder",
-    "Ragged holes in leaves, frass in whorl": "Ragged holes in leaves; frass in the whorl",
-    "Cigar-shaped grey-green lesions": "Cigar-shaped grey-green lesions",
-    "Damaged bolls, frass on plant": "Damaged bolls; frass on plant",
-    "Sticky honeydew, sooty mold": "Sticky honeydew; sooty mould",
-    "Wilting of entire plant, dry roots": "Wilting of entire plant; dry roots",
-    "Holes in pods, larvae inside": "Holes in pods; larvae inside",
-    "Orange-brown pustules on leaves": "Orange-brown pustules on leaves",
-    "Curling leaves, honeydew": "Curling leaves; honeydew",
-    "V-shaped cuts on fronds": "V-shaped cuts on fronds",
-    "Rotting of central shoot": "Rotting of central shoot",
-    "Small holes in berries": "Small holes in berries",
-    "Orange powdery spots on underside of leaves": "Orange powdery spots on underside of leaves",
-    "Black spots on flowers and fruits": "Black spots on flowers and fruits",
-    "Honeydew on flowers, flower drop": "Honeydew on flowers; flower drop",
-    "White powder on panicles & leaves": "White powder on panicles and leaves",
-    "Oily spots on upper leaf, white growth below": "Oily spots on upper leaf; white growth below",
-    "White cottony masses on stems/berries": "White cottony masses on stems/berries",
-    "Ring spots on fruits, mosaic on leaves": "Ring spots on fruits; mosaic on leaves",
-    "Maggots inside fruit, premature fruit drop": "Maggots inside fruit; premature fruit drop",
-    "Wilting vines, brown vascular tissue": "Wilting vines; brown vascular tissue",
-    "Holes in leaves and flowers": "Holes in leaves and flowers",
-    "White powdery coating on leaves": "White powdery coating on leaves"
+    "Diamond-shaped spots on leaves": "પાંદડા પર હીરા આકારના ધબ્બા",
+    "Hopper burn, yellowing at base": "હોપર બર્ન; આધાર પર પીળાશ",
+    "Oval lesions on leaf sheath": "પર્ણ આવરણ પર અંડાકાર ઘા",
+    "Yellow stripes on leaves": "પાંદડા પર પીળા પટ્ટા",
+    "Honeydew on leaves, stunted growth": "પાંદડા પર મધિયો; અવિકસિત વૃદ્ધિ",
+    "Fishy smell in grains, black powder": "અનાજમાં માછલી જેવી ગંધ; કાળો પાવડર",
+    "Ragged holes in leaves, frass in whorl": "પાંદડાઓમાં અનિયમિત છિદ્રો; ઘોડામાં મળ",
+    "Cigar-shaped grey-green lesions": "સિગાર આકારના રાખોડી-લીલા જખમ",
+    "Damaged bolls, frass on plant": "નુકસાન પામેલા બોલ્સ; છોડ પર મળ",
+    "Sticky honeydew, sooty mold": "ચીકણો શીતળ રસ; કાળી ફૂગ",
+    "Wilting of entire plant, dry roots": "આખા છોડનું કરમાવું; સુકાયેલા મૂળ",
+    "Holes in pods, larvae inside": "શીંગોમાં છિદ્રો; અંદર ઇયળો",
+    "Orange-brown pustules on leaves": "પાંદડા પર નારંગી-ભૂરા ફોલ્લા",
+    "Curling leaves, honeydew": "વાંકડિયા પાંદડા; મધ",
+    "V-shaped cuts on fronds": "પર્ણ પર V-આકારના કાપા",
+    "Rotting of central shoot": "મધ્ય કુંપળનો સડો",
+    "Small holes in berries": "જામફળ/બેરીમાં નાના છિદ્રો",
+    "Orange powdery spots on underside of leaves": "પાંદડાની નીચેની સપાટી પર નારંગી રંગના પાવડરી ડાઘ",
+    "Black spots on flowers and fruits": "ફૂલો અને ફળો પર કાળા ડાઘ",
+    "Honeydew on flowers, flower drop": "ફૂલો પર મધિયો; ફૂલ ખરી જવા",
+    "White powder on panicles & leaves": "પુષ્પગુચ્છ અને પાંદડા પર સફેદ પાવડર",
+    "Oily spots on upper leaf, white growth below": "પાંદડાની ઉપરની સપાટી પર તેલીયા ડાઘ; નીચે સફેદ વૃદ્ધિ",
+    "White cottony masses on stems/berries": "દાંડી/બેરી પર સફેદ રૂ જેવા સમૂહો",
+    "Ring spots on fruits, mosaic on leaves": "ફળો પર રીંગ સ્પોટ; પાંદડા પર મોઝેક",
+    "Maggots inside fruit, premature fruit drop": "ફળની અંદર ઇયળો; અકાળે ફળ ખરવા",
+    "Wilting vines, brown vascular tissue": "કરમાઈ ગયેલી વેલો; બદામી વાહક પેશી",
+    "Holes in leaves and flowers": "પાંદડા અને ફૂલોમાં છિદ્રો",
+    "White powdery coating on leaves": "પાંદડા પર સફેદ પાવડરી આવરણ"
   },
   "pestApplication": {
-    "Foliar spray at first symptom": "Foliar spray at first symptom",
-    "Preventive spray": "Preventive spray",
-    "Spray at base of plant": "Spray at the base of the plant",
-    "Foliar spray": "Foliar spray",
-    "Spray at tillering stage": "Spray at tillering stage",
-    "Spray at first symptom": "Spray at first symptom",
-    "Systemic spray": "Systemic spray",
-    "Spray at boot stage": "Spray at boot stage",
-    "Spray into whorl": "Spray into the whorl",
-    "Spray at flowering": "Spray at flowering",
-    "Under-leaf spray": "Under-leaf spray",
-    "Seed treatment": "Seed treatment",
-    "Soil drench": "Soil drench",
-    "Biological spray at flowering": "Biological spray at flowering",
-    "Spray at first sign": "Spray at first sign",
-    "Apply to manure pits": "Apply to manure pits",
-    "Place in leaf axil": "Place in leaf axil",
-    "Apply to cut surface": "Apply to cut surface",
-    "Crown drench": "Crown drench",
-    "Spray during berry stage": "Spray during berry stage",
-    "Spot spray": "Spot spray",
-    "Pre-monsoon spray": "Pre-monsoon spray",
-    "Curative spray": "Curative spray",
-    "Spray at panicle emergence": "Spray at panicle emergence",
-    "Contact spray": "Contact spray",
-    "Control aphid vectors": "Control aphid vectors",
-    "Install at fruiting": "Install at fruiting",
-    "Bait spray": "Bait spray",
-    "Soil drench at planting": "Soil drench at planting",
-    "Soil application": "Soil application",
-    "Dust or spray on seedlings": "Dust or spray on seedlings",
-    "Spray at early infestation": "Spray at early infestation"
+    "Foliar spray at first symptom": "પ્રથમ લક્ષણ દેખાય ત્યારે પર્ણ પર છંટકાવ",
+    "Preventive spray": "નિવારક છંટકાવ",
+    "Spray at base of plant": "છોડના મૂળ પાસે છંટકાવ કરો",
+    "Foliar spray": "પર્ણ પર છંટકાવ",
+    "Spray at tillering stage": "ફૂટ નીકળવાના તબક્કે છંટકાવ કરો",
+    "Spray at first symptom": "પ્રથમ લક્ષણ દેખાય ત્યારે છંટકાવ કરો",
+    "Systemic spray": "વ્યવસ્થિત છંટકાવ",
+    "Spray at boot stage": "બૂટ અવસ્થામાં છંટકાવ કરો",
+    "Spray into whorl": "વર્લ (મધ્ય ભાગ) માં છંટકાવ કરો",
+    "Spray at flowering": "ફૂલ આવવાના સમયે છંટકાવ કરો",
+    "Under-leaf spray": "પાંદડાની નીચે છંટકાવ",
+    "Seed treatment": "બીજ માવજત",
+    "Soil drench": "જમીનમાં પલાળવું",
+    "Biological spray at flowering": "ફૂલોમાં જૈવિક સ્પ્રે",
+    "Spray at first sign": "પ્રથમ નિશાન દેખાય ત્યારે છંટકાવ કરો",
+    "Apply to manure pits": "ખાતરના ખાડાઓમાં લગાવો",
+    "Place in leaf axil": "પાંદડાના કક્ષમાં મૂકો",
+    "Apply to cut surface": "કાપેલી સપાટી પર લગાવો",
+    "Crown drench": "ક્રાઉન ડ્રેન્ચ",
+    "Spray during berry stage": "બેરી અવસ્થા દરમિયાન છંટકાવ કરો",
+    "Spot spray": "ચકામા પર છંટકાવ",
+    "Pre-monsoon spray": "પૂર્વ-ચોમાસાનો છંટકાવ",
+    "Curative spray": "ઉપચારાત્મક સ્પ્રે",
+    "Spray at panicle emergence": "દાણાનો ગુચ્છો નીકળવાના સમયે છંટકાવ કરો",
+    "Contact spray": "સંપર્ક સ્પ્રે",
+    "Control aphid vectors": "એફિડ વાહકોનું નિયંત્રણ",
+    "Install at fruiting": "ફળ બેસતી વખતે સ્થાપિત કરો",
+    "Bait spray": "બાઈટ સ્પ્રે",
+    "Soil drench at planting": "વાવણી સમયે જમીનમાં પલાળવું",
+    "Soil application": "જમીનમાં ઉપયોગ",
+    "Dust or spray on seedlings": "રોપાઓ પર ધૂળ અથવા સ્પ્રે કરો",
+    "Spray at early infestation": "પ્રારંભિક ઉપદ્રવમાં છંટકાવ કરો"
   }
 }
