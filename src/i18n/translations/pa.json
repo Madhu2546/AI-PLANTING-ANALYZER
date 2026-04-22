@@ -282,7 +282,19 @@
     "tips": "ਚੱਕਰ ਸੁਝਾਅ",
     "year": "ਸਾਲ",
     "yearsUnit": "ਸਾਲ",
-    "crop": "ਫਸਲ"
+    "crop": "ਫਸਲ",
+    "years2": "2 ਸਾਲ",
+    "years3": "3 ਸਾਲ",
+    "years4": "4 ਸਾਲ",
+    "years5": "5 ਸਾਲ",
+    "family": "ਪਰਿਵਾਰ",
+    "nutrientEffect": "ਪੌਸ਼ਟਿਕ ਪ੍ਰਭਾਵ",
+    "enriching": "↑ ਭਰਪੂਰ",
+    "depleting": "↓ ਘਟਾਉਣ ਵਾਲਾ",
+    "neutral": "= ਨਿਰਪੱਖ",
+    "restPeriod": "ਆਰਾਮ ਦੀ ਮਿਆਦ",
+    "season": "ਮੌਸਮ",
+    "soilImpact": "ਮਿੱਟੀ ਦਾ ਪ੍ਰਭਾਵ"
   },
   "yieldPrediction": {
     "badge": "AI ਪੂਰਵ ਅਨੁਮਾਨ",
@@ -1141,31 +1153,31 @@
     },
     "Soybean": {
       "family": "ਫਲ਼ੀਦਾਰਾਂ ਦਾ ਪਰਿਵਾਰ",
-      "soilImpact": "Excellent nitrogen fixer; improves soil organic matter."
+      "soilImpact": "ਸ਼ਾਨਦਾਰ ਨਾਈਟ੍ਰੋਜਨ ਫਿਕਸਰ; ਮਿੱਟੀ ਦੇ ਜੈਵਿਕ ਮਾਦੇ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦਾ ਹੈ।"
     },
     "Cotton": {
-      "family": "Malvaceae",
-      "soilImpact": "Heavy potassium feeder; deep root system."
+      "family": "ਮਾਲਵੇਸੀ",
+      "soilImpact": "ਭਾਰੀ ਪੋਟਾਸ਼ੀਅਮ ਖਪਤਕਾਰ; ਡੂੰਘੀ ਜੜ੍ਹ ਪ੍ਰਣਾਲੀ।"
     },
     "Groundnut": {
-      "family": "Leguminosae",
-      "soilImpact": "Fixes nitrogen; improves soil aeration."
+      "family": "ਲੇਗੂਮਿਨੋਸੀ",
+      "soilImpact": "ਨਾਈਟ੍ਰੋਜਨ ਫਿਕਸ ਕਰਦਾ ਹੈ; ਮਿੱਟੀ ਦੇ ਵੈਂਟੀਲੇਸ਼ਨ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦਾ ਹੈ।"
     },
     "Mustard": {
-      "family": "Cruciferae",
-      "soilImpact": "Deep roots improve soil structure; biofumigant properties."
+      "family": "ਕਰੂਸੀਫੇਰੀ",
+      "soilImpact": "ਡੂੰਘੀਆਂ ਜੜ੍ਹਾਂ ਮਿੱਟੀ ਦੀ ਬਣਤਰ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦੀਆਂ ਹਨ; ਬਾਇਓਫਿਊਮੀਗੈਂਟ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ।"
     },
     "Potato": {
-      "family": "Solanaceae",
-      "soilImpact": "Heavy potassium feeder; loosens the soil."
+      "family": "ਸੋਲਾਨੇਸੀ",
+      "soilImpact": "ਭਾਰੀ ਪੋਟਾਸ਼ੀਅਮ ਖਪਤਕਾਰ; ਮਿੱਟੀ ਨੂੰ ਪੋਲਾ ਕਰਦਾ ਹੈ।"
     },
     "Sugarcane": {
-      "family": "Gramineae",
-      "soilImpact": "Very heavy feeder; long-duration crop."
+      "family": "ਗ੍ਰਾਮੀਨੀਏ",
+      "soilImpact": "ਬਹੁਤ ਜ਼ਿਆਦਾ ਖਾਦ ਖਪਤਕਾਰ; ਲੰਬੇ ਸਮੇਂ ਦੀ ਫ਼ਸਲ।"
     },
     "Jute": {
-      "family": "Tiliaceae",
-      "soilImpact": "Fibrous roots improve soil; good for green manure."
+      "family": "ਟਿਲੀਏਸੀ",
+      "soilImpact": "ਰੇਸ਼ੇਦਾਰ ਜੜ੍ਹਾਂ ਮਿੱਟੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦੀਆਂ ਹਨ; ਹਰੀ ਖਾਦ ਲਈ ਚੰਗਾ।"
     }
   },
   "nutrientStages": {
