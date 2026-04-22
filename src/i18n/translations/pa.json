@@ -992,45 +992,45 @@
       ],
       "causes": [
         "ਫੰਗਸ Uncinula necator",
-        "Moderate temperatures (20-27°C)",
-        "Shade and poor air circulation",
-        "High humidity without rain"
+        "ਦਰਮਿਆਨਾ ਤਾਪਮਾਨ (20-27°C)",
+        "ਛਾਂ ਅਤੇ ਮਾੜੀ ਹਵਾ ਦਾ ਸੰਚਾਰ",
+        "ਮੀਂਹ ਤੋਂ ਬਿਨਾਂ ਜ਼ਿਆਦਾ ਨਮੀ"
       ],
       "treatment": [
-        "Apply sulfur-based fungicides",
-        "Use systemic fungicides like Myclobutanil",
-        "Remove heavily infected leaves",
-        "Apply potassium bicarbonate sprays"
+        "ਗੰਧਕ-ਆਧਾਰਿਤ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਸਿਸਟਮਿਕ ਉੱਲੀਨਾਸ਼ਕ ਜਿਵੇਂ ਕਿ Myclobutanil ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਬਹੁਤ ਜ਼ਿਆਦਾ ਸੰਕਰਮਿਤ ਪੱਤਿਆਂ ਨੂੰ ਹਟਾਓ",
+        "ਪੋਟਾਸ਼ੀਅਮ ਬਾਈਕਾਰਬੋਨੇਟ ਸਪਰੇਅ ਲਾਗੂ ਕਰੋ"
       ],
       "prevention": [
-        "Select resistant grape varieties",
-        "Prune for good air circulation",
-        "Avoid excessive nitrogen fertilization",
-        "Remove dormant infected wood"
+        "ਰੋਧਕ ਅੰਗੂਰ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀ ਚੋਣ ਕਰੋ",
+        "ਹਵਾ ਦੇ ਚੰਗੇ ਸੰਚਾਰ ਲਈ ਛਾਂਗਟ ਕਰੋ",
+        "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਖਾਦ ਪਾਉਣ ਤੋਂ ਬਚੋ",
+        "ਸੁੱਤੀ ਹੋਈ ਸੰਕਰਮਿਤ ਲੱਕੜ ਨੂੰ ਹਟਾਓ"
       ]
     },
     "chickpea-wilt": {
-      "name": "Chickpea Wilt",
+      "name": "ਛੋਲਿਆਂ ਦਾ ਝੁਲਸ ਰੋਗ",
       "symptoms": [
-        "Yellowing and drooping of leaves",
-        "Rapid wilting of the entire plant",
-        "Brown discolouration of roots and stem base",
-        "Internal browning of vascular tissue"
+        "ਪੱਤਿਆਂ ਦਾ ਪੀਲਾ ਪੈਣਾ ਅਤੇ ਲਟਕਣਾ",
+        "ਪੂਰੇ ਪੌਦੇ ਦਾ ਤੇਜ਼ੀ ਨਾਲ ਮੁਰਝਾਉਣਾ",
+        "ਜੜ੍ਹਾਂ ਅਤੇ ਤਣੇ ਦੇ ਆਧਾਰ ਦਾ ਭੂਰਾ ਹੋਣਾ",
+        "ਨਾੜੀ ਟਿਸ਼ੂ ਦਾ ਅੰਦਰੂਨੀ ਭੂਰਾ ਹੋਣਾ"
       ],
       "causes": [
-        "Fungus Fusarium oxysporum f.sp. ciceris",
-        "Soil-borne pathogen",
-        "Warm soil temperatures",
-        "Previous chickpea cultivation in the field"
+        "ਫੰਗਸ ਫਿਊਜ਼ੇਰੀਅਮ ਆਕਸੀਸਪੋਰਮ ਐੱਫ.ਐੱਸ.ਪੀ. ਸਾਈਸੇਰਿਸ",
+        "ਮਿੱਟੀ ਤੋਂ ਪੈਦਾ ਹੋਣ ਵਾਲਾ ਰੋਗਾਣੂ",
+        "ਮਿੱਟੀ ਦਾ ਗਰਮ ਤਾਪਮਾਨ",
+        "ਖੇਤ ਵਿੱਚ ਪਿਛਲੀ ਛੋਲਿਆਂ ਦੀ ਕਾਸ਼ਤ"
       ],
       "treatment": [
-        "No effective treatment once infected",
-        "Remove and destroy infected plants",
-        "Apply Trichoderma-based biocontrol",
-        "Solarize soil before planting"
+        "ਇੱਕ ਵਾਰ ਸੰਕਰਮਿਤ ਹੋਣ 'ਤੇ ਕੋਈ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਇਲਾਜ ਨਹੀਂ",
+        "ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+        "ਟ੍ਰਾਈਕੋਡਰਮਾ-ਆਧਾਰਿਤ ਬਾਇਓਕੰਟਰੋਲ ਲਾਗੂ ਕਰੋ",
+        "ਬਿਜਾਈ ਤੋਂ ਪਹਿਲਾਂ ਮਿੱਟੀ ਨੂੰ ਸੋਲਰਾਈਜ਼ ਕਰੋ"
       ],
       "prevention": [
-        "Use wilt-resistant varieties",
+        "ਝੁਲਸ ਰੋਧਕ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
         "Practice 4-5 year crop rotation",
         "Treat seeds with fungicides",
         "Avoid water stress during flowering"
