@@ -794,163 +794,163 @@
   },
   "diseaseGuide": {
     "rice-blast": {
-      "name": "Rice Blast",
+      "name": "ਝੋਨੇ ਦਾ ਝੁਲਸ ਰੋਗ",
       "symptoms": [
-        "Diamond-shaped lesions on leaves",
-        "Gray-green lesions turning white with brown borders",
-        "Neck rot causing the panicle to break",
-        "Nodes become brown and rotted"
+        "ਪੱਤਿਆਂ 'ਤੇ ਹੀਰੇ ਦੇ ਆਕਾਰ ਦੇ ਧੱਬੇ",
+        "ਸਲੇਟੀ-ਹਰੇ ਧੱਬੇ ਜੋ ਭੂਰੇ ਕਿਨਾਰਿਆਂ ਨਾਲ ਚਿੱਟੇ ਹੋ ਜਾਂਦੇ ਹਨ",
+        "ਗਰਦਨ ਦਾ ਸੜਨਾ ਜਿਸ ਨਾਲ ਮੁੰਜਰ ਟੁੱਟ ਜਾਂਦੀ ਹੈ",
+        "ਗਾਠਾਂ ਭੂਰੀਆਂ ਅਤੇ ਸੜੀਆਂ ਹੋਈਆਂ ਹੋ ਜਾਂਦੀਆਂ ਹਨ"
       ],
       "causes": [
-        "Fungus Magnaporthe oryzae",
-        "High humidity and moderate temperatures",
-        "Excessive nitrogen fertilization",
-        "Dense planting"
+        "Magnaporthe oryzae ਉੱਲੀ",
+        "ਉੱਚ ਨਮੀ ਅਤੇ ਦਰਮਿਆਨਾ ਤਾਪਮਾਨ",
+        "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਖਾਦ",
+        "ਸੰਘਣੀ ਬਿਜਾਈ"
       ],
       "treatment": [
-        "Apply fungicides like Tricyclazole or Isoprothiolane",
-        "Remove and destroy infected plant debris",
-        "Apply silicon-based fertilizers to strengthen cell walls",
-        "Use copper-based fungicides as a preventive measure"
+        "Tricyclazole ਜਾਂ Isoprothiolane ਵਰਗੀਆਂ ਉੱਲੀਨਾਸ਼ਕ ਦਵਾਈਆਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਦੇ ਬਚੇ ਹੋਏ ਹਿੱਸਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+        "ਸੈੱਲ ਦੀਵਾਰਾਂ ਨੂੰ ਮਜ਼ਬੂਤ ​​ਕਰਨ ਲਈ ਸਿਲੀਕਾਨ-ਆਧਾਰਿਤ ਖਾਦਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਬਚਾਅ ਉਪਾਅ ਵਜੋਂ ਤਾਂਬਾ-ਆਧਾਰਿਤ ਉੱਲੀਨਾਸ਼ਕ ਦਵਾਈਆਂ ਦੀ ਵਰਤੋਂ ਕਰੋ"
       ],
       "prevention": [
-        "Use resistant rice varieties",
-        "Avoid excessive nitrogen application",
-        "Maintain proper plant spacing",
-        "Ensure good drainage in fields"
+        "ਰੋਧਕ ਝੋਨੇ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਦੀ ਵਰਤੋਂ ਤੋਂ ਬਚੋ",
+        "ਪੌਦਿਆਂ ਵਿੱਚ ਉਚਿਤ ਫਾਸਲਾ ਬਣਾਈ ਰੱਖੋ",
+        "ਖੇਤਾਂ ਵਿੱਚ ਚੰਗੀ ਨਿਕਾਸੀ ਯਕੀਨੀ ਬਣਾਓ"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
+      "name": "ਬੈਕਟੀਰੀਅਲ ਪੱਤਾ ਝੁਲਸ ਰੋਗ",
       "symptoms": [
-        "Water-soaked lesions on leaf margins",
-        "Lesions turn yellow then greyish-white",
-        "Leaves dry up from the tip downward",
-        "Bacterial ooze on infected leaves"
+        "ਪੱਤਿਆਂ ਦੇ ਕਿਨਾਰਿਆਂ 'ਤੇ ਪਾਣੀ ਨਾਲ ਭਰੇ ਹੋਏ ਧੱਬੇ",
+        "ਧੱਬੇ ਪੀਲੇ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਫਿਰ ਸਲੇਟੀ-ਚਿੱਟੇ ਰੰਗ ਦੇ ਹੋ ਜਾਂਦੇ ਹਨ",
+        "ਪੱਤੇ ਸਿਰੇ ਤੋਂ ਹੇਠਾਂ ਵੱਲ ਸੁੱਕ ਜਾਂਦੇ ਹਨ",
+        "ਸੰਕਰਮਿਤ ਪੱਤਿਆਂ 'ਤੇ ਬੈਕਟੀਰੀਆ ਦਾ ਰਿਸਾਅ"
       ],
       "causes": [
-        "Bacteria Xanthomonas oryzae",
-        "Warm and humid conditions",
-        "Flooding and heavy rains",
-        "Wounds from insects or mechanical damage"
+        "Xanthomonas oryzae ਬੈਕਟੀਰੀਆ",
+        "ਗਰਮ ਅਤੇ ਨਮੀ ਵਾਲੇ ਹਾਲਾਤ",
+        "ਹੜ੍ਹ ਅਤੇ ਭਾਰੀ ਬਾਰਿਸ਼",
+        "ਕੀੜੇ-ਮਕੌੜਿਆਂ ਜਾਂ ਮਕੈਨੀਕਲ ਨੁਕਸਾਨ ਦੇ ਜ਼ਖ਼ਮ"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
-        "Drain excess water from fields",
-        "Apply potassium fertilizers to strengthen plants",
-        "Remove severely infected plants"
+        " ਤਾਂਬੇ-ਅਧਾਰਿਤ ਬੈਕਟੀਰੀਆਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਖੇਤਾਂ ਵਿੱਚੋਂ ਵਾਧੂ ਪਾਣੀ ਕੱਢੋ",
+        "ਪੌਦਿਆਂ ਨੂੰ ਮਜ਼ਬੂਤ ​​ਕਰਨ ਲਈ ਪੋਟਾਸ਼ੀਅਮ ਖਾਦਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਜ਼ਿਆਦਾ ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਨੂੰ ਹਟਾਓ"
       ],
       "prevention": [
-        "Use certified disease-free seeds",
-        "Avoid excessive nitrogen fertilization",
-        "Maintain proper water management",
-        "Control insect vectors"
+        "ਪ੍ਰਮਾਣਿਤ ਬਿਮਾਰੀ-ਮੁਕਤ ਬੀਜਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਖਾਦ ਪਾਉਣ ਤੋਂ ਬਚੋ",
+        "ਪਾਣੀ ਦਾ ਸਹੀ ਪ੍ਰਬੰਧਨ ਕਰੋ",
+        "ਕੀੜੇ ਵੈਕਟਰਾਂ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
+      "name": "ਮੱਕੀ ਦੀ ਆਮ ਕੁੰਗੀ",
       "symptoms": [
-        "Small circular to elongated brown pustules on leaves",
-        "Pustules appear on both leaf surfaces",
-        "Severe infection causes leaf yellowing",
-        "Premature leaf death in severe cases"
+        "ਪੱਤਿਆਂ 'ਤੇ ਛੋਟੇ ਗੋਲ ਤੋਂ ਲੰਬੇ ਭੂਰੇ ਦਾਣੇ",
+        "ਪੱਤਿਆਂ ਦੀਆਂ ਦੋਵੇਂ ਸਤ੍ਹਾ 'ਤੇ ਦਾਣੇ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ",
+        "ਜ਼ਿਆਦਾ ਲਾਗ ਕਾਰਨ ਪੱਤੇ ਪੀਲੇ ਪੈ ਜਾਂਦੇ ਹਨ",
+        "ਗੰਭੀਰ ਮਾਮਲਿਆਂ ਵਿੱਚ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ ਪੱਤੇ ਝੜ ਜਾਂਦੇ ਹਨ"
       ],
       "causes": [
-        "Fungus Puccinia sorghi",
-        "Cool to moderate temperatures (16-23°C)",
-        "High humidity and dew formation",
-        "Wind-borne spore dispersal"
+        "ਫੰਗਸ ਪਕਸੀਨੀਆ ਸੋਰਗੀ (Puccinia sorghi)",
+        "ਠੰਡਾ ਤੋਂ ਦਰਮਿਆਨਾ ਤਾਪਮਾਨ (16-23°C)",
+        "ਉੱਚ ਨਮੀ ਅਤੇ ਤ੍ਰੇਲ ਦਾ ਬਣਨਾ",
+        "ਹਵਾ ਰਾਹੀਂ ਬੀਜਾਣੂਆਂ ਦਾ ਫੈਲਣਾ"
       ],
       "treatment": [
-        "Apply fungicides like Mancozeb or Propiconazole",
-        "Remove infected plant debris after harvest",
-        "Apply foliar fungicides at the first sign of infection",
-        "Use triazole-based fungicides for severe infection"
+        "ਮੈਨਕੋਜ਼ੇਬ (Mancozeb) ਜਾਂ ਪ੍ਰੋਪੀਕੋਨਾਜ਼ੋਲ (Propiconazole) ਵਰਗੀਆਂ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਵਾਢੀ ਤੋਂ ਬਾਅਦ ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਦੇ ਬਚੇ ਹੋਏ ਹਿੱਸੇ ਹਟਾਓ",
+        "ਲਾਗ ਦੇ ਪਹਿਲੇ ਲੱਛਣ 'ਤੇ ਫੋਲੀਅਰ ਫੰਗਸਾਈਡਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਗੰਭੀਰ ਲਾਗ ਲਈ ਟ੍ਰਾਈਏਜ਼ੋਲ-ਅਧਾਰਿਤ ਫੰਗਸਾਈਡਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ"
       ],
       "prevention": [
-        "Plant rust-resistant hybrid varieties",
-        "Early planting to avoid peak infection periods",
-        "Crop rotation with non-host crops",
-        "Avoid overhead irrigation"
+        "ਕੁੰਗੀ-ਰੋਧਕ ਹਾਈਬ੍ਰਿਡ ਕਿਸਮਾਂ ਲਗਾਓ",
+        "ਲਾਗ ਦੇ ਸਿਖਰਲੇ ਸਮੇਂ ਤੋਂ ਬਚਣ ਲਈ ਛੇਤੀ ਬਿਜਾਈ",
+        "ਗੈਰ-ਮੇਜ਼ਬਾਨ ਫਸਲਾਂ ਨਾਲ ਫਸਲੀ ਚੱਕਰ",
+        "ਉੱਪਰੋਂ ਪਾਣੀ ਲਾਉਣ ਤੋਂ ਗੁਰੇਜ਼ ਕਰੋ"
       ]
     },
     "cotton-wilt": {
-      "name": "Fusarium Wilt of Cotton",
+      "name": "ਕਪਾਹ ਦਾ ਫਿਊਜ਼ੇਰੀਅਮ ਵਿਲਟ",
       "symptoms": [
-        "Yellowing and wilting of leaves",
-        "Brown discolouration of vascular tissue",
-        "Stunted plant growth",
-        "Leaves drop prematurely"
+        "ਪੱਤਿਆਂ ਦਾ ਪੀਲਾ ਪੈਣਾ ਅਤੇ ਮੁਰਝਾਉਣਾ",
+        "ਨਾੜੀ ਟਿਸ਼ੂ ਦਾ ਭੂਰਾ ਹੋਣਾ",
+        "ਪੌਦੇ ਦਾ ਵਾਧਾ ਰੁਕਣਾ",
+        "ਪੱਤਿਆਂ ਦਾ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ ਝੜਨਾ"
       ],
       "causes": [
-        "Fungus Fusarium oxysporum f.sp. vasinfectum",
-        "Soil-borne pathogen surviving for years",
-        "Warm soil temperatures (23-28°C)",
-        "Root damage from nematodes"
+        "ਫੰਗਸ ਫਿਊਜ਼ੇਰੀਅਮ ਆਕਸੀਸਪੋਰਮ ਐੱਫ.ਐੱਸ.ਪੀ. ਵਾਸਿਨਫੈਕਟਮ",
+        "ਮਿੱਟੀ ਵਿੱਚ ਪੈਦਾ ਹੋਣ ਵਾਲਾ ਰੋਗਾਣੂ ਜੋ ਸਾਲਾਂਬੱਧੀ ਰਹਿੰਦਾ ਹੈ",
+        "ਮਿੱਟੀ ਦਾ ਗਰਮ ਤਾਪਮਾਨ (23-28°C)",
+        "ਨੈਮਾਟੋਡਜ਼ ਤੋਂ ਜੜ੍ਹਾਂ ਨੂੰ ਨੁਕਸਾਨ"
       ],
       "treatment": [
-        "No effective chemical treatment once infected",
-        "Remove and destroy infected plants",
-        "Solarize soil to reduce pathogen levels",
-        "Apply biological control agents like Trichoderma"
+        "ਇੱਕ ਵਾਰ ਲਾਗ ਲੱਗਣ 'ਤੇ ਕੋਈ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਰਸਾਇਣਕ ਇਲਾਜ ਨਹੀਂ",
+        "ਲਾਗ ਵਾਲੇ ਪੌਦਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+        "ਰੋਗਾਣੂਆਂ ਦੇ ਪੱਧਰ ਨੂੰ ਘਟਾਉਣ ਲਈ ਮਿੱਟੀ ਨੂੰ ਸੂਰਜੀਕਰਨ ਕਰੋ",
+        "ਟ੍ਰਾਈਕੋਡਰਮਾ ਵਰਗੇ ਜੈਵਿਕ ਨਿਯੰਤਰਣ ਏਜੰਟਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ"
       ],
       "prevention": [
-        "Use resistant cotton varieties",
-        "Practice crop rotation (4-5 years)",
-        "Control root-knot nematodes",
-        "Maintain soil pH above 7.0"
+        "ਰੋਧਕ ਕਪਾਹ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਫਸਲੀ ਚੱਕਰ ਅਪਣਾਓ (4-5 ਸਾਲ)",
+        "ਰੂਟ-ਨੌਟ ਨੈਮਾਟੋਡਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ",
+        "ਮਿੱਟੀ ਦਾ pH 7.0 ਤੋਂ ਉੱਪਰ ਰੱਖੋ"
       ]
     },
     "mango-anthracnose": {
-      "name": "Mango Anthracnose",
+      "name": "ਅੰਬ ਦਾ ਐਂਥ੍ਰੈਕਨੋਜ਼",
       "symptoms": [
-        "Black spots on flowers and young fruits",
-        "Sunken dark lesions on mature fruits",
-        "Leaf spots with irregular margins",
-        "Twig dieback and blossom blight"
+        "ਫੁੱਲਾਂ ਅਤੇ ਛੋਟੇ ਫਲਾਂ 'ਤੇ ਕਾਲੇ ਧੱਬੇ",
+        "ਪੱਕੇ ਫਲਾਂ 'ਤੇ ਧੱਸੇ ਹੋਏ ਗੂੜ੍ਹੇ ਜ਼ਖਮ",
+        "ਅਨਿਯਮਿਤ ਕਿਨਾਰਿਆਂ ਵਾਲੇ ਪੱਤਿਆਂ 'ਤੇ ਧੱਬੇ",
+        "ਟਾਹਣੀਆਂ ਦਾ ਸੁੱਕਣਾ ਅਤੇ ਫੁੱਲਾਂ ਦਾ ਝੁਲਸਣਾ"
       ],
       "causes": [
-        "Fungus Colletotrichum gloeosporioides",
-        "High humidity and rainfall",
-        "Warm temperatures (25-30°C)",
-        "Overhead irrigation wetting foliage"
+        "ਫੰਗਸ ਕਾਲੇਟੋਟ੍ਰਾਈਕਮ ਗਲੋਏਓਸਪੋਰੀਓਇਡਸ",
+        "ਉੱਚ ਨਮੀ ਅਤੇ ਬਾਰਿਸ਼",
+        "ਗਰਮ ਤਾਪਮਾਨ (25-30°C)",
+        "ਉੱਪਰੋਂ ਪਾਣੀ ਲਾਉਣ ਨਾਲ ਪੱਤੇ ਗਿੱਲੇ ਹੋ ਜਾਂਦੇ ਹਨ"
       ],
       "treatment": [
-        "Apply copper-based fungicides before flowering",
-        "Hot water treatment of harvested fruits (52°C for 5 min)",
-        "Post-harvest fungicide dips",
-        "Prune and destroy infected plant parts"
+        "ਫੁੱਲ ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ ਤਾਂਬੇ-ਅਧਾਰਤ ਉੱਲੀਨਾਸ਼ਕ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਤੋੜੇ ਹੋਏ ਫਲਾਂ ਨੂੰ ਗਰਮ ਪਾਣੀ ਨਾਲ ਸੋਧਣਾ (5 ਮਿੰਟ ਲਈ 52°C 'ਤੇ)",
+        "ਤੋੜਾਈ ਤੋਂ ਬਾਅਦ ਉੱਲੀਨਾਸ਼ਕ ਘੋਲ ਵਿੱਚ ਡੁਬੋਣਾ",
+        "ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਦੇ ਹਿੱਸਿਆਂ ਦੀ ਛਾਂਟੀ ਕਰੋ ਅਤੇ ਨਸ਼ਟ ਕਰੋ"
       ],
       "prevention": [
-        "Maintain orchard sanitation",
-        "Avoid overhead irrigation during flowering",
-        "Apply preventive fungicide sprays",
-        "Ensure good air circulation through pruning"
+        "ਬਾਗ ਦੀ ਸਫਾਈ ਬਣਾਈ ਰੱਖੋ",
+        "ਫੁੱਲ ਆਉਣ ਵੇਲੇ ਉੱਪਰੋਂ ਪਾਣੀ ਦੇਣ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ",
+        "ਰੋਕਥਾਮ ਵਾਲੇ ਉੱਲੀਨਾਸ਼ਕ ਸਪਰੇਅ ਕਰੋ",
+        "ਛਾਂਟੀ ਦੁਆਰਾ ਹਵਾ ਦਾ ਵਧੀਆ ਸੰਚਾਰ ਯਕੀਨੀ ਬਣਾਓ"
       ]
     },
     "banana-sigatoka": {
-      "name": "Black Sigatoka",
+      "name": "ਬਲੈਕ ਸਿਗਾਟੋਕਾ",
       "symptoms": [
-        "Small pale streaks on lower leaf surface",
-        "Streaks enlarge and turn brown-black",
-        "Leaves dry out prematurely",
-        "Reduced fruit size and quality"
+        "ਹੇਠਲੇ ਪੱਤੇ ਦੀ ਸਤ੍ਹਾ 'ਤੇ ਛੋਟੀਆਂ ਫਿੱਕੀਆਂ ਧਾਰੀਆਂ",
+        "ਧਾਰੀਆਂ ਵੱਡੀਆਂ ਹੋ ਜਾਂਦੀਆਂ ਹਨ ਅਤੇ ਭੂਰੇ-ਕਾਲੇ ਰੰਗ ਦੀਆਂ ਹੋ ਜਾਂਦੀਆਂ ਹਨ",
+        "ਪੱਤੇ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ ਸੁੱਕ ਜਾਂਦੇ ਹਨ",
+        "ਫਲਾਂ ਦਾ ਆਕਾਰ ਅਤੇ ਗੁਣਵੱਤਾ ਘੱਟ ਜਾਂਦੀ ਹੈ"
       ],
       "causes": [
-        "Fungus Mycosphaerella fijiensis",
-        "High humidity and warm temperatures",
-        "Prolonged leaf wetness",
-        "Dense plantings with poor air circulation"
+        "ਫੰਗਸ ਮਾਈਕੋਸਫੇਰੇਲਾ ਫਿਜੀਏਨਸਿਸ",
+        "ਉੱਚ ਨਮੀ ਅਤੇ ਗਰਮ ਤਾਪਮਾਨ",
+        "ਪੱਤਿਆਂ ਦਾ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਗਿੱਲਾ ਰਹਿਣਾ",
+        "ਘਣੀ ਬਿਜਾਈ ਜਿਸ ਵਿੱਚ ਹਵਾ ਦਾ ਸੰਚਾਰ ਮਾੜਾ ਹੋਵੇ"
       ],
       "treatment": [
-        "Apply systemic fungicides like Propiconazole",
-        "Remove and destroy infected leaves",
-        "Rotate fungicide modes of action",
-        "Apply mineral oil with fungicides"
+        "ਸਿਸਟੇਮਿਕ ਉੱਲੀਨਾਸ਼ਕ ਜਿਵੇਂ ਕਿ ਪ੍ਰੋਪੀਕੋਨਾਜ਼ੋਲ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਪ੍ਰਭਾਵਿਤ ਪੱਤਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+        "ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੇ ਕਾਰਜ ਪ੍ਰਣਾਲੀ ਨੂੰ ਬਦਲਦੇ ਰਹੋ",
+        "ਉੱਲੀਨਾਸ਼ਕਾਂ ਨਾਲ ਖਣਿਜ ਤੇਲ ਦੀ ਵਰਤੋਂ ਕਰੋ"
       ],
       "prevention": [
-        "Use resistant banana varieties",
-        "Maintain proper spacing between plants",
+        "ਰੋਧਕ ਕੇਲੇ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਪੌਦਿਆਂ ਵਿਚਕਾਰ ਸਹੀ ਫਾਸਲਾ ਬਣਾਈ ਰੱਖੋ",
         "Remove old leaves to improve airflow",
         "Practice good drainage management"
       ]
