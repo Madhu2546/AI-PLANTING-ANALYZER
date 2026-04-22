@@ -1031,45 +1031,45 @@
       ],
       "prevention": [
         "ਝੁਲਸ ਰੋਧਕ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
-        "Practice 4-5 year crop rotation",
-        "Treat seeds with fungicides",
-        "Avoid water stress during flowering"
+        "ਫ਼ਸਲਾਂ ਦੀ 4-5 ਸਾਲਾ ਫੇਰਬਦਲੀ ਦਾ ਅਭਿਆਸ ਕਰੋ",
+        "ਬੀਜਾਂ ਨੂੰ ਫ਼ੰਗਸਨਾਸ਼ਕਾਂ ਨਾਲ ਸੋਧੋ",
+        "ਫੁੱਲ ਪੈਣ ਵੇਲੇ ਪਾਣੀ ਦੀ ਕਮੀ ਤੋਂ ਬਚੋ"
       ]
     },
     "papaya-ringspot": {
-      "name": "Papaya Ringspot Virus",
+      "name": "ਪਪੀਤਾ ਰਿੰਗਸਪਾਟ ਵਾਇਰਸ",
       "symptoms": [
-        "Ring-shaped spots on fruits",
-        "Mosaic patterns on leaves",
-        "Distorted and shoe-string shaped leaves",
-        "Oily streaks on stems and petioles"
+        "ਫਲਾਂ 'ਤੇ ਰਿੰਗ ਦੇ ਆਕਾਰ ਦੇ ਧੱਬੇ",
+        "ਪੱਤਿਆਂ 'ਤੇ ਮੋਜ਼ੇਕ ਪੈਟਰਨ",
+        "ਪੱਤੇ ਵਿਗੜੇ ਹੋਏ ਅਤੇ ਜੁੱਤੀ ਦੀ ਤਣੀ ਵਰਗੇ",
+        "ਤਣਿਆਂ ਅਤੇ ਪੱਤਿਆਂ ਦੀਆਂ ਡੰਡੀਆਂ 'ਤੇ ਤੇਲ ਵਾਲੀਆਂ ਧਾਰੀਆਂ"
       ],
       "causes": [
-        "Papaya ringspot virus (PRSV)",
-        "Aphid transmission",
-        "Infected plant material",
-        "No seed transmission"
+        "ਪਪੀਤਾ ਰਿੰਗਸਪਾਟ ਵਾਇਰਸ (PRSV)",
+        "ਐਫਿਡ ਦੁਆਰਾ ਸੰਚਾਰ",
+        "ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਦਾ ਸਮਾਨ",
+        "ਬੀਜਾਂ ਰਾਹੀਂ ਕੋਈ ਸੰਚਾਰ ਨਹੀਂ"
       ],
       "treatment": [
-        "No cure for infected plants",
-        "Remove and destroy infected plants immediately",
-        "Control aphid vectors with insecticides",
-        "Use reflective mulches to repel aphids"
+        "ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਦਾ ਕੋਈ ਇਲਾਜ ਨਹੀਂ",
+        "ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਨੂੰ ਤੁਰੰਤ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+        "ਕੀਟਨਾਸ਼ਕਾਂ ਨਾਲ ਐਫਿਡ ਵੈਕਟਰਾਂ ਨੂੰ ਨਿਯੰਤਰਿਤ ਕਰੋ",
+        "ਐਫੀਡਜ਼ ਨੂੰ ਦੂਰ ਭਜਾਉਣ ਲਈ ਰਿਫਲੈਕਟਿਵ ਮਲਚ ਦੀ ਵਰਤੋਂ ਕਰੋ"
       ],
       "prevention": [
-        "Plant virus-resistant varieties",
-        "Use virus-free seedlings",
-        "Maintain border crops as barriers",
-        "Regular monitoring and roguing"
+        "ਵਾਇਰਸ-ਰੋਧਕ ਕਿਸਮਾਂ ਲਗਾਓ",
+        "ਵਾਇਰਸ-ਮੁਕਤ ਪੌਦਿਆਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਸਰਹੱਦੀ ਫਸਲਾਂ ਨੂੰ ਰੁਕਾਵਟਾਂ ਵਜੋਂ ਬਰਕਰਾਰ ਰੱਖੋ",
+        "ਨਿਯਮਤ ਨਿਗਰਾਨੀ ਅਤੇ ਰੋਗਿੰਗ"
       ]
     },
     "coffee-leaf-rust": {
-      "name": "Coffee Leaf Rust",
+      "name": "ਕੌਫੀ ਪੱਤੇ ਦਾ ਜੰਗਾਲ",
       "symptoms": [
-        "Orange-yellow powdery spots on leaf undersides",
-        "Pale yellow spots visible on upper leaf surface",
-        "Premature leaf fall",
-        "Reduced berry production"
+        "ਪੱਤਿਆਂ ਦੇ ਹੇਠਲੇ ਪਾਸੇ ਸੰਤਰੀ-ਪੀਲੇ ਪਾਊਡਰ ਵਾਲੇ ਧੱਬੇ",
+        "ਉੱਪਰਲੀ ਪੱਤੀ ਦੀ ਸਤ੍ਹਾ 'ਤੇ ਹਲਕੇ ਪੀਲੇ ਧੱਬੇ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ",
+        "ਪੱਤਿਆਂ ਦਾ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ ਡਿੱਗਣਾ",
+        "ਬੇਰੀ ਉਤਪਾਦਨ ਵਿੱਚ ਕਮੀ"
       ],
       "causes": [
         "Fungus Hemileia vastatrix",
