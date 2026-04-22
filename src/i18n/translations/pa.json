@@ -951,47 +951,47 @@
       "prevention": [
         "ਰੋਧਕ ਕੇਲੇ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
         "ਪੌਦਿਆਂ ਵਿਚਕਾਰ ਸਹੀ ਫਾਸਲਾ ਬਣਾਈ ਰੱਖੋ",
-        "Remove old leaves to improve airflow",
-        "Practice good drainage management"
+        "ਹਵਾ ਦੇ ਵਹਾਅ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਪੁਰਾਣੇ ਪੱਤੇ ਹਟਾਓ",
+        "ਵਧੀਆ ਨਿਕਾਸੀ ਪ੍ਰਬੰਧਨ ਦਾ ਅਭਿਆਸ ਕਰੋ"
       ]
     },
     "citrus-canker": {
-      "name": "Citrus Canker",
+      "name": "ਨਿੰਬੂ ਕੈਂਕਰ",
       "symptoms": [
-        "Raised corky lesions on leaves and fruits",
-        "Lesions with water-soaked margins",
-        "Yellow halo around lesions",
-        "Premature fruit and leaf drop"
+        "ਪੱਤਿਆਂ ਅਤੇ ਫਲਾਂ 'ਤੇ ਉਭਰੇ ਹੋਏ ਕਾਰਕੀ ਜ਼ਖ਼ਮ",
+        "ਪਾਣੀ ਨਾਲ ਭਰੇ ਕਿਨਾਰਿਆਂ ਵਾਲੇ ਜ਼ਖ਼ਮ",
+        "ਜ਼ਖ਼ਮਾਂ ਦੇ ਦੁਆਲੇ ਪੀਲਾ ਘੇਰਾ",
+        "ਫਲ ਅਤੇ ਪੱਤਿਆਂ ਦਾ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ ਝੜਨਾ"
       ],
       "causes": [
-        "Bacteria Xanthomonas citri",
-        "Wind-driven rain spreading bacteria",
-        "Wounds from thorns, insects, or wind",
-        "High temperatures and humidity"
+        "ਬੈਕਟੀਰੀਆ Xanthomonas citri",
+        "ਹਵਾ ਨਾਲ ਚੱਲਣ ਵਾਲੀ ਬਾਰਿਸ਼ ਜੋ ਬੈਕਟੀਰੀਆ ਫੈਲਾਉਂਦੀ ਹੈ",
+        "ਕੰਡਿਆਂ, ਕੀੜਿਆਂ ਜਾਂ ਹਵਾ ਤੋਂ ਜ਼ਖ਼ਮ",
+        "ਉੱਚ ਤਾਪਮਾਨ ਅਤੇ ਨਮੀ"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
-        "Remove and destroy infected plant parts",
-        "Apply streptomycin in severe cases",
-        "Protect wounds with copper paste"
+        " ਤਾਂਬੇ-ਅਧਾਰਤ ਬੈਕਟੀਰੀਆਨਾਸ਼ਕ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਦੇ ਹਿੱਸਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+        "ਗੰਭੀਰ ਮਾਮਲਿਆਂ ਵਿੱਚ ਸਟ੍ਰੈਪਟੋਮਾਈਸਿਨ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        " ਤਾਂਬੇ ਦੇ ਪੇਸਟ ਨਾਲ ਜ਼ਖ਼ਮਾਂ ਦੀ ਰੱਖਿਆ ਕਰੋ"
       ],
       "prevention": [
-        "Use certified disease-free nursery stock",
-        "Windbreaks to reduce wind-driven rain",
-        "Disinfect pruning tools between trees",
-        "Control leaf miner insects"
+        "ਪ੍ਰਮਾਣਿਤ ਬਿਮਾਰੀ-ਮੁਕਤ ਨਰਸਰੀ ਸਟਾਕ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "ਹਵਾ ਨਾਲ ਚੱਲਣ ਵਾਲੀ ਬਾਰਿਸ਼ ਨੂੰ ਘਟਾਉਣ ਲਈ ਵਿੰਡਬ੍ਰੇਕਸ",
+        "ਰੁੱਖਾਂ ਦੇ ਵਿਚਕਾਰ ਛਾਂਗਣ ਵਾਲੇ ਸੰਦਾਂ ਨੂੰ ਰੋਗਾਣੂ ਮੁਕਤ ਕਰੋ",
+        "ਲੀਫ ਮਾਈਨਰ ਕੀੜਿਆਂ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ"
       ]
     },
     "grape-powdery-mildew": {
-      "name": "Powdery Mildew of Grape",
+      "name": "ਅੰਗੂਰ ਦਾ ਪਾਊਡਰੀ ਫ਼ਫ਼ੂੰਦੀ",
       "symptoms": [
-        "White powdery growth on leaves and shoots",
-        "Distorted and curled young leaves",
-        "Brown scarring on fruit surface",
-        "Cracking of infected berries"
+        "ਪੱਤਿਆਂ ਅਤੇ ਕਮਤ ਵਧੀਆਂ 'ਤੇ ਚਿੱਟਾ ਪਾਊਡਰ ਵਾਲਾ ਵਾਧਾ",
+        "ਵਿਗੜੇ ਹੋਏ ਅਤੇ ਮੁੜੇ ਹੋਏ ਨੌਜਵਾਨ ਪੱਤੇ",
+        "ਫਲਾਂ ਦੀ ਸਤ੍ਹਾ 'ਤੇ ਭੂਰੇ ਦਾਗ",
+        "ਸੰਕਰਮਿਤ ਬੇਰੀਆਂ ਦਾ ਫਟਣਾ"
       ],
       "causes": [
-        "Fungus Uncinula necator",
+        "ਫੰਗਸ Uncinula necator",
         "Moderate temperatures (20-27°C)",
         "Shade and poor air circulation",
         "High humidity without rain"
