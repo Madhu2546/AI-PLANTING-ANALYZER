@@ -26,18 +26,58 @@ const resources = {
   pa: { translation: pa },
 };
 
+// Debug mode: enable via ?debugI18n=1 or localStorage.debugI18n="1"
+const debugI18n =
+  typeof window !== 'undefined' &&
+  (new URLSearchParams(window.location.search).get('debugI18n') === '1' ||
+    window.localStorage.getItem('debugI18n') === '1');
+
+if (typeof window !== 'undefined') {
+  // expose a reset helper for debugging
+  (window as unknown as { i18nDebug?: { enable: () => void; disable: () => void } }).i18nDebug = {
+    enable: () => {
+      window.localStorage.setItem('debugI18n', '1');
+      window.location.reload();
+    },
+    disable: () => {
+      window.localStorage.removeItem('debugI18n');
+      window.location.reload();
+    },
+  };
+}
+
+// Track missing keys for the Translation Gaps page
+const missingKeys = new Set<string>();
+if (typeof window !== 'undefined') {
+  (window as unknown as { __i18nMissing?: Set<string> }).__i18nMissing = missingKeys;
+}
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
     fallbackLng: 'en',
+    saveMissing: true,
+    missingKeyHandler: (lngs, ns, key) => {
+      const entry = `${lngs?.[0] ?? '?'}::${key}`;
+      missingKeys.add(entry);
+      if (debugI18n) {
+        // eslint-disable-next-line no-console
+        console.warn(`[i18n] Missing key: ${entry}`);
+      }
+    },
+    parseMissingKeyHandler: (key) => {
+      if (debugI18n) return `⚠️${key}⚠️`;
+      return key;
+    },
     interpolation: {
       escapeValue: false,
     },
     detection: {
       order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng',
     },
   });
 

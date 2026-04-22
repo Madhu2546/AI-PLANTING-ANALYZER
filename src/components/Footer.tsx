@@ -1,5 +1,6 @@
-import { Leaf, Github, Mail, ExternalLink } from "lucide-react";
+import { Leaf, Github, Mail, ExternalLink, Languages } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -45,6 +46,12 @@ const Footer = () => {
                   {t('footer.datasetSource')}
                   <ExternalLink className="w-3 h-3" />
                 </a>
+              </li>
+              <li>
+                <Link to="/translation-gaps" className="hover:text-primary transition-colors inline-flex items-center gap-1">
+                  <Languages className="w-3 h-3" />
+                  Translation Coverage
+                </Link>
               </li>
             </ul>
           </div>
