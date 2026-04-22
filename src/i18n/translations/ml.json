@@ -695,48 +695,48 @@
       "name": "Rice Blast",
       "description": "High humidity with moderate temperatures creates ideal conditions for the rice blast fungus.",
       "preventiveMeasures": [
-        "Apply preventive fungicide sprays",
-        "Avoid excessive nitrogen fertilization",
+        "പ്രതിരോധ കുമിൾനാശിനി സ്പ്രേകൾ പ്രയോഗിക്കുക",
+        "അമിതമായ നൈട്രജൻ വളപ്രയോഗം ഒഴിവാക്കുക",
         "Ensure proper drainage in fields",
         "Use resistant rice varieties"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
+      "name": "ബാക്ടീരിയൽ ഇലക്കരിച്ചിൽ",
       "description": "Warm and humid conditions favour bacterial spread, especially after heavy rains.",
       "preventiveMeasures": [
         "Drain excess water from fields",
-        "Apply copper-based bactericides",
-        "Avoid working in wet fields",
+        "ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള ബാക്ടീരിയനാശിനികൾ പ്രയോഗിക്കുക",
+        "ഈർപ്പമുള്ള പാടങ്ങളിൽ ജോലി ചെയ്യുന്നത് ഒഴിവാക്കുക",
         "Remove and destroy infected plants"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
-      "description": "Cool temperatures with high humidity and morning dew promote rust development.",
+      "name": "ചോളത്തിന്റെ സാധാരണ തുരുമ്പ് രോഗം",
+      "description": "ഉയർന്ന ആർദ്രതയും പ്രഭാതത്തിലെ മഞ്ഞുമുള്ള തണുത്ത താപനില തുരുമ്പ് രോഗത്തിന്റെ വളർച്ചയെ പ്രോത്സാഹിപ്പിക്കുന്നു.",
       "preventiveMeasures": [
         "Scout fields regularly for early symptoms",
-        "Apply fungicides at the first sign of infection",
+        "രോഗബാധയുടെ ആദ്യ സൂചനയിൽ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Plant rust-resistant hybrids",
-        "Avoid overhead irrigation"
+        "ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക"
       ]
     },
     "powdery-mildew": {
       "name": "Powdery Mildew",
       "description": "Moderate humidity without rain and warm temperatures favour powdery mildew growth.",
       "preventiveMeasures": [
-        "Apply sulfur-based fungicides",
+        "സൾഫർ അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Improve air circulation through pruning",
-        "Avoid excessive nitrogen",
+        "അമിത നൈട്രജൻ ഒഴിവാക്കുക",
         "Remove infected plant parts"
       ]
     },
     "anthracnose": {
-      "name": "Anthracnose",
+      "name": "ആന്ത്രാക്നോസ്",
       "description": "High humidity with warm temperatures, especially during flowering and fruiting.",
       "preventiveMeasures": [
-        "Apply copper-based fungicides before rain",
-        "Avoid overhead irrigation during flowering",
+        "മഴയ്ക്ക് മുമ്പ് ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
+        "പൂവിടുമ്പോൾ ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക",
         "Remove fallen fruits and debris",
         "Ensure proper orchard sanitation"
       ]
@@ -747,45 +747,45 @@
       "preventiveMeasures": [
         "Use resistant crop varieties",
         "Practice crop rotation",
-        "Apply Trichoderma-based biocontrol",
-        "Avoid waterlogging"
+        "ട്രൈക്കോഡെർമ അടിസ്ഥാനമാക്കിയുള്ള ജൈവ നിയന്ത്രണം പ്രയോഗിക്കുക",
+        "നീർക്കെട്ട് ഒഴിവാക്കുക"
       ]
     },
     "late-blight": {
       "name": "Late Blight",
-      "description": "Cool and wet conditions are ideal for rapid spread of the late blight pathogen.",
+      "description": "തണുത്തതും ഈർപ്പമുള്ളതുമായ സാഹചര്യങ്ങൾ ലേറ്റ് ബ്ലൈറ്റ് രോഗകാരിയുടെ ദ്രുതഗതിയിലുള്ള വ്യാപനത്തിന് അനുയോജ്യമാണ്.",
       "preventiveMeasures": [
-        "Apply preventive fungicides before rain",
-        "Avoid overhead irrigation in the evening",
+        "മഴയ്ക്ക് മുമ്പ് പ്രതിരോധ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
+        "വൈകുന്നേരങ്ങളിൽ ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക",
         "Destroy infected plant debris",
         "Use certified disease-free seed tubers"
       ]
     },
     "downy-mildew": {
       "name": "Downy Mildew",
-      "description": "Cool nights with high humidity and morning dew favour downy mildew development.",
+      "description": "ഉയർന്ന ആർദ്രതയും പ്രഭാതത്തിലെ മഞ്ഞുമുള്ള തണുത്ത രാത്രികൾ ഡൗണി മിൽഡ്യൂ (രോമകുമിൾ) വളർച്ചയ്ക്ക് സഹായകമാണ്.",
       "preventiveMeasures": [
-        "Apply protective fungicides before wet weather",
+        "ഈർപ്പമുള്ള കാലാവസ്ഥയ്ക്ക് മുമ്പ് സംരക്ഷണ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Improve air circulation",
         "Water early in the morning to reduce leaf wetness",
         "Remove infected leaves immediately"
       ]
     },
     "bacterial-wilt": {
-      "name": "Bacterial Wilt",
+      "name": "ബാക്ടീരിയൽ വാട്ടം",
       "description": "Hot and humid conditions accelerate bacterial wilt spread through soil and water.",
       "preventiveMeasures": [
         "Practice strict sanitation",
         "Use resistant varieties",
-        "Avoid field flooding",
+        "പാടം വെള്ളത്തിൽ മുങ്ങുന്നത് ഒഴിവാക്കുക",
         "Remove and destroy infected plants immediately"
       ]
     },
     "coffee-rust": {
-      "name": "Coffee Leaf Rust",
+      "name": "കാപ്പി ഇലക്കറുപ്പ്",
       "description": "Warm temperatures with high humidity during the rainy season favour rust spread.",
       "preventiveMeasures": [
-        "Apply copper fungicides preventively",
+        "ചെമ്പ് കുമിൾനാശിനികൾ മുൻകൂട്ടി പ്രയോഗിക്കുക",
         "Prune for better air circulation",
         "Plant shade trees strategically",
         "Use rust-resistant coffee varieties"
@@ -808,47 +808,47 @@
         "Dense planting"
       ],
       "treatment": [
-        "Apply fungicides like Tricyclazole or Isoprothiolane",
+        "ട്രൈസൈക്ലാസോൾ അല്ലെങ്കിൽ ഐസോപ്രോത്തിയോളേൻ പോലുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Remove and destroy infected plant debris",
-        "Apply silicon-based fertilizers to strengthen cell walls",
+        "കോശ ഭിത്തികൾ ശക്തിപ്പെടുത്താൻ സിലിക്കൺ അടിസ്ഥാനമാക്കിയുള്ള വളങ്ങൾ പ്രയോഗിക്കുക",
         "Use copper-based fungicides as a preventive measure"
       ],
       "prevention": [
         "Use resistant rice varieties",
-        "Avoid excessive nitrogen application",
+        "അമിതമായ നൈട്രജൻ പ്രയോഗം ഒഴിവാക്കുക",
         "Maintain proper plant spacing",
         "Ensure good drainage in fields"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
+      "name": "ബാക്ടീരിയൽ ഇലക്കരിച്ചിൽ",
       "symptoms": [
         "Water-soaked lesions on leaf margins",
         "Lesions turn yellow then greyish-white",
         "Leaves dry up from the tip downward",
-        "Bacterial ooze on infected leaves"
+        "രോഗബാധയുള്ള ഇലകളിൽ ബാക്ടീരിയൽ ദ്രവം"
       ],
       "causes": [
-        "Bacteria Xanthomonas oryzae",
+        "ബാക്ടീരിയ സാന്തോമോണാസ് ഒറൈസേ",
         "Warm and humid conditions",
         "Flooding and heavy rains",
         "Wounds from insects or mechanical damage"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
+        "ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള ബാക്ടീരിയനാശിനികൾ പ്രയോഗിക്കുക",
         "Drain excess water from fields",
-        "Apply potassium fertilizers to strengthen plants",
+        "ചെടികളെ ശക്തിപ്പെടുത്താൻ പൊട്ടാസ്യം വളങ്ങൾ പ്രയോഗിക്കുക",
         "Remove severely infected plants"
       ],
       "prevention": [
         "Use certified disease-free seeds",
-        "Avoid excessive nitrogen fertilization",
+        "അമിതമായ നൈട്രജൻ വളപ്രയോഗം ഒഴിവാക്കുക",
         "Maintain proper water management",
-        "Control insect vectors"
+        "കീട രോഗവാഹകരെ നിയന്ത്രിക്കുക"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
+      "name": "ചോളത്തിന്റെ സാധാരണ തുരുമ്പ് രോഗം",
       "symptoms": [
         "Small circular to elongated brown pustules on leaves",
         "Pustules appear on both leaf surfaces",
@@ -857,28 +857,28 @@
       ],
       "causes": [
         "Fungus Puccinia sorghi",
-        "Cool to moderate temperatures (16-23°C)",
+        "തണുത്തതും മിതമായതുമായ താപനില (16-23°C)",
         "High humidity and dew formation",
         "Wind-borne spore dispersal"
       ],
       "treatment": [
-        "Apply fungicides like Mancozeb or Propiconazole",
+        "മാങ്കോസെബ് അല്ലെങ്കിൽ പ്രോപികോനാസോൾ പോലുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Remove infected plant debris after harvest",
-        "Apply foliar fungicides at the first sign of infection",
+        "രോഗബാധയുടെ ആദ്യ സൂചനയിൽ ഇലകളിൽ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Use triazole-based fungicides for severe infection"
       ],
       "prevention": [
         "Plant rust-resistant hybrid varieties",
         "Early planting to avoid peak infection periods",
-        "Crop rotation with non-host crops",
-        "Avoid overhead irrigation"
+        "കീടങ്ങളെ/രോഗങ്ങളെ അതിഥേയത്വം ചെയ്യാത്ത വിളകളുമായുള്ള വിളപരിക്രമണം",
+        "ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക"
       ]
     },
     "cotton-wilt": {
       "name": "Fusarium Wilt of Cotton",
       "symptoms": [
         "Yellowing and wilting of leaves",
-        "Brown discolouration of vascular tissue",
+        "സംവഹന കലകളിലെ തവിട്ടുനിറം",
         "Stunted plant growth",
         "Leaves drop prematurely"
       ],
@@ -892,19 +892,19 @@
         "No effective chemical treatment once infected",
         "Remove and destroy infected plants",
         "Solarize soil to reduce pathogen levels",
-        "Apply biological control agents like Trichoderma"
+        "ട്രൈക്കോഡെർമ പോലുള്ള ജൈവ നിയന്ത്രണ ഏജന്റുകൾ പ്രയോഗിക്കുക"
       ],
       "prevention": [
         "Use resistant cotton varieties",
         "Practice crop rotation (4-5 years)",
-        "Control root-knot nematodes",
+        "വേര് കെട്ടിനെമാറ്റോഡുകളെ നിയന്ത്രിക്കുക",
         "Maintain soil pH above 7.0"
       ]
     },
     "mango-anthracnose": {
       "name": "Mango Anthracnose",
       "symptoms": [
-        "Black spots on flowers and young fruits",
+        "പൂക്കളിലും ഇളം കായ്കളിലും കറുത്ത പാടുകൾ",
         "Sunken dark lesions on mature fruits",
         "Leaf spots with irregular margins",
         "Twig dieback and blossom blight"
@@ -916,20 +916,20 @@
         "Overhead irrigation wetting foliage"
       ],
       "treatment": [
-        "Apply copper-based fungicides before flowering",
+        "പൂക്കുന്നതിന് മുമ്പ് ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Hot water treatment of harvested fruits (52°C for 5 min)",
         "Post-harvest fungicide dips",
         "Prune and destroy infected plant parts"
       ],
       "prevention": [
         "Maintain orchard sanitation",
-        "Avoid overhead irrigation during flowering",
-        "Apply preventive fungicide sprays",
+        "പൂവിടുമ്പോൾ ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക",
+        "പ്രതിരോധ കുമിൾനാശിനി സ്പ്രേകൾ പ്രയോഗിക്കുക",
         "Ensure good air circulation through pruning"
       ]
     },
     "banana-sigatoka": {
-      "name": "Black Sigatoka",
+      "name": "കറുത്ത സിഗറ്റോക്ക",
       "symptoms": [
         "Small pale streaks on lower leaf surface",
         "Streaks enlarge and turn brown-black",
@@ -943,10 +943,10 @@
         "Dense plantings with poor air circulation"
       ],
       "treatment": [
-        "Apply systemic fungicides like Propiconazole",
+        "പ്രോപികോനാസോൾ പോലുള്ള വ്യവസ്ഥാപിത കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Remove and destroy infected leaves",
         "Rotate fungicide modes of action",
-        "Apply mineral oil with fungicides"
+        "കുമിൾനാശിനികളോടൊപ്പം മിനറൽ ഓയിൽ പ്രയോഗിക്കുക"
       ],
       "prevention": [
         "Use resistant banana varieties",
@@ -956,7 +956,7 @@
       ]
     },
     "citrus-canker": {
-      "name": "Citrus Canker",
+      "name": "സിട്രസ് കാങ്കർ",
       "symptoms": [
         "Raised corky lesions on leaves and fruits",
         "Lesions with water-soaked margins",
@@ -964,22 +964,22 @@
         "Premature fruit and leaf drop"
       ],
       "causes": [
-        "Bacteria Xanthomonas citri",
+        "ബാക്ടീരിയ സാന്തോമോണാസ് സിട്രി",
         "Wind-driven rain spreading bacteria",
         "Wounds from thorns, insects, or wind",
         "High temperatures and humidity"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
+        "ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള ബാക്ടീരിയനാശിനികൾ പ്രയോഗിക്കുക",
         "Remove and destroy infected plant parts",
-        "Apply streptomycin in severe cases",
+        "കഠിനമായ കേസുകളിൽ സ്ട്രെപ്റ്റോമൈസിൻ പ്രയോഗിക്കുക",
         "Protect wounds with copper paste"
       ],
       "prevention": [
         "Use certified disease-free nursery stock",
         "Windbreaks to reduce wind-driven rain",
         "Disinfect pruning tools between trees",
-        "Control leaf miner insects"
+        "ഇലപ്പുഴുക്കളെ നിയന്ത്രിക്കുക"
       ]
     },
     "grape-powdery-mildew": {
@@ -987,8 +987,8 @@
       "symptoms": [
         "White powdery growth on leaves and shoots",
         "Distorted and curled young leaves",
-        "Brown scarring on fruit surface",
-        "Cracking of infected berries"
+        "കായുടെ ഉപരിതലത്തിൽ തവിട്ടുനിറമുള്ള പാടുകൾ",
+        "രോഗം ബാധിച്ച പഴങ്ങൾ പൊട്ടുന്നു"
       ],
       "causes": [
         "Fungus Uncinula necator",
@@ -997,24 +997,24 @@
         "High humidity without rain"
       ],
       "treatment": [
-        "Apply sulfur-based fungicides",
+        "സൾഫർ അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Use systemic fungicides like Myclobutanil",
         "Remove heavily infected leaves",
-        "Apply potassium bicarbonate sprays"
+        "പൊട്ടാസ്യം ബൈകാർബണേറ്റ് സ്പ്രേകൾ പ്രയോഗിക്കുക"
       ],
       "prevention": [
         "Select resistant grape varieties",
         "Prune for good air circulation",
-        "Avoid excessive nitrogen fertilization",
+        "അമിതമായ നൈട്രജൻ വളപ്രയോഗം ഒഴിവാക്കുക",
         "Remove dormant infected wood"
       ]
     },
     "chickpea-wilt": {
-      "name": "Chickpea Wilt",
+      "name": "കടലവാട്ടം",
       "symptoms": [
         "Yellowing and drooping of leaves",
         "Rapid wilting of the entire plant",
-        "Brown discolouration of roots and stem base",
+        "വേരുകളിലും തണ്ടിന്റെ അടിഭാഗത്തും തവിട്ടുനിറം",
         "Internal browning of vascular tissue"
       ],
       "causes": [
@@ -1026,14 +1026,14 @@
       "treatment": [
         "No effective treatment once infected",
         "Remove and destroy infected plants",
-        "Apply Trichoderma-based biocontrol",
+        "ട്രൈക്കോഡെർമ അടിസ്ഥാനമാക്കിയുള്ള ജൈവ നിയന്ത്രണം പ്രയോഗിക്കുക",
         "Solarize soil before planting"
       ],
       "prevention": [
         "Use wilt-resistant varieties",
         "Practice 4-5 year crop rotation",
         "Treat seeds with fungicides",
-        "Avoid water stress during flowering"
+        "പൂവിടുമ്പോൾ ജല സമ്മർദ്ദം ഒഴിവാക്കുക"
       ]
     },
     "papaya-ringspot": {
@@ -1046,14 +1046,14 @@
       ],
       "causes": [
         "Papaya ringspot virus (PRSV)",
-        "Aphid transmission",
+        "അഫിഡ് വഴി പകർച്ച",
         "Infected plant material",
         "No seed transmission"
       ],
       "treatment": [
         "No cure for infected plants",
         "Remove and destroy infected plants immediately",
-        "Control aphid vectors with insecticides",
+        "കീടനാശിനികൾ ഉപയോഗിച്ച് ചെള്ളുകളുടെ രോഗവാഹകരെ നിയന്ത്രിക്കുക",
         "Use reflective mulches to repel aphids"
       ],
       "prevention": [
@@ -1064,7 +1064,7 @@
       ]
     },
     "coffee-leaf-rust": {
-      "name": "Coffee Leaf Rust",
+      "name": "കാപ്പി ഇലക്കറുപ്പ്",
       "symptoms": [
         "Orange-yellow powdery spots on leaf undersides",
         "Pale yellow spots visible on upper leaf surface",
@@ -1078,42 +1078,42 @@
         "Shade and poor air circulation"
       ],
       "treatment": [
-        "Apply copper-based fungicides",
+        "ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "Use systemic fungicides like Triadimefon",
         "Remove and destroy fallen infected leaves",
-        "Apply fungicides preventively during the rainy season"
+        "മഴക്കാലത്ത് കുമിൾനാശിനികൾ മുൻകൂട്ടി പ്രയോഗിക്കുക"
       ],
       "prevention": [
         "Plant rust-resistant coffee varieties",
         "Maintain proper spacing and pruning",
-        "Balanced fertilization to maintain plant vigour",
+        "സസ്യങ്ങളുടെ ഓജസ്സ് നിലനിർത്താൻ സമീകൃത രാസവളപ്രയോഗം",
         "Shade management for air circulation"
       ]
     },
     "pomegranate-bacterial-blight": {
-      "name": "Bacterial Blight of Pomegranate",
+      "name": "മാതളനാരങ്ങയുടെ ബാക്ടീരിയൽ ബ്ലൈറ്റ്",
       "symptoms": [
         "Water-soaked spots on leaves",
-        "Dark brown to black lesions on fruits",
-        "Cracking and rotting of fruits",
+        "കായ്കളിൽ കടുത്ത തവിട്ടുനിറം മുതൽ കറുപ്പ് വരെയുള്ള പാടുകൾ",
+        "കായ്കൾ പൊട്ടുകയും അഴുകുകയും ചെയ്യുന്നു",
         "Girdling cankers on branches"
       ],
       "causes": [
-        "Bacteria Xanthomonas axonopodis",
+        "ബാക്ടീരിയ സാന്തോമോണാസ് ആക്സോനോപോഡിസ്",
         "Warm and wet conditions",
         "Wounds from insects or hail",
         "Infected planting material"
       ],
       "treatment": [
-        "Apply streptomycin sulphate sprays",
+        "സ്ട്രെപ്റ്റോമൈസിൻ സൾഫേറ്റ് സ്പ്രേകൾ പ്രയോഗിക്കുക",
         "Use copper hydroxide applications",
         "Prune and destroy infected branches",
-        "Apply bactericides before monsoon"
+        "മൺസൂണിന് മുമ്പ് ബാക്ടീരിയനാശിനികൾ പ്രയോഗിക്കുക"
       ],
       "prevention": [
         "Use disease-free planting material",
-        "Avoid overhead irrigation",
-        "Control insect pests causing wounds",
+        "ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക",
+        "മുറിവുകൾ ഉണ്ടാക്കുന്ന കീടങ്ങളെ നിയന്ത്രിക്കുക",
         "Maintain orchard hygiene"
       ]
     }
@@ -1152,8 +1152,8 @@
       "soilImpact": "Fixes nitrogen; improves soil aeration."
     },
     "Mustard": {
-      "family": "Cruciferae",
-      "soilImpact": "Deep roots improve soil structure; biofumigant properties."
+      "family": "ക്രൂസിഫെറേ",
+      "soilImpact": "ആഴത്തിലുള്ള വേരുകൾ മണ്ണിന്റെ ഘടന മെച്ചപ്പെടുത്തുന്നു; ജൈവ-ധൂപന ഗുണങ്ങൾ."
     },
     "Potato": {
       "family": "Solanaceae",
@@ -1169,20 +1169,20 @@
     }
   },
   "nutrientStages": {
-    "Basal (Before Transplanting)": "Basal (before transplanting)",
-    "Basal (At Sowing)": "Basal (at sowing)",
-    "Basal": "Basal",
+    "Basal (Before Transplanting)": "അടിവളം (മാറ്റിവയ്ക്കുന്നതിന് മുമ്പ്)",
+    "Basal (At Sowing)": "അടിവളം (വിതയ്ക്കുമ്പോൾ)",
+    "Basal": "അടിവളം",
     "Tillering Stage": "Tillering stage",
     "Panicle Initiation": "Panicle initiation",
     "Flowering Stage": "Flowering stage",
-    "Crown Root Initiation (CRI)": "Crown root initiation (CRI)",
+    "Crown Root Initiation (CRI)": "ക്രൗൺ റൂട്ട് രൂപീകരണം (CRI)",
     "Late Jointing": "Late jointing",
     "Flowering/Grain Filling": "Flowering / grain filling",
     "Knee-high (V6)": "Knee-high (V6)",
     "Tasseling": "Tasselling",
     "Square Formation": "Square formation",
     "Flowering": "Flowering",
-    "Boll Development": "Boll development",
+    "Boll Development": "കായ് വികാസം",
     "Pre-monsoon (May-June)": "Pre-monsoon (May-Jun)",
     "Post-monsoon (Sep-Oct)": "Post-monsoon (Sep-Oct)",
     "Pre-blossom (March)": "Pre-blossom (March)",
@@ -1192,8 +1192,8 @@
     "Post-harvest (July-Aug)": "Post-harvest (Jul-Aug)",
     "Pre-flowering (Oct-Nov)": "Pre-flowering (Oct-Nov)",
     "Fruit Development (Feb-Apr)": "Fruit development (Feb-Apr)",
-    "After Pruning (Oct)": "After pruning (Oct)",
-    "Berry Development (Dec-Jan)": "Berry development (Dec-Jan)",
+    "After Pruning (Oct)": "കൊമ്പ് കോതിയ ശേഷം (ഒക്ടോബർ)",
+    "Berry Development (Dec-Jan)": "പഴം വളർച്ച (ഡിസംബർ-ജനുവരി)",
     "Veraison (Feb)": "Veraison (Feb)",
     "Planting (0-2 months)": "Planting (0-2 months)",
     "Vegetative (3-5 months)": "Vegetative (3-5 months)",
@@ -1202,24 +1202,24 @@
     "Fruit Setting (40-45 days)": "Fruit setting (40-45 days)"
   },
   "nutrientTiming": {
-    "0 days": "0 days",
-    "21-25 days": "21-25 days",
-    "45-50 days": "45-50 days",
-    "70-80 days": "70-80 days",
-    "21 days": "21 days",
-    "75-85 days": "75-85 days",
-    "25-30 days": "25-30 days",
-    "50-55 days": "50-55 days",
-    "30-35 days": "30-35 days",
-    "60-65 days": "60-65 days",
-    "90-100 days": "90-100 days",
-    "Annual - Split 1": "Annual — split 1",
-    "Annual - Split 2": "Annual — split 2",
+    "0 days": "0 ദിവസം",
+    "21-25 days": "21-25 ദിവസം",
+    "45-50 days": "45-50 ദിവസം",
+    "70-80 days": "70-80 ദിവസം",
+    "21 days": "21 ദിവസം",
+    "75-85 days": "75-85 ദിവസം",
+    "25-30 days": "25-30 ദിവസം",
+    "50-55 days": "50-55 ദിവസം",
+    "30-35 days": "30-35 ദിവസം",
+    "60-65 days": "60-65 ദിവസം",
+    "90-100 days": "90-100 ദിവസം",
+    "Annual - Split 1": "വാർഷികം — ഭാഗം 1",
+    "Annual - Split 2": "വാർഷികം — ഭാഗം 2",
     "Split 1": "Split 1",
     "Split 2": "Split 2",
     "Split 3": "Split 3",
     "Split 4": "Split 4",
-    "Basal": "Basal",
+    "Basal": "അടിവളം",
     "Monthly": "Monthly"
   },
   "nutrientPurpose": {
@@ -1230,7 +1230,7 @@
     "Nitrogen for grain filling": "Nitrogen for grain filling",
     "Grain development": "Grain development",
     "Late nitrogen boost": "Late nitrogen boost",
-    "Better grain setting": "Better grain setting",
+    "Better grain setting": "മെച്ചപ്പെട്ട ധാന്യ രൂപീകരണം",
     "Phosphorus + Nitrogen base": "Phosphorus + nitrogen base",
     "Nitrogen for ear development": "Nitrogen for ear development",
     "Zinc enrichment": "Zinc enrichment",
@@ -1240,12 +1240,12 @@
     "Ear development": "Ear development",
     "Phosphorus + Sulphur": "Phosphorus + sulphur",
     "Magnesium nutrition": "Magnesium nutrition",
-    "Boll development": "Boll development",
+    "Boll development": "കായ് വികാസം",
     "Foliar phosphorus": "Foliar phosphorus",
     "Boll weight increase": "Increase boll weight",
     "Reduces boll shedding": "Reduce boll shedding",
     "Phosphorus + starter nitrogen": "Phosphorus + starter nitrogen",
-    "Biological N fixation": "Biological nitrogen fixation",
+    "Biological N fixation": "ജൈവ നൈട്രജൻ സംയോജനം",
     "Phosphorus solubilization": "Phosphorus solubilisation",
     "Mild nitrogen boost": "Mild nitrogen boost",
     "Reduce flower drop": "Reduce flower drop",
@@ -1256,57 +1256,57 @@
     "Phosphorus": "Phosphorus",
     "Potassium - 1st split": "Potassium — 1st split",
     "Potassium - 2nd split": "Potassium — 2nd split",
-    "Boron nutrition": "Boron nutrition",
-    "Balanced nutrition pre-flowering": "Balanced nutrition pre-flowering",
+    "Boron nutrition": "ബോറോൺ പോഷണം",
+    "Balanced nutrition pre-flowering": "പൂക്കുന്നതിന് മുമ്പുള്ള സമീകൃത പോഷണം",
     "Nitrogen for berry set": "Nitrogen for berry set",
     "Potassium for berry": "Potassium for berries",
-    "Berry development": "Berry development",
-    "Berry maturity": "Berry maturity",
+    "Berry development": "പഴം വളർച്ച",
+    "Berry maturity": "കായ പാകമാകുന്നു",
     "Organic matter replenishment": "Replenish organic matter",
     "Nitrogen for new flush": "Nitrogen for new flush",
     "Potassium for flowering": "Potassium for flowering",
-    "Better fruit set": "Better fruit set",
+    "Better fruit set": "മെച്ചപ്പെട്ട കായ് പിടുത്തം",
     "Fruit size & sweetness": "Fruit size & sweetness",
     "Reduces fruit cracking": "Reduce fruit cracking",
     "Organic base": "Organic base",
-    "Balanced nutrition": "Balanced nutrition",
+    "Balanced nutrition": "സമീകൃത പോഷണം",
     "Iron nutrition": "Iron nutrition",
-    "Berry growth": "Berry growth",
-    "Berry quality": "Berry quality",
-    "Berry elongation": "Berry elongation",
+    "Berry growth": "കായ വളർച്ച",
+    "Berry quality": "കായയുടെ ഗുണമേന്മ",
+    "Berry elongation": "പഴം നീളുന്നു",
     "Sugar accumulation": "Sugar accumulation",
     "Uniform ripening": "Uniform ripening",
     "Organic matter": "Organic matter",
     "Root establishment": "Root establishment",
     "Nematode control + slow N": "Nematode control + slow nitrogen",
     "Stem strength": "Stem strength",
-    "Continuous fruiting": "Continuous fruiting",
+    "Continuous fruiting": "തുടർച്ചയായ കായ്ഫലം",
     "Fruit quality": "Fruit quality",
     "Vine growth": "Vine growth",
-    "Balanced foliar": "Balanced foliar",
+    "Balanced foliar": "സമീകൃത ഇല സ്പ്രേ",
     "Fruit development": "Fruit development",
     "Reduces blossom end rot": "Reduce blossom-end rot",
-    "Better pollination": "Better pollination"
+    "Better pollination": "മെച്ചപ്പെട്ട പരാഗണം"
   },
   "pestDiseaseNames": {
-    "Blast": "Blast",
-    "Brown Plant Hopper (BPH)": "Brown plant hopper (BPH)",
+    "Blast": "ब्लास्ट (കതിരിലെ കുമിൾ രോഗം)",
+    "Brown Plant Hopper (BPH)": "തവിട്ടു നെല്ലുചാഴി (തവിട്ടു സസ്യമീൻ)",
     "Sheath Blight": "Sheath blight",
     "Yellow Rust": "Yellow rust",
-    "Aphids": "Aphids",
+    "Aphids": "അഫിഡുകൾ",
     "Karnal Bunt": "Karnal bunt",
     "Fall Armyworm": "Fall armyworm",
     "Turcicum Leaf Blight": "Turcicum leaf blight",
-    "Bollworm": "Bollworm",
+    "Bollworm": "കായ് തുരപ്പൻ പുഴു",
     "Whitefly": "Whitefly",
     "Wilt (Fusarium)": "Wilt (Fusarium)",
     "Pod Borer (Helicoverpa)": "Pod borer (Helicoverpa)",
     "Rust": "Rust",
     "Rhinoceros Beetle": "Rhinoceros beetle",
-    "Bud Rot": "Bud rot",
-    "Coffee Berry Borer": "Coffee berry borer",
+    "Bud Rot": "മുകുള അഴുകൽ",
+    "Coffee Berry Borer": "കാപ്പി കായ തുരപ്പൻ",
     "Leaf Rust": "Leaf rust",
-    "Anthracnose": "Anthracnose",
+    "Anthracnose": "ആന്ത്രാക്നോസ്",
     "Mango Hopper": "Mango hopper",
     "Powdery Mildew": "Powdery mildew",
     "Downy Mildew": "Downy mildew",
@@ -1324,18 +1324,18 @@
     "Honeydew on leaves, stunted growth": "Honeydew on leaves; stunted growth",
     "Fishy smell in grains, black powder": "Fishy smell in grains; black powder",
     "Ragged holes in leaves, frass in whorl": "Ragged holes in leaves; frass in the whorl",
-    "Cigar-shaped grey-green lesions": "Cigar-shaped grey-green lesions",
-    "Damaged bolls, frass on plant": "Damaged bolls; frass on plant",
+    "Cigar-shaped grey-green lesions": "സിഗരറ്റ് ആകൃതിയിലുള്ള ചാര-പച്ച നിറമുള്ള പാടുകൾ",
+    "Damaged bolls, frass on plant": "കേടായ കായകൾ; സസ്യങ്ങളിൽ വിസർജ്ജ്യം",
     "Sticky honeydew, sooty mold": "Sticky honeydew; sooty mould",
     "Wilting of entire plant, dry roots": "Wilting of entire plant; dry roots",
     "Holes in pods, larvae inside": "Holes in pods; larvae inside",
     "Orange-brown pustules on leaves": "Orange-brown pustules on leaves",
-    "Curling leaves, honeydew": "Curling leaves; honeydew",
+    "Curling leaves, honeydew": "ഇലകൾ ചുരുളുന്നു; മധുര ദ്രവം",
     "V-shaped cuts on fronds": "V-shaped cuts on fronds",
     "Rotting of central shoot": "Rotting of central shoot",
     "Small holes in berries": "Small holes in berries",
     "Orange powdery spots on underside of leaves": "Orange powdery spots on underside of leaves",
-    "Black spots on flowers and fruits": "Black spots on flowers and fruits",
+    "Black spots on flowers and fruits": "പൂക്കളിലും കായ്കളിലും കറുത്ത പാടുകൾ",
     "Honeydew on flowers, flower drop": "Honeydew on flowers; flower drop",
     "White powder on panicles & leaves": "White powder on panicles and leaves",
     "Oily spots on upper leaf, white growth below": "Oily spots on upper leaf; white growth below",
@@ -1360,21 +1360,21 @@
     "Under-leaf spray": "Under-leaf spray",
     "Seed treatment": "Seed treatment",
     "Soil drench": "Soil drench",
-    "Biological spray at flowering": "Biological spray at flowering",
+    "Biological spray at flowering": "പൂക്കുമ്പോൾ ജൈവ സ്പ്രേ",
     "Spray at first sign": "Spray at first sign",
-    "Apply to manure pits": "Apply to manure pits",
+    "Apply to manure pits": "കമ്പോസ്റ്റ് കുഴികളിൽ പ്രയോഗിക്കുക",
     "Place in leaf axil": "Place in leaf axil",
-    "Apply to cut surface": "Apply to cut surface",
-    "Crown drench": "Crown drench",
+    "Apply to cut surface": "മുറിഞ്ഞ പ്രതലത്തിൽ പ്രയോഗിക്കുക",
+    "Crown drench": "ക്രൗൺ ഡ്രെഞ്ച് (ചുവട്ടിൽ ഒഴിക്കൽ)",
     "Spray during berry stage": "Spray during berry stage",
     "Spot spray": "Spot spray",
     "Pre-monsoon spray": "Pre-monsoon spray",
-    "Curative spray": "Curative spray",
+    "Curative spray": "ചികിത്സാ സ്പ്രേ",
     "Spray at panicle emergence": "Spray at panicle emergence",
-    "Contact spray": "Contact spray",
-    "Control aphid vectors": "Control aphid vectors",
+    "Contact spray": "ശരീരത്തിൽ തട്ടുന്ന സ്പ്രേ (ബന്ധപ്പെടാനുള്ള സ്പ്രേ)",
+    "Control aphid vectors": "ചെള്ളുകളുടെ രോഗവാഹകരെ നിയന്ത്രിക്കുക",
     "Install at fruiting": "Install at fruiting",
-    "Bait spray": "Bait spray",
+    "Bait spray": "കെണി സ്പ്രേ",
     "Soil drench at planting": "Soil drench at planting",
     "Soil application": "Soil application",
     "Dust or spray on seedlings": "Dust or spray on seedlings",

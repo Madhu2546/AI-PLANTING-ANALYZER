@@ -692,30 +692,30 @@
   },
   "diseaseData": {
     "rice-blast": {
-      "name": "Rice Blast",
+      "name": "ಭತ್ತದ ಬ್ಲಾಸ್ಟ್",
       "description": "ಮಧ್ಯಮ ತಾಪಮಾನದೊಂದಿಗೆ ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆಯು ಭತ್ತದ ಬ್ಲಾಸ್ಟ್ ಶಿಲೀಂಧ್ರಕ್ಕೆ ಸೂಕ್ತವಾದ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಸೃಷ್ಟಿಸುತ್ತದೆ.",
       "preventiveMeasures": [
         "ತಡೆಗಟ್ಟುವ ಶಿಲೀಂಧ್ರನಾಶಕ ಸಿಂಪಡಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರವನ್ನು ತಪ್ಪಿಸಿ",
         "ಹೊಲಗಳಲ್ಲಿ ಸರಿಯಾದ ಒಳಚರಂಡಿಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ",
-        "Use resistant rice varieties"
+        "ನಿರೋಧಕ ಭತ್ತದ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ"
       ]
     },
     "bacterial-leaf-blight": {
       "name": "ಬ್ಯಾಕ್ಟೀರಿಯಾ ಎಲೆ ಬ್ಲೈಟ್",
-      "description": "Warm and humid conditions favour bacterial spread, especially after heavy rains.",
+      "description": "ಬೆಚ್ಚಗಿನ ಮತ್ತು ಆರ್ದ್ರ ಪರಿಸ್ಥಿತಿಗಳು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಹರಡಲು ಅನುಕೂಲಕರ, ವಿಶೇಷವಾಗಿ ಭಾರಿ ಮಳೆಯ ನಂತರ.",
       "preventiveMeasures": [
         "ಹೊಲಗಳಿಂದ ಹೆಚ್ಚುವರಿ ನೀರನ್ನು ಬಸಿದು ಹಾಕಿ",
         "ತಾಮ್ರ ಆಧಾರಿತ ಬ್ಯಾಕ್ಟೀರಿಯಾನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಆರ್ದ್ರ ಜಮೀನುಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವುದನ್ನು ತಪ್ಪಿಸಿ",
-        "Remove and destroy infected plants"
+        "ಸೋಂಕಿತ ಸಸ್ಯಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ"
       ]
     },
     "maize-rust": {
       "name": "ಮೆಕ್ಕೆಜೋಳದ ಸಾಮಾನ್ಯ ತುಕ್ಕು ರೋಗ",
       "description": "ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ ಮತ್ತು ಬೆಳಗಿನ ಇಬ್ಬನಿಯೊಂದಿಗೆ ತಂಪು ವಾತಾವರಣವು ತುಕ್ಕು ಬೆಳವಣಿಗೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ.",
       "preventiveMeasures": [
-        "Scout fields regularly for early symptoms",
+        "ಆರಂಭಿಕ ರೋಗಲಕ್ಷಣಗಳಿಗಾಗಿ ನಿಯಮಿತವಾಗಿ ಕ್ಷೇತ್ರಗಳನ್ನು ಸ್ಕೌಟ್ ಮಾಡಿ",
         "ಸೋಂಕಿನ ಮೊದಲ ಚಿಹ್ನೆಯಲ್ಲಿ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ತುಕ್ಕು ನಿರೋಧಕ ಹೈಬ್ರಿಡ್‌ಗಳನ್ನು ನೆಡಿ",
         "ಮೇಲ್ಭಾಗದ ನೀರಾವರಿ ತಪ್ಪಿಸಿ"
@@ -728,7 +728,7 @@
         "ಗಂಧಕ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಕಳೆ ಕೀಳುವ ಮೂಲಕ ಗಾಳಿಯ ಸಂಚಾರವನ್ನು ಸುಧಾರಿಸಿ",
         "ಅತಿಯಾದ ಸಾರಜನಕವನ್ನು ತಪ್ಪಿಸಿ",
-        "Remove infected plant parts"
+        "ಸೋಂಕಿತ ಸಸ್ಯ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕಿ"
       ]
     },
     "anthracnose": {
@@ -737,15 +737,15 @@
       "preventiveMeasures": [
         "ಮಳೆಯ ಮೊದಲು ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಹೂಬಿಡುವ ಸಮಯದಲ್ಲಿ ಮೇಲ್ಭಾಗದ ನೀರಾವರಿ ತಪ್ಪಿಸಿ",
-        "Remove fallen fruits and debris",
+        "ಬಿದ್ದ ಹಣ್ಣುಗಳು ಮತ್ತು ಅವಶೇಷಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
         "ಸರಿಯಾದ ತೋಟದ ಸ್ವಚ್ಛತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
       ]
     },
     "fusarium-wilt": {
       "name": "ಫುಸಾರಿಯಂ ಬಾಡಿಗೆ",
-      "description": "Warm soil temperatures with moderate moisture favour soil-borne fungal spread.",
+      "description": "ಸಾಧಾರಣ ತೇವಾಂಶದೊಂದಿಗೆ ಬೆಚ್ಚಗಿನ ಮಣ್ಣಿನ ತಾಪಮಾನವು ಮಣ್ಣಿನಿಂದ ಹರಡುವ ಶಿಲೀಂಧ್ರಗಳ ಬೆಳವಣಿಗೆಗೆ ಅನುಕೂಲಕರ.",
       "preventiveMeasures": [
-        "Use resistant crop varieties",
+        "ನಿರೋಧಕ ಬೆಳೆ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ",
         "ಬೆಳೆ ಸರದಿ ಪದ್ಧತಿಯನ್ನು ಅನುಸರಿಸಿ",
         "ಟ್ರೈಕೋಡರ್ಮಾ ಆಧಾರಿತ ಜೈವಿಕ ನಿಯಂತ್ರಣವನ್ನು ಅನ್ವಯಿಸಿ",
         "ನೀರು ನಿಲ್ಲುವುದನ್ನು ತಪ್ಪಿಸಿ"
@@ -758,7 +758,7 @@
         "ಮಳೆಯ ಮೊದಲು ತಡೆಗಟ್ಟುವ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಸಂಜೆ ಮೇಲ್ಭಾಗದ ನೀರಾವರಿ ತಪ್ಪಿಸಿ",
         "ಸೋಂಕಿತ ಸಸ್ಯದ ಅವಶೇಷಗಳನ್ನು ನಾಶಪಡಿಸಿ",
-        "Use certified disease-free seed tubers"
+        "ರೋಗ ಮುಕ್ತ ಬೀಜ ಗೆಡ್ಡೆಗಳನ್ನು ಬಳಸಿ"
       ]
     },
     "downy-mildew": {
@@ -767,8 +767,8 @@
       "preventiveMeasures": [
         "ಮಳೆ ಪ್ರಾರಂಭವಾಗುವ ಮೊದಲು ರಕ್ಷಣಾತ್ಮಕ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಗಾಳಿಯ ಸಂಚಾರವನ್ನು ಸುಧಾರಿಸಿ",
-        "Water early in the morning to reduce leaf wetness",
-        "Remove infected leaves immediately"
+        "ಎಲೆಗಳ ತೇವಾಂಶ ಕಡಿಮೆ ಮಾಡಲು ಮುಂಜಾನೆ ನೀರು ಹಾಕಿ",
+        "ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತಕ್ಷಣವೇ ತೆಗೆದುಹಾಕಿ"
       ]
     },
     "bacterial-wilt": {
@@ -776,25 +776,25 @@
       "description": "ಬಿಸಿ ಮತ್ತು ಆರ್ದ್ರ ಪರಿಸ್ಥಿತಿಗಳು ಮಣ್ಣು ಮತ್ತು ನೀರಿನ ಮೂಲಕ ಬ್ಯಾಕ್ಟೀರಿಯಾದ ಬಾಡಿಗೆ ಹರಡುವಿಕೆಯನ್ನು ವೇಗಗೊಳಿಸುತ್ತವೆ.",
       "preventiveMeasures": [
         "ಕಟ್ಟುನಿಟ್ಟಾದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸಿ",
-        "Use resistant varieties",
+        "ನಿರೋಧಕ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ",
         "ಕ್ಷೇತ್ರದಲ್ಲಿ ಪ್ರವಾಹವನ್ನು ತಪ್ಪಿಸಿ",
-        "Remove and destroy infected plants immediately"
+        "ಸೋಂಕಿತ ಸಸ್ಯಗಳನ್ನು ತಕ್ಷಣವೇ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ"
       ]
     },
     "coffee-rust": {
       "name": "ಕಾಫಿ ಎಲೆ ತುಕ್ಕು ರೋಗ",
-      "description": "Warm temperatures with high humidity during the rainy season favour rust spread.",
+      "description": "ಮಳೆಗಾಲದಲ್ಲಿ ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆಯೊಂದಿಗೆ ಬೆಚ್ಚಗಿನ ತಾಪಮಾನವು ತುಕ್ಕು ರೋಗ ಹರಡಲು ಅನುಕೂಲಕರ.",
       "preventiveMeasures": [
         "ತಾಮ್ರದ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ತಡೆಗಟ್ಟಲು ಅನ್ವಯಿಸಿ",
-        "Prune for better air circulation",
+        "ಉತ್ತಮ ಗಾಳಿಯ ಪ್ರಸರಣಕ್ಕಾಗಿ ಕತ್ತರಿಸಿ",
         "ನೆರಳಿನ ಮರಗಳನ್ನು ಆಯಕಟ್ಟಿನ ರೀತಿಯಲ್ಲಿ ನೆಡಿ",
-        "Use rust-resistant coffee varieties"
+        "ಮೋರು ನಿರೋಧಕ ಕಾಫಿ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ"
       ]
     }
   },
   "diseaseGuide": {
     "rice-blast": {
-      "name": "Rice Blast",
+      "name": "ಭತ್ತದ ಬ್ಲಾಸ್ಟ್",
       "symptoms": [
         "ಎಲೆಗಳ ಮೇಲೆ ವಜ್ರ-ಆಕಾರದ ಗಾಯಗಳು",
         "ಬೂದು-ಹಸಿರು ಗಾಯಗಳು ಕಂದು ಬಣ್ಣದ ಅಂಚುಗಳೊಂದಿಗೆ ಬಿಳಿಯಾಗಿ ಬದಲಾಗುತ್ತವೆ",
@@ -809,12 +809,12 @@
       ],
       "treatment": [
         "ಟ್ರೈಸೈಕ್ಲೋಜೋಲ್ ಅಥವಾ ಐಸೋಪ್ರೋಥಿಯೋಲೇನ್ ನಂತಹ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Remove and destroy infected plant debris",
+        "ಸೋಂಕಿತ ಸಸ್ಯದ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
         "ಕೋಶ ಗೋಡೆಗಳನ್ನು ಬಲಪಡಿಸಲು ಸಿಲಿಕಾನ್ ಆಧಾರಿತ ರಸಗೊಬ್ಬರಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Use copper-based fungicides as a preventive measure"
+        "ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ತಡೆಗಟ್ಟುವ ಕ್ರಮವಾಗಿ ಬಳಸಿ"
       ],
       "prevention": [
-        "Use resistant rice varieties",
+        "ನಿರೋಧಕ ಭತ್ತದ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ",
         "ಅತಿಯಾದ ಸಾರಜನಕ ಅನ್ವಯವನ್ನು ತಪ್ಪಿಸಿ",
         "ಸರಿಯಾದ ಸಸ್ಯ ಅಂತರವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ",
         "ಹೊಲಗಳಲ್ಲಿ ಉತ್ತಮ ಒಳಚರಂಡಿಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
@@ -823,25 +823,25 @@
     "bacterial-leaf-blight": {
       "name": "ಬ್ಯಾಕ್ಟೀರಿಯಾ ಎಲೆ ಬ್ಲೈಟ್",
       "symptoms": [
-        "Water-soaked lesions on leaf margins",
+        "ಎಲೆಗಳ ಅಂಚುಗಳಲ್ಲಿ ನೀರು ಜಿನುಗಿದಂತಹ ಗಾಯಗಳು",
         "ಗಾಯಗಳು ಮೊದಲು ಹಳದಿ ನಂತರ ಬೂದು-ಬಿಳಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತವೆ",
         "ಎಲೆಗಳು ತುದಿಯಿಂದ ಕೆಳಕ್ಕೆ ಒಣಗುತ್ತವೆ",
         "ಸೋಂಕಿತ ಎಲೆಗಳ ಮೇಲೆ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಸೋರಿಕೆ"
       ],
       "causes": [
         "ಬ್ಯಾಕ್ಟೀರಿಯಾ Xanthomonas oryzae",
-        "Warm and humid conditions",
+        "ಬೆಚ್ಚಗಿನ ಮತ್ತು ಆರ್ದ್ರ ಪರಿಸ್ಥಿತಿಗಳು",
         "ಪ್ರವಾಹ ಮತ್ತು ಭಾರೀ ಮಳೆ",
-        "Wounds from insects or mechanical damage"
+        "ಕೀಟಗಳು ಅಥವಾ ಯಾಂತ್ರಿಕ ಹಾನಿಯಿಂದಾದ ಗಾಯಗಳು"
       ],
       "treatment": [
         "ತಾಮ್ರ ಆಧಾರಿತ ಬ್ಯಾಕ್ಟೀರಿಯಾನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಹೊಲಗಳಿಂದ ಹೆಚ್ಚುವರಿ ನೀರನ್ನು ಬಸಿದು ಹಾಕಿ",
         "ಸಸ್ಯಗಳನ್ನು ಬಲಪಡಿಸಲು ಪೊಟ್ಯಾಸಿಯಮ್ ರಸಗೊಬ್ಬರಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Remove severely infected plants"
+        "ತೀವ್ರವಾಗಿ ಸೋಂಕಿತ ಸಸ್ಯಗಳನ್ನು ತೆಗೆದುಹಾಕಿ"
       ],
       "prevention": [
-        "Use certified disease-free seeds",
+        "ರೋಗ ಮುಕ್ತ ಬೀಜಗಳನ್ನು ಬಳಸಿ",
         "ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರವನ್ನು ತಪ್ಪಿಸಿ",
         "ಸರಿಯಾದ ನೀರಿನ ನಿರ್ವಹಣೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ",
         "ಕೀಟ ವಾಹಕಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ"
@@ -850,22 +850,22 @@
     "maize-rust": {
       "name": "ಮೆಕ್ಕೆಜೋಳದ ಸಾಮಾನ್ಯ ತುಕ್ಕು ರೋಗ",
       "symptoms": [
-        "Small circular to elongated brown pustules on leaves",
-        "Pustules appear on both leaf surfaces",
-        "Severe infection causes leaf yellowing",
-        "Premature leaf death in severe cases"
+        "ಎಲೆಗಳ ಮೇಲೆ ಸಣ್ಣ ವೃತ್ತಾಕಾರದಿಂದ ಉದ್ದವಾದ ಕಂದು ಗುಳ್ಳೆಗಳು",
+        "ಎಲೆಗಳ ಎರಡೂ ಮೇಲ್ಮೈಗಳ ಮೇಲೆ ಗುಳ್ಳೆಗಳು ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ",
+        "ತೀವ್ರ ಸೋಂಕು ಎಲೆಗಳ ಹಳದಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ",
+        "ತೀವ್ರತರವಾದ ಪ್ರಕರಣಗಳಲ್ಲಿ ಅಕಾಲಿಕ ಎಲೆಗಳ ಸಾವು"
       ],
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಪಕ್ಸಿನಿಯಾ ಸೋರ್ಗಿ",
         "ತಂಪು ಅಥವಾ ಮಧ್ಯಮ ಉಷ್ಣತೆ (16-23°C)",
         "ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ ಮತ್ತು ಇಬ್ಬನಿ ರಚನೆ",
-        "Wind-borne spore dispersal"
+        "ಗಾಳಿಯಿಂದ ಹರಡುವ ಬೀಜಕಗಳ ಪ್ರಸರಣ"
       ],
       "treatment": [
         "ಮ್ಯಾಂಕೋಜೆಬ್ ಅಥವಾ ಪ್ರೋಪಿಕೋನಜೋಲ್ ನಂತಹ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Remove infected plant debris after harvest",
+        "ಕೊಯ್ಲು ಮಾಡಿದ ನಂತರ ಸೋಂಕಿತ ಸಸ್ಯದ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
         "ಸೋಂಕಿನ ಮೊದಲ ಚಿಹ್ನೆಯಲ್ಲಿ ಪತ್ರ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Use triazole-based fungicides for severe infection"
+        "ತೀವ್ರ ಸೋಂಕಿಗೆ ಟ್ರಯಾಜೋಲ್ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಬಳಸಿ"
       ],
       "prevention": [
         "ತುಕ್ಕು ನಿರೋಧಕ ಹೈಬ್ರಿಡ್ ತಳಿಗಳನ್ನು ನೆಡಿ",
@@ -877,25 +877,25 @@
     "cotton-wilt": {
       "name": "ಹತ್ತಿಯ ಫುಸಾರಿಯಂ ಬಾಡಿಗೆ",
       "symptoms": [
-        "Yellowing and wilting of leaves",
+        "ಎಲೆಗಳ ಹಳದಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುವಿಕೆ ಮತ್ತು ಸೊರಗುವಿಕೆ",
         "ನಾಳೀಯ ಅಂಗಾಂಶದ ಕಂದು ಬಣ್ಣ",
-        "Stunted plant growth",
+        "ಕುಂಠಿತ ಸಸ್ಯ ಬೆಳವಣಿಗೆ",
         "ಎಲೆಗಳು ಅಕಾಲಿಕವಾಗಿ ಉದುರುತ್ತವೆ"
       ],
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಫುಸಾರಿಯಂ ಆಕ್ಸಿಸ್ಪೋರಂ ಎಫ್.ಎಸ್.ಪಿ. ವಾಸಿನ್ಫೆಕ್ಟಮ್",
-        "Soil-borne pathogen surviving for years",
-        "Warm soil temperatures (23-28°C)",
-        "Root damage from nematodes"
+        "ವರ್ಷಗಳವರೆಗೆ ಬದುಕುವ ಮಣ್ಣಿನಿಂದ ಹರಡುವ ರೋಗಕಾರಕ",
+        "ಬೆಚ್ಚಗಿನ ಮಣ್ಣಿನ ತಾಪಮಾನ (23-28°C)",
+        "ನೆಮಟೋಡ್‌ಗಳಿಂದ ಮೂಲ ಹಾನಿ"
       ],
       "treatment": [
         "ಒಮ್ಮೆ ಸೋಂಕಿತವಾದರೆ ಯಾವುದೇ ಪರಿಣಾಮಕಾರಿ ರಾಸಾಯನಿಕ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ",
-        "Remove and destroy infected plants",
-        "Solarize soil to reduce pathogen levels",
+        "ಸೋಂಕಿತ ಸಸ್ಯಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
+        "ರೋಗಕಾರಕಗಳ ಮಟ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಮಣ್ಣನ್ನು ಸೂರ್ಯನ ಶಾಖಕ್ಕೆ ಒಡ್ಡುವುದು",
         "ಟ್ರೈಕೋಡರ್ಮಾ ನಂತಹ ಜೈವಿಕ ನಿಯಂತ್ರಣ ಏಜೆಂಟ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ"
       ],
       "prevention": [
-        "Use resistant cotton varieties",
+        "ನಿರೋಧಕ ಹತ್ತಿ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ",
         "ಬೆಳೆ ಸರದಿ ಪದ್ಧತಿಯನ್ನು ಅನುಸರಿಸಿ (4-5 ವರ್ಷಗಳು)",
         "ಬೇರು ಗಂಟು ಜಂತುಹುಳುಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ",
         "ಮಣ್ಣಿನ pH ಅನ್ನು 7.0 ಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ಕಾಯ್ದುಕೊಳ್ಳಿ"
@@ -905,21 +905,21 @@
       "name": "ಮಾವು ಆಂಥ್ರಾಕ್ನೋಸ್",
       "symptoms": [
         "ಹೂವುಗಳು ಮತ್ತು ಎಳೆಯ ಹಣ್ಣುಗಳ ಮೇಲೆ ಕಪ್ಪು ಕಲೆಗಳು",
-        "Sunken dark lesions on mature fruits",
+        "ಪಕ್ವವಾದ ಹಣ್ಣುಗಳ ಮೇಲೆ ಮುಳುಗಿದ ಕಪ್ಪು ಗಾಯಗಳು",
         "ಒಂದು ಅಸಮವಾದ ಅಂಚಿನೊಂದಿಗೆ ಎಲೆ ಚುಕ್ಕೆಗಳು",
-        "Twig dieback and blossom blight"
+        "ಕೊಂಬು ಒಣಗುವುದು ಮತ್ತು ಹೂವಿನ ಅಂಗಮಾರಿ"
       ],
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಕೊಲೆಟೋಟ್ರಿಕಮ್ ಗ್ಲೋಯೋಸ್ಪೋರಿಯೋಯ್ಡ್ಸ್",
         "ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ ಮತ್ತು ಮಳೆ",
-        "Warm temperatures (25-30°C)",
+        "ಬೆಚ್ಚಗಿನ ತಾಪಮಾನ (25-30°C)",
         "ಮೇಲಿನಿಂದ ಚಿಮುಕಿಸುವ ನೀರಾವರಿ ಎಲೆಗಳನ್ನು ಒದ್ದೆ ಮಾಡುತ್ತದೆ"
       ],
       "treatment": [
         "ಹೂಬಿಡುವ ಮೊದಲು ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
         "ಹಾರ್ವೆಸ್ಟ್ ಮಾಡಿದ ಹಣ್ಣುಗಳ ಬಿಸಿ ನೀರಿನ ಸಂಸ್ಕರಣೆ (52°C 5 ನಿಮಿಷಗಳಿಗೆ)",
         "ಸುಗ್ಗಿಯ ನಂತರದ ಶಿಲೀಂಧ್ರನಾಶಕ ಸ್ನಾನ",
-        "Prune and destroy infected plant parts"
+        "ಸೋಂಕಿತ ಸಸ್ಯ ಭಾಗಗಳನ್ನು ಕತ್ತರಿಸಿ ನಾಶಮಾಡಿ"
       ],
       "prevention": [
         "ತೋಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ",
@@ -931,53 +931,53 @@
     "banana-sigatoka": {
       "name": "ಬ್ಲಾಕ್ ಸಿಗಟೋಕಾ",
       "symptoms": [
-        "Small pale streaks on lower leaf surface",
-        "Streaks enlarge and turn brown-black",
+        "ಕೆಳಗಿನ ಎಲೆಯ ಮೇಲ್ಮೈಯಲ್ಲಿ ಸಣ್ಣ ತೆಳು ಗೆರೆಗಳು",
+        "ಪಟ್ಟೆಗಳು ದೊಡ್ಡದಾಗಿ ಕಂದು-ಕಪ್ಪು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತವೆ",
         "ಎಲೆಗಳು ಅಕಾಲಿಕವಾಗಿ ಒಣಗುತ್ತವೆ",
-        "Reduced fruit size and quality"
+        "ಕಡಿಮೆ ಹಣ್ಣಿನ ಗಾತ್ರ ಮತ್ತು ಗುಣಮಟ್ಟ"
       ],
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಮೈಕೋಸ್ಫೇರೆಲ್ಲಾ ಫಿಜಿಯೆನ್ಸಿಸ್",
         "ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ ಮತ್ತು ಬೆಚ್ಚಗಿನ ತಾಪಮಾನ",
-        "Prolonged leaf wetness",
+        "ದೀರ್ಘಕಾಲದ ಎಲೆಗಳ ತೇವ",
         "ಕಳಪೆ ಗಾಳಿಯ ಪ್ರಸರಣದೊಂದಿಗೆ ದಟ್ಟವಾದ ನಾಟಿಗಳು"
       ],
       "treatment": [
         "ಪ್ರೋಪಿಕೋನಜೋಲ್ ನಂತಹ ವ್ಯವಸ್ಥಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Remove and destroy infected leaves",
-        "Rotate fungicide modes of action",
+        "ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
+        "ಶಿಲೀಂಧ್ರನಾಶಕಗಳ ಕ್ರಿಯಾ ವಿಧಾನಗಳನ್ನು ತಿರುಗಿಸಿ",
         "ಶಿಲೀಂಧ್ರನಾಶಕಗಳೊಂದಿಗೆ ಖನಿಜ ತೈಲವನ್ನು ಅನ್ವಯಿಸಿ"
       ],
       "prevention": [
-        "Use resistant banana varieties",
+        "ನಿರೋಧಕ ಬಾಳೆ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ",
         "ಸಸ್ಯಗಳ ನಡುವೆ ಸರಿಯಾದ ಅಂತರವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಿ",
-        "Remove old leaves to improve airflow",
+        "ಗಾಳಿಯ ಹರಿವನ್ನು ಸುಧಾರಿಸಲು ಹಳೆಯ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
         "ಉತ್ತಮ ಬಸಿಗಾಲುವೆ ನಿರ್ವಹಣೆಯನ್ನು ಅನುಸರಿಸಿ"
       ]
     },
     "citrus-canker": {
       "name": "ಸಿಟ್ರಸ್ ಕ್ಯಾಂಕರ್",
       "symptoms": [
-        "Raised corky lesions on leaves and fruits",
+        "ಎಲೆಗಳು ಮತ್ತು ಹಣ್ಣುಗಳ ಮೇಲೆ ಏರಿದ ಕಾರ್ಕಿ ಗಾಯಗಳು",
         "ನೀರಿನಲ್ಲಿ ನೆನೆಸಿದ ಅಂಚುಗಳೊಂದಿಗೆ ಗಾಯಗಳು",
-        "Yellow halo around lesions",
-        "Premature fruit and leaf drop"
+        "ಗಾಯಗಳ ಸುತ್ತ ಹಳದಿ ವೃತ್ತ",
+        "ಅಕಾಲಿಕ ಹಣ್ಣು ಮತ್ತು ಎಲೆ ಉದುರುವಿಕೆ"
       ],
       "causes": [
         "ಬ್ಯಾಕ್ಟೀರಿಯಾ Xanthomonas citri",
-        "Wind-driven rain spreading bacteria",
-        "Wounds from thorns, insects, or wind",
+        "ಗಾಳಿಯಿಂದ ಚಲಿಸುವ ಮಳೆಯಿಂದ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಹರಡುವಿಕೆ",
+        "ಮುಳ್ಳುಗಳು, ಕೀಟಗಳು ಅಥವಾ ಗಾಳಿಯಿಂದಾದ ಗಾಯಗಳು",
         "ಹೆಚ್ಚಿನ ತಾಪಮಾನ ಮತ್ತು ಆರ್ದ್ರತೆ"
       ],
       "treatment": [
         "ತಾಮ್ರ ಆಧಾರಿತ ಬ್ಯಾಕ್ಟೀರಿಯಾನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Remove and destroy infected plant parts",
+        "ಸೋಂಕಿತ ಸಸ್ಯ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
         "ತೀವ್ರತರವಾದ ಪ್ರಕರಣಗಳಲ್ಲಿ ಸ್ಟ್ರೆಪ್ಟೋಮೈಸಿನ್ ಅನ್ನು ಅನ್ವಯಿಸಿ",
-        "Protect wounds with copper paste"
+        "ಗಾಯಗಳನ್ನು ತಾಮ್ರದ ಪೇಸ್ಟ್‌ನಿಂದ ರಕ್ಷಿಸಿ"
       ],
       "prevention": [
-        "Use certified disease-free nursery stock",
-        "Windbreaks to reduce wind-driven rain",
+        "ರೋಗ ಮುಕ್ತ ನರ್ಸರಿ ಸಸಿಗಳನ್ನು ಬಳಸಿ",
+        "ಗಾಳಿಯಿಂದ ಚಲಿಸುವ ಮಳೆ ಕಡಿಮೆ ಮಾಡಲು ಗಾಳಿ ತಡೆ",
         "ಮರಗಳ ನಡುವೆ ಕತ್ತರಿಸುವ ಉಪಕರಣಗಳನ್ನು ಸೋಂಕುಮುಕ್ತಗೊಳಿಸಿ",
         "ಎಲೆ ಸುರಂಗ ಕೊರೆಯುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ"
       ]
@@ -985,7 +985,7 @@
     "grape-powdery-mildew": {
       "name": "ದ್ರಾಕ್ಷಿಯ ಪೌಡರಿ ಮೈಲ್ಡ್ಯೂ",
       "symptoms": [
-        "White powdery growth on leaves and shoots",
+        "ಎಲೆಗಳು ಮತ್ತು ಚಿಗುರುಗಳ ಮೇಲೆ ಬಿಳಿ ಪುಡಿಯಂತಹ ಬೆಳವಣಿಗೆ",
         "ವಿಕೃತ ಮತ್ತು ಸುರುಳಿಯಾಕಾರದ ಎಳೆಯ ಎಲೆಗಳು",
         "ಹಣ್ಣಿನ ಮೇಲ್ಮೈಯಲ್ಲಿ ಕಂದು ಗುರುತುಗಳು",
         "ಸೋಂಕಿತ ಹಣ್ಣುಗಳ ಬಿರುಕು"
@@ -993,53 +993,53 @@
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಅನ್ಸಿನುಲಾ ನೆಕೇಟರ್",
         "ಮಧ್ಯಮ ತಾಪಮಾನ (20-27°C)",
-        "Shade and poor air circulation",
+        "ನೆರಳು ಮತ್ತು ಕಳಪೆ ಗಾಳಿಯ ಪ್ರಸರಣ",
         "ಮಳೆಯಿಲ್ಲದೆ ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ"
       ],
       "treatment": [
         "ಗಂಧಕ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Use systemic fungicides like Myclobutanil",
-        "Remove heavily infected leaves",
+        "ಮೈಕ್ಲೋಬುಟಾನಿಲ್‌ನಂತಹ ವ್ಯವಸ್ಥಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಬಳಸಿ",
+        "ಹೆಚ್ಚು ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
         "ಪೊಟ್ಯಾಸಿಯಮ್ ಬೈಕಾರ್ಬನೇಟ್ ಸಿಂಪಡಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ"
       ],
       "prevention": [
-        "Select resistant grape varieties",
-        "Prune for good air circulation",
+        "ನಿರೋಧಕ ದ್ರಾಕ್ಷಿ ಪ್ರಭೇದಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "ಉತ್ತಮ ಗಾಳಿಯ ಪ್ರಸರಣಕ್ಕಾಗಿ ಕತ್ತರಿಸಿ",
         "ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರವನ್ನು ತಪ್ಪಿಸಿ",
-        "Remove dormant infected wood"
+        "ಸುಪ್ತ ಸೋಂಕಿತ ಮರವನ್ನು ತೆಗೆದುಹಾಕಿ"
       ]
     },
     "chickpea-wilt": {
       "name": "ಕಡಲೆ ವಿಲ್ಟ್",
       "symptoms": [
-        "Yellowing and drooping of leaves",
-        "Rapid wilting of the entire plant",
+        "ಎಲೆಗಳ ಹಳದಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುವಿಕೆ ಮತ್ತು ಬಾಡುವಿಕೆ",
+        "ಸಂಪೂರ್ಣ ಸಸ್ಯದ ಕ್ಷಿಪ್ರ ಬಾಡುವಿಕೆ",
         "ಬೇರುಗಳು ಮತ್ತು ಕಾಂಡದ ಬುಡದ ಕಂದು ಬಣ್ಣ",
         "ನಾಳೀಯ ಅಂಗಾಂಶದ ಆಂತರಿಕ ಕಂದುಬಣ್ಣ"
       ],
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಫುಸಾರಿಯಂ ಆಕ್ಸಿಸ್ಪೋರಂ ಎಫ್.ಎಸ್.ಪಿ. ಸಿಸೆರಿಸ್",
-        "Soil-borne pathogen",
-        "Warm soil temperatures",
-        "Previous chickpea cultivation in the field"
+        "ಮಣ್ಣಿನಿಂದ ಹರಡುವ ರೋಗಕಾರಕ",
+        "ಬೆಚ್ಚಗಿನ ಮಣ್ಣಿನ ತಾಪಮಾನ",
+        "ಕ್ಷೇತ್ರದಲ್ಲಿ ಹಿಂದಿನ ಕಡಲೆ ಬೇಸಾಯ"
       ],
       "treatment": [
         "ಒಮ್ಮೆ ಸೋಂಕಿತವಾದರೆ ಯಾವುದೇ ಪರಿಣಾಮಕಾರಿ ಚಿಕಿತ್ಸೆ ಇಲ್ಲ",
-        "Remove and destroy infected plants",
+        "ಸೋಂಕಿತ ಸಸ್ಯಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
         "ಟ್ರೈಕೋಡರ್ಮಾ ಆಧಾರಿತ ಜೈವಿಕ ನಿಯಂತ್ರಣವನ್ನು ಅನ್ವಯಿಸಿ",
-        "Solarize soil before planting"
+        "ನಾಟಿ ಮಾಡುವ ಮೊದಲು ಮಣ್ಣನ್ನು ಸೂರ್ಯನ ಶಾಖಕ್ಕೆ ಒಡ್ಡುವುದು"
       ],
       "prevention": [
-        "Use wilt-resistant varieties",
+        "ಬಾಡು ರೋಗ ನಿರೋಧಕ ಪ್ರಭೇದಗಳನ್ನು ಬಳಸಿ",
         "4-5 ವರ್ಷಗಳ ಬೆಳೆ ಸರದಿ ಪದ್ಧತಿಯನ್ನು ಅನುಸರಿಸಿ",
-        "Treat seeds with fungicides",
+        "ಬೀಜಗಳಿಗೆ ಶಿಲೀಂಧ್ರನಾಶಕಗಳಿಂದ ಉಪಚರಿಸುವುದು",
         "ಹೂ ಬಿಡುವ ಸಮಯದಲ್ಲಿ ನೀರಿನ ಒತ್ತಡವನ್ನು ತಪ್ಪಿಸಿ"
       ]
     },
     "papaya-ringspot": {
       "name": "ಪಪ್ಪಾಯಿ ರಿಂಗ್‌ಸ್ಪಾಟ್ ವೈರಸ್",
       "symptoms": [
-        "Ring-shaped spots on fruits",
+        "ಹಣ್ಣುಗಳ ಮೇಲೆ ಉಂಗುರಾಕಾರದ ಕಲೆಗಳು",
         "ಎಲೆಗಳ ಮೇಲೆ ಮೊಸಾಯಿಕ್ ಮಾದರಿಗಳು",
         "ವಿಕೃತ ಮತ್ತು ಶೂ-ಸ್ಟ್ರಿಂಗ್ ಆಕಾರದ ಎಲೆಗಳು",
         "ಕಾಂಡಗಳು ಮತ್ತು ಎಲೆಗಳ ಮೇಲೆ ಜಿಡ್ಡಿನ ಗೆರೆಗಳು"
@@ -1052,15 +1052,15 @@
       ],
       "treatment": [
         "ಸೋಂಕಿತ ಸಸ್ಯಗಳಿಗೆ ಯಾವುದೇ ಪರಿಹಾರವಿಲ್ಲ",
-        "Remove and destroy infected plants immediately",
+        "ಸೋಂಕಿತ ಸಸ್ಯಗಳನ್ನು ತಕ್ಷಣವೇ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
         "ಕೀಟನಾಶಕಗಳೊಂದಿಗೆ ಗಿಡಹೇನು ವಾಹಕಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ",
-        "Use reflective mulches to repel aphids"
+        "ನೊಣಗಳನ್ನು ಹಿಮ್ಮೆಟ್ಟಿಸಲು ಪ್ರತಿಫಲಿತ ಹೊದಿಕೆಗಳನ್ನು ಬಳಸಿ"
       ],
       "prevention": [
         "ವೈರಸ್ ನಿರೋಧಕ ತಳಿಗಳನ್ನು ನೆಡಿ",
-        "Use virus-free seedlings",
+        "ವೈರಸ್-ಮುಕ್ತ ಸಸಿಗಳನ್ನು ಬಳಸಿ",
         "ಗಡಿ ಬೆಳೆಗಳನ್ನು ತಡೆಗೋಡೆಗಳಾಗಿ ನಿರ್ವಹಿಸಿ",
-        "Regular monitoring and roguing"
+        "ನಿಯಮಿತ ಮೇಲ್ವಿಚಾರಣೆ ಮತ್ತು ರೋಗಿಂಗ್"
       ]
     },
     "coffee-leaf-rust": {
@@ -1068,50 +1068,50 @@
       "symptoms": [
         "ಎಲೆಗಳ ಕೆಳಭಾಗದಲ್ಲಿ ಕಿತ್ತಳೆ-ಹಳದಿ ಪುಡಿ ತಾಣಗಳು",
         "ಮೇಲಿನ ಎಲೆಯ ಮೇಲ್ಮೈಯಲ್ಲಿ ತೆಳು ಹಳದಿ ಕಲೆಗಳು ಗೋಚರಿಸುತ್ತವೆ",
-        "Premature leaf fall",
-        "Reduced berry production"
+        "ಅಕಾಲಿಕ ಎಲೆ ಉದುರುವಿಕೆ",
+        "ಕಡಿಮೆ ಬೆರ್ರಿ ಉತ್ಪಾದನೆ"
       ],
       "causes": [
         "ಶಿಲೀಂಧ್ರ ಹೆಮಿಲಿಯಾ ವ್ಯಾಸ್ಟ್ರಿಕ್",
-        "Wind-borne spore dispersal",
-        "Warm and humid conditions",
-        "Shade and poor air circulation"
+        "ಗಾಳಿಯಿಂದ ಹರಡುವ ಬೀಜಕಗಳ ಪ್ರಸರಣ",
+        "ಬೆಚ್ಚಗಿನ ಮತ್ತು ಆರ್ದ್ರ ಪರಿಸ್ಥಿತಿಗಳು",
+        "ನೆರಳು ಮತ್ತು ಕಳಪೆ ಗಾಳಿಯ ಪ್ರಸರಣ"
       ],
       "treatment": [
         "ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Use systemic fungicides like Triadimefon",
-        "Remove and destroy fallen infected leaves",
+        "ಟ್ರೈಡಿಯಾಮೆಫೋನ್‌ನಂತಹ ವ್ಯವಸ್ಥಿತ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಬಳಸಿ",
+        "ಬಿದ್ದ ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಾಶಮಾಡಿ",
         "ಮಳೆಗಾಲದಲ್ಲಿ ತಡೆಗಟ್ಟುವ ಶಿಲೀಂಧ್ರನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ"
       ],
       "prevention": [
         "ತುಕ್ಕು ನಿರೋಧಕ ಕಾಫಿ ತಳಿಗಳನ್ನು ನೆಡಿ",
         "ಸರಿಯಾದ ಅಂತರ ಮತ್ತು ಸಮತೋಲನವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ",
         "ಸಸ್ಯದ ಹುರುಪು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಸಮತೋಲಿತ ಗೊಬ್ಬರ",
-        "Shade management for air circulation"
+        "ಗಾಳಿಯ ಪ್ರಸರಣಕ್ಕಾಗಿ ನೆರಳು ನಿರ್ವಹಣೆ"
       ]
     },
     "pomegranate-bacterial-blight": {
       "name": "ದಾಳಿಂಬೆ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಬ್ಲೈಟ್",
       "symptoms": [
-        "Water-soaked spots on leaves",
+        "ಎಲೆಗಳ ಮೇಲೆ ನೀರು ಜಿನುಗಿದಂತಹ ಕಲೆಗಳು",
         "ಹಣ್ಣುಗಳ ಮೇಲೆ ಕಡು ಕಂದು ಬಣ್ಣದಿಂದ ಕಪ್ಪು ಬಣ್ಣದ ಗಾಯಗಳು",
         "ಹಣ್ಣುಗಳ ಬಿರುಕು ಮತ್ತು ಕೊಳೆತ",
         "ಕೊಂಬೆಗಳ ಮೇಲೆ ಸುತ್ತುವ ಗಾಯಗಳು"
       ],
       "causes": [
         "ಬ್ಯಾಕ್ಟೀರಿಯಾ Xanthomonas axonopodis",
-        "Warm and wet conditions",
-        "Wounds from insects or hail",
+        "ಬೆಚ್ಚಗಿನ ಮತ್ತು ತೇವಾಂಶಭರಿತ ಪರಿಸ್ಥಿತಿಗಳು",
+        "ಕೀಟಗಳು ಅಥವಾ ಆಲಿಕಲ್ಲುಗಳಿಂದಾದ ಗಾಯಗಳು",
         "ಸೋಂಕಿತ ನಾಟಿ ಸಾಮಗ್ರಿ"
       ],
       "treatment": [
         "ಸ್ಟ್ರೆಪ್ಟೋಮೈಸಿನ್ ಸಲ್ಫೇಟ್ ಸಿಂಪಡಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ",
-        "Use copper hydroxide applications",
-        "Prune and destroy infected branches",
+        "ತಾಮ್ರದ ಹೈಡ್ರಾಕ್ಸೈಡ್ ಅನ್ವಯಗಳನ್ನು ಬಳಸಿ",
+        "ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ ನಾಶಮಾಡಿ",
         "ಮಳೆಗಾಲದ ಮೊದಲು ಬ್ಯಾಕ್ಟೀರಿಯಾನಾಶಕಗಳನ್ನು ಅನ್ವಯಿಸಿ"
       ],
       "prevention": [
-        "Use disease-free planting material",
+        "ರೋಗ ಮುಕ್ತ ನಾಟಿ ಸಾಮಗ್ರಿಗಳನ್ನು ಬಳಸಿ",
         "ಮೇಲ್ಭಾಗದ ನೀರಾವರಿ ತಪ್ಪಿಸಿ",
         "ಗಾಯಗಳನ್ನು ಉಂಟುಮಾಡುವ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ",
         "ತೋಟದ ಸ್ವಚ್ಛತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ"
@@ -1156,15 +1156,15 @@
       "soilImpact": "ಆಳವಾದ ಬೇರುಗಳು ಮಣ್ಣಿನ ರಚನೆಯನ್ನು ಸುಧಾರಿಸುತ್ತವೆ; ಜೈವಿಕ ಧೂಮಕ ಗುಣಲಕ್ಷಣಗಳು."
     },
     "Potato": {
-      "family": "Solanaceae",
+      "family": "ಸೋಲನೇಸಿಯೆ",
       "soilImpact": "ಹೆಚ್ಚು ಪೊಟ್ಯಾಸಿಯಮ್ ಹೀರುತ್ತದೆ; ಮಣ್ಣನ್ನು ಸಡಿಲಗೊಳಿಸುತ್ತದೆ."
     },
     "Sugarcane": {
       "family": "ಗ್ರ್ಯಾಮಿನಿಯೇ",
-      "soilImpact": "Very heavy feeder; long-duration crop."
+      "soilImpact": "ಹೆಚ್ಚು ಪೋಷಕಾಂಶಗಳನ್ನು ಸೇವಿಸುವ; ದೀರ್ಘಾವಧಿಯ ಬೆಳೆ."
     },
     "Jute": {
-      "family": "Tiliaceae",
+      "family": "ಟಿಲಿಯಾಸಿಯೆ",
       "soilImpact": "ನಾರಿನಂತಿರುವ ಬೇರುಗಳು ಮಣ್ಣನ್ನು ಸುಧಾರಿಸುತ್ತವೆ; ಹಸಿರು ಗೊಬ್ಬರಕ್ಕೆ ಒಳ್ಳೆಯದು."
     }
   },
@@ -1172,18 +1172,18 @@
     "Basal (Before Transplanting)": "ಬೇಸಲ್ (ಮರು ನಾಟಿ ಮಾಡುವ ಮೊದಲು)",
     "Basal (At Sowing)": "ಬೇಸಲ್ (ಬಿತ್ತನೆ ಸಮಯದಲ್ಲಿ)",
     "Basal": "ಬೇಸಲ್",
-    "Tillering Stage": "Tillering stage",
+    "Tillering Stage": "ಕವಲೊಡೆಯುವ ಹಂತ",
     "Panicle Initiation": "ಪ್ಯಾನಿಕಲ್ ಪ್ರಾರಂಭ",
     "Flowering Stage": "ಹೂಬಿಡುವ ಹಂತ",
     "Crown Root Initiation (CRI)": "ಕಿರೀಟದ ಬೇರು ಪ್ರಾರಂಭ (CRI)",
     "Late Jointing": "ಕೊನೆಯ ಜಾಯಿಂಟಿಂಗ್",
     "Flowering/Grain Filling": "ಹೂಬಿಡುವಿಕೆ / ಕಾಳು ತುಂಬುವಿಕೆ",
     "Knee-high (V6)": "ಮೊಣಕಾಲು ಎತ್ತರ (V6)",
-    "Tasseling": "Tasselling",
-    "Square Formation": "Square formation",
+    "Tasseling": "ಟಾಸ್ಸಲಿಂಗ್",
+    "Square Formation": "ಚದರ ರಚನೆ",
     "Flowering": "ಹೂಬಿಡುವಿಕೆ",
     "Boll Development": "ಬೋಲ್ ಅಭಿವೃದ್ಧಿ",
-    "Pre-monsoon (May-June)": "Pre-monsoon (May-Jun)",
+    "Pre-monsoon (May-June)": "ಮುಂಗಾರು ಪೂರ್ವ (ಮೇ-ಜೂನ್)",
     "Post-monsoon (Sep-Oct)": "ಮಳೆಗಾಲದ ನಂತರ (ಸೆಪ್ಟೆಂಬರ್-ಅಕ್ಟೋಬರ್)",
     "Pre-blossom (March)": "ಹೂ ಬಿಡುವುದಕ್ಕೆ ಮೊದಲು (ಮಾರ್ಚ್)",
     "Post-blossom (May)": "ಹೂ ಬಿಟ್ಟ ನಂತರ (ಮೇ)",
@@ -1194,11 +1194,11 @@
     "Fruit Development (Feb-Apr)": "ಹಣ್ಣಿನ ಬೆಳವಣಿಗೆ (ಫೆಬ್ರವರಿ-ಏಪ್ರಿಲ್)",
     "After Pruning (Oct)": "ಸಮರುವಿಕೆ ನಂತರ (ಅಕ್ಟೋಬರ್)",
     "Berry Development (Dec-Jan)": "ಹಣ್ಣಿನ ಅಭಿವೃದ್ಧಿ (ಡಿಸೆಂಬರ್-ಜನವರಿ)",
-    "Veraison (Feb)": "Veraison (Feb)",
+    "Veraison (Feb)": "ವೆರೈಸನ್ (ಫೆಬ್ರವರಿ)",
     "Planting (0-2 months)": "ನಾಟಿ (0-2 ತಿಂಗಳು)",
-    "Vegetative (3-5 months)": "Vegetative (3-5 months)",
+    "Vegetative (3-5 months)": "ಸಸ್ಯಾಹಾರಿ (3-5 ತಿಂಗಳುಗಳು)",
     "Flowering & Fruiting (6-12 months)": "ಹೂಬಿಡುವಿಕೆ ಮತ್ತು ಫಲವತ್ತತೆ (6-12 ತಿಂಗಳುಗಳು)",
-    "Vine Running (20-25 days)": "Vine running (20-25 days)",
+    "Vine Running (20-25 days)": "ಬಳ್ಳಿ ಹರಡುವಿಕೆ (20-25 ದಿನಗಳು)",
     "Fruit Setting (40-45 days)": "ಹಣ್ಣುಗಚ್ಚುವಿಕೆ (40-45 ದಿನಗಳು)"
   },
   "nutrientTiming": {
@@ -1215,17 +1215,17 @@
     "90-100 days": "90-100 ದಿನಗಳು",
     "Annual - Split 1": "ವಾರ್ಷಿಕ — ವಿಭಜನೆ 1",
     "Annual - Split 2": "ವಾರ್ಷಿಕ — ವಿಭಜನೆ 2",
-    "Split 1": "Split 1",
-    "Split 2": "Split 2",
-    "Split 3": "Split 3",
-    "Split 4": "Split 4",
+    "Split 1": "ಭಾಗ 1",
+    "Split 2": "ಭಾಗ 2",
+    "Split 3": "ಭಾಗ 3",
+    "Split 4": "ಭಾಗ 4",
     "Basal": "ಬೇಸಲ್",
     "Monthly": "ಮಾಸಿಕ"
   },
   "nutrientPurpose": {
     "Phosphorus base": "ರಂಜಕ ಆಧಾರ",
     "Potassium base": "ಪೊಟ್ಯಾಸಿಯಮ್ ಆಧಾರ",
-    "Zinc deficiency prevention": "Prevent zinc deficiency",
+    "Zinc deficiency prevention": "ಸತು ಕೊರತೆಯನ್ನು ತಡೆಯಿರಿ",
     "Nitrogen for tillering": "ಕವಲುಗಳಿಗೆ ಸಾರಜನಕ",
     "Nitrogen for grain filling": "ಧಾನ್ಯ ತುಂಬಲು ಸಾರಜನಕ",
     "Grain development": "ಕಾಳುಗಳ ಬೆಳವಣಿಗೆ",
@@ -1233,24 +1233,24 @@
     "Better grain setting": "ಉತ್ತಮ ಧಾನ್ಯ ಕಟ್ಟುವಿಕೆ",
     "Phosphorus + Nitrogen base": "ರಂಜಕ + ಸಾರಜನಕ ಆಧಾರ",
     "Nitrogen for ear development": "ತೆನೆ ಅಭಿವೃದ್ಧಿಗೆ ಸಾರಜನಕ",
-    "Zinc enrichment": "Zinc enrichment",
+    "Zinc enrichment": "ಸತು ಸಮೃದ್ಧಿ",
     "Potassium + nitrogen boost": "ಪೊಟ್ಯಾಸಿಯಮ್ + ಸಾರಜನಕ ವರ್ಧಕ",
-    "Zinc nutrition": "Zinc nutrition",
-    "Vegetative growth": "Vegetative growth",
+    "Zinc nutrition": "ಸತು ಪೋಷಣೆ",
+    "Vegetative growth": "ಸಸ್ಯಕ ಬೆಳವಣಿಗೆ",
     "Ear development": "ತೆನೆ ಅಭಿವೃದ್ಧಿ",
     "Phosphorus + Sulphur": "ರಂಜಕ + ಗಂಧಕ",
     "Magnesium nutrition": "ಮೆಗ್ನೀಸಿಯಂ ಪೋಷಣೆ",
     "Boll development": "ಬೋಲ್ ಅಭಿವೃದ್ಧಿ",
     "Foliar phosphorus": "ಎಲೆಗಳ ರಂಜಕ",
     "Boll weight increase": "ಬೊಲ್ ತೂಕವನ್ನು ಹೆಚ್ಚಿಸಿ",
-    "Reduces boll shedding": "Reduce boll shedding",
+    "Reduces boll shedding": "ಕಾಯಿ ಉದುರುವಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
     "Phosphorus + starter nitrogen": "ರಂಜಕ + ಪ್ರಾರಂಭಿಕ ಸಾರಜನಕ",
     "Biological N fixation": "ಜೈವಿಕ ಸಾರಜನಕ ಸ್ಥಿರೀಕರಣ",
     "Phosphorus solubilization": "ರಂಜಕ ಕರಗುವಿಕೆ",
     "Mild nitrogen boost": "ಮಿತ್ರ ಸಾರಜನಕ ವರ್ಧನೆ",
-    "Reduce flower drop": "Reduce flower drop",
+    "Reduce flower drop": "ಹೂವು ಉದುರುವಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
     "N fixation": "ಸಾರಜನಕ ಸ್ಥಿರೀಕರಣ",
-    "Yield boost": "Yield boost",
+    "Yield boost": "ಇಳುವರಿ ಹೆಚ್ಚಳ",
     "Nitrogen - 1st split": "ಸಾರಜನಕ — 1ನೇ ಕಂತು",
     "Nitrogen - 2nd split": "ಸಾರಜನಕ — 2ನೇ ಕಂತು",
     "Phosphorus": "ರಂಜಕ",
@@ -1262,47 +1262,47 @@
     "Potassium for berry": "ಬೆರ್ರಿ ಹಣ್ಣುಗಳಿಗೆ ಪೊಟ್ಯಾಸಿಯಮ್",
     "Berry development": "ಹಣ್ಣಿನ ಅಭಿವೃದ್ಧಿ",
     "Berry maturity": "ಹಣ್ಣಿನ ಪಕ್ವತೆ",
-    "Organic matter replenishment": "Replenish organic matter",
+    "Organic matter replenishment": "ಸಾವಯವ ಪದಾರ್ಥವನ್ನು ಪುನಃ ತುಂಬಿಸಿ",
     "Nitrogen for new flush": "ಹೊಸ ಚಿಗುರಿಗೆ ಸಾರಜನಕ",
     "Potassium for flowering": "ಹೂಬಿಡುವುದಕ್ಕೆ ಪೊಟ್ಯಾಸಿಯಮ್",
     "Better fruit set": "ಉತ್ತಮ ಹಣ್ಣು ಕಟ್ಟುವಿಕೆ",
     "Fruit size & sweetness": "ಹಣ್ಣಿನ ಗಾತ್ರ ಮತ್ತು ಸಿಹಿ",
-    "Reduces fruit cracking": "Reduce fruit cracking",
+    "Reduces fruit cracking": "ಹಣ್ಣು ಬಿರುಕು ಬಿಡುವುದನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
     "Organic base": "ಸಾವಯವ ಆಧಾರ",
     "Balanced nutrition": "ಸಮತೋಲಿತ ಪೋಷಣೆ",
     "Iron nutrition": "ಕಬ್ಬಿಣದ ಪೋಷಣೆ",
     "Berry growth": "ಹಣ್ಣಿನ ಬೆಳವಣಿಗೆ",
     "Berry quality": "ಹಣ್ಣಿನ ಗುಣಮಟ್ಟ",
     "Berry elongation": "ಹಣ್ಣಿನ ಉದ್ದವಾಗುವುದು",
-    "Sugar accumulation": "Sugar accumulation",
-    "Uniform ripening": "Uniform ripening",
+    "Sugar accumulation": "ಸಕ್ಕರೆ ಶೇಖರಣೆ",
+    "Uniform ripening": "ಏಕರೂಪದ ಮಾಗುವಿಕೆ",
     "Organic matter": "ಸಾವಯವ ವಸ್ತು",
-    "Root establishment": "Root establishment",
+    "Root establishment": "ಬೇರು ಸ್ಥಾಪನೆ",
     "Nematode control + slow N": "ನೆಮಟೋಡ್ ನಿಯಂತ್ರಣ + ನಿಧಾನ ಸಾರಜನಕ",
-    "Stem strength": "Stem strength",
+    "Stem strength": "ಕಾಂಡದ ಶಕ್ತಿ",
     "Continuous fruiting": "ನಿರಂತರ ಫ್ರೂಟಿಂಗ್",
     "Fruit quality": "ಹಣ್ಣಿನ ಗುಣಮಟ್ಟ",
-    "Vine growth": "Vine growth",
+    "Vine growth": "ಬಳ್ಳಿ ಬೆಳವಣಿಗೆ",
     "Balanced foliar": "ಸಮತೋಲಿತ ಎಲೆ ಸಿಂಪರಣೆ",
     "Fruit development": "ಹಣ್ಣಿನ ಬೆಳವಣಿಗೆ",
-    "Reduces blossom end rot": "Reduce blossom-end rot",
+    "Reduces blossom end rot": "ಹೂವಿನ ಕೊಳೆತವನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
     "Better pollination": "ಉತ್ತಮ ಪರಾಗಸ್ಪರ್ಶ"
   },
   "pestDiseaseNames": {
     "Blast": "ಬ್ಲಾಸ್ಟ್",
     "Brown Plant Hopper (BPH)": "ಕಂದು ಸಸ್ಯ ಜಿಗಿ (BPH)",
-    "Sheath Blight": "Sheath blight",
-    "Yellow Rust": "Yellow rust",
+    "Sheath Blight": "ಶೀತ್ ಬ್ಲೈಟ್",
+    "Yellow Rust": "ಹಳದಿ ತುಕ್ಕು ರೋಗ",
     "Aphids": "ಹೇನುಗಳು",
     "Karnal Bunt": "ಕರ್ನಾಲ್ ಬಂಟ್",
     "Fall Armyworm": "ಪತನದ ಸೈನಿಕ ಹುಳು",
-    "Turcicum Leaf Blight": "Turcicum leaf blight",
+    "Turcicum Leaf Blight": "ಟರ್ಸಿಕಮ್ ಎಲೆ ಅಂಗಮಾರಿ",
     "Bollworm": "ಕಾಯಿ ಕೊರೆಯುವ ಹುಳು",
-    "Whitefly": "Whitefly",
-    "Wilt (Fusarium)": "Wilt (Fusarium)",
+    "Whitefly": "ಬಿಳಿ ನೊಣ",
+    "Wilt (Fusarium)": "ಸೊರಗು ರೋಗ (ಫ್ಯುಸಾರಿಯಂ)",
     "Pod Borer (Helicoverpa)": "ಕಾಯಿ ಕೊರೆಯುವ ಹುಳು (ಹೆಲಿಕೋವರ್ಪಾ)",
-    "Rust": "Rust",
-    "Rhinoceros Beetle": "Rhinoceros beetle",
+    "Rust": "ತುಕ್ಕು ರೋಗ",
+    "Rhinoceros Beetle": "ಖಡ್ಗಮೃಗ ಜೀರುಂಡೆ",
     "Bud Rot": "ಮೊಗ್ಗು ಕೊಳೆ",
     "Coffee Berry Borer": "ಕಾಫಿ ಹಣ್ಣಿನ ಕೊರೆಯುವ ಹುಳು",
     "Leaf Rust": "ಎಲೆ ತುಕ್ಕು ರೋಗ",
@@ -1314,70 +1314,70 @@
     "Papaya Ring Spot Virus": "ಪಪ್ಪಾಯಿ ರಿಂಗ್‌ಸ್ಪಾಟ್ ವೈರಸ್",
     "Fruit Fly": "ಹಣ್ಣಿನ ನೊಣ",
     "Fusarium Wilt": "ಫುಸಾರಿಯಂ ಬಾಡಿಗೆ",
-    "Red Pumpkin Beetle": "Red pumpkin beetle"
+    "Red Pumpkin Beetle": "ಕೆಂಪು ಕುಂಬಳಕಾಯಿ ಜೀರುಂಡೆ"
   },
   "pestSymptoms": {
     "Diamond-shaped spots on leaves": "ಎಲೆಗಳ ಮೇಲೆ ವಜ್ರ-ಆಕಾರದ ಕಲೆಗಳು",
     "Hopper burn, yellowing at base": "ಮಿಡತೆ ಸುಡುವಿಕೆ; ಬುಡದಲ್ಲಿ ಹಳದಿಯಾಗುವುದು",
     "Oval lesions on leaf sheath": "ಎಲೆಯ ಹಸೆಯ ಮೇಲೆ ಅಂಡಾಕಾರದ ಗಾಯಗಳು",
-    "Yellow stripes on leaves": "Yellow stripes on leaves",
+    "Yellow stripes on leaves": "ಎಲೆಗಳ ಮೇಲೆ ಹಳದಿ ಪಟ್ಟೆಗಳು",
     "Honeydew on leaves, stunted growth": "ಎಲೆಗಳ ಮೇಲೆ ಜೇನುನೊಣ; ಕುಂಠಿತ ಬೆಳವಣಿಗೆ",
     "Fishy smell in grains, black powder": "ಕಾಳುಗಳಲ್ಲಿ ಮೀನಿನ ವಾಸನೆ; ಕಪ್ಪು ಪುಡಿ",
-    "Ragged holes in leaves, frass in whorl": "Ragged holes in leaves; frass in the whorl",
+    "Ragged holes in leaves, frass in whorl": "ಎಲೆಗಳಲ್ಲಿ ಅಸಮವಾದ ರಂಧ್ರಗಳು; ಸುಳಿಯಲ್ಲಿ ಕಸ",
     "Cigar-shaped grey-green lesions": "ಸಿಗಾರ್ ಆಕಾರದ ಬೂದು-ಹಸಿರು ಗಾಯಗಳು",
     "Damaged bolls, frass on plant": "ಹಾನಿಗೊಳಗಾದ ಕಾಯಿಗಳು; ಸಸ್ಯದ ಮೇಲೆ ಹಿಕ್ಕೆ",
-    "Sticky honeydew, sooty mold": "Sticky honeydew; sooty mould",
-    "Wilting of entire plant, dry roots": "Wilting of entire plant; dry roots",
+    "Sticky honeydew, sooty mold": "ಜಿಗುಟಾದ ಜೇನುಹನಿ; ಮಸಿಯ ಅಚ್ಚು",
+    "Wilting of entire plant, dry roots": "ಸಂಪೂರ್ಣ ಸಸ್ಯದ ಸೊರಗುವಿಕೆ; ಒಣ ಬೇರುಗಳು",
     "Holes in pods, larvae inside": "ಕಾಯಿಗಳಲ್ಲಿ ರಂಧ್ರಗಳು; ಒಳಗೆ ಲಾರ್ವಾಗಳು",
     "Orange-brown pustules on leaves": "ಎಲೆಗಳ ಮೇಲೆ ಕಿತ್ತಳೆ-ಕಂದುಬಣ್ಣದ ಗುಳ್ಳೆಗಳು",
     "Curling leaves, honeydew": "ಸುರುಳಿಯಾಕಾರದ ಎಲೆಗಳು; ಜೇನುಹನಿ",
-    "V-shaped cuts on fronds": "V-shaped cuts on fronds",
-    "Rotting of central shoot": "Rotting of central shoot",
-    "Small holes in berries": "Small holes in berries",
+    "V-shaped cuts on fronds": "ಖರ್ಜೂರದ ಎಲೆಗಳ ಮೇಲೆ V-ಆಕಾರದ ಕಡಿತಗಳು",
+    "Rotting of central shoot": "ಕೇಂದ್ರೀಯ ಚಿಗುರಿನ ಕೊಳೆತ",
+    "Small holes in berries": "ಬೆರಿಗಳಲ್ಲಿ ಸಣ್ಣ ರಂಧ್ರಗಳು",
     "Orange powdery spots on underside of leaves": "ಎಲೆಗಳ ಕೆಳಭಾಗದಲ್ಲಿ ಕಿತ್ತಳೆ ಪುಡಿ ತಾಣಗಳು",
     "Black spots on flowers and fruits": "ಹೂವುಗಳು ಮತ್ತು ಹಣ್ಣುಗಳ ಮೇಲೆ ಕಪ್ಪು ಕಲೆಗಳು",
     "Honeydew on flowers, flower drop": "ಹೂವುಗಳ ಮೇಲೆ ಜೇನುನೊಣ; ಹೂವಿನ ಉದುರುವಿಕೆ",
-    "White powder on panicles & leaves": "White powder on panicles and leaves",
+    "White powder on panicles & leaves": "ಹೂಗೊಂಚಲುಗಳು ಮತ್ತು ಎಲೆಗಳ ಮೇಲೆ ಬಿಳಿ ಪುಡಿ",
     "Oily spots on upper leaf, white growth below": "ಮೇಲಿನ ಎಲೆಯ ಮೇಲೆ ಎಣ್ಣೆಯ ಕಲೆಗಳು; ಕೆಳಗೆ ಬಿಳಿ ಬೆಳವಣಿಗೆ",
-    "White cottony masses on stems/berries": "White cottony masses on stems/berries",
-    "Ring spots on fruits, mosaic on leaves": "Ring spots on fruits; mosaic on leaves",
+    "White cottony masses on stems/berries": "ಕಾಂಡಗಳು/ಹಣ್ಣುಗಳ ಮೇಲೆ ಬಿಳಿ ಹತ್ತಿಯಂತಹ ರಾಶಿಗಳು",
+    "Ring spots on fruits, mosaic on leaves": "ಹಣ್ಣುಗಳ ಮೇಲೆ ಉಂಗುರ ತಾಣಗಳು; ಎಲೆಗಳ ಮೇಲೆ ಮೊಸಾಯಿಕ್",
     "Maggots inside fruit, premature fruit drop": "ಹಣ್ಣಿನೊಳಗೆ ಮ್ಯಾಗಟ್‌ಗಳು; ಅಕಾಲಿಕ ಹಣ್ಣು ಉದುರುವುದು",
-    "Wilting vines, brown vascular tissue": "Wilting vines; brown vascular tissue",
+    "Wilting vines, brown vascular tissue": "ಸೊರಗಿದ ಬಳ್ಳಿಗಳು; ಕಂದು ನಾಳೀಯ ಅಂಗಾಂಶ",
     "Holes in leaves and flowers": "ಎಲೆಗಳು ಮತ್ತು ಹೂವುಗಳಲ್ಲಿ ರಂಧ್ರಗಳು",
-    "White powdery coating on leaves": "White powdery coating on leaves"
+    "White powdery coating on leaves": "ಎಲೆಗಳ ಮೇಲೆ ಬಿಳಿ ಪುಡಿ ಲೇಪನ"
   },
   "pestApplication": {
     "Foliar spray at first symptom": "ಮೊದಲ ಲಕ್ಷಣದಲ್ಲಿ ಎಲೆಗಳ ಸಿಂಪಡಣೆ",
-    "Preventive spray": "Preventive spray",
-    "Spray at base of plant": "Spray at the base of the plant",
+    "Preventive spray": "ಮುಂಜಾಗ್ರತಾ ಸಿಂಪರಣೆ",
+    "Spray at base of plant": "ಸಸ್ಯದ ಬುಡಕ್ಕೆ ಸಿಂಪಡಿಸುವುದು",
     "Foliar spray": "ಎಲೆಗಳ ಸಿಂಪಡಣೆ",
-    "Spray at tillering stage": "Spray at tillering stage",
-    "Spray at first symptom": "Spray at first symptom",
-    "Systemic spray": "Systemic spray",
-    "Spray at boot stage": "Spray at boot stage",
-    "Spray into whorl": "Spray into the whorl",
-    "Spray at flowering": "Spray at flowering",
-    "Under-leaf spray": "Under-leaf spray",
-    "Seed treatment": "Seed treatment",
-    "Soil drench": "Soil drench",
+    "Spray at tillering stage": "ಕವಲೊಡೆಯುವ ಹಂತದಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು",
+    "Spray at first symptom": "ಮೊದಲ ಲಕ್ಷಣ ಕಾಣಿಸಿಕೊಂಡಾಗ ಸಿಂಪಡಿಸುವುದು",
+    "Systemic spray": "ವ್ಯವಸ್ಥಿತ ಸಿಂಪಡಣೆ",
+    "Spray at boot stage": "ಬೂಟ್ ಹಂತದಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು",
+    "Spray into whorl": "ಸುಳಿಯೊಳಗೆ ಸಿಂಪಡಿಸುವುದು",
+    "Spray at flowering": "ಹೂ ಬಿಡುವ ಸಮಯದಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು",
+    "Under-leaf spray": "ಎಲೆಯ ಕೆಳಗೆ ಸಿಂಪಡಿಸುವುದು",
+    "Seed treatment": "ಬೀಜೋಪಚಾರ",
+    "Soil drench": "ಮಣ್ಣಿಗೆ ನೆನೆಸುವುದು",
     "Biological spray at flowering": "ಹೂ ಬಿಡುವ ಸಮಯದಲ್ಲಿ ಜೈವಿಕ ಸಿಂಪರಣೆ",
-    "Spray at first sign": "Spray at first sign",
+    "Spray at first sign": "ಮೊದಲ ಚಿಹ್ನೆಯಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು",
     "Apply to manure pits": "ಗೊಬ್ಬರ ಗುಂಡಿಗಳಿಗೆ ಅನ್ವಯಿಸಿ",
     "Place in leaf axil": "ಎಲೆಯ ಕಕ್ಷದಲ್ಲಿ ಇರಿಸಿ",
     "Apply to cut surface": "ಕತ್ತರಿಸಿದ ಮೇಲ್ಮೈಗೆ ಅನ್ವಯಿಸಿ",
     "Crown drench": "ಕಿರೀಟವನ್ನು ನೆನೆಸುವುದು",
-    "Spray during berry stage": "Spray during berry stage",
-    "Spot spray": "Spot spray",
-    "Pre-monsoon spray": "Pre-monsoon spray",
+    "Spray during berry stage": "ಬೆರ್ರಿ ಹಂತದಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು",
+    "Spot spray": "ಗುರಿ ಸಿಂಪಡಣೆ",
+    "Pre-monsoon spray": "ಮುಂಗಾರು ಪೂರ್ವ ಸಿಂಪರಣೆ",
     "Curative spray": "ಗುಣಪಡಿಸುವ ಸಿಂಪಡಣೆ",
-    "Spray at panicle emergence": "Spray at panicle emergence",
+    "Spray at panicle emergence": "ಪ್ಯಾನಿಕಲ್ ಹೊರಹೊಮ್ಮುವ ಸಮಯದಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು",
     "Contact spray": "ಸಂಪರ್ಕ ಸಿಂಪರಣೆ",
     "Control aphid vectors": "ಗಿಡಹೇನು ವೆಕ್ಟರ್‌ಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ",
     "Install at fruiting": "ಫಲವತ್ತಾದ ಸಮಯದಲ್ಲಿ ಸ್ಥಾಪಿಸಿ",
     "Bait spray": "ಬೆಟ್ ಸಿಂಪರಣೆ",
-    "Soil drench at planting": "Soil drench at planting",
-    "Soil application": "Soil application",
+    "Soil drench at planting": "ನಾಟಿ ಮಾಡುವಾಗ ಮಣ್ಣಿಗೆ ನೆನೆಸುವುದು",
+    "Soil application": "ಮಣ್ಣಿಗೆ ಅನ್ವಯಿಸುವುದು",
     "Dust or spray on seedlings": "ಸಸಿಗಳ ಮೇಲೆ ಧೂಳು ಅಥವಾ ಸಿಂಪಡಿಸಿ",
-    "Spray at early infestation": "Spray at early infestation"
+    "Spray at early infestation": "ಆರಂಭಿಕ ಬಾಧೆಯ ಹಂತದಲ್ಲಿ ಸಿಂಪಡಿಸುವುದು"
   }
 }

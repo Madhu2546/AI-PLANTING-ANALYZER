@@ -882,7 +882,7 @@
     "cotton-wilt": {
       "name": "పత్తిలో ఫ్యుజేరియం వడలు తెగులు",
       "symptoms": [
-        "Yellowing and wilting of leaves",
+        "ఆకులు పసుపు రంగులోకి మారి వాడిపోవడం",
         "వాస్క్యులర్ కణజాలం గోధుమ రంగులోకి మారడం",
         "మొక్కల పెరుగుదల మందగించడం",
         "ఆకులు అకాలంగా రాలిపోతాయి"
@@ -1017,7 +1017,7 @@
     "chickpea-wilt": {
       "name": "శనగలో ఎండు తెగులు",
       "symptoms": [
-        "Yellowing and drooping of leaves",
+        "ఆకులు పసుపు రంగులోకి మారి వాలిపోవడం",
         "మొక్క మొత్తం వేగంగా వాడిపోవడం",
         "వేర్లు మరియు కాండం అడుగు భాగం గోధుమ రంగులోకి మారడం",
         "వాస్కులర్ కణజాలం లోపల గోధుమ రంగులోకి మారడం"
@@ -1238,9 +1238,9 @@
     "Better grain setting": "మంచి గింజల ఏర్పాటు",
     "Phosphorus + Nitrogen base": "ఫాస్పరస్ + నత్రజని ఆధారం",
     "Nitrogen for ear development": "కంకి అభివృద్ధికి నత్రజని",
-    "Zinc enrichment": "Zinc enrichment",
+    "Zinc enrichment": "జింక్ వృద్ధి",
     "Potassium + nitrogen boost": "పొటాషియం + నత్రజని అదనపు పోషణ",
-    "Zinc nutrition": "Zinc nutrition",
+    "Zinc nutrition": "జింక్ పోషణ",
     "Vegetative growth": "శాఖీయ పెరుగుదల",
     "Ear development": "కంకి అభివృద్ధి",
     "Phosphorus + Sulphur": "ఫాస్పరస్ + సల్ఫర్",
@@ -1255,7 +1255,7 @@
     "Mild nitrogen boost": "తేలికపాటి నత్రజని పెంపు",
     "Reduce flower drop": "పువ్వుల రాలడాన్ని తగ్గించండి",
     "N fixation": "నత్రజని స్థాపన",
-    "Yield boost": "Yield boost",
+    "Yield boost": "దిగుబడి పెరుగుదల",
     "Nitrogen - 1st split": "నత్రజని — 1వ విడత",
     "Nitrogen - 2nd split": "నత్రజని — 2వ విడత",
     "Phosphorus": "ఫాస్పరస్",
@@ -1297,7 +1297,7 @@
     "Blast": "బ్లాస్ట్ తెగులు",
     "Brown Plant Hopper (BPH)": "గోధుమ రంగు సుడిదోమ",
     "Sheath Blight": "ఆకుల పొర కమారడం",
-    "Yellow Rust": "Yellow rust",
+    "Yellow Rust": "పసుపు రస్ట్",
     "Aphids": "పేను",
     "Karnal Bunt": "కర్నాల్ బంట్",
     "Fall Armyworm": "ఫాల్ ఆర్మీవార్మ్",
@@ -1325,7 +1325,7 @@
     "Diamond-shaped spots on leaves": "ఆకులపై డైమండ్ ఆకారపు మచ్చలు",
     "Hopper burn, yellowing at base": "హాప్పర్ బర్న్; మొదలు వద్ద పసుపు రంగు",
     "Oval lesions on leaf sheath": "ఆకు తొడుగుపై దీర్ఘవృత్తాకార గాయాలు",
-    "Yellow stripes on leaves": "Yellow stripes on leaves",
+    "Yellow stripes on leaves": "ఆకులపై పసుపు చారలు",
     "Honeydew on leaves, stunted growth": "ఆకులపై తేనెబంక; కుంగిన పెరుగుదల",
     "Fishy smell in grains, black powder": "గింజలలో చేపల వాసన; నల్లటి పొడి",
     "Ragged holes in leaves, frass in whorl": "ఆకులపై చిరిగిన రంధ్రాలు; సుడిలో మలం",
