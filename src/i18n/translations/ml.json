@@ -711,81 +711,81 @@
   },
   "diseaseData": {
     "rice-blast": {
-      "name": "Rice Blast",
-      "description": "High humidity with moderate temperatures creates ideal conditions for the rice blast fungus.",
+      "name": "നെല്ലിലെ കുമിൾ രോഗം (കതിരഴുകൽ)",
+      "description": "മിതമായ താപനിലയോടുകൂടിയ ഉയർന്ന ആർദ്രത നെല്ലിലെ ബ്ലൈസ്റ്റ് ഫംഗസിന് അനുയോജ്യമായ സാഹചര്യങ്ങൾ സൃഷ്ടിക്കുന്നു.",
       "preventiveMeasures": [
         "പ്രതിരോധ കുമിൾനാശിനി സ്പ്രേകൾ പ്രയോഗിക്കുക",
         "അമിതമായ നൈട്രജൻ വളപ്രയോഗം ഒഴിവാക്കുക",
-        "Ensure proper drainage in fields",
-        "Use resistant rice varieties"
+        "പാടങ്ങളിൽ ശരിയായ നീർവാർച്ച ഉറപ്പാക്കുക",
+        "പ്രതിരോധശേഷിയുള്ള നെല്ലിനങ്ങൾ ഉപയോഗിക്കുക"
       ]
     },
     "bacterial-leaf-blight": {
       "name": "ബാക്ടീരിയൽ ഇലക്കരിച്ചിൽ",
-      "description": "Warm and humid conditions favour bacterial spread, especially after heavy rains.",
+      "description": "ചൂടും ഈർപ്പവുമുള്ള സാഹചര്യങ്ങൾ ബാക്ടീരിയ വ്യാപനത്തിന് കാരണമാകുന്നു, പ്രത്യേകിച്ച് കനത്ത മഴയ്ക്ക് ശേഷം.",
       "preventiveMeasures": [
-        "Drain excess water from fields",
+        "പാടങ്ങളിൽ നിന്ന് അധിക വെള്ളം തുറന്നുവിടുക",
         "ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള ബാക്ടീരിയനാശിനികൾ പ്രയോഗിക്കുക",
         "ഈർപ്പമുള്ള പാടങ്ങളിൽ ജോലി ചെയ്യുന്നത് ഒഴിവാക്കുക",
-        "Remove and destroy infected plants"
+        "രോഗം ബാധിച്ച സസ്യങ്ങൾ നീക്കം ചെയ്യുകയും നശിപ്പിക്കുകയും ചെയ്യുക"
       ]
     },
     "maize-rust": {
       "name": "ചോളത്തിന്റെ സാധാരണ തുരുമ്പ് രോഗം",
       "description": "ഉയർന്ന ആർദ്രതയും പ്രഭാതത്തിലെ മഞ്ഞുമുള്ള തണുത്ത താപനില തുരുമ്പ് രോഗത്തിന്റെ വളർച്ചയെ പ്രോത്സാഹിപ്പിക്കുന്നു.",
       "preventiveMeasures": [
-        "Scout fields regularly for early symptoms",
+        "രോഗലക്ഷണങ്ങൾക്കായി കൃത്യമായി വയലുകൾ നിരീക്ഷിക്കുക",
         "രോഗബാധയുടെ ആദ്യ സൂചനയിൽ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
-        "Plant rust-resistant hybrids",
+        "റസ്റ്റ് പ്രതിരോധശേഷിയുള്ള ഹൈബ്രിഡുകൾ നടുക",
         "ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക"
       ]
     },
     "powdery-mildew": {
-      "name": "Powdery Mildew",
-      "description": "Moderate humidity without rain and warm temperatures favour powdery mildew growth.",
+      "name": "പൗഡറി മിൽഡ്യൂ (ചൂർണ്ണ പൂപ്പ്)",
+      "description": "മഴയില്ലാത്ത മിതമായ ആർദ്രതയും ചൂടുള്ള താപനിലയും പൗഡറി മിൽഡ്യൂ വളർച്ചയ്ക്ക് അനുകൂലമാണ്.",
       "preventiveMeasures": [
         "സൾഫർ അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
-        "Improve air circulation through pruning",
+        "കവാത്ത് (Pruning) വഴി വായു സഞ്ചാരം മെച്ചപ്പെടുത്തുക",
         "അമിത നൈട്രജൻ ഒഴിവാക്കുക",
-        "Remove infected plant parts"
+        "രോഗം ബാധിച്ച സസ്യഭാഗങ്ങൾ നീക്കം ചെയ്യുക"
       ]
     },
     "anthracnose": {
       "name": "ആന്ത്രാക്നോസ്",
-      "description": "High humidity with warm temperatures, especially during flowering and fruiting.",
+      "description": "പൂവിടുന്നതിനും കായ്ക്കുന്നതിനും ഇടയിലുള്ള സമയത്ത് ഉയർന്ന ആർദ്രതയും ഉയർന്ന താപനിലയും.",
       "preventiveMeasures": [
         "മഴയ്ക്ക് മുമ്പ് ചെമ്പ് അടിസ്ഥാനമാക്കിയുള്ള കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "പൂവിടുമ്പോൾ ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക",
-        "Remove fallen fruits and debris",
-        "Ensure proper orchard sanitation"
+        "വീണ പഴങ്ങളും അവശിഷ്ടങ്ങളും നീക്കം ചെയ്യുക",
+        "തോട്ടംProper orchard sanitation ഉറപ്പാക്കുക"
       ]
     },
     "fusarium-wilt": {
-      "name": "Fusarium Wilt",
-      "description": "Warm soil temperatures with moderate moisture favour soil-borne fungal spread.",
+      "name": "ഫ്യുസേറിയം വാട്ടം",
+      "description": "മിതമായ ഈർപ്പമുള്ള ചൂടുള്ള മണ്ണിന്റെ താപനില മണ്ണിൽ നിന്ന് പകരുന്ന ഫംഗസ് വ്യാപനത്തിന് കാരണമാകുന്നു.",
       "preventiveMeasures": [
-        "Use resistant crop varieties",
-        "Practice crop rotation",
+        "പ്രതിരോധശേഷിയുള്ള വിളBacterial wilt ഇനങ്ങൾ ഉപയോഗിക്കുക",
+        "വിളSlightly water stressed rotation Rotation practice ചെയ്യുക",
         "ട്രൈക്കോഡെർമ അടിസ്ഥാനമാക്കിയുള്ള ജൈവ നിയന്ത്രണം പ്രയോഗിക്കുക",
         "നീർക്കെട്ട് ഒഴിവാക്കുക"
       ]
     },
     "late-blight": {
-      "name": "Late Blight",
+      "name": "ലേറ്റ് ബ്ലൈറ്റ്",
       "description": "തണുത്തതും ഈർപ്പമുള്ളതുമായ സാഹചര്യങ്ങൾ ലേറ്റ് ബ്ലൈറ്റ് രോഗകാരിയുടെ ദ്രുതഗതിയിലുള്ള വ്യാപനത്തിന് അനുയോജ്യമാണ്.",
       "preventiveMeasures": [
         "മഴയ്ക്ക് മുമ്പ് പ്രതിരോധ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
         "വൈകുന്നേരങ്ങളിൽ ഓവർഹെഡ് ജലസേചനം ഒഴിവാക്കുക",
-        "Destroy infected plant debris",
-        "Use certified disease-free seed tubers"
+        "രോഗം ബാധിച്ച സസ്യ അവശിഷ്ടങ്ങൾ നശിപ്പിക്കുക",
+        "രോഗമില്ലാത്ത сертиഫൈഡ് വിത്ത് കിഴങ്ങുകൾ ഉപയോഗിക്കുക"
       ]
     },
     "downy-mildew": {
-      "name": "Downy Mildew",
+      "name": "ഡൗണി മിൽഡ്യൂ",
       "description": "ഉയർന്ന ആർദ്രതയും പ്രഭാതത്തിലെ മഞ്ഞുമുള്ള തണുത്ത രാത്രികൾ ഡൗണി മിൽഡ്യൂ (രോമകുമിൾ) വളർച്ചയ്ക്ക് സഹായകമാണ്.",
       "preventiveMeasures": [
         "ഈർപ്പമുള്ള കാലാവസ്ഥയ്ക്ക് മുമ്പ് സംരക്ഷണ കുമിൾനാശിനികൾ പ്രയോഗിക്കുക",
-        "Improve air circulation",
+        "വായു സഞ്ചാരം മെച്ചപ്പെടുത്തുക",
         "ഇലകളിലെ ഈർപ്പം കുറയ്ക്കാൻ അതിരാവിലെ നനയ്ക്കുക",
         "രോഗം ബാധിച്ച ഇലകൾ ഉടനടി നീക്കം ചെയ്യുക"
       ]
@@ -1336,22 +1336,22 @@
     "Red Pumpkin Beetle": "ചുവന്ന മത്തൻ വണ്ട്"
   },
   "pestSymptoms": {
-    "Diamond-shaped spots on leaves": "Diamond-shaped spots on leaves",
-    "Hopper burn, yellowing at base": "Hopper burn; yellowing at the base",
-    "Oval lesions on leaf sheath": "Oval lesions on leaf sheath",
-    "Yellow stripes on leaves": "Yellow stripes on leaves",
-    "Honeydew on leaves, stunted growth": "Honeydew on leaves; stunted growth",
-    "Fishy smell in grains, black powder": "Fishy smell in grains; black powder",
-    "Ragged holes in leaves, frass in whorl": "Ragged holes in leaves; frass in the whorl",
+    "Diamond-shaped spots on leaves": "ഇലകളിൽ വജ്രാകൃതിയിലുള്ള പുള്ളികൾ",
+    "Hopper burn, yellowing at base": "കൂമ്പു ചീയൽ; ചുവട്ടിൽ മഞ്ഞളിപ്പ്",
+    "Oval lesions on leaf sheath": "ഇല undermined ൽ ഓവൽ ആകൃതിയിലുള്ള കുത്തുകൾ",
+    "Yellow stripes on leaves": "ഇലകളിൽ മഞ്ഞ വരകൾ",
+    "Honeydew on leaves, stunted growth": "ഇലകളിൽ തേൻ തുള്ളികൾ; വളർച്ച മുരടിക്കുക",
+    "Fishy smell in grains, black powder": "ധാന്യങ്ങളിൽ മീൻ ഗന്ധം; കറുത്ത പൊടി",
+    "Ragged holes in leaves, frass in whorl": "ഇലകളിൽ ക്രമരഹിതമായ ദ്വാരങ്ങൾ; കൂട്ടിൽ പുഴുക്കളുടെ കാഷ്ഠം",
     "Cigar-shaped grey-green lesions": "സിഗരറ്റ് ആകൃതിയിലുള്ള ചാര-പച്ച നിറമുള്ള പാടുകൾ",
     "Damaged bolls, frass on plant": "കേടായ കായകൾ; സസ്യങ്ങളിൽ വിസർജ്ജ്യം",
-    "Sticky honeydew, sooty mold": "Sticky honeydew; sooty mould",
-    "Wilting of entire plant, dry roots": "Wilting of entire plant; dry roots",
-    "Holes in pods, larvae inside": "Holes in pods; larvae inside",
-    "Orange-brown pustules on leaves": "Orange-brown pustules on leaves",
+    "Sticky honeydew, sooty mold": "ഒട്ടിപ്പിടിക്കുന്ന തേൻ തുള്ളികൾ; കറുത്ത പൂപ്പൽ",
+    "Wilting of entire plant, dry roots": "മുഴുവൻ ചെടിയും വാടുന്നു; വേരുകൾ ഉണങ്ങുന്നു",
+    "Holes in pods, larvae inside": "കായ്കളിൽ ദ്വാരങ്ങൾ; ഉള്ളിൽ ലാർവകൾ",
+    "Orange-brown pustules on leaves": "ഇലകളിൽ ഓറഞ്ച്-തവിട്ടുനിറമുള്ള കുമിളകൾ",
     "Curling leaves, honeydew": "ഇലകൾ ചുരുളുന്നു; മധുര ദ്രവം",
-    "V-shaped cuts on fronds": "V-shaped cuts on fronds",
-    "Rotting of central shoot": "Rotting of central shoot",
+    "V-shaped cuts on fronds": "ഓലകളിൽ V-ആകൃതിയിലുള്ള മുറിവുകൾ",
+    "Rotting of central shoot": "മధ్య കൂമ്പ് അഴുകൽ",
     "Small holes in berries": "കായകളിലെ ചെറിയ സുഷിരങ്ങൾ",
     "Orange powdery spots on underside of leaves": "ഇലകളുടെ അടിയിൽ ഓറഞ്ച് പൊടി模様മുള്ള പാടുകൾ",
     "Black spots on flowers and fruits": "പൂക്കളിലും കായ്കളിലും കറുത്ത പാടുകൾ",
@@ -1378,25 +1378,25 @@
     "Spray at flowering": "പൂവിടുന്ന സമയത്ത് തളിക്കുക",
     "Under-leaf spray": "ഇലയുടെ അടിയിൽ തളിക്കുക",
     "Seed treatment": "വിത്ത് പരിചരണം",
-    "Soil drench": "Soil drench",
+    "Soil drench": "ചുവട്ടിൽ ഒഴിക്കുക",
     "Biological spray at flowering": "പൂക്കുമ്പോൾ ജൈവ സ്പ്രേ",
-    "Spray at first sign": "Spray at first sign",
+    "Spray at first sign": "ആദ്യ ലക്ഷണം കാണുമ്പോൾ തളിക്കുക",
     "Apply to manure pits": "കമ്പോസ്റ്റ് കുഴികളിൽ പ്രയോഗിക്കുക",
-    "Place in leaf axil": "Place in leaf axil",
+    "Place in leaf axil": "ഇലക്കവിളിൽ വയ്ക്കുക",
     "Apply to cut surface": "മുറിഞ്ഞ പ്രതലത്തിൽ പ്രയോഗിക്കുക",
     "Crown drench": "ക്രൗൺ ഡ്രെഞ്ച് (ചുവട്ടിൽ ഒഴിക്കൽ)",
-    "Spray during berry stage": "Spray during berry stage",
-    "Spot spray": "Spot spray",
-    "Pre-monsoon spray": "Pre-monsoon spray",
+    "Spray during berry stage": "കായ് പിടിക്കുന്ന സമയത്ത് തളിക്കുക",
+    "Spot spray": "കണ്ട സ്ഥലത്ത് മാത്രം തളിക്കുക",
+    "Pre-monsoon spray": "മഴക്കാലത്തിനു മുമ്പ് തളിക്കുക",
     "Curative spray": "ചികിത്സാ സ്പ്രേ",
-    "Spray at panicle emergence": "Spray at panicle emergence",
+    "Spray at panicle emergence": "കതിർ വരുമ്പോൾ തളിക്കുക",
     "Contact spray": "ശരീരത്തിൽ തട്ടുന്ന സ്പ്രേ (ബന്ധപ്പെടാനുള്ള സ്പ്രേ)",
     "Control aphid vectors": "ചെള്ളുകളുടെ രോഗവാഹകരെ നിയന്ത്രിക്കുക",
-    "Install at fruiting": "Install at fruiting",
+    "Install at fruiting": "കായ് ഉണ്ടാകുമ്പോൾ സ്ഥാപിക്കുക",
     "Bait spray": "കെണി സ്പ്രേ",
-    "Soil drench at planting": "Soil drench at planting",
-    "Soil application": "Soil application",
-    "Dust or spray on seedlings": "Dust or spray on seedlings",
-    "Spray at early infestation": "Spray at early infestation"
+    "Soil drench at planting": "നടുമ്പോൾ ചുവട്ടിൽ ഒഴിക്കുക",
+    "Soil application": "മണ്ണിൽ ചേർക്കുക",
+    "Dust or spray on seedlings": "വിത്തുകളിൽ തളിക്കുകയോ പൊടി വിതറുകയോ ചെയ്യുക",
+    "Spray at early infestation": "രോഗം തുടങ്ങുമ്പോൾ തളിക്കുക"
   }
 }
