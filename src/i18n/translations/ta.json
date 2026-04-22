@@ -730,692 +730,692 @@
   },
   "diseaseData": {
     "rice-blast": {
-      "name": "Rice Blast",
-      "description": "High humidity with moderate temperatures creates ideal conditions for the rice blast fungus.",
+      "name": "நெல் பிளாஸ்ட்",
+      "description": "மிதமான வெப்பநிலையுடன் கூடிய அதிக ஈரப்பதம் நெல் பிளாஸ்ட் பூஞ்சைக்கு உகந்த சூழலை உருவாக்குகிறது.",
       "preventiveMeasures": [
-        "Apply preventive fungicide sprays",
-        "Avoid excessive nitrogen fertilization",
-        "Ensure proper drainage in fields",
-        "Use resistant rice varieties"
+        "தடுப்பு பூஞ்சாண கொல்லி தெளிப்பான்களைப் பயன்படுத்துங்கள்",
+        "அதிகப்படியான நைட்ரஜன் உரமிடுதலைத் தவிர்க்கவும்",
+        "வயல்களில் சரியான வடிகால் வசதியை உறுதி செய்யவும்",
+        "நோய் எதிர்ப்பு சக்தி கொண்ட நெல் வகைகளைப் பயன்படுத்தவும்"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
-      "description": "Warm and humid conditions favour bacterial spread, especially after heavy rains.",
+      "name": "பாக்டீரியா இலை கருகல் நோய்",
+      "description": "வெப்பமான மற்றும் ஈரப்பதமான நிலைமைகள் பாக்டீரியா பரவலுக்கு சாதகமானவை, குறிப்பாக கனமழைக்குப் பிறகு.",
       "preventiveMeasures": [
-        "Drain excess water from fields",
-        "Apply copper-based bactericides",
-        "Avoid working in wet fields",
-        "Remove and destroy infected plants"
+        "வயல்களில் இருந்து அதிகப்படியான நீரை வெளியேற்றுங்கள்",
+        "செம்பு அடிப்படையிலான பாக்டீரியா கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "ஈரமான வயல்களில் வேலை செய்வதைத் தவிர்க்கவும்",
+        "நோயுற்ற தாவரங்களை அகற்றி அழிக்கவும்"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
-      "description": "Cool temperatures with high humidity and morning dew promote rust development.",
+      "name": "மக்காச்சோளத்தின் பொதுவான துரு நோய்",
+      "description": "அதிக ஈரப்பதம் மற்றும் காலைப் பனியுடன் கூடிய குளிர்ந்த வெப்பநிலை துரு நோயின் வளர்ச்சியை ஊக்குவிக்கும்.",
       "preventiveMeasures": [
-        "Scout fields regularly for early symptoms",
-        "Apply fungicides at the first sign of infection",
-        "Plant rust-resistant hybrids",
-        "Avoid overhead irrigation"
+        "ஆரம்ப அறிகுறிகளுக்கு வயல்களைத் தொடர்ந்து கண்காணிக்கவும்",
+        "நோய்த்தொற்றின் முதல் அறிகுறியிலேயே பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "துரு நோய் எதிர்ப்புச் சக்தி கொண்ட கலப்பினங்களை நடவும்",
+        "மேல்மட்ட நீர்ப்பாசனத்தைத் தவிர்க்கவும்"
       ]
     },
     "powdery-mildew": {
-      "name": "Powdery Mildew",
-      "description": "Moderate humidity without rain and warm temperatures favour powdery mildew growth.",
+      "name": "சாம்பல் நோய்",
+      "description": "மழை இல்லாத மிதமான ஈரப்பதம் மற்றும் மிதமான வெப்பநிலை மாவுப்பூசண நோய் வளர்ச்சிக்கு உகந்தது.",
       "preventiveMeasures": [
-        "Apply sulfur-based fungicides",
-        "Improve air circulation through pruning",
-        "Avoid excessive nitrogen",
-        "Remove infected plant parts"
+        "கந்தகம் அடிப்படையிலான பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "கவாத்து மூலம் காற்று சுழற்சியை மேம்படுத்துதல்",
+        "அதிகப்படியான நைட்ரஜனைத் தவிர்க்கவும்",
+        "பாதிக்கப்பட்ட தாவர பாகங்களை அகற்றவும்"
       ]
     },
     "anthracnose": {
-      "name": "Anthracnose",
-      "description": "High humidity with warm temperatures, especially during flowering and fruiting.",
+      "name": "ஆந்த்ராக்னோஸ்",
+      "description": "அதிக ஈரப்பதம் மற்றும் மிதமான வெப்பநிலைகள், குறிப்பாக பூக்கும் மற்றும் காய்க்கும் பருவத்தில்.",
       "preventiveMeasures": [
-        "Apply copper-based fungicides before rain",
-        "Avoid overhead irrigation during flowering",
-        "Remove fallen fruits and debris",
-        "Ensure proper orchard sanitation"
+        "மழைக்கு முன் செம்பு அடிப்படையிலான பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "பூக்கும் காலத்தில் மேல்மட்ட நீர்ப்பாசனத்தைத் தவிர்க்கவும்",
+        "விழுந்த பழங்கள் மற்றும் குப்பைகளை அகற்றவும்",
+        "தோட்டத்தில் முறையான சுகாதாரத்தை உறுதி செய்யுங்கள்"
       ]
     },
     "fusarium-wilt": {
-      "name": "Fusarium Wilt",
-      "description": "Warm soil temperatures with moderate moisture favour soil-borne fungal spread.",
+      "name": "ஃபுசேரியம் வாடல் நோய்",
+      "description": "மிதமான ஈரப்பதத்துடன் கூடிய வெப்பமான மண் வெப்பநிலை மண்ணில் இருந்து பரவும் பூஞ்சை பரவலுக்கு சாதகமானவை.",
       "preventiveMeasures": [
-        "Use resistant crop varieties",
-        "Practice crop rotation",
-        "Apply Trichoderma-based biocontrol",
-        "Avoid waterlogging"
+        "நோய் எதிர்ப்பு சக்தி கொண்ட பயிர் வகைகளைப் பயன்படுத்தவும்",
+        "பயிர் சுழற்சியைப் பின்பற்றவும்",
+        "ட்ரைக்கோடெர்மா அடிப்படையிலான உயிரியல் கட்டுப்பாட்டைப் பயன்படுத்துங்கள்",
+        "நீர் தேங்குவதைத் தவிர்க்கவும்"
       ]
     },
     "late-blight": {
-      "name": "Late Blight",
-      "description": "Cool and wet conditions are ideal for rapid spread of the late blight pathogen.",
+      "name": "பிற்கால வாடல் நோய்",
+      "description": "குளிரான மற்றும் ஈரமான சூழல், பிந்தைய கருகல் நோய்க்காரணி விரைவாகப் பரவ சிறந்ததாகும்.",
       "preventiveMeasures": [
-        "Apply preventive fungicides before rain",
-        "Avoid overhead irrigation in the evening",
-        "Destroy infected plant debris",
-        "Use certified disease-free seed tubers"
+        "மழைக்கு முன் தடுப்பு பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "மாலை வேளைகளில் மேல்மட்ட நீர்ப்பாசனத்தைத் தவிர்க்கவும்",
+        "பாதிக்கப்பட்ட தாவரக் கழிவுகளை அழிக்கவும்",
+        "நோயற்ற சான்றளிக்கப்பட்ட விதைக்கிழங்குகளைப் பயன்படுத்தவும்"
       ]
     },
     "downy-mildew": {
-      "name": "Downy Mildew",
-      "description": "Cool nights with high humidity and morning dew favour downy mildew development.",
+      "name": "அடிச்சாம்பல் நோய்",
+      "description": "அதிக ஈரப்பதம் மற்றும் காலை பனியுடன் கூடிய குளிர்ந்த இரவுகள் அடி சாம்பல் நோய் வளர்ச்சிக்கு உகந்தவை.",
       "preventiveMeasures": [
-        "Apply protective fungicides before wet weather",
-        "Improve air circulation",
-        "Water early in the morning to reduce leaf wetness",
-        "Remove infected leaves immediately"
+        "ஈரமான காலநிலைக்கு முன் பாதுகாப்பு பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "காற்று சுழற்சியை மேம்படுத்துதல்",
+        "இலை ஈரமாகாமல் இருக்க அதிகாலையில் தண்ணீர் பாய்ச்சவும்",
+        "நோயுற்ற இலைகளை உடனடியாக அகற்றவும்"
       ]
     },
     "bacterial-wilt": {
-      "name": "Bacterial Wilt",
-      "description": "Hot and humid conditions accelerate bacterial wilt spread through soil and water.",
+      "name": "பாக்டீரியா வாடல் நோய்",
+      "description": "வெப்பமான மற்றும் ஈரப்பதமான சூழ்நிலைகள் மண்ணிலும் நீரிலும் பாக்டீரியா வாடல் நோயின் பரவலை விரைவுபடுத்துகின்றன.",
       "preventiveMeasures": [
-        "Practice strict sanitation",
-        "Use resistant varieties",
-        "Avoid field flooding",
-        "Remove and destroy infected plants immediately"
+        "கடுமையான சுகாதாரத்தைப் பின்பற்றவும்",
+        "நோய் எதிர்ப்பு சக்தி கொண்ட வகைகளைப் பயன்படுத்தவும்",
+        "வயலில் வெள்ளம் ஏற்படுவதைத் தவிர்க்கவும்",
+        "நோயுற்ற தாவரங்களை உடனடியாக அகற்றி அழிக்கவும்"
       ]
     },
     "coffee-rust": {
-      "name": "Coffee Leaf Rust",
-      "description": "Warm temperatures with high humidity during the rainy season favour rust spread.",
+      "name": "காபி இலை துரு நோய்",
+      "description": "மழைக்காலத்தில் அதிக ஈரப்பதத்துடன் கூடிய வெப்பமான வெப்பநிலை துரு நோய் பரவலுக்கு சாதகமானவை.",
       "preventiveMeasures": [
-        "Apply copper fungicides preventively",
-        "Prune for better air circulation",
-        "Plant shade trees strategically",
-        "Use rust-resistant coffee varieties"
+        "செம்பு பூஞ்சாண கொல்லிகளை தடுப்பு மருந்தாகப் பயன்படுத்துங்கள்",
+        "நல்ல காற்றோட்டத்திற்காக கத்தரிக்கவும்",
+        "நிழல் தரும் மரங்களை திட்டமிட்டு நடவும்",
+        "துரு நோய் எதிர்ப்பு சக்தி கொண்ட காபி வகைகளைப் பயன்படுத்தவும்"
       ]
     }
   },
   "diseaseGuide": {
     "rice-blast": {
-      "name": "Rice Blast",
+      "name": "நெல் பிளாஸ்ட்",
       "symptoms": [
-        "Diamond-shaped lesions on leaves",
-        "Gray-green lesions turning white with brown borders",
-        "Neck rot causing the panicle to break",
-        "Nodes become brown and rotted"
+        "இலைகளில் வைர வடிவ புண்கள்",
+        "சாம்பல்-பச்சை நிறப் புள்ளிகள் பழுப்பு நிற விளிம்புகளுடன் வெண்மையாக மாறுதல்",
+        "கழுத்து அழுகல் காரணமாக கதிர் உடைதல்",
+        "கணுக்கள் பழுப்பு நிறமாக மாறி அழுகி விடுகின்றன"
       ],
       "causes": [
-        "Fungus Magnaporthe oryzae",
-        "High humidity and moderate temperatures",
-        "Excessive nitrogen fertilization",
-        "Dense planting"
+        "மாக்னபோர்தே ஓரைசே பூஞ்சை",
+        "அதிக ஈரப்பதம் மற்றும் மிதமான வெப்பநிலைகள்",
+        "அதிகப்படியான நைட்ரஜன் உரமிடுதல்",
+        "அடர்த்தியான நடவு"
       ],
       "treatment": [
-        "Apply fungicides like Tricyclazole or Isoprothiolane",
-        "Remove and destroy infected plant debris",
-        "Apply silicon-based fertilizers to strengthen cell walls",
-        "Use copper-based fungicides as a preventive measure"
+        "டிரைசைக்லசோல் அல்லது ஐசோப்ரோத்தியோலேன் போன்ற பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "நோயுற்ற தாவர குப்பையை அகற்றி அழிக்கவும்",
+        "செல் சுவர்களை வலுப்படுத்த சிலிக்கான் அடிப்படையிலான உரங்களைப் பயன்படுத்துங்கள்",
+        "தடுப்பு நடவடிக்கையாக செம்பு அடிப்படையிலான பூஞ்சைக் கொல்லிகளைப் பயன்படுத்தவும்"
       ],
       "prevention": [
-        "Use resistant rice varieties",
-        "Avoid excessive nitrogen application",
-        "Maintain proper plant spacing",
-        "Ensure good drainage in fields"
+        "நோய் எதிர்ப்பு சக்தி கொண்ட நெல் வகைகளைப் பயன்படுத்தவும்",
+        "அதிகப்படியான நைட்ரஜன் பயன்பாட்டைத் தவிர்க்கவும்",
+        "சரியான பயிர் இடைவெளியை பராமரிக்கவும்",
+        "வயல்களில் நல்ல வடிகால் வசதியை உறுதி செய்யவும்"
       ]
     },
     "bacterial-leaf-blight": {
-      "name": "Bacterial Leaf Blight",
+      "name": "பாக்டீரியா இலை கருகல் நோய்",
       "symptoms": [
-        "Water-soaked lesions on leaf margins",
-        "Lesions turn yellow then greyish-white",
-        "Leaves dry up from the tip downward",
-        "Bacterial ooze on infected leaves"
+        "இலை ஓரங்களில் நீர் கசிந்த புள்ளிகள்",
+        "புண்கள் மஞ்சள் நிறமாக மாறி பின்னர் சாம்பல்-வெள்ளை நிறமாக மாறும்",
+        "இலைகள் நுனியிலிருந்து கீழ்நோக்கி காய்ந்து விடுகின்றன",
+        "நோயுற்ற இலைகளில் பாக்டீரியா கசிவு"
       ],
       "causes": [
-        "Bacteria Xanthomonas oryzae",
-        "Warm and humid conditions",
-        "Flooding and heavy rains",
-        "Wounds from insects or mechanical damage"
+        "சான்டோமோனாஸ் ஒரைசே பாக்டீரியா",
+        "வெப்பமான மற்றும் ஈரப்பதமான நிலைமைகள்",
+        "வெள்ளம் மற்றும் கனமழை",
+        "பூச்சிகள் அல்லது இயந்திர சேதத்தால் ஏற்படும் காயங்கள்"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
-        "Drain excess water from fields",
-        "Apply potassium fertilizers to strengthen plants",
-        "Remove severely infected plants"
+        "செம்பு அடிப்படையிலான பாக்டீரியா கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "வயல்களில் இருந்து அதிகப்படியான நீரை வெளியேற்றுங்கள்",
+        "தாவரங்களை வலுப்படுத்த பொட்டாசியம் உரங்களைப் பயன்படுத்துங்கள்",
+        "கடுமையாக பாதிக்கப்பட்ட தாவரங்களை அகற்றவும்"
       ],
       "prevention": [
-        "Use certified disease-free seeds",
-        "Avoid excessive nitrogen fertilization",
-        "Maintain proper water management",
-        "Control insect vectors"
+        "நோயற்ற சான்றளிக்கப்பட்ட விதைகளைப் பயன்படுத்தவும்",
+        "அதிகப்படியான நைட்ரஜன் உரமிடுதலைத் தவிர்க்கவும்",
+        "சரியான நீர் மேலாண்மையை பராமரிக்கவும்",
+        "பூச்சி கடத்திகளைக் கட்டுப்படுத்துங்கள்"
       ]
     },
     "maize-rust": {
-      "name": "Common Rust of Maize",
+      "name": "மக்காச்சோளத்தின் பொதுவான துரு நோய்",
       "symptoms": [
-        "Small circular to elongated brown pustules on leaves",
-        "Pustules appear on both leaf surfaces",
-        "Severe infection causes leaf yellowing",
-        "Premature leaf death in severe cases"
+        "இலைகளில் சிறிய வட்டமான அல்லது நீளமான பழுப்பு நிற கொப்பளங்கள்",
+        "இலையின் இருபுறமும் கொப்புளங்கள் தோன்றும்",
+        "தீவிர தொற்று இலைகள் மஞ்சள் நிறமாக மாற காரணமாகிறது",
+        "கடுமையான சந்தர்ப்பங்களில் இலைகள் முன்கூட்டியே இறப்பு"
       ],
       "causes": [
-        "Fungus Puccinia sorghi",
-        "Cool to moderate temperatures (16-23°C)",
-        "High humidity and dew formation",
-        "Wind-borne spore dispersal"
+        "பக்சினியா சோர்ஜி பூஞ்சை",
+        "குளிர்ச்சியான முதல் மிதமான வெப்பநிலைகள் (16-23°C)",
+        "அதிக ஈரப்பதம் மற்றும் பனி உருவாக்கம்",
+        "காற்று மூலம் பூஞ்சை வித்துக்கள் பரவுதல்"
       ],
       "treatment": [
-        "Apply fungicides like Mancozeb or Propiconazole",
-        "Remove infected plant debris after harvest",
-        "Apply foliar fungicides at the first sign of infection",
-        "Use triazole-based fungicides for severe infection"
+        "மான்கோசெப் அல்லது புரோபிகோனசோல் போன்ற பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "அறுவடைக்குப் பிறகு பாதிக்கப்பட்ட தாவர குப்பைகளை அகற்றவும்",
+        "நோய்த்தொற்றின் முதல் அறிகுறியிலேயே இலைவழி பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "கடுமையான தொற்றுக்கு ட்ரையசோல் அடிப்படையிலான பூஞ்சைக் கொல்லிகளைப் பயன்படுத்தவும்"
       ],
       "prevention": [
-        "Plant rust-resistant hybrid varieties",
-        "Early planting to avoid peak infection periods",
-        "Crop rotation with non-host crops",
-        "Avoid overhead irrigation"
+        "துரு நோய் எதிர்ப்புச் சக்தி கொண்ட கலப்பு வகைகளை நடவும்",
+        "அதிக பட்ச நோய் தொற்றும் காலங்களைத் தவிர்க்க முன்கூட்டியே நடவு செய்தல்",
+        "பயிர் சுழற்சி (நோய்க்காரணிகளைத் தாங்காத பயிர்களுடன்)",
+        "மேல்மட்ட நீர்ப்பாசனத்தைத் தவிர்க்கவும்"
       ]
     },
     "cotton-wilt": {
-      "name": "Fusarium Wilt of Cotton",
+      "name": "பருத்தியின் ஃபுசேரியம் வாடல் நோய்",
       "symptoms": [
-        "Yellowing and wilting of leaves",
-        "Brown discolouration of vascular tissue",
-        "Stunted plant growth",
-        "Leaves drop prematurely"
+        "இலைகள் மஞ்சள் நிறமாகி வாடுதல்",
+        "வாஸ்குலர் திசுக்களில் பழுப்பு நிறமாற்றம்",
+        "வளர்ச்சி குன்றிய செடிகள்",
+        "இலைகள் முன்கூட்டியே உதிர்ந்து விடுகின்றன"
       ],
       "causes": [
-        "Fungus Fusarium oxysporum f.sp. vasinfectum",
-        "Soil-borne pathogen surviving for years",
-        "Warm soil temperatures (23-28°C)",
-        "Root damage from nematodes"
+        "ஃபுசேரியம் ஆக்சிஸ்போரம் f.sp. வாஸின்ஃபெக்டம் பூஞ்சை",
+        "பல வருடங்களுக்கு வாழக்கூடிய மண் மூலம் பரவும் நோய்க்கிருமி",
+        "வெப்பமான மண் வெப்பநிலை (23-28°C)",
+        "நூற்புழுக்களால் வேர் சேதம்"
       ],
       "treatment": [
-        "No effective chemical treatment once infected",
-        "Remove and destroy infected plants",
-        "Solarize soil to reduce pathogen levels",
-        "Apply biological control agents like Trichoderma"
+        "நோயுற்றவுடன் பயனுள்ள இரசாயன சிகிச்சை இல்லை",
+        "நோயுற்ற தாவரங்களை அகற்றி அழிக்கவும்",
+        "நோய்க்கிருமி அளவைக் குறைக்க மண்ணை சூரிய ஒளியில் பதப்படுத்துதல்",
+        "ட்ரைக்கோடெர்மா போன்ற உயிரியல் கட்டுப்பாட்டு முகவர்களைப் பயன்படுத்துங்கள்"
       ],
       "prevention": [
-        "Use resistant cotton varieties",
-        "Practice crop rotation (4-5 years)",
-        "Control root-knot nematodes",
-        "Maintain soil pH above 7.0"
+        "நோய் எதிர்ப்பு சக்தி கொண்ட பருத்தி வகைகளைப் பயன்படுத்தவும்",
+        "பயிர் சுழற்சியைப் பின்பற்றவும் (4-5 ஆண்டுகள்)",
+        "வேர் முடிச்சு நூற்புழுக்களைக் கட்டுப்படுத்துங்கள்",
+        "மண் pH ஐ 7.0 க்கு மேல் பராமரிக்கவும்"
       ]
     },
     "mango-anthracnose": {
-      "name": "Mango Anthracnose",
+      "name": "மாம்பழ ஆந்த்ராக்னோஸ்",
       "symptoms": [
-        "Black spots on flowers and young fruits",
-        "Sunken dark lesions on mature fruits",
-        "Leaf spots with irregular margins",
-        "Twig dieback and blossom blight"
+        "பூக்கள் மற்றும் இளம் பழங்களில் கருப்பு திட்டுகள்",
+        "முதிர்ந்த பழங்களில் அமுங்கிய கருமையான புள்ளிகள்",
+        "முறை அற்ற ஓரங்களுடன் இலைப்புள்ளிகள்",
+        "கிளை கருகல் மற்றும் பூ கருகல்"
       ],
       "causes": [
-        "Fungus Colletotrichum gloeosporioides",
-        "High humidity and rainfall",
-        "Warm temperatures (25-30°C)",
-        "Overhead irrigation wetting foliage"
+        "கோலெட்டோட்ரிகம் குளோஸ்போரியாய்ட்ஸ் பூஞ்சை",
+        "அதிக ஈரப்பதம் மற்றும் மழைப்பொழிவு",
+        "வெப்பமான வெப்பநிலை (25-30°C)",
+        "மேல்மட்ட நீர்ப்பாசனம் தழைகளை நனைத்தல்"
       ],
       "treatment": [
-        "Apply copper-based fungicides before flowering",
-        "Hot water treatment of harvested fruits (52°C for 5 min)",
-        "Post-harvest fungicide dips",
-        "Prune and destroy infected plant parts"
+        "பூப்பதற்கு முன் செம்பு அடிப்படையிலான பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "பயிரறுக்கப்பட்ட பழங்களுக்கு வெந்நீர் சிகிச்சை (52°C இல் 5 நிமிடம்)",
+        "அறுவடைக்குப் பிந்தைய பூஞ்சணக் கொல்லித் தொட்டிச் சிகிச்சை",
+        "நோயுற்ற தாவர பாகங்களை கத்தரித்து அழிக்கவும்"
       ],
       "prevention": [
-        "Maintain orchard sanitation",
-        "Avoid overhead irrigation during flowering",
-        "Apply preventive fungicide sprays",
-        "Ensure good air circulation through pruning"
+        "தோட்ட சுகாதாரத்தை பராமரிக்கவும்",
+        "பூக்கும் காலத்தில் மேல்மட்ட நீர்ப்பாசனத்தைத் தவிர்க்கவும்",
+        "தடுப்பு பூஞ்சாண கொல்லி தெளிப்பான்களைப் பயன்படுத்துங்கள்",
+        "கவாத்து செய்வதன் மூலம் நல்ல காற்று சுழற்சியை உறுதி செய்யவும்"
       ]
     },
     "banana-sigatoka": {
-      "name": "Black Sigatoka",
+      "name": "கறுப்பு சிகடோகா நோய்",
       "symptoms": [
-        "Small pale streaks on lower leaf surface",
-        "Streaks enlarge and turn brown-black",
-        "Leaves dry out prematurely",
-        "Reduced fruit size and quality"
+        "கீழ் இலை மேற்பரப்பில் சிறிய வெளிர் கோடுகள்",
+        "கோடுகள் பெரிதாகி பழுப்பு-கருப்பு நிறமாக மாறும்",
+        "இலைகள் முன்கூட்டியே காய்ந்து விடுகின்றன",
+        "குறைக்கப்பட்ட பழ அளவு மற்றும் தரம்"
       ],
       "causes": [
-        "Fungus Mycosphaerella fijiensis",
-        "High humidity and warm temperatures",
-        "Prolonged leaf wetness",
-        "Dense plantings with poor air circulation"
+        "மைக்கோஸ்ஃபெரெல்லா ஃபிஜியென்சிஸ் பூஞ்சை",
+        "அதிக ஈரப்பதம் மற்றும் மிதமான வெப்பநிலைகள்",
+        "நீண்ட இலை ஈரம்",
+        "மோசமான காற்று சுழற்சியுடன் கூடிய அடர்த்தியான பயிரிடல்"
       ],
       "treatment": [
-        "Apply systemic fungicides like Propiconazole",
-        "Remove and destroy infected leaves",
-        "Rotate fungicide modes of action",
-        "Apply mineral oil with fungicides"
+        "புரோபிகோனசோல் போன்ற அமைப்பு ரீதியான பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "நோயுற்ற இலைகளை அகற்றி அழிக்கவும்",
+        "பூசணக்கொல்லி செயல்படும் முறைகளை சுழற்சி முறையில் பயன்படுத்தவும்",
+        "கனிம எண்ணெயை பூஞ்சாண கொல்லிகளுடன் பயன்படுத்துங்கள்"
       ],
       "prevention": [
-        "Use resistant banana varieties",
-        "Maintain proper spacing between plants",
-        "Remove old leaves to improve airflow",
-        "Practice good drainage management"
+        "நோய் எதிர்ப்பு சக்தி கொண்ட வாழை வகைகளைப் பயன்படுத்தவும்",
+        "தாவரங்களுக்கு இடையில் சரியான இடைவெளியை பராமரிக்கவும்",
+        "காற்றோட்டத்தை மேம்படுத்த பழைய இலைகளை அகற்றவும்",
+        "நல்ல வடிகால் நிர்வாகத்தைப் பின்பற்றவும்"
       ]
     },
     "citrus-canker": {
-      "name": "Citrus Canker",
+      "name": "சிட்ரஸ் கேங்கர் நோய்",
       "symptoms": [
-        "Raised corky lesions on leaves and fruits",
-        "Lesions with water-soaked margins",
-        "Yellow halo around lesions",
-        "Premature fruit and leaf drop"
+        "இலைகள் மற்றும் பழங்களில் உயர்ந்த கார்க்கி புண்கள்",
+        "நீர் ஊறவைக்கப்பட்ட ஓரங்களுடன் புண்கள்",
+        "புள்ளிகளைச் சுற்றி மஞ்சள் வளையம்",
+        "முதிர்ச்சியடையாத பழம் மற்றும் இலை உதிர்வு"
       ],
       "causes": [
-        "Bacteria Xanthomonas citri",
-        "Wind-driven rain spreading bacteria",
-        "Wounds from thorns, insects, or wind",
-        "High temperatures and humidity"
+        "சான்டோமோனாஸ் சிட்ரி பாக்டீரியா",
+        "காற்றுடன் கூடிய மழை பாக்டீரியாவை பரப்புதல்",
+        "முட்கள், பூச்சிகள் அல்லது காற்றினால் ஏற்படும் காயங்கள்",
+        "அதிக வெப்பநிலை மற்றும் ஈரப்பதம்"
       ],
       "treatment": [
-        "Apply copper-based bactericides",
-        "Remove and destroy infected plant parts",
-        "Apply streptomycin in severe cases",
-        "Protect wounds with copper paste"
+        "செம்பு அடிப்படையிலான பாக்டீரியா கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "நோயுற்ற தாவர பாகங்களை அகற்றி அழிக்கவும்",
+        "கடுமையான சந்தர்ப்பங்களில் ஸ்ட்ரெப்டோமைசினைப் பயன்படுத்துங்கள்",
+        "காயங்களை செம்பு பசையுடன் பாதுகாக்கவும்"
       ],
       "prevention": [
-        "Use certified disease-free nursery stock",
-        "Windbreaks to reduce wind-driven rain",
-        "Disinfect pruning tools between trees",
-        "Control leaf miner insects"
+        "சான்றளிக்கப்பட்ட நோய் இல்லாத நாற்றுகளைப் பயன்படுத்தவும்",
+        "காற்றுடன் கூடிய மழையைக் குறைக்க காற்றைத் தடுக்கும் வேலி",
+        "மரம் செதுக்கும் கருவிகளை மரங்களுக்கு இடையே கிருமி நீக்கம் செய்யவும்",
+        "இலை சுரங்கப் பூச்சிகளைக் கட்டுப்படுத்துங்கள்"
       ]
     },
     "grape-powdery-mildew": {
-      "name": "Powdery Mildew of Grape",
+      "name": "திராட்சையில் சாம்பல் நோய்",
       "symptoms": [
-        "White powdery growth on leaves and shoots",
-        "Distorted and curled young leaves",
-        "Brown scarring on fruit surface",
-        "Cracking of infected berries"
+        "இலைகள் மற்றும் தளிர்களில் வெள்ளை மாவு போன்ற வளர்ச்சி",
+        "சிதைந்த மற்றும் சுருண்ட இள இலைகள்",
+        "பழத்தின் மேற்பரப்பில் பழுப்பு நிற வடுக்கள்",
+        "பாதிக்கப்பட்ட பெர்ரிகள் வெடித்தல்"
       ],
       "causes": [
-        "Fungus Uncinula necator",
-        "Moderate temperatures (20-27°C)",
-        "Shade and poor air circulation",
-        "High humidity without rain"
+        "அன்சினுலா நேகேட்டர் பூஞ்சை",
+        "மிதமான வெப்பநிலை (20-27°C)",
+        "நிழல் மற்றும் மோசமான காற்று சுழற்சி",
+        "மழையில்லாத அதிக ஈரப்பதம்"
       ],
       "treatment": [
-        "Apply sulfur-based fungicides",
-        "Use systemic fungicides like Myclobutanil",
-        "Remove heavily infected leaves",
-        "Apply potassium bicarbonate sprays"
+        "கந்தகம் அடிப்படையிலான பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "மைக்ளோபுட்டானில் போன்ற முறையான பூஞ்சைக் கொல்லிகளைப் பயன்படுத்தவும்",
+        "தீவிரமாக பாதிக்கப்பட்ட இலைகளை அகற்றவும்",
+        "பொட்டாசியம் பைகார்பனேட் தெளிப்பான்களைப் பயன்படுத்துங்கள்"
       ],
       "prevention": [
-        "Select resistant grape varieties",
-        "Prune for good air circulation",
-        "Avoid excessive nitrogen fertilization",
-        "Remove dormant infected wood"
+        "நோய் எதிர்ப்பு சக்தி கொண்ட திராட்சை வகைகளைத் தேர்ந்தெடுக்கவும்",
+        "நல்ல காற்றோட்டத்திற்காக கத்தரிக்கவும்",
+        "அதிகப்படியான நைட்ரஜன் உரமிடுதலைத் தவிர்க்கவும்",
+        "மறைந்திருக்கும் நோயுற்ற மரங்களை அகற்றவும்"
       ]
     },
     "chickpea-wilt": {
-      "name": "Chickpea Wilt",
+      "name": "கொண்டைக்கடலை வாடல் நோய்",
       "symptoms": [
-        "Yellowing and drooping of leaves",
-        "Rapid wilting of the entire plant",
-        "Brown discolouration of roots and stem base",
-        "Internal browning of vascular tissue"
+        "இலைகள் மஞ்சள் நிறமாக மாறி தொங்குதல்",
+        "தாவரம் முழுவதும் விரைவான வாடுதல்",
+        "வேர்கள் மற்றும் தண்டு அடியில் பழுப்பு நிறமாற்றம்",
+        "வாஸ்குலர் திசுக்களின் உட்புற பழுப்பு நிறமாதல்"
       ],
       "causes": [
-        "Fungus Fusarium oxysporum f.sp. ciceris",
-        "Soil-borne pathogen",
-        "Warm soil temperatures",
-        "Previous chickpea cultivation in the field"
+        "ஃபுசேரியம் ஆக்சிஸ்போரம் f.sp. சிசெரிஸ் பூஞ்சை",
+        "மண் மூலம் பரவும் நோய்க்கிருமி",
+        "வெப்பமான மண் வெப்பநிலை",
+        "வயலில் முந்தைய கொண்டைக்கடலை சாகுபடி"
       ],
       "treatment": [
-        "No effective treatment once infected",
-        "Remove and destroy infected plants",
-        "Apply Trichoderma-based biocontrol",
-        "Solarize soil before planting"
+        "நோயுற்றவுடன் பயனுள்ள சிகிச்சை இல்லை",
+        "நோயுற்ற தாவரங்களை அகற்றி அழிக்கவும்",
+        "ட்ரைக்கோடெர்மா அடிப்படையிலான உயிரியல் கட்டுப்பாட்டைப் பயன்படுத்துங்கள்",
+        "நடவு செய்வதற்கு முன் மண்ணை சூரிய ஒளியில் பதப்படுத்துதல்"
       ],
       "prevention": [
-        "Use wilt-resistant varieties",
-        "Practice 4-5 year crop rotation",
-        "Treat seeds with fungicides",
-        "Avoid water stress during flowering"
+        "வாடல் நோய் எதிர்ப்பு சக்தி கொண்ட வகைகளைப் பயன்படுத்தவும்",
+        "4-5 வருட பயிர் சுழற்சியைப் பின்பற்றவும்",
+        "பூசணக்கொல்லிகளுடன் விதைகளுக்கு சிகிச்சை அளிக்க",
+        "பூக்கும் போது நீர் பற்றாக்குறையைத் தவிர்க்கவும்"
       ]
     },
     "papaya-ringspot": {
-      "name": "Papaya Ringspot Virus",
+      "name": "பப்பாளி ரிங்க்ஸ்பாட் வைரஸ்",
       "symptoms": [
-        "Ring-shaped spots on fruits",
-        "Mosaic patterns on leaves",
-        "Distorted and shoe-string shaped leaves",
-        "Oily streaks on stems and petioles"
+        "பழங்களில் வளைய வடிவ புள்ளிகள்",
+        "இலைகளில் மொசைக் வடிவங்கள்",
+        "சிதைந்த மற்றும் ஷூ சரடு வடிவ இலைகள்",
+        "தண்டுகள் மற்றும் இலைக்காம்புகளில் எண்ணெய் கோடுகள்"
       ],
       "causes": [
-        "Papaya ringspot virus (PRSV)",
-        "Aphid transmission",
-        "Infected plant material",
-        "No seed transmission"
+        "பப்பாளி ரிங்க்ஸ்பாட் வைரஸ் (PRSV)",
+        "அஃபிட் பரவுதல்",
+        "நோயுற்ற பயிர் பொருட்கள்",
+        "விதைகள் மூலம் பரவாது"
       ],
       "treatment": [
-        "No cure for infected plants",
-        "Remove and destroy infected plants immediately",
-        "Control aphid vectors with insecticides",
-        "Use reflective mulches to repel aphids"
+        "நோயுற்ற தாவரங்களுக்கு மருந்தில்லை",
+        "நோயுற்ற தாவரங்களை உடனடியாக அகற்றி அழிக்கவும்",
+        "அஃபிட் கடத்திகளை பூச்சிக்கொல்லிகளால் கட்டுப்படுத்துங்கள்",
+        "அசுவினிகளை விரட்ட பிரதிபலிப்பு மூடுபடங்களைப் பயன்படுத்தவும்"
       ],
       "prevention": [
-        "Plant virus-resistant varieties",
-        "Use virus-free seedlings",
-        "Maintain border crops as barriers",
-        "Regular monitoring and roguing"
+        "வைரஸ் எதிர்ப்புச் சக்தி கொண்ட வகைகளை நடவும்",
+        "வைரஸ் இல்லாத நாற்றுகளைப் பயன்படுத்தவும்",
+        "எல்லைப் பயிர்களைத் தடைகளாகப் பராமரிக்கவும்",
+        "தொடர்ச்சியான கண்காணிப்பு மற்றும் தேவையற்றவற்றை அகற்றுதல்"
       ]
     },
     "coffee-leaf-rust": {
-      "name": "Coffee Leaf Rust",
+      "name": "காபி இலை துரு நோய்",
       "symptoms": [
-        "Orange-yellow powdery spots on leaf undersides",
-        "Pale yellow spots visible on upper leaf surface",
-        "Premature leaf fall",
-        "Reduced berry production"
+        "இலைகளின் அடிப்பகுதியில் ஆரஞ்சு-மஞ்சள் நிறப் பூஞ்சை திட்டுகள்",
+        "மேல் இலை மேற்பரப்பில் வெளிர் மஞ்சள் திட்டுகள் தெரியும்",
+        "முன்கூட்டியே இலை உதிர்தல்",
+        "குறைக்கப்பட்ட பெர்ரி உற்பத்தி"
       ],
       "causes": [
-        "Fungus Hemileia vastatrix",
-        "Wind-borne spore dispersal",
-        "Warm and humid conditions",
-        "Shade and poor air circulation"
+        "ஹெமிலியா வாஸ்டாட்ரிக்ஸ் பூஞ்சை",
+        "காற்று மூலம் பூஞ்சை வித்துக்கள் பரவுதல்",
+        "வெப்பமான மற்றும் ஈரப்பதமான நிலைமைகள்",
+        "நிழல் மற்றும் மோசமான காற்று சுழற்சி"
       ],
       "treatment": [
-        "Apply copper-based fungicides",
-        "Use systemic fungicides like Triadimefon",
-        "Remove and destroy fallen infected leaves",
-        "Apply fungicides preventively during the rainy season"
+        "செம்பு அடிப்படையிலான பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்",
+        "ட்ரையடிமெஃபோன் போன்ற முறையான பூஞ்சைக் கொல்லிகளைப் பயன்படுத்தவும்",
+        "விழுந்த நோயுற்ற இலைகளை அகற்றி அழிக்கவும்",
+        "மழைக்காலத்தில் தடுப்பு பூஞ்சாண கொல்லிகளைப் பயன்படுத்துங்கள்"
       ],
       "prevention": [
-        "Plant rust-resistant coffee varieties",
-        "Maintain proper spacing and pruning",
-        "Balanced fertilization to maintain plant vigour",
-        "Shade management for air circulation"
+        "துரு நோய் எதிர்ப்புச் சக்தி கொண்ட காபி வகைகளை நடவும்",
+        "சரியான இடைவெளி மற்றும் கவாத்து முறையை பராமரிக்கவும்",
+        "செடியின் வீரியத்தை பராமரிக்க சீரான உரமிடல்",
+        "காற்று சுழற்சிக்கான நிழல் மேலாண்மை"
       ]
     },
     "pomegranate-bacterial-blight": {
-      "name": "Bacterial Blight of Pomegranate",
+      "name": "மாதுளையின் பாக்டீரியா கருகல் நோய்",
       "symptoms": [
-        "Water-soaked spots on leaves",
-        "Dark brown to black lesions on fruits",
-        "Cracking and rotting of fruits",
-        "Girdling cankers on branches"
+        "இலைகளில் நீர் கசிந்த புள்ளிகள்",
+        "பழங்களில் அடர் பழுப்பு நிறத்திலிருந்து கருப்பு நிறப் புண்கள்",
+        "பழங்கள் வெடித்தல் மற்றும் அழுகுதல்",
+        "கிளைகளில் வளையப்புண்"
       ],
       "causes": [
-        "Bacteria Xanthomonas axonopodis",
-        "Warm and wet conditions",
-        "Wounds from insects or hail",
-        "Infected planting material"
+        "சான்டோமோனாஸ் அக்ஸோனோபோடிஸ் பாக்டீரியா",
+        "வெப்பமான மற்றும் ஈரப்பதமான நிலைமைகள்",
+        "பூச்சிகள் அல்லது ஆலங்கட்டி மழையால் ஏற்படும் காயங்கள்",
+        "நோயுற்ற நடவுப் பொருட்கள்"
       ],
       "treatment": [
-        "Apply streptomycin sulphate sprays",
-        "Use copper hydroxide applications",
-        "Prune and destroy infected branches",
-        "Apply bactericides before monsoon"
+        "ஸ்ட்ரெப்டோமைசின் சல்பேட் தெளிப்பான்களைப் பயன்படுத்துங்கள்",
+        "காப்பர் ஹைட்ராக்சைடு பயன்படுத்தவும்",
+        "நோயுற்ற கிளைகளை கத்தரித்து அழிக்கவும்",
+        "பருவமழைக்கு முன் பாக்டீரியா கொல்லிகளைப் பயன்படுத்துங்கள்"
       ],
       "prevention": [
-        "Use disease-free planting material",
-        "Avoid overhead irrigation",
-        "Control insect pests causing wounds",
-        "Maintain orchard hygiene"
+        "நோயற்ற நடவுப் பொருட்களைப் பயன்படுத்தவும்",
+        "மேல்மட்ட நீர்ப்பாசனத்தைத் தவிர்க்கவும்",
+        "காயங்களை ஏற்படுத்தும் பூச்சித் தாக்குதலைக் கட்டுப்படுத்துங்கள்",
+        "தோட்ட சுகாதாரத்தைப் பராமரிக்கவும்"
       ]
     }
   },
   "rotationData": {
     "Rice": {
-      "family": "Gramineae",
-      "soilImpact": "Heavy nitrogen feeder; can waterlog the soil."
+      "family": "போயேசி (புல் குடும்பம்)",
+      "soilImpact": "அதிக நைட்ரஜன் உறிஞ்சி; மண்ணை நீர் தேங்க செய்யலாம்."
     },
     "Wheat": {
-      "family": "Gramineae",
-      "soilImpact": "Moderate nitrogen feeder; improves soil structure."
+      "family": "போயேசி (புல் குடும்பம்)",
+      "soilImpact": "மிதமான தழைச்சத்து உண்ணும்; மண் அமைப்பை மேம்படுத்துகிறது."
     },
     "Maize": {
-      "family": "Gramineae",
-      "soilImpact": "Heavy feeder; leaves good residue."
+      "family": "போயேசி (புல் குடும்பம்)",
+      "soilImpact": "அதிக ஊட்டச்சத்து உறிஞ்சி; நல்ல எச்சத்தை விட்டுச் செல்கிறது."
     },
     "Chickpea": {
-      "family": "Leguminosae",
-      "soilImpact": "Fixes atmospheric nitrogen; improves soil fertility."
+      "family": "லெகுமினோசே",
+      "soilImpact": "வளிமண்டல நைட்ரஜனை நிலைநிறுத்தி; மண்ணின் வளத்தை மேம்படுத்துகிறது."
     },
     "Lentil": {
-      "family": "Leguminosae",
-      "soilImpact": "Nitrogen fixer; improves soil structure."
+      "family": "லெகுமினோசே",
+      "soilImpact": "தழைச்சத்து நிலைநிறுத்தி; மண் அமைப்பை மேம்படுத்துகிறது."
     },
     "Soybean": {
-      "family": "Leguminosae",
-      "soilImpact": "Excellent nitrogen fixer; improves soil organic matter."
+      "family": "லெகுமினோசே",
+      "soilImpact": "சிறந்த நைட்ரஜன் நிலைநிறுத்தி; மண்ணின் கரிமப் பொருளை மேம்படுத்துகிறது."
     },
     "Cotton": {
-      "family": "Malvaceae",
-      "soilImpact": "Heavy potassium feeder; deep root system."
+      "family": "மால்வேசே",
+      "soilImpact": "அதிக பொட்டாசியம் உறிஞ்சி; ஆழமான வேர் அமைப்பு."
     },
     "Groundnut": {
-      "family": "Leguminosae",
-      "soilImpact": "Fixes nitrogen; improves soil aeration."
+      "family": "லெகுமினோசே",
+      "soilImpact": "நைட்ரஜனை நிலைநிறுத்தி; மண்ணின் காற்றோட்டத்தை மேம்படுத்துகிறது."
     },
     "Mustard": {
-      "family": "Cruciferae",
-      "soilImpact": "Deep roots improve soil structure; biofumigant properties."
+      "family": "சிலுவை குடும்பத் தாவரங்கள்",
+      "soilImpact": "ஆழமான வேர்கள் மண் கட்டமைப்பை மேம்படுத்துகின்றன; உயிரி-புகை தெளிப்பான் பண்புகள்."
     },
     "Potato": {
-      "family": "Solanaceae",
-      "soilImpact": "Heavy potassium feeder; loosens the soil."
+      "family": "சொலானேசி",
+      "soilImpact": "அதிக பொட்டாசியம் உறிஞ்சி; மண்ணைத் தளர்த்துகிறது."
     },
     "Sugarcane": {
-      "family": "Gramineae",
-      "soilImpact": "Very heavy feeder; long-duration crop."
+      "family": "போயேசி (புல் குடும்பம்)",
+      "soilImpact": "அதிக உணவு தேவைப்படும்; நீண்ட கால பயிர்."
     },
     "Jute": {
-      "family": "Tiliaceae",
-      "soilImpact": "Fibrous roots improve soil; good for green manure."
+      "family": "டிலியேசி",
+      "soilImpact": "நார்ச்சத்து வேர்கள் மண்ணை மேம்படுத்துகின்றன; பசுந்தாள் உரத்திற்கு நல்லது."
     }
   },
   "nutrientStages": {
-    "Basal (Before Transplanting)": "Basal (before transplanting)",
-    "Basal (At Sowing)": "Basal (at sowing)",
-    "Basal": "Basal",
-    "Tillering Stage": "Tillering stage",
-    "Panicle Initiation": "Panicle initiation",
-    "Flowering Stage": "Flowering stage",
-    "Crown Root Initiation (CRI)": "Crown root initiation (CRI)",
-    "Late Jointing": "Late jointing",
-    "Flowering/Grain Filling": "Flowering / grain filling",
-    "Knee-high (V6)": "Knee-high (V6)",
-    "Tasseling": "Tasselling",
-    "Square Formation": "Square formation",
-    "Flowering": "Flowering",
-    "Boll Development": "Boll development",
-    "Pre-monsoon (May-June)": "Pre-monsoon (May-Jun)",
-    "Post-monsoon (Sep-Oct)": "Post-monsoon (Sep-Oct)",
-    "Pre-blossom (March)": "Pre-blossom (March)",
-    "Post-blossom (May)": "Post-blossom (May)",
-    "Monsoon (August)": "Monsoon (August)",
-    "Post-monsoon (October)": "Post-monsoon (October)",
-    "Post-harvest (July-Aug)": "Post-harvest (Jul-Aug)",
-    "Pre-flowering (Oct-Nov)": "Pre-flowering (Oct-Nov)",
-    "Fruit Development (Feb-Apr)": "Fruit development (Feb-Apr)",
-    "After Pruning (Oct)": "After pruning (Oct)",
-    "Berry Development (Dec-Jan)": "Berry development (Dec-Jan)",
-    "Veraison (Feb)": "Veraison (Feb)",
-    "Planting (0-2 months)": "Planting (0-2 months)",
-    "Vegetative (3-5 months)": "Vegetative (3-5 months)",
-    "Flowering & Fruiting (6-12 months)": "Flowering & fruiting (6-12 months)",
-    "Vine Running (20-25 days)": "Vine running (20-25 days)",
-    "Fruit Setting (40-45 days)": "Fruit setting (40-45 days)"
+    "Basal (Before Transplanting)": "அடிப்படை (நடவு செய்வதற்கு முன்)",
+    "Basal (At Sowing)": "அடிப்படை (விதைக்கும் போது)",
+    "Basal": "அடிப்படை",
+    "Tillering Stage": "பயிர்ப் புதர் பருவம்",
+    "Panicle Initiation": "பூங்கொத்து உருவாக்கம்",
+    "Flowering Stage": "பூக்கும் நிலை",
+    "Crown Root Initiation (CRI)": "முடி வேர் தோற்றுவிப்பு (CRI)",
+    "Late Jointing": "தாமதமான கணு உருவாக்கம்",
+    "Flowering/Grain Filling": "பூத்தல்/தானியம் நிரப்புதல்",
+    "Knee-high (V6)": "முழங்கால் உயரம் (V6)",
+    "Tasseling": "பூங்கொத்து உருவாக்கம்",
+    "Square Formation": "சதுர உருவாக்கம்",
+    "Flowering": "பூக்கும் பருவம்",
+    "Boll Development": "காய் வளர்ச்சி",
+    "Pre-monsoon (May-June)": "முன் பருவமழை (மே-ஜூன்)",
+    "Post-monsoon (Sep-Oct)": "பருவமழைக்குப் பின் (செப்-அக்டோபர்)",
+    "Pre-blossom (March)": "பூக்கும் முன் (மார்ச் மாதம்)",
+    "Post-blossom (May)": "பூத்த பிறகு (மே மாதம்)",
+    "Monsoon (August)": "பருவமழை (ஆகஸ்ட்)",
+    "Post-monsoon (October)": "பருவமழைக்குப் பின் (அக்டோபர்)",
+    "Post-harvest (July-Aug)": "அறுவடைக்குப் பின் (ஜூலை-ஆகஸ்ட்)",
+    "Pre-flowering (Oct-Nov)": "பூக்கும் முன் (அக்டோபர்-நவம்பர்)",
+    "Fruit Development (Feb-Apr)": "காய் வளர்ச்சி (பிப்-ஏப்)",
+    "After Pruning (Oct)": "கவாத்து செய்த பிறகு (அக்டோபர்)",
+    "Berry Development (Dec-Jan)": "பெர்ரி வளர்ச்சி (டிசம்பர்-ஜனவரி)",
+    "Veraison (Feb)": "பழ முதிர்ச்சி (பிப்)",
+    "Planting (0-2 months)": "நடவு (0-2 மாதங்கள்)",
+    "Vegetative (3-5 months)": "பயிர்த்தொகுப்பு (3-5 மாதங்கள்)",
+    "Flowering & Fruiting (6-12 months)": "பூத்தல் மற்றும் காய்த்தல் (6-12 மாதங்கள்)",
+    "Vine Running (20-25 days)": "கொடி படருதல் (20-25 நாட்கள்)",
+    "Fruit Setting (40-45 days)": "காய் பிடிக்கும் பருவம் (40-45 நாட்கள்)"
   },
   "nutrientTiming": {
-    "0 days": "0 days",
-    "21-25 days": "21-25 days",
-    "45-50 days": "45-50 days",
-    "70-80 days": "70-80 days",
-    "21 days": "21 days",
-    "75-85 days": "75-85 days",
-    "25-30 days": "25-30 days",
-    "50-55 days": "50-55 days",
-    "30-35 days": "30-35 days",
-    "60-65 days": "60-65 days",
-    "90-100 days": "90-100 days",
-    "Annual - Split 1": "Annual — split 1",
-    "Annual - Split 2": "Annual — split 2",
-    "Split 1": "Split 1",
-    "Split 2": "Split 2",
-    "Split 3": "Split 3",
-    "Split 4": "Split 4",
-    "Basal": "Basal",
-    "Monthly": "Monthly"
+    "0 days": "0 நாட்கள்",
+    "21-25 days": "21-25 நாட்கள்",
+    "45-50 days": "45-50 நாட்கள்",
+    "70-80 days": "70-80 நாட்கள்",
+    "21 days": "21 நாட்கள்",
+    "75-85 days": "75-85 நாட்கள்",
+    "25-30 days": "25-30 நாட்கள்",
+    "50-55 days": "50-55 நாட்கள்",
+    "30-35 days": "30-35 நாட்கள்",
+    "60-65 days": "60-65 நாட்கள்",
+    "90-100 days": "90-100 நாட்கள்",
+    "Annual - Split 1": "ஆண்டுக்கு — பிரிவு 1",
+    "Annual - Split 2": "ஆண்டுக்கு — பிரிவு 2",
+    "Split 1": "பிரிவு 1",
+    "Split 2": "பிரிவு 2",
+    "Split 3": "பிரிவு 3",
+    "Split 4": "பிரிவு 4",
+    "Basal": "அடிப்படை",
+    "Monthly": "மாதாந்திர"
   },
   "nutrientPurpose": {
-    "Phosphorus base": "Phosphorus base",
-    "Potassium base": "Potassium base",
-    "Zinc deficiency prevention": "Prevent zinc deficiency",
-    "Nitrogen for tillering": "Nitrogen for tillering",
-    "Nitrogen for grain filling": "Nitrogen for grain filling",
-    "Grain development": "Grain development",
-    "Late nitrogen boost": "Late nitrogen boost",
-    "Better grain setting": "Better grain setting",
-    "Phosphorus + Nitrogen base": "Phosphorus + nitrogen base",
-    "Nitrogen for ear development": "Nitrogen for ear development",
-    "Zinc enrichment": "Zinc enrichment",
-    "Potassium + nitrogen boost": "Potassium + nitrogen boost",
-    "Zinc nutrition": "Zinc nutrition",
-    "Vegetative growth": "Vegetative growth",
-    "Ear development": "Ear development",
-    "Phosphorus + Sulphur": "Phosphorus + sulphur",
-    "Magnesium nutrition": "Magnesium nutrition",
-    "Boll development": "Boll development",
-    "Foliar phosphorus": "Foliar phosphorus",
-    "Boll weight increase": "Increase boll weight",
-    "Reduces boll shedding": "Reduce boll shedding",
-    "Phosphorus + starter nitrogen": "Phosphorus + starter nitrogen",
-    "Biological N fixation": "Biological nitrogen fixation",
-    "Phosphorus solubilization": "Phosphorus solubilisation",
-    "Mild nitrogen boost": "Mild nitrogen boost",
-    "Reduce flower drop": "Reduce flower drop",
-    "N fixation": "Nitrogen fixation",
-    "Yield boost": "Yield boost",
-    "Nitrogen - 1st split": "Nitrogen — 1st split",
-    "Nitrogen - 2nd split": "Nitrogen — 2nd split",
-    "Phosphorus": "Phosphorus",
-    "Potassium - 1st split": "Potassium — 1st split",
-    "Potassium - 2nd split": "Potassium — 2nd split",
-    "Boron nutrition": "Boron nutrition",
-    "Balanced nutrition pre-flowering": "Balanced nutrition pre-flowering",
-    "Nitrogen for berry set": "Nitrogen for berry set",
-    "Potassium for berry": "Potassium for berries",
-    "Berry development": "Berry development",
-    "Berry maturity": "Berry maturity",
-    "Organic matter replenishment": "Replenish organic matter",
-    "Nitrogen for new flush": "Nitrogen for new flush",
-    "Potassium for flowering": "Potassium for flowering",
-    "Better fruit set": "Better fruit set",
-    "Fruit size & sweetness": "Fruit size & sweetness",
-    "Reduces fruit cracking": "Reduce fruit cracking",
-    "Organic base": "Organic base",
-    "Balanced nutrition": "Balanced nutrition",
-    "Iron nutrition": "Iron nutrition",
-    "Berry growth": "Berry growth",
-    "Berry quality": "Berry quality",
-    "Berry elongation": "Berry elongation",
-    "Sugar accumulation": "Sugar accumulation",
-    "Uniform ripening": "Uniform ripening",
-    "Organic matter": "Organic matter",
-    "Root establishment": "Root establishment",
-    "Nematode control + slow N": "Nematode control + slow nitrogen",
-    "Stem strength": "Stem strength",
-    "Continuous fruiting": "Continuous fruiting",
-    "Fruit quality": "Fruit quality",
-    "Vine growth": "Vine growth",
-    "Balanced foliar": "Balanced foliar",
-    "Fruit development": "Fruit development",
-    "Reduces blossom end rot": "Reduce blossom-end rot",
-    "Better pollination": "Better pollination"
+    "Phosphorus base": "பாஸ்பரஸ் ஆதாரம்",
+    "Potassium base": "பொட்டாசியம் ஆதாரம்",
+    "Zinc deficiency prevention": "துத்தநாகக் குறைபாட்டைத் தடுக்கவும்",
+    "Nitrogen for tillering": "தூர்களுக்கு தழைச்சத்து",
+    "Nitrogen for grain filling": "தானியங்கள் திரள்வதற்கு தழைச்சத்து",
+    "Grain development": "தானிய வளர்ச்சி",
+    "Late nitrogen boost": "தாமதமான தழைச்சத்து ஊக்கம்",
+    "Better grain setting": "சிறந்த தானிய உருவாக்கம்",
+    "Phosphorus + Nitrogen base": "பாஸ்பரஸ் + நைட்ரஜன் ஆதாரம்",
+    "Nitrogen for ear development": "கதிர்கள் வளர்ச்சிக்கு தழைச்சத்து",
+    "Zinc enrichment": "துத்தநாகச் செறிவூட்டல்",
+    "Potassium + nitrogen boost": "பொட்டாசியம் + நைட்ரஜன் ஊக்கம்",
+    "Zinc nutrition": "துத்தநாக ஊட்டச்சத்து",
+    "Vegetative growth": "பயிர்ப்பெருக்கம்",
+    "Ear development": "கதிர்கள் வளர்ச்சி",
+    "Phosphorus + Sulphur": "பாஸ்பரஸ் + சல்பர்",
+    "Magnesium nutrition": "மெக்னீசியம் ஊட்டம்",
+    "Boll development": "காய் வளர்ச்சி",
+    "Foliar phosphorus": "இலைவழி பாஸ்பரஸ்",
+    "Boll weight increase": "பக்குவமான காய் எடையை அதிகரிக்க",
+    "Reduces boll shedding": "காய் உதிர்வதைக் குறைக்கவும்",
+    "Phosphorus + starter nitrogen": "பாஸ்பரஸ் + தொடக்க நைட்ரஜன்",
+    "Biological N fixation": "உயிரியல் நைட்ரஜன் நிலைநிறுத்தம்",
+    "Phosphorus solubilization": "பாஸ்பரஸ் கரைப்பு",
+    "Mild nitrogen boost": "லேசான தழைச்சத்து ஊக்கம்",
+    "Reduce flower drop": "மலர் உதிர்வதைக் குறைக்கவும்",
+    "N fixation": "தழைச்சத்து நிலைநிறுத்தம்",
+    "Yield boost": "அதிக மகசூல்",
+    "Nitrogen - 1st split": "தழைச்சத்து — 1வது பிரிப்பு",
+    "Nitrogen - 2nd split": "தழைச்சத்து — 2வது பிரிப்பு",
+    "Phosphorus": "பாஸ்பரஸ்",
+    "Potassium - 1st split": "பொட்டாசியம் - 1வது பிரிப்பு",
+    "Potassium - 2nd split": "பொட்டாசியம் - 2வது பிரிப்பு",
+    "Boron nutrition": "போரான் ஊட்டச்சத்து",
+    "Balanced nutrition pre-flowering": "பூக்கும் முன் சீரான ஊட்டச்சத்து",
+    "Nitrogen for berry set": "பழங்கள் காய்ப்பதற்கு தழைச்சத்து",
+    "Potassium for berry": "பழங்களுக்கு பொட்டாசியம்",
+    "Berry development": "பெர்ரி வளர்ச்சி",
+    "Berry maturity": "பெர்ரி முதிர்ச்சி",
+    "Organic matter replenishment": "உயிர் கரிமப் பொருட்களை நிரப்பவும்",
+    "Nitrogen for new flush": "புதிய துளிர்களுக்கு தழைச்சத்து",
+    "Potassium for flowering": "பூக்களுக்கு பொட்டாசியம்",
+    "Better fruit set": "சிறந்த பழம் உருவாக்கம்",
+    "Fruit size & sweetness": "பழ அளவு மற்றும் இனிப்புத்தன்மை",
+    "Reduces fruit cracking": "பழம் வெடிப்பதை குறைக்கவும்",
+    "Organic base": "கரிம ஆதாரம்",
+    "Balanced nutrition": "சீரான ஊட்டச்சத்து",
+    "Iron nutrition": "இரும்புச்சத்து ஊட்டம்",
+    "Berry growth": "பெர்ரி வளர்ச்சி",
+    "Berry quality": "பெர்ரி தரம்",
+    "Berry elongation": "பெர்ரி நீட்சி",
+    "Sugar accumulation": "சர்க்கரை திரட்சி",
+    "Uniform ripening": "சீரான முதிர்ச்சி",
+    "Organic matter": "கரிமப் பொருட்கள்",
+    "Root establishment": "வேர் நிறுவுதல்",
+    "Nematode control + slow N": "நூற்புழு கட்டுப்பாடு + மெதுவான தழைச்சத்து",
+    "Stem strength": "தண்டு வலிமை",
+    "Continuous fruiting": "தொடர்ச்சியான காய் உருவாக்கம்",
+    "Fruit quality": "பழத்தின் தரம்",
+    "Vine growth": "கொடி வளர்ச்சி",
+    "Balanced foliar": "சீரான இலைவழி உரமிடல்",
+    "Fruit development": "காய் வளர்ச்சி",
+    "Reduces blossom end rot": "மலர்நுனி அழுகலை குறைக்கவும்",
+    "Better pollination": "சிறந்த மகரந்தச் சேர்க்கை"
   },
   "pestDiseaseNames": {
-    "Blast": "Blast",
-    "Brown Plant Hopper (BPH)": "Brown plant hopper (BPH)",
-    "Sheath Blight": "Sheath blight",
-    "Yellow Rust": "Yellow rust",
-    "Aphids": "Aphids",
-    "Karnal Bunt": "Karnal bunt",
-    "Fall Armyworm": "Fall armyworm",
-    "Turcicum Leaf Blight": "Turcicum leaf blight",
-    "Bollworm": "Bollworm",
-    "Whitefly": "Whitefly",
-    "Wilt (Fusarium)": "Wilt (Fusarium)",
-    "Pod Borer (Helicoverpa)": "Pod borer (Helicoverpa)",
-    "Rust": "Rust",
-    "Rhinoceros Beetle": "Rhinoceros beetle",
-    "Bud Rot": "Bud rot",
-    "Coffee Berry Borer": "Coffee berry borer",
-    "Leaf Rust": "Leaf rust",
-    "Anthracnose": "Anthracnose",
-    "Mango Hopper": "Mango hopper",
-    "Powdery Mildew": "Powdery mildew",
-    "Downy Mildew": "Downy mildew",
-    "Mealybug": "Mealybug",
-    "Papaya Ring Spot Virus": "Papaya ringspot virus",
-    "Fruit Fly": "Fruit fly",
-    "Fusarium Wilt": "Fusarium wilt",
-    "Red Pumpkin Beetle": "Red pumpkin beetle"
+    "Blast": "பிளாஸ்ட் நோய்",
+    "Brown Plant Hopper (BPH)": "பழுப்பு தாவரத் தத்துப்பூச்சி (BPH)",
+    "Sheath Blight": "உறை கருகல்",
+    "Yellow Rust": "மஞ்சள் துரு நோய்",
+    "Aphids": "அஃபிட்ஸ் (அசுவினி)",
+    "Karnal Bunt": "கார்னல் பன்ட்",
+    "Fall Armyworm": "இளம்படைப்புழு",
+    "Turcicum Leaf Blight": "டர்கிகம் இலைக்கருகல்",
+    "Bollworm": "காய்ப்புழு",
+    "Whitefly": "வெள்ளை ஈ",
+    "Wilt (Fusarium)": "வாடல் (ஃபுசேரியம்)",
+    "Pod Borer (Helicoverpa)": "காய்த்துளைப்பான் (ஹெலிகோவெர்பா)",
+    "Rust": "துரு நோய்",
+    "Rhinoceros Beetle": "கண்டாமிருக வண்டு",
+    "Bud Rot": "மொட்டு அழுகல்",
+    "Coffee Berry Borer": "காபி பெர்ரி துளைப்பான்",
+    "Leaf Rust": "இலை துரு நோய்",
+    "Anthracnose": "ஆந்த்ராக்னோஸ்",
+    "Mango Hopper": "மாம்பழ இலைப்பேன்கள்",
+    "Powdery Mildew": "சாம்பல் நோய்",
+    "Downy Mildew": "அடிச்சாம்பல் நோய்",
+    "Mealybug": "மாவுப்பூச்சி",
+    "Papaya Ring Spot Virus": "பப்பாளி ரிங்க்ஸ்பாட் வைரஸ்",
+    "Fruit Fly": "பழ ஈ",
+    "Fusarium Wilt": "ஃபுசேரியம் வாடல்",
+    "Red Pumpkin Beetle": "சிவப்பு பூசணிக்காய் வண்டு"
   },
   "pestSymptoms": {
-    "Diamond-shaped spots on leaves": "Diamond-shaped spots on leaves",
-    "Hopper burn, yellowing at base": "Hopper burn; yellowing at the base",
-    "Oval lesions on leaf sheath": "Oval lesions on leaf sheath",
-    "Yellow stripes on leaves": "Yellow stripes on leaves",
-    "Honeydew on leaves, stunted growth": "Honeydew on leaves; stunted growth",
-    "Fishy smell in grains, black powder": "Fishy smell in grains; black powder",
-    "Ragged holes in leaves, frass in whorl": "Ragged holes in leaves; frass in the whorl",
-    "Cigar-shaped grey-green lesions": "Cigar-shaped grey-green lesions",
-    "Damaged bolls, frass on plant": "Damaged bolls; frass on plant",
-    "Sticky honeydew, sooty mold": "Sticky honeydew; sooty mould",
-    "Wilting of entire plant, dry roots": "Wilting of entire plant; dry roots",
-    "Holes in pods, larvae inside": "Holes in pods; larvae inside",
-    "Orange-brown pustules on leaves": "Orange-brown pustules on leaves",
-    "Curling leaves, honeydew": "Curling leaves; honeydew",
-    "V-shaped cuts on fronds": "V-shaped cuts on fronds",
-    "Rotting of central shoot": "Rotting of central shoot",
-    "Small holes in berries": "Small holes in berries",
-    "Orange powdery spots on underside of leaves": "Orange powdery spots on underside of leaves",
-    "Black spots on flowers and fruits": "Black spots on flowers and fruits",
-    "Honeydew on flowers, flower drop": "Honeydew on flowers; flower drop",
-    "White powder on panicles & leaves": "White powder on panicles and leaves",
-    "Oily spots on upper leaf, white growth below": "Oily spots on upper leaf; white growth below",
-    "White cottony masses on stems/berries": "White cottony masses on stems/berries",
-    "Ring spots on fruits, mosaic on leaves": "Ring spots on fruits; mosaic on leaves",
-    "Maggots inside fruit, premature fruit drop": "Maggots inside fruit; premature fruit drop",
-    "Wilting vines, brown vascular tissue": "Wilting vines; brown vascular tissue",
-    "Holes in leaves and flowers": "Holes in leaves and flowers",
-    "White powdery coating on leaves": "White powdery coating on leaves"
+    "Diamond-shaped spots on leaves": "இலைகளில் வைர வடிவ புள்ளிகள்",
+    "Hopper burn, yellowing at base": "தத்துப்பூச்சி எரிப்பு; அடிப்பாகத்தில் மஞ்சள் நிறமாதல்",
+    "Oval lesions on leaf sheath": "இலை உறையில் முட்டை வடிவப் புண்கள்",
+    "Yellow stripes on leaves": "இலைகளில் மஞ்சள் கோடுகள்",
+    "Honeydew on leaves, stunted growth": "இலைகளில் தேன் பசை; வளர்ச்சி குன்றுதல்",
+    "Fishy smell in grains, black powder": "தானியங்களில் மீன் வாடை; கருப்பு தூள்",
+    "Ragged holes in leaves, frass in whorl": "இலைகளில் ஒழுங்கற்ற துளைகள்; சுருளில் பூச்சியின் எச்சம்",
+    "Cigar-shaped grey-green lesions": "சுருட்டு வடிவ சாம்பல்-பச்சை புண்கள்",
+    "Damaged bolls, frass on plant": "சேதமடைந்த காய்கள்; செடியில் பூச்சி எச்சம்",
+    "Sticky honeydew, sooty mold": "ஒட்டும் தேன் பசை; கரும்பூசணம்",
+    "Wilting of entire plant, dry roots": "முழு தாவரமும் வாடிவிடும்; உலர்ந்த வேர்கள்",
+    "Holes in pods, larvae inside": "காய்களில் துளைகள்; உள்ளே புழுக்கள்",
+    "Orange-brown pustules on leaves": "இலைகளில் ஆரஞ்சு-பழுப்பு நிறக் கொப்புளங்கள்",
+    "Curling leaves, honeydew": "சுருண்ட இலைகள்; பனித்துளி",
+    "V-shaped cuts on fronds": "இலைக்காம்புகளில் V-வடிவ வெட்டுகள்",
+    "Rotting of central shoot": "மத்திய துளிரின் அழுகல்",
+    "Small holes in berries": "பழங்களில் சிறிய துளைகள்",
+    "Orange powdery spots on underside of leaves": "இலைகளின் அடிப்பகுதியில் ஆரஞ்சு நிறப் பூஞ்சை திட்டுகள்",
+    "Black spots on flowers and fruits": "பூக்கள் மற்றும் பழங்களில் கருப்பு திட்டுகள்",
+    "Honeydew on flowers, flower drop": "பூக்களில் தேன் பசை; பூ உதிர்தல்",
+    "White powder on panicles & leaves": "பூங்கொத்துகள் மற்றும் இலைகளில் வெள்ளை தூள்",
+    "Oily spots on upper leaf, white growth below": "மேல் இலை பரப்பில் எண்ணெய் கறைகள்; கீழே வெள்ளை வளர்ச்சி",
+    "White cottony masses on stems/berries": "தண்டுகள்/பழங்களில் வெள்ளை பஞ்சு போன்ற கூட்டங்கள்",
+    "Ring spots on fruits, mosaic on leaves": "பழங்களில் வளைய புள்ளிகள்; இலைகளில் மொசைக்",
+    "Maggots inside fruit, premature fruit drop": "பழங்களுக்குள் புழுக்கள்; முன்கூட்டியே பழம் உதிர்வு",
+    "Wilting vines, brown vascular tissue": "வாடிய கொடிகள்; பழுப்பு நிற வாஸ்குலர் திசு",
+    "Holes in leaves and flowers": "இலைகள் மற்றும் பூக்களில் துளைகள்",
+    "White powdery coating on leaves": "இலைகளில் வெள்ளை மாவு பூச்சு"
   },
   "pestApplication": {
-    "Foliar spray at first symptom": "Foliar spray at first symptom",
-    "Preventive spray": "Preventive spray",
-    "Spray at base of plant": "Spray at the base of the plant",
-    "Foliar spray": "Foliar spray",
-    "Spray at tillering stage": "Spray at tillering stage",
-    "Spray at first symptom": "Spray at first symptom",
-    "Systemic spray": "Systemic spray",
-    "Spray at boot stage": "Spray at boot stage",
-    "Spray into whorl": "Spray into the whorl",
-    "Spray at flowering": "Spray at flowering",
-    "Under-leaf spray": "Under-leaf spray",
-    "Seed treatment": "Seed treatment",
-    "Soil drench": "Soil drench",
-    "Biological spray at flowering": "Biological spray at flowering",
-    "Spray at first sign": "Spray at first sign",
-    "Apply to manure pits": "Apply to manure pits",
-    "Place in leaf axil": "Place in leaf axil",
-    "Apply to cut surface": "Apply to cut surface",
-    "Crown drench": "Crown drench",
-    "Spray during berry stage": "Spray during berry stage",
-    "Spot spray": "Spot spray",
-    "Pre-monsoon spray": "Pre-monsoon spray",
-    "Curative spray": "Curative spray",
-    "Spray at panicle emergence": "Spray at panicle emergence",
-    "Contact spray": "Contact spray",
-    "Control aphid vectors": "Control aphid vectors",
-    "Install at fruiting": "Install at fruiting",
-    "Bait spray": "Bait spray",
-    "Soil drench at planting": "Soil drench at planting",
-    "Soil application": "Soil application",
-    "Dust or spray on seedlings": "Dust or spray on seedlings",
-    "Spray at early infestation": "Spray at early infestation"
+    "Foliar spray at first symptom": "முதல் அறிகுறியின்போது இலைவழி தெளிப்பான்",
+    "Preventive spray": "தடுப்பு தெளிப்பு",
+    "Spray at base of plant": "செடியின் அடிவாரத்தில் தெளிக்க",
+    "Foliar spray": "இலைவழி தெளிப்பான்",
+    "Spray at tillering stage": "பயிர்ப் புதர் பருவத்தில் தெளிக்க",
+    "Spray at first symptom": "முதல் அறிகுறியின் போது தெளிக்க",
+    "Systemic spray": "உள்ளீர்ப்பு தெளிப்பு",
+    "Spray at boot stage": "பூட்டு பருவத்தில் தெளிக்க",
+    "Spray into whorl": "சுருள் பகுதிக்குள் தெளிக்க",
+    "Spray at flowering": "பூக்கும் போது தெளிக்க",
+    "Under-leaf spray": "இலைகளின் அடியில் தெளிப்பு",
+    "Seed treatment": "விதை நேர்த்தி",
+    "Soil drench": "மண் நனைத்தல்",
+    "Biological spray at flowering": "பூக்கும் போது உயிரியல் தெளிப்பு",
+    "Spray at first sign": "முதல் அறிகுறியின் போது தெளிக்க",
+    "Apply to manure pits": "எரு குழிகளுக்குப் பயன்படுத்துங்கள்",
+    "Place in leaf axil": "இலைக்கணுவில் வைக்கவும்",
+    "Apply to cut surface": "வெட்டப்பட்ட மேற்பரப்பில் பயன்படுத்துங்கள்",
+    "Crown drench": "தண்டின் அடிப்பகுதிக்கு மருந்திடுதல்",
+    "Spray during berry stage": "பழம் உருவாகும் பருவத்தில் தெளிக்க",
+    "Spot spray": "பகுதி தெளித்தல்",
+    "Pre-monsoon spray": "முன் பருவமழை தெளிப்பு",
+    "Curative spray": "நோய்த்தீர்வு தெளிப்பு",
+    "Spray at panicle emergence": "கதிர் வெளிவரும் போது தெளிக்க",
+    "Contact spray": "நேரடி தெளிப்பு",
+    "Control aphid vectors": "அசுவினி நோய்க்காரணிகளைக் கட்டுப்படுத்துதல்",
+    "Install at fruiting": "காய்க்கும் பருவத்தில் நிறுவுதல்",
+    "Bait spray": "பொறி தெளிப்பு",
+    "Soil drench at planting": "நடவு செய்யும் போது மண் நனைத்தல்",
+    "Soil application": "மண் மூலம் இடுதல்",
+    "Dust or spray on seedlings": "நாற்றுகளில் தூவுதல் அல்லது தெளித்தல்",
+    "Spray at early infestation": "ஆரம்பத் தொற்றின் போது தெளிக்க"
   }
 }
