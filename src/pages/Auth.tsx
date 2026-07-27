@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { supabase } from "@/integrations/supabase/client";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -12,6 +12,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Auth = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const { t } = useTranslation();
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState("");
@@ -19,6 +20,12 @@ const Auth = () => {
   const [displayName, setDisplayName] = useState("");
   const [loading, setLoading] = useState(false);
   const [isForgot, setIsForgot] = useState(false);
+
+  // Preserve OAuth consent redirect through sign-in / sign-up.
+  const rawNext = searchParams.get("next");
+  const safeNext = rawNext && rawNext.startsWith("/") && !rawNext.startsWith("//") ? rawNext : null;
+  const postAuthTarget = safeNext ?? "/";
+  const emailRedirect = `${window.location.origin}${safeNext ?? "/"}`;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -38,14 +45,18 @@ const Auth = () => {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
         toast.success(t("auth.loginSuccess"));
-        navigate("/");
+        if (safeNext) {
+          window.location.href = postAuthTarget;
+        } else {
+          navigate("/");
+        }
       } else {
         const { error } = await supabase.auth.signUp({
           email,
           password,
           options: {
             data: { display_name: displayName },
-            emailRedirectTo: window.location.origin,
+            emailRedirectTo: emailRedirect,
           },
         });
         if (error) throw error;
