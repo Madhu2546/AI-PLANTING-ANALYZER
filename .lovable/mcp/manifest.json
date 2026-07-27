@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "sdk_version": "0.24.0",
+  "path": "/functions/v1/mcp",
+  "auth": {
+    "type": "oauth",
+    "issuer": "https://hpvkmrojyuzqbkebcsbt.supabase.co/auth/v1",
+    "accepted_audiences": [
+      "authenticated"
+    ]
+  },
+  "mcp": {
+    "server": {
+      "name": "agriai-mcp",
+      "version": "0.1.0",
+      "title": "AgriAI MCP"
+    },
+    "tools": [
+      {
+        "name": "list_farm_diary_entries",
+        "title": "List farm diary entries",
+        "description": "List the signed-in user's farm diary entries, most recent first.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "description": "Max entries to return (default 20).",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "crop": {
+              "description": "Optional filter by crop name.",
+              "type": "string"
+            },
+            "category": {
+              "description": "Optional filter by category (e.g. planting, harvest, expense).",
+              "type": "string"
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "create_farm_diary_entry",
+        "title": "Create farm diary entry",
+        "description": "Create a new farm diary entry for the signed-in user.",
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Short title of the activity."
+            },
+            "crop": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Crop name this entry relates to."
+            },
+            "category": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Category (e.g. planting, irrigation, harvest, expense)."
+            },
+            "date": {
+              "type": "string",
+              "description": "Date in YYYY-MM-DD format."
+            },
+            "amount": {
+              "description": "Optional monetary amount (expense/income).",
+              "type": "number"
+            },
+            "notes": {
+              "description": "Optional free-form notes.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "crop",
+            "category",
+            "date"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_my_profile",
+        "title": "Get my profile",
+        "description": "Return the signed-in AgriAI user's profile (display name, avatar).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
